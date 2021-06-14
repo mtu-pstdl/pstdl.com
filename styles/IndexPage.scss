@@ -1,0 +1,90 @@
+/**
+ * Elijah Cobb
+ * elijah@elijahcobb.com
+ * elijahcobb.com
+ * github.com/elijahjcobb
+ */
+
+@import "variables";
+
+.IndexPage {
+
+	.slideshow, .container {
+		height: 100vh;
+		position: absolute;
+		top: 0;
+	}
+
+	.slideshow {
+		width: 100vw;
+		object-fit: cover;
+		object-position: center;
+		z-index: 1;
+		left: 0;
+	}
+
+	#slideshow-animate {
+		width: 100vw;
+		height: 100vh;
+		z-index: 2;
+		background: black;
+		opacity: 0;
+		top: 0;
+		left: 0;
+		position: absolute;
+		transition: opacity 500ms ease-in-out;
+	}
+
+	.container {
+		right: 0;
+		background: rgba(0, 0, 0, 0.75);
+		z-index: 3;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+		padding: $paddingBig * 2;
+		width: 100vw;
+		overflow: hidden;
+
+		h1 {
+			font-size: 2em;
+		}
+
+		h2 {
+			font-size: 2em;
+		}
+
+		p {
+			font-size: 1.25em;
+			font-style: italic;
+		}
+
+		h1, h2, p {
+			margin: $paddingSmall;
+		}
+	}
+
+}
+
+@media (min-width: $constraint) {
+	.IndexPage {
+
+		.container {
+
+			max-width: min(100vw, 720px);
+
+			h1 {
+				font-size: 3em;
+			}
+
+			h2 {
+				font-size: 4em;
+			}
+
+			h1, h2, p {
+				margin: $paddingMedium;
+			}
+		}
+	}
+}
