@@ -5,8 +5,8 @@ After=network.target
 [Service]
 type=simple
 User=root
-WorkingDirectory=/srv/dev.pstdl.com/
-ExecStart=npm run start
+WorkingDirectory=/srv/dev.pstdl.com
+ExecStart=/usr/bin/npm run start
 
 [Install]
 WantedBy=multi-user.target
