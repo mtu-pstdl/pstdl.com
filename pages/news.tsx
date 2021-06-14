@@ -10,7 +10,7 @@ import Layout from "../components/Layout";
 import {GetStaticProps} from "next";
 import {News} from "../interfaces/News";
 import {NewsView} from "../components/NewsView";
-import {news} from "../utils/news";
+import {news} from "../data/news";
 import {pDateCompare} from "../interfaces/Date";
 
 export interface NewsPageProps {

@@ -7,9 +7,9 @@
 
 import {ReactElement} from "react";
 import {DetailItemDetail, DetailItemDetailProps} from "../../components/DetailItemDetail";
-import {getProjectByLink, projects} from "../../utils/projects";
+import {getProjectByLink, projects} from "../../data/projects";
 import {GetStaticPaths, GetStaticProps} from "next";
-import {fetchMarkdown} from "../../utils/md";
+import {fetchMarkdown} from "../../data/md";
 
 export default function ProjectsDetail(props: DetailItemDetailProps): ReactElement {
 	return <DetailItemDetail {...props}/>

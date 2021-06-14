@@ -10,7 +10,7 @@ import React, {ReactElement} from "react";
 import {MemberView} from "../components/MemberView";
 import {Members, MembersSubsection, MemberType} from "../interfaces/Member";
 import {GetStaticProps} from "next";
-import {members} from "../utils/members";
+import {members} from "../data/members";
 
 export function MemberSubsectionView(props: {value: MembersSubsection}): ReactElement {
 

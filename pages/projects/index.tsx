@@ -8,7 +8,7 @@
 import {ReactElement} from "react";
 import Layout from "../../components/Layout";
 import {DetailItemPage} from "../../components/DetailItemPage";
-import {projects} from "../../utils/projects";
+import {projects} from "../../data/projects";
 
 export default function ProjectsPage(): ReactElement {
 	return <Layout title={"Projects"}>

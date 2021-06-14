@@ -7,7 +7,7 @@
 
 import React, {ReactElement, PropsWithChildren} from "react";
 import {ArrowRight} from "@material-ui/icons";
-import {links} from "../utils/links";
+import {links} from "../data/links";
 import Link from "next/link";
 
 export interface MenuViewProps {

@@ -8,7 +8,7 @@
 import {ReactElement} from "react";
 import Layout from "../../components/Layout";
 import {DetailItemPage} from "../../components/DetailItemPage";
-import {facilities} from "../../utils/facilities";
+import {facilities} from "../../data/facilities";
 
 export default function FacilitiesPage(): ReactElement {
 	return <Layout title={"Facilities"}>

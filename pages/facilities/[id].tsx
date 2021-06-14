@@ -7,9 +7,9 @@
 
 import {ReactElement} from "react";
 import {DetailItemDetail, DetailItemDetailProps} from "../../components/DetailItemDetail";
-import {facilities, getFacilityByLink} from "../../utils/facilities";
+import {facilities, getFacilityByLink} from "../../data/facilities";
 import {GetStaticPaths, GetStaticProps} from "next";
-import {fetchMarkdown} from "../../utils/md";
+import {fetchMarkdown} from "../../data/md";
 
 
 export default function FacilitiesDetail(props: DetailItemDetailProps): ReactElement {

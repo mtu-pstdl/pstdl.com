@@ -8,7 +8,7 @@
 import React, {ReactElement, PropsWithChildren, useState} from "react";
 import {MenuView} from "./MenuView";
 import { Twirl as Hamburger } from "hamburger-react";
-import {links} from "../utils/links";
+import {links} from "../data/links";
 import Link from "next/link";
 
 export interface NavViewProps {

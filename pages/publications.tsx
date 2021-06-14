@@ -9,7 +9,7 @@ import {ReactElement} from "react";
 import Layout from "../components/Layout";
 import {Publication} from "../interfaces/Publication";
 import {GetServerSideProps, GetStaticProps} from "next";
-import {publications} from "../utils/publications";
+import {publications} from "../data/publications";
 import {pDateCompare, pDateToString} from "../interfaces/Date";
 import {AstraBackground} from "../components/Astra";
 
