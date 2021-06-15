@@ -5,6 +5,7 @@
 		"dev": "next",
 		"build": "next build",
 		"start": "next start -p 9071",
+		"prod": "next start -p 9072",
 		"type-check": "tsc"
 	},
 	"dependencies": {
