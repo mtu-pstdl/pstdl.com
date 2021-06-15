@@ -39,12 +39,12 @@
 			text-transform: lowercase;
 			font-size: 1.125em;
 			text-decoration: none;
-			border-bottom: solid 0 black;
-			transition: border-bottom-width 250ms ease-in-out;
+			border-bottom: solid 4px $mtuGold;
+			transition: border-bottom-color 250ms ease-in-out;
 		}
 
 		.link-active, .link:hover {
-			border-bottom-width: 4px;
+			border-bottom-color: black;
 			cursor: pointer;
 		}
 	}

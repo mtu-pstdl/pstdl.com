@@ -48,15 +48,17 @@
 		overflow: hidden;
 
 		h1 {
-			font-size: 2em;
+			font-size: 1.5em;
+			color: $mtuGold;
 		}
 
 		h2 {
-			font-size: 2em;
+			font-size: 1.5em;
+			color: $white;
 		}
 
 		p {
-			font-size: 1.25em;
+			font-size: 1em;
 			font-style: italic;
 		}
 
@@ -79,7 +81,11 @@
 			}
 
 			h2 {
-				font-size: 4em;
+				font-size: 2em;
+			}
+
+			p {
+				font-size: 1.25em;
 			}
 
 			h1, h2, p {

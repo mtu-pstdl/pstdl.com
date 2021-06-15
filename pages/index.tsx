@@ -54,9 +54,10 @@ export default function IndexPage(): ReactElement {
 		<Slideshow/>
 		<div id={"slideshow-animate"}/>
 		<div className={"container"}>
-			<h1>Planetary Surface Technology Development Lab</h1>
 			<h2>Michigan Technological University</h2>
-			<p>Develop cutting edge technology solutions for planetary surface exploration of the Moon, Mars and beyond. Train the next generation of engineers that will return humanity to other planetary surfaces - this time to stay.</p>
+			<h1>Planetary Surface Technology Development Lab</h1>
+			<h2>"HuskyWorks"</h2>
+			<p>Developing cutting edge technology solutions for planetary surface exploration of the Moon, Mars and beyond while training the next generation of engineers that will return humanity to other planetary surfaces - this time to stay.</p>
 		</div>
 	</Layout>
 }
