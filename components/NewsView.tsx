@@ -8,7 +8,7 @@
 import React, {ReactElement, PropsWithChildren} from "react";
 import Markdown from "react-markdown"
 import {News} from "../interfaces/News";
-import {OpenInNew as Link} from "@material-ui/icons";
+import {OpenInNew as Link, Twitter} from "@material-ui/icons";
 import {pDateToString} from "../interfaces/Date";
 
 export interface NewsViewProps {
@@ -20,10 +20,13 @@ export function NewsView(props: PropsWithChildren<NewsViewProps>): ReactElement 
 	const content = props.news.content
 	const link = props.news.link;
 
-	return (<a className={"NewsView" + (link ? " NewsViewClickable" : "")} href={link} target={"_blank"} rel={"noopener noreferrer"}>
+	return (<a className={"NewsView" + (link ? " NewsViewClickable" : "") + (props.news.twitter ? " NewsView-twitter" : "")} href={link} target={"_blank"} rel={"noopener noreferrer"}>
 		<div className={"left"}>
 			<div className={"top"}>
-				<span className={"title"}>{props.news.title}</span>
+				<div className={"titleContainer"}>
+					<span className={"title"}>{props.news.title}</span>
+					{props.news.twitter && <Twitter className={"logo"}/>}
+				</div>
 				<span className={"date"}>{pDateToString(props.news.date)}</span>
 			</div>
 			<div className={"bottom"}>

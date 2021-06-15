@@ -39,18 +39,31 @@
 				display: block;
 			}
 
+			.titleContainer {
+				display: flex;
+				justify-content: flex-start;
+				align-items: center;
+
+				.logo {
+					color: $twitterBlue;
+				}
+			}
+
 			.title {
 				color: $mtuGold;
 				font-weight: bold;
 				font-size: 1.5em;
+				margin-right: $paddingSmall;
 			}
+
 			.date {
 				font-weight: lighter;
 				padding: $paddingSmall 0;
+				min-width: 100px;
 			}
 		}
 		.bottom {
-
+			margin-top: $paddingMedium;
 		}
 	}
 	.link {
@@ -84,4 +97,19 @@
 		transform: scale(1.05);
 	}
 
+	.NewsView-twitter:hover {
+		box-shadow: 0 0 20px $twitterBlue;
+	}
+
+}
+
+
+.NewsView-twitter {
+	.left {
+		.top {
+			.title {
+				color: $twitterBlue;
+			}
+		}
+	}
 }

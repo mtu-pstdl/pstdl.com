@@ -12,4 +12,5 @@ export interface News {
 	date: PDate;
 	content?: string;
 	link?: string;
+	twitter?: boolean;
 }

@@ -16,7 +16,9 @@
 		"react-markdown": "5.0.3",
 		"remark-gfm": "latest",
 		"react-burger-menu": "latest",
-		"hamburger-react": "latest"
+		"hamburger-react": "latest",
+		"twitter": "latest",
+		"@types/twitter": "latest"
 	},
 	"devDependencies": {
 		"@types/react-burger-menu": "latest",
