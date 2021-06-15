@@ -1,0 +1,13 @@
+[Unit]
+Description=The backend for pstdl.com.
+After=network.target
+
+[Service]
+type=simple
+User=root
+WorkingDirectory=/srv/pstdl.com
+ExecStart=/usr/bin/npm run start
+
+[Install]
+WantedBy=multi-user.target
+Alias=pstdl
