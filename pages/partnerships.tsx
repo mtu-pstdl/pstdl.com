@@ -1,4 +1,4 @@
-gi/**
+/**
  * Elijah Cobb
  * elijah@elijahcobb.com
  * elijahcobb.com
