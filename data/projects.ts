@@ -24,6 +24,11 @@ export const projects: DetailItem[] = [
 		link: "watts"
 	},
 	{
+		title: "NASA Break the Ice",
+		description: "The latest centennial challenge from NASA that is designed to develop technologies aiding in the sustained presence on the Moon.",
+		link: "break-the-ice"
+	},
+	{
 		title: "NASA ESI",
 		description: "Early Stage Innovation (water from rock gypsum on Mars) – \"Low mass, low power, non-mechanical excavation of gypsum and other evaporites for water production on Mars\"",
 		link: "esi"
