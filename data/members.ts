@@ -6,6 +6,8 @@
  */
 
 import {Member, MemberMajor, MemberType} from "../interfaces/Member";
+import {DetailItem, getDetailItemByLink} from "../interfaces/DetailItem";
+import {projects} from "./projects";
 
 export const members: Member[] = [
 	{
@@ -223,3 +225,13 @@ export const members: Member[] = [
 	},
 
 ]
+
+export function getMemberByLink(id: string | string[]): Member | undefined {
+	if (Array.isArray(id)) id = id.join("/")
+	for (const i of members) {
+		if (i.username === id) {
+			return i;
+		}
+	}
+	return undefined;
+}

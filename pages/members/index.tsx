@@ -5,12 +5,12 @@
  * github.com/elijahjcobb
  */
 
-import Layout from "../components/Layout";
+import Layout from "../../components/Layout";
 import React, {ReactElement} from "react";
-import {MemberView} from "../components/MemberView";
-import {Members, MembersSubsection, MemberType} from "../interfaces/Member";
+import {MemberView} from "../../components/MemberView";
+import {Members, MembersSubsection, MemberType} from "../../interfaces/Member";
 import {GetStaticProps} from "next";
-import {members} from "../data/members";
+import {members} from "../../data/members";
 
 export function MemberSubsectionView(props: {value: MembersSubsection}): ReactElement {
 
