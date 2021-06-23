@@ -37,6 +37,7 @@ export class SheetsAPI {
 		const rows = await this.getRows("members");
 
 		for (const row of rows) {
+
 			const o = {
 				firstName: row[0],
 				lastName: row[1],
@@ -48,8 +49,6 @@ export class SheetsAPI {
 				linkedIn: row[7],
 				twitter: row[8]
 			}
-
-			console.log(o);
 
 			const member = OObjectType.follow({
 				firstName: OStandardType.string,
@@ -69,11 +68,10 @@ export class SheetsAPI {
 				linkedIn: OOptional.maybe(ORegex.url()),
 				twitter: OOptional.maybe(ORegex.url())
 			}).verify(o);
+
 			if (!members) continue;
-
-			console.log(member);
-
 			members.push(member);
+
 		}
 
 		return members;
