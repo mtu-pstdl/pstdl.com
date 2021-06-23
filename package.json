@@ -19,7 +19,9 @@
 		"react-burger-menu": "latest",
 		"hamburger-react": "latest",
 		"twitter": "latest",
-		"@types/twitter": "latest"
+		"@types/twitter": "latest",
+		"googleapis": "latest",
+		"@element-ts/oxygen": "latest"
 	},
 	"devDependencies": {
 		"@types/react-burger-menu": "latest",

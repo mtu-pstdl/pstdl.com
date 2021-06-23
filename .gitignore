@@ -19,6 +19,7 @@
 .DS_Store
 .idea
 *.pem
+google-auth.json
 twitter-auth.json
 
 # debug
