@@ -7,8 +7,9 @@
 
 import React, {PropsWithChildren, ReactElement, useState} from "react";
 import {Member, MemberType} from "../interfaces/Member";
-import {Email, LibraryBooks, LinkedIn, Twitter} from "@material-ui/icons";
+import {Email, LibraryBooks, LinkedIn, OpenInNew, Twitter} from "@material-ui/icons";
 import {Avatar, Backdrop} from "@material-ui/core";
+import Link from "next/link";
 
 export interface MemberViewProps {
 	member: Member;
@@ -52,7 +53,9 @@ export function MemberView(props: PropsWithChildren<MemberViewProps>): ReactElem
 				<a rel={"noopener noreferrer"} target={"_blank"} href={"mailto:" + props.member.username + "@mtu.edu"}><Email className={"button"}/></a>
 				{props.member.linkedIn && <a rel={"noopener noreferrer"} target={"_blank"} href={props.member.linkedIn}><LinkedIn className={"button"}/></a>}
 				{props.member.twitter && <a rel={"noopener noreferrer"} target={"_blank"} href={props.member.twitter}><Twitter className={"button"}/></a>}
-				{props.member.bio && <LibraryBooks className={"button"} onClick={() => setShowBio(true)}/>}
+				<Link href={"/members/" + props.member.username}>
+					<OpenInNew className={"button"}/>
+				</Link>
 			</div>
 			<Backdrop style={{zIndex: 200, background: "rgba(0,0,0,0.9)"}} open={showBio} onClick={() => setShowBio(false)}>
 				<p className={"bio"}>

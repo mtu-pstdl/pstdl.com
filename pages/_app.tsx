@@ -24,6 +24,8 @@ import "../styles/ProjectRow.scss";
 import "../styles/ProjectsPage.scss";
 import "../styles/PublicationsPage.scss";
 import "../styles/IndexPage.scss";
+import "../styles/MembersDetailPage.scss";
+import "../styles/MemberSmallView.scss";
 
 import type {AppProps} from 'next/app'
 

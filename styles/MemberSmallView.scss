@@ -1,0 +1,42 @@
+/**
+ * Elijah Cobb
+ * elijah@elijahcobb.com
+ * elijahcobb.com
+ * github.com/elijahjcobb
+ */
+
+@import "variables";
+
+.MemberSmallView {
+
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin: $paddingSmall;
+	background: $antiAstraBackground;
+	box-shadow: $antiAstraBoxShadow;
+	border: solid 2px black;
+	border-radius: $paddingMedium;
+	overflow: hidden;
+	height: 48px;
+	transition: border-color 250ms ease-in-out, transform 250ms ease-in-out;
+
+	img {
+		width: 48px;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	span {
+		padding: $paddingSmall;
+		font-weight: bold;
+		font-size: 1.125em;
+	}
+
+}
+
+.MemberSmallView:hover {
+	border-color: $mtuGold;
+	transform: scale(1.125);
+	cursor: pointer;
+}
