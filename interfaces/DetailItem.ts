@@ -1,3 +1,5 @@
+import {projects} from "../data/projects";
+
 /**
  * Elijah Cobb
  * elijah@elijahcobb.com
@@ -9,6 +11,7 @@ export interface DetailItem {
 	title: string;
 	description?: string;
 	link: string;
+	members?: string[];
 }
 
 export function getDetailItemByLink(id: string | string[], arr: DetailItem[]): DetailItem | undefined {
@@ -19,4 +22,13 @@ export function getDetailItemByLink(id: string | string[], arr: DetailItem[]): D
 		}
 	}
 	return undefined;
+}
+
+export function getDetailsForUsername(username: string, arr: DetailItem[]): DetailItem[] {
+	const memProjects: DetailItem[] = [];
+	for (const p of arr) {
+		if (!p.members) continue;
+		if (p.members.indexOf(username) !== -1) memProjects.push(p);
+	}
+	return memProjects;
 }
