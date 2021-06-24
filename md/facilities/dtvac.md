@@ -1,17 +1,17 @@
-## Members Involved
-* Marcello Guadagno
-* Ben Wiegand
-
 ## Project Overview
 The Dusty Thermal Vacuum Chamber (DTVAC) is a facility used to simulate extreme extraplanetary environments such as Lunar PSRs and the Martian surface. The DTVAC is customized for rapid servicing of meter-class payloads via removable sandbox carts capable of holding icy regolith.
 
 ## Images
 ### CAD
-![DTVAC CAD Image 1](/public/facilities/dtvac/dtvac1.png)
-![DTVAC CAD Image 2](/public/facilities/dtvac/dtvac2.png)
-![DTVAC CAD Image 3](/public/facilities/dtvac/dtvac3.png)
-![DTVAC CAD Image 4](/public/facilities/dtvac/dtvac4.png)
+![DTVAC CAD Image 1](/facilities/dtvac/dtvac1.png)
+![DTVAC CAD Image 2](/facilities/dtvac/dtvac2.png)
+![DTVAC CAD Image 3](/facilities/dtvac/dtvac3.png)
+![DTVAC CAD Image 4](/facilities/dtvac/dtvac4.png)
+![DTVAC CAD Image 5](/facilities/dtvac/dtvac5.png)
 ### Pictures
+![DTVAC Image 2](/facilities/dtvac/dtvac-real2.jpg)
+![DTVAC Image 3](/facilities/dtvac/dtvac-real3.jpg)
+![DTVAC Image 4](/facilities/dtvac/dtvac-real4.jpg)
 
 ## Reports and Presentations
 * M. C. Guadagno and P. J. van Susante, “Commissioning and Testing of Dusty Thermal Vacuum Chamber Designed for Lunar Environment Simulation,” in ASCEND 2020, American Institute of Aeronautics and Astronautics. doi: [10.2514/6.2020-4197](https://arc.aiaa.org/doi/10.2514/6.2020-4197).
