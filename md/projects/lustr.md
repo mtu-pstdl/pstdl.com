@@ -1,16 +1,3 @@
-## Members Involved
-* Elijah Cobb
-* Austen Goddu
-* Ted Gronda
-* Marcello Guadagno
-* George Johnson
-* Caleb Kaminsky
-* Hunter McGillivray
-* Collin Miller
-* Erik Van Horn
-* Travis Wavrunek
-* Ben Wiegand
-
 ## Project Overview
 This project will combine dual percussive cone penetrometers with heaters and sensors based on a modified version of the TRIDENT drill stage from Honeybee Robotics. This allows geotechnical property measurements and differential calorimetry measurements to identify and quantify volatile content.
 

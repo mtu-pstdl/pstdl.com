@@ -1,7 +1,3 @@
-## Members Involved
-* Ted Gronda
-* Marcello Guadagno
-
 ## Project Overview
 The Sandbox is an environmental facility used for enclosed atmospheric testing of mobility systems in lunar simulant. Various terrains are simulated with the inclusion of obstacles and adjustable inclines.
 
