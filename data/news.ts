@@ -88,5 +88,11 @@ export const news: News[] = [
 		date: {month: 4, day: 19, year: 2021},
 		link: "https://www.linkedin.com/in/travis-wavrunek/",
 		content: "Travis Wavrunek has joined the PSTDL to work on a PhD in Mechanical Engineering under the direction of Dr. Paul van Susante."
+	},
+	{
+		title: "PSTDL Submits 'LIQUID' to NASA Break the Ice",
+		link: "https://youtu.be/hIQYnyP4Fbs",
+		content: "The PSTDL submitted a proposal to the NASA Break the Ice centennial challenge with the Lunar Ice QUest Innovative Design (LIQUID) rover design.",
+		date: {month: 6, day: 18, year: 2021}
 	}
 ]
