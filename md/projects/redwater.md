@@ -7,7 +7,7 @@ The RedWater mission is to extract water from subterranean glaciers found on Mar
 ![Redwater Image 3](/projects/redwater/RW4.JPG)
 ![Redwater Image 4](/projects/redwater/RW5.JPG)
 ![Redwater Image 5](/projects/redwater/RW6.JPG)
-![Redwater CAD 1](/projects/redwater/RW7.PNG)
+![Redwater CAD 1](/projects/redwater/icon.PNG)
 
 ## CONOPS
 ### Phase 1: Create Clear Ice Blocks

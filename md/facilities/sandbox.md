@@ -2,7 +2,7 @@
 The Sandbox is an environmental facility used for enclosed atmospheric testing of mobility systems in lunar simulant. Various terrains are simulated with the inclusion of obstacles and adjustable inclines.
 
 ## Images
-![Sandbox Image 1](/facilities/sandbox/Sandbox_1.JPG)
+![Sandbox Image 1](/facilities/sandbox/icon.JPG)
 ![Sandbox Image 2](/facilities/sandbox/Sandbox_2.JPG)
 ![Sandbox Image 3](/facilities/sandbox/Sandbox_3.JPG)
 ![Sandbox Image 4](/facilities/sandbox/Sandbox_4.JPG)

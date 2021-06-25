@@ -3,7 +3,7 @@ The Tethered permanently-shadowed Region EXplorer is an infrastructure technolog
 
 ## Images
 ![T-REX Image 1](/projects/t-rex/T1.JPG)
-![T-REX Image 2](/projects/t-rex/T2.JPG)
+![T-REX Image 2](/projects/t-rex/icon.JPG)
 ![T-REX Image 3](/projects/t-rex/T3.JPG)
 ![T-REX Image 4](/projects/t-rex/T4.JPG)
 ![T-REX Image 5](/projects/t-rex/T5.JPG)

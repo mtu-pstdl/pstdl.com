@@ -10,7 +10,7 @@ The Dusty Thermal Vacuum Chamber (DTVAC) is a facility used to simulate extreme 
 ![DTVAC CAD Image 5](/facilities/dtvac/dtvac5.png)
 ![DTVAC CAD Image 6](/facilities/dtvac/dtvac6.png)
 ### Pictures
-![DTVAC Image 1](/facilities/dtvac/dtvac-real1.jpg)
+![DTVAC Image 1](/facilities/dtvac/icon.jpg)
 ![DTVAC Image 2](/facilities/dtvac/dtvac-real2.jpg)
 ![DTVAC Image 3](/facilities/dtvac/dtvac-real3.jpg)
 ![DTVAC Image 4](/facilities/dtvac/dtvac-real4.jpg)

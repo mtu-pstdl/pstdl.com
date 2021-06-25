@@ -3,7 +3,7 @@ Wired Watts Wherever and Whenever you Want (W<sup>5</sup>) is a lunar power infr
 
 ## Images
 ![Watts Image 1](/projects/watts/Watts0.png)
-![Watts Image 2](/projects/watts/Watts1.png)
+![Watts Image 2](/projects/watts/icon.png)
 
 ## CONOPS
 ### Phase 1:
