@@ -9,7 +9,7 @@
 
 .ProjectRow {
 
-	width: min(100%, 300px);
+	width: min(100%, 360px);
 	background: $antiAstraBackground;
 	box-shadow: 0 0 20px #333;
 	display: flex;
@@ -73,8 +73,8 @@
 }
 
 .ProjectRow:hover {
-	box-shadow: 0 0 20px $mtuGold;
-	transform: scale(1.125);
+	box-shadow: 0 0 $paddingBig $mtuGold;
+	transform: scale(1.05);
 	cursor: pointer;
 }
 

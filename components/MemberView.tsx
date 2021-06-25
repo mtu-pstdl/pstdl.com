@@ -40,31 +40,31 @@ export function MemberView(props: PropsWithChildren<MemberViewProps>): ReactElem
 	const [showBio, setShowBio] = useState(false);
 	const url: string | undefined = "/members/" + props.member.username + ".jpg";
 
-	return (<div className={"MemberView"}>
-		<div className={"top"}>
-			<div className={"profile-container"}>
-				<object data={url} className={"profile"} type="image/jpg">
-					<img alt={"profile"} className={"profile"} src={"/members/blank.png"}/>
-				</object>
+	return (<Link href={"/members/" + props.member.username}>
+		<div className={"MemberView"}>
+			<img className={"background"} src={url} alt={""}/>
+			<div className={"top"}>
+				<div className={"profile-container"}>
+					<object data={url} className={"profile"} type="image/jpg">
+						<img alt={"profile"} className={"profile"} src={"/members/blank.png"}/>
+					</object>
+				</div>
+				<span className={"name"}>{props.member.firstName + " " + props.member.lastName}</span>
+				<span className={"email"}>{props.member.username + "@mtu.edu"}</span>
+				<div className={"buttons"}>
+					<a rel={"noopener noreferrer"} target={"_blank"}
+					   href={"mailto:" + props.member.username + "@mtu.edu"}><Email className={"button"}/></a>
+					{props.member.linkedIn &&
+                    <a rel={"noopener noreferrer"} target={"_blank"} href={props.member.linkedIn}><LinkedIn
+                        className={"button"}/></a>}
+					{props.member.twitter &&
+                    <a rel={"noopener noreferrer"} target={"_blank"} href={props.member.twitter}><Twitter
+                        className={"button"}/></a>}
+				</div>
 			</div>
-			<span className={"name"}>{props.member.firstName + " " + props.member.lastName}</span>
-			<span className={"email"}>{props.member.username + "@mtu.edu"}</span>
-			<div className={"buttons"}>
-				<a rel={"noopener noreferrer"} target={"_blank"} href={"mailto:" + props.member.username + "@mtu.edu"}><Email className={"button"}/></a>
-				{props.member.linkedIn && <a rel={"noopener noreferrer"} target={"_blank"} href={props.member.linkedIn}><LinkedIn className={"button"}/></a>}
-				{props.member.twitter && <a rel={"noopener noreferrer"} target={"_blank"} href={props.member.twitter}><Twitter className={"button"}/></a>}
-				<Link href={"/members/" + props.member.username}>
-					<OpenInNew className={"button"}/>
-				</Link>
-			</div>
-			<Backdrop style={{zIndex: 200, background: "rgba(0,0,0,0.9)"}} open={showBio} onClick={() => setShowBio(false)}>
-				<p className={"bio"}>
-					{props.member.bio}
-				</p>
-			</Backdrop>
+			<span className={"bottom"}>{getPosition()}</span>
 		</div>
-		<span className={"bottom"}>{getPosition()}</span>
-	</div>)
+	</Link>)
 
 }
 

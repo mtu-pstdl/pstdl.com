@@ -17,11 +17,25 @@
 	border-radius: 20px;
 	box-shadow: 0 0 $paddingSmall $mtuGold;
 	overflow: hidden;
-	//border: solid $mtuGold 2px;
-	width: min(100%, 360px);
+	//width: min(100%, 360px);
+	transition: transform 250ms ease-in-out, box-shadow 250ms ease-in-out;
+	position: relative;
+
+	.background {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
 
 	.top {
 		height: 100%;
+		z-index: 1;
+		backdrop-filter: blur($blur);
+		background: rgba(0, 0, 0, $blurCoef);
+		width: 100%;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -50,7 +64,7 @@
 
 		.email {
 			font-weight: lighter;
-			color: gray;
+			color: lightgray;
 			font-size: 1.125em;
 		}
 
@@ -84,6 +98,7 @@
 		text-align: center;
 		color: $antiAstraBackground;
 		font-weight: lighter;
+		z-index: 1;
 		font-size: 1.25em;
 	}
 
@@ -103,4 +118,10 @@
 		margin: $paddingBig;
 		width: 40%;
 	}
+}
+
+.MemberView:hover {
+	cursor: pointer;
+	transform: scale(1.05);
+	box-shadow: 0 0 $paddingBig $mtuGold;
 }
