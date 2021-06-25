@@ -11,11 +11,13 @@ $mtuBlack: black;
 $white: #fff;
 $twitterBlue: #1DA1F2;
 $background: #222;
-$constraint: 900px;
+$constraint: 1080px;
 
 $antiAstraBoxShadow: 0 0 20px #202020;
 $antiAstraBackground: rgba(0,0,0,0.9);
 
+$blur: 8px;
+$blurCoef: 0.5;
 $navBarHeight: 80px;
 $navBarWidth: min(100vw, #{$constraint});
 $navBarEnableWidth: 1490px;

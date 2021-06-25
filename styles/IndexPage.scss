@@ -36,8 +36,8 @@
 	}
 
 	.container {
+		top: $navBarHeight;
 		right: 0;
-		background: rgba(0, 0, 0, 0.75);
 		z-index: 3;
 		display: flex;
 		flex-direction: column;
@@ -45,20 +45,31 @@
 		align-items: flex-start;
 		padding: $paddingBig * 2;
 		width: 100vw;
+		height: calc(100vh - #{$navBarHeight});
 		overflow: hidden;
+		backdrop-filter: blur($blur);
+		background: rgba(0, 0, 0, $blurCoef);
+
+		h2, h1, p {
+			z-index: 1;
+		}
+
+		h2, p {
+			display: none;
+		}
 
 		h1 {
-			font-size: 1.5em;
+			font-size: 2.5em;
 			color: $mtuGold;
 		}
 
 		h2 {
-			font-size: 1.5em;
+			font-size: 2em;
 			color: $white;
 		}
 
 		p {
-			font-size: 1em;
+			font-size: 1.25em;
 			font-style: italic;
 		}
 
@@ -91,6 +102,31 @@
 			h1, h2, p {
 				margin: $paddingMedium;
 			}
+		}
+	}
+}
+
+@media (min-height: 720px) {
+	.IndexPage .container {
+		h2 {
+			display: block;
+		}
+	}
+}
+
+@media (min-height: 920px) {
+	.IndexPage .container {
+		p {
+			display: block;
+			font-size: 1.5em;
+		}
+
+		h2 {
+			font-size: 2.5em;
+		}
+
+		h1 {
+			font-size: 3.5em;
 		}
 	}
 }

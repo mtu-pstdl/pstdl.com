@@ -12,14 +12,14 @@ import {links} from "../data/links";
 import Link from "next/link";
 
 export interface NavViewProps {
-
+	isHome?: boolean;
 }
 
 export function NavView(props: PropsWithChildren<NavViewProps>): ReactElement {
 
 	const [open, setOpen] = useState(false);
 
-	return (<div className={"NavView"}>
+	return (<div className={"NavView" + (props.isHome ? " NavViewHome" : "")}>
 		<Link href={"/"}>
 			<div className={"header"}>
 				<img className={"mtu"} src={"/mtu.png"} alt={"mtu"}/>

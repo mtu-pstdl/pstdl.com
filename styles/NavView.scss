@@ -21,9 +21,11 @@
 	align-items: center;
 	height: $navBarHeight;
 	padding: 0 20px;
+
 	background: $mtuGold;
 	color: $mtuBlack;
 	box-shadow: 0 0 10px black;
+
 	z-index: 99999;
 
 	.bar {
@@ -44,7 +46,7 @@
 		}
 
 		.link-active, .link:hover {
-			border-bottom-color: black;
+			border-bottom-color: $mtuBlack;
 			cursor: pointer;
 		}
 	}
@@ -100,6 +102,10 @@
 			width: 100px;
 		}
 	}
+
+	.header:hover {
+		cursor: pointer;
+	}
 }
 
 @media(min-width: $navBarEnableWidth) {
@@ -149,4 +155,23 @@
 			}
 		}
 	}
+}
+
+.NavViewHome {
+	background: rgba(0, 0, 0, $blurCoef);
+	color: $mtuGold;
+	backdrop-filter: blur($blur);
+
+	.bar {
+
+		.link {
+			color: $mtuGold;
+			border-bottom: solid 4px rgba(0,0,0,0);
+		}
+
+		.link-active, .link:hover {
+			border-bottom-color: $mtuGold;
+		}
+	}
+
 }

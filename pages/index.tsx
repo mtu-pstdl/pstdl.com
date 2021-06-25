@@ -50,10 +50,11 @@ function Slideshow(): ReactElement {
 }
 
 export default function IndexPage(): ReactElement {
-	return <Layout disableDefault className={"IndexPage"}>
+	return <Layout isHome disableDefault className={"IndexPage"}>
 		<Slideshow/>
 		<div id={"slideshow-animate"}/>
 		<div className={"container"}>
+			<div className={"blur"}/>
 			<h2>Michigan Technological University</h2>
 			<h1>Planetary Surface Technology Development Lab</h1>
 			<h2>"HuskyWorks"</h2>

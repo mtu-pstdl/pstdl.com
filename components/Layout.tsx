@@ -8,9 +8,10 @@ type Props = {
 	title?: string
 	className?: string;
 	disableDefault?: boolean;
+	isHome?: boolean;
 }
 
-export default function Layout({ title, className, children, disableDefault }: PropsWithChildren<Props>): ReactElement {
+export default function Layout({ title, className, children, disableDefault, isHome }: PropsWithChildren<Props>): ReactElement {
 	return <div className={"rootAppContainer"}>
 		{ !disableDefault && <AstraBackground/>}
 		<Head>
@@ -20,7 +21,7 @@ export default function Layout({ title, className, children, disableDefault }: P
 			<link rel="icon" href="/favicon.png" />
 		</Head>
 		<header>
-			<NavView/>
+			<NavView isHome={isHome}/>
 		</header>
 		<div className={"page" + (className ? (" " + className) : "") + (!disableDefault ? " main" : "")}>
 			{children}
