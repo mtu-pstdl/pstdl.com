@@ -18,7 +18,7 @@ export default function Layout({ title, className, children, disableDefault, isH
 			<title>{"PSTDL" + (title ? (" - " + title) : "")}</title>
 			<meta charSet="utf-8"/>
 			<meta name="viewport" content="initial-scale=1.0, width=device-width"/>
-			<link rel="icon" href="/favicon.png" />
+			<link rel="icon" href="/favicon-new.png" />
 		</Head>
 		<header>
 			<NavView isHome={isHome}/>

@@ -7,7 +7,7 @@
 
 import {ReactElement} from "react";
 import Layout from "../components/Layout";
-import {GetServerSideProps} from "next";
+import {GetStaticProps} from "next";
 import {News} from "../interfaces/News";
 import {NewsView} from "../components/NewsView";
 import {news} from "../data/news";
@@ -31,12 +31,13 @@ export default function NewsPage(props: NewsPageProps): ReactElement {
 	</Layout>
 }
 
-export const getServerSideProps: GetServerSideProps<NewsPageProps> = async () => {
+export const getStaticProps: GetStaticProps<NewsPageProps> = async () => {
 
 	const tweets: News[] = await fetchTweets();
 	const allNews = [...tweets, ...news];
 
 	return {
+		revalidate: 60 * 60, // 1 hr
 		props: {
 			news: allNews.sort((a, b) => pDateCompare(a.date, b.date))
 		}

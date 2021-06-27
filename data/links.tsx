@@ -9,10 +9,10 @@
 export const links: {name: string, link?: string}[] = [
 	{name: "home", link: ""},
 	{name: "projects"},
+	{name: "facilities"},
 	{name: "members"},
 	{name: "news"},
 	{name: "publications"},
-	{name: "facilities"},
 	{name: "partnerships"},
 	{name: "contact"}
 ]

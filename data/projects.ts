@@ -62,7 +62,7 @@ export const projects: DetailItem[] = [
 	{
 		title: "NASA Break the Ice",
 		description: "The latest centennial challenge from NASA that is designed to develop technologies aiding in the sustained presence on the Moon.",
-		link: "break-the-ice",
+		link: "btic",
 		members: [
 			"collinmi",
 			"hjmcgill",
