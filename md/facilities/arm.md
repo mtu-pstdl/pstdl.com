@@ -2,10 +2,9 @@
 The “Robot Pen” facility is a FANUC robotic arm within a customizable workcell. Modular couplings at the end effector allow for testing of various payloads in an enclosed sandbox within the workspace. 
 
 ## Images
-
-## CONOPS
-
-## Reports and Presentations
+![Arm Image 1](/facilities/arm/arm.jpg)
+![Arm Image 2](/facilities/arm/icon.jpeg)
+![Arm Image 3](/facilities/arm/arm-trencher-enclosure.jpg)
 
 ## Technical Details
 * Robot arm model: M-710iC/50
