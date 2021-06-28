@@ -10,9 +10,10 @@ import ReactMarkdown from "react-markdown";
 import gfm from "remark-gfm";
 import {DetailItem} from "../interfaces/DetailItem";
 import Layout from "./Layout";
-import {getMemberByLink, members} from "../data/members";
+import {getMemberByLink} from "../data/members";
 import {Member} from "../interfaces/Member";
 import {MemberSmallView} from "./MemberSmallView";
+import ImageGallery, {ReactImageGalleryItem} from "react-image-gallery";
 
 export interface DetailItemDetailProps {
 	item: DetailItem;
@@ -33,9 +34,19 @@ export function DetailItemDetail(props: DetailItemDetailProps): ReactElement {
 		return members;
 	}
 
+	function fetchImages(): ReactImageGalleryItem[] {
+		if (!props.item.images || props.item.images.length === 0) return [];
+		return props.item.images.map(i => {
+			return {original: i.src, thumbnail: i.thumb ?? i.src};
+		});
+	}
+
+	const imageGalleryItems: ReactImageGalleryItem[] = fetchImages();
+
 	return (<Layout title={title} className={"ProjectDetail main"}>
 		<h2>{title}</h2>
 		<em>{props.item.description}</em>
+		<h3>Members</h3>
 		{
 			props.item.members && <div className={"members"}>
 				{fetchMembers().map((m, i) => {
@@ -43,12 +54,17 @@ export function DetailItemDetail(props: DetailItemDetailProps): ReactElement {
 				})}
             </div>
 		}
+		{imageGalleryItems.length !== 0 && <h3>Media</h3>}
+		{imageGalleryItems.length !== 0 && <ImageGallery autoPlay items={imageGalleryItems} />}
 		<ReactMarkdown
 			allowDangerousHtml={true}
 			className={"md"}
 			plugins={[gfm]}
 			children={props.md ?? "Content coming soon..."}
-			renderers={{link: props => <a href={props.href} target="_blank">{props.children}</a>}}
+			renderers={{
+				link: props => <a href={props.href} target="_blank">{props.children}</a>,
+				heading: props => <h3>{props.children}</h3>,
+			}}
 		/>
 	</Layout>);
 }

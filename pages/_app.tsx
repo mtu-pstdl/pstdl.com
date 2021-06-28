@@ -27,6 +27,7 @@ import "../styles/IndexPage.scss";
 import "../styles/MembersDetailPage.scss";
 import "../styles/MemberSmallView.scss";
 
+
 import type {AppProps} from 'next/app'
 
 export default function MyApp({ Component, pageProps }: AppProps) {

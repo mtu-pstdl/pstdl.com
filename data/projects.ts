@@ -24,6 +24,15 @@ export const projects: DetailItem[] = [
 			"tcgronda",
 			"wtwagone",
 			"pjvansus"
+		],
+		images: [
+			{src: "/slideshow/slideshow0.jpg"},
+			{src: "/slideshow/slideshow1.jpg"},
+			{src: "/slideshow/slideshow2.jpg"},
+			{src: "/slideshow/slideshow3.jpg"},
+			{src: "/slideshow/slideshow4.jpg"},
+			{src: "/slideshow/slideshow5.jpg"},
+			{src: "/slideshow/slideshow6.jpg"},
 		]
 	},
 	{
@@ -44,6 +53,9 @@ export const projects: DetailItem[] = [
 			"georgejo",
 			"jnoe",
 			"cjkamins"
+		],
+		images: [
+			{src: "/projects/lustr/icon.jpg"}
 		]
 	},
 	{
@@ -57,6 +69,10 @@ export const projects: DetailItem[] = [
 			"pjvansus",
 			"tcgronda",
 			"mcguadag"
+		],
+		images: [
+			{src: "/projects/watts/Watts0.png"},
+			{src: "projects/watts/icon.jpg"},
 		]
 	},
 	{
@@ -70,6 +86,14 @@ export const projects: DetailItem[] = [
 			"mcguadag",
 			"jnoe",
 			"pjvansus"
+		],
+		images: [
+			{src: "/projects/btic/icon.jpg"},
+			{src: "/projects/btic/MineR2.jpg"},
+			{src: "/projects/btic/TranspR1.png"},
+			{src: "/projects/btic/TranspR2.jpg"},
+			{src: "/projects/btic/WEC.jpg"},
+			{src: "/projects/btic/CBD.png"},
 		]
 	},
 	{
@@ -78,6 +102,11 @@ export const projects: DetailItem[] = [
 		link: "esi",
 		members: [
 			"pjvansus"
+		],
+		images: [
+			{src: "/projects/esi/icon.jpg"},
+			{src: "/projects/esi/System_Design.PNG"},
+			{src: "/projects/esi/Saturated_Water_Recycling_System.png"},
 		]
 	},
 	{
@@ -88,6 +117,14 @@ export const projects: DetailItem[] = [
 			"georgejo",
 			"pjvansus",
 			"smzerbel"
+		],
+		images: [
+			{src: "/projects/redwater/RW2.jpg)"},
+			{src: "/projects/redwater/RW3.jpg)"},
+			{src: "/projects/redwater/RW4.jpg)"},
+			{src: "/projects/redwater/RW5.JPG)"},
+			{src: "/projects/redwater/RW6.jpg)"},
+			{src: "/projects/redwater/icon.jpg)"},
 		]
 	},
 	{

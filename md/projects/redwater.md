@@ -1,14 +1,6 @@
 ## Project Overview
 The RedWater mission is to extract water from subterranean glaciers found on Mars. Honeybee robotics has contracted the PSTDL to conduct small scale tests in order to collect data on the power consumed by a high-density cartridge heater to melt through cryogenic clear ice at Martian atmospheric pressure.
 
-## Images
-![Redwater Image 1](/projects/redwater/RW2.jpg)
-![Redwater Image 2](/projects/redwater/RW3.jpg)
-![Redwater Image 3](/projects/redwater/RW4.jpg)
-![Redwater Image 4](/projects/redwater/RW5.JPG)
-![Redwater Image 5](/projects/redwater/RW6.jpg)
-![Redwater CAD 1](/projects/redwater/icon.jpg)
-
 ## CONOPS
 ### Phase 1: Create Clear Ice Blocks
 Fill the modified insulated cooler with clean tap water. Ensure the water pump is secured and sets just below the surface of the water. Put the cooler in the large chest freezer and plug in the water pump. Pull the clear ice block out after a period of 24-32 hours.

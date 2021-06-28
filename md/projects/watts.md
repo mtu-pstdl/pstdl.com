@@ -1,10 +1,6 @@
 ## Project Overview
 Wired Watts Wherever and Whenever you Want (W<sup>5</sup>) is a lunar power infrastructure deployment mission capable of delivering power at up to 93% efficiency from a 10kW source using superconding tethers. W5 is a successor to the [T-REX mission](/projects/t-rex). The W5 technology will be raised to TRL-6 by mid 2023 for Phase B of the Watts on the Moon Challenge.
 
-## Images
-![Watts Image 1](/projects/watts/Watts0.png)
-![Watts Image 2](/projects/watts/icon.jpg)
-
 ## CONOPS
 ### Phase 1:
 The concept of operations for W5 is as follows: After touchdown, the W5 Rover performs a systems checkout and egresses from the lander via a ramp or similar method. During egress, the rover deploys a conventional conducting tether (CCT) composed of flat aluminum from its secondary spool. W5 is remotely operated for the duration of its mission and line of sight comms to the powerplant is assumed.

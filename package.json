@@ -21,7 +21,9 @@
 		"react-dom": "^17.0.1",
 		"react-markdown": "5.0.3",
 		"remark-gfm": "latest",
-		"twitter": "latest"
+		"twitter": "latest",
+		"react-image-gallery": "latest",
+		"@types/react-image-gallery": "latest"
 	},
 	"devDependencies": {
 		"@types/node": "^12.12.21",

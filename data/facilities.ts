@@ -16,6 +16,19 @@ export const facilities: DetailItem[] = [
 			"mcguadag",
 			"bdwiegan",
 			"pjvansus"
+		],
+		images: [
+			{src: "/facilities/dtvac/dtvac1.png"},
+			{src: "/facilities/dtvac/dtvac2.png"},
+			{src: "/facilities/dtvac/dtvac3.png"},
+			{src: "/facilities/dtvac/dtvac4.png"},
+			{src: "/facilities/dtvac/dtvac5.png"},
+			{src: "/facilities/dtvac/dtvac6.png"},
+			{src: "/facilities/dtvac/icon.jpg"},
+			{src: "/facilities/dtvac/dtvac-real2.jpg"},
+			{src: "/facilities/dtvac/dtvac-real3.jpg"},
+			{src: "/facilities/dtvac/dtvac-real4.jpg"},
+			{src: "/facilities/dtvac/dtvac-real5.jpg"},
 		]
 	},
 	{
@@ -25,6 +38,15 @@ export const facilities: DetailItem[] = [
 		members: [
 			"pjvansus",
 			"mcguadag"
+		],
+		images: [
+			{src: "/facilities/sandbox/icon.jpg"},
+			{src: "/facilities/sandbox/Sandbox_2.JPG"},
+			{src: "/facilities/sandbox/Sandbox_3.JPG"},
+			{src: "/facilities/sandbox/Sandbox_4.JPG"},
+			{src: "/facilities/sandbox/Sandbox_5.PNG"},
+			{src: "/facilities/sandbox/Sandbox_6.PNG"},
+			{src: "/facilities/sandbox/Sandbox_CAD_2.PNG"},
 		]
 	},
 	{
@@ -34,6 +56,11 @@ export const facilities: DetailItem[] = [
 		members: [
 			"tawavrun",
 			"ejcobb"
+		],
+		images: [
+			{src: "/facilities/irgo/GA_Assembly3.png"},
+			{src: "/facilities/irgo/icon.png"},
+			{src: "/facilities/irgo/mark-III-diagram.jpg"},
 		]
 	},
 	{
@@ -42,6 +69,12 @@ export const facilities: DetailItem[] = [
 		link: "mtvac",
 		members: [
 			"pjvansus"
+		],
+		images: [
+			{src: "/facilities/mtvac/icon.jpg"},
+			{src: "/facilities/mtvac/mtvac1.jpg"},
+			{src: "/facilities/mtvac/mtvac2.jpg"},
+			{src: "/facilities/mtvac/mtvac3.jpg"},
 		]
 	},
 	{
@@ -60,6 +93,11 @@ export const facilities: DetailItem[] = [
 			"georgejo",
 			"pjvansus",
 			"mcguadag"
+		],
+		images: [
+			{src: "/facilities/arm/arm.jpg"},
+			{src: "/facilities/arm/icon.jpg"},
+			{src: "/facilities/arm/arm-trencher-enclosure.jpg"},
 		]
 	},
 ]

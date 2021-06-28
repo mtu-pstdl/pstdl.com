@@ -6,8 +6,18 @@
  */
 
 @import "variables";
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
 
 .ProjectDetail {
+
+	.image-gallery-icon {
+		color: $mtuGold;
+	}
+
+	.active,
+	.image-gallery-thumbnail:hover {
+		border-color: $mtuGold;
+	}
 
 	.close {
 		position: fixed;
@@ -42,15 +52,6 @@
 		flex-direction: column;
 		justify-content: flex-start;
 		align-items: flex-start;
-		h1, h2, h3 {
-			font-size: $paddingMedium;
-			color: $mtuGold;
-			font-family: $nasaFont;
-			text-transform: uppercase;
-			margin: $paddingMedium 0 $paddingSmall;
-			padding: 0;
-			font-weight: bold;
-		}
 
 		p {
 			margin: $paddingSmall 0;
@@ -104,10 +105,10 @@
 			text-align: left;
 		}
 
-		img {
-			width: 100%;
-			object-fit: contain;
-		}
+		//img {
+		//	width: 100%;
+		//	object-fit: contain;
+		//}
 
 		a {
 
@@ -119,18 +120,6 @@
 	.ProjectDetail {
 
 		.md {
-
-			font-size: 1.125em;
-
-			h1, h2, h3 {
-				font-size: 2em;
-				color: $mtuGold;
-				font-family: $nasaFont;
-				text-transform: uppercase;
-				margin: $paddingMedium 0 $paddingSmall;
-				padding: 0;
-				font-weight: bold;
-			}
 
 			table td, table th {
 				padding: $paddingMedium;

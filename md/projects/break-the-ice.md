@@ -1,13 +1,5 @@
 ## Project Overview
-The Lunar Ice QUest Innovative Design (LIQUID) is a mission designed to excavate, refine, and transport water-ice in the polar regions of the moon. Excavation is completed by three 200kg class bucket ladder rovers and transport by two 100kg class rovers. LIQUID is able to produce 29,000kg of water-ice within a 1 year mission duration. 
-
-## Images
-![Mining Rover Image 1](/projects/btic/icon.png)
-![Mining Rover Image 2](/projects/btic/MineR2.jpg)
-![Transport Rover Image 1](/projects/btic/TranspR1.png)
-![Transport Rover Image 2](/projects/btic/TranspR2.jpg)
-![WEC Image 1](/projects/btic/WEC.jpg)
-![CBD Image 1](/projects/btic/CBD.png)
+The Lunar Ice QUest Innovative Design (LIQUID) is a mission designed to excavate, refine, and transport water-ice in the polar regions of the moon. Excavation is completed by three 200kg class bucket ladder rovers and transport by two 100kg class rovers. LIQUID is able to produce 29,000kg of water-ice within a 1 year mission duration.
 
 # CONOPS
 ### Phase 1: Landing, Deployment, Mission Setup and Starting Positions

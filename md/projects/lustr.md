@@ -1,8 +1,5 @@
 ## Project Overview
 This project will combine dual percussive cone penetrometers with heaters and sensors based on a modified version of the TRIDENT drill stage from Honeybee Robotics. This allows geotechnical property measurements and differential calorimetry measurements to identify and quantify volatile content.
 
-## Images
-![LuSTR Image 1](/projects/lustr/icon.jpg)
-
 ## CONOPS
 The PHCP spot tests will be able to measure volatile composition and concentration in the test locations. Combined with high frequency ground penetrating radar to determine layers and continuity of the subsurface over large areas, this will allow horizontal and vertical spatial distribution measurements and identification of volatiles in the top 1 meter with a resolution of 0.1 wt% at 10 cm intervals as well as determination of geotechnical properties where PHCP spot tests are done. Research will consist of measuring thermal release profiles of cryogenic volatiles in regolith, GPR calibration of subsurface ice and layering detection, developing the differential calorimetry instrument and integrate it with the percussive penetrometer, testing and selecting the best cone geometry for geotechnical property determination, laboratory, DTVAC and field tests at Michigan Technological University and Honeybee Robotics of the PHCP and GPR to achieve TRL-5 or 6 by the end of the project. As such, PHCP and GPR could potentially fly on VIPER 2.0 in 2024 or 2025. 

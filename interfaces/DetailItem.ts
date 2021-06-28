@@ -12,6 +12,7 @@ export interface DetailItem {
 	description?: string;
 	link: string;
 	members?: string[];
+	images?: {src: string, thumb?: string}[];
 }
 
 export function getDetailItemByLink(id: string | string[], arr: DetailItem[]): DetailItem | undefined {
