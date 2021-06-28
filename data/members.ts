@@ -187,7 +187,7 @@ export const members: Member[] = [
 	},
 	{
 		lastName: "Kaminski",
-		major: MemberMajor.A_GEO_PHY,
+		major: MemberMajor.GEO_PHY,
 		type: MemberType.MS,
 		firstName: "Caleb",
 		username: "cjkamins",

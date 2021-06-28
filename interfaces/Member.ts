@@ -20,7 +20,7 @@ export enum MemberMajor {
 	CPE = "Computer Engineering",
 	CS = "Computer Science",
 	EE = "Electrical Engineering",
-	A_GEO_PHY = "Applied Geophysics",
+	GEO_PHY = "Geophysics",
 	CE = "Chemical Engineering"
 }
 

@@ -3,7 +3,7 @@ Wired Watts Wherever and Whenever you Want (W<sup>5</sup>) is a lunar power infr
 
 ## Images
 ![Watts Image 1](/projects/watts/Watts0.png)
-![Watts Image 2](/projects/watts/icon.png)
+![Watts Image 2](/projects/watts/icon.jpg)
 
 ## CONOPS
 ### Phase 1:
@@ -22,9 +22,7 @@ Once this temperature is reached, it will eject the secondary spool and start a 
 After traversing downward slopes up to 45 deg, the rover approaches the water refinery. It dockss with the refinery using a coupling interface which allows for power and heat transfer. The tether voltage is then downconverted to provide power to the refinery on request. Heating of the rover hardware and refinery is done using heat dissipated from the power converters and internal heating elements. The rover remains attached for the rest of the mission.
 
 ## Reports and Presentations
-<iframe width="420" height="315"
-src="https://www.youtube.com/watch?v=N0o_wM0lnQ0&ab_channel=PaulvanSusante">
-</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/N0o_wM0lnQ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 * [Pitch Video Link](https://www.youtube.com/watch?v=N0o_wM0lnQ0&ab_channel=PaulvanSusante)
 * [NASA News Link](https://www.nasa.gov/directorates/spacetech/centennial_challenges/500k-awarded-in-first-phase-of-5m-watts-on-the-moon-challenge.html)

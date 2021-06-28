@@ -23,7 +23,8 @@ export const facilities: DetailItem[] = [
 		description: "Large 'Airlocked' lunar simulant chamber with autonomous gravity offloading.",
 		link: "sandbox",
 		members: [
-			"pjvansus"
+			"pjvansus",
+			"mcguadag"
 		]
 	},
 	{
@@ -57,7 +58,8 @@ export const facilities: DetailItem[] = [
 		link: "arm",
 		members: [
 			"georgejo",
-			"pjvansus"
+			"pjvansus",
+			"mcguadag"
 		]
 	},
 ]

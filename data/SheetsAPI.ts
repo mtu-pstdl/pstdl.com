@@ -59,7 +59,7 @@ export class SheetsAPI {
 					MemberMajor.CPE,
 					MemberMajor.CS,
 					MemberMajor.EE,
-					MemberMajor.A_GEO_PHY,
+					MemberMajor.GEO_PHY,
 					MemberMajor.CE,
 				),
 				type: OEnum.any(MemberType.BS, MemberType.MS, MemberType.PHD, MemberType.PI),
