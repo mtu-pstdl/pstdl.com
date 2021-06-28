@@ -59,7 +59,7 @@ export const facilities: DetailItem[] = [
 		],
 		images: [
 			{src: "/facilities/irgo/GA_Assembly3.png"},
-			{src: "/facilities/irgo/icon.png"},
+			{src: "/facilities/irgo/icon.jpg"},
 			{src: "/facilities/irgo/mark-III-diagram.jpg"},
 		]
 	},
