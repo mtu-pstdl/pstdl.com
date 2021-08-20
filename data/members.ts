@@ -25,7 +25,7 @@ export const members: Member[] = [
 		lastName: "Wiegand",
 		username: "bdwiegan",
 		major: MemberMajor.ME,
-		type: MemberType.MS,
+		type: MemberType.RE,
 		bio: "Ben Wiegand received his B.S. in mechanical engineering from Michigan Tech in the spring of 2020. He is currently pursuing his master’s degree at Michigan Tech and is expected to graduate in the fall of 2021. His past experiences include robotics and controls for 3D motion platfoMemberType.MS, algoritMemberType.MS for plastics manufacturing, and 3D simulations for military vehicles. Ben joined the PSTDL lab in the fall of 2020, and is currently exploring the use of open-source spectrometers for lunar trenchers.",
 		linkedIn: "https://www.linkedin.com/in/benjamin-w-48378b175/",
 		alumni: false,

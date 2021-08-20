@@ -28,7 +28,8 @@ export enum MemberType {
 	BS,
 	MS,
 	PHD,
-	PI
+	PI,
+	RE
 }
 
 export interface Member {

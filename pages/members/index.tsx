@@ -25,6 +25,8 @@ export function MemberSubsectionView(props: {value: MembersSubsection}): ReactEl
 				return "PhD Students"
 			case "pi":
 				return "Director"
+			case "re":
+				return "Research Engineer"
 			default:
 				return ""
 		}
@@ -123,6 +125,8 @@ export const getStaticProps: GetStaticProps<MembersPageProps> = async (context) 
 				return 2;
 			case MemberType.BS:
 				return 3;
+			case MemberType.RE:
+				return 4;
 			default:
 				return -1;
 		}
@@ -132,12 +136,14 @@ export const getStaticProps: GetStaticProps<MembersPageProps> = async (context) 
 			{subheader: "pi", members: []},
 			{subheader: "phd", members: []},
 			{subheader: "ms", members: []},
-			{subheader: "bs", members: []}
+			{subheader: "bs", members: []},
+			{subheader: "re", members: []},
 		]}, {header: "Alumni", subsections: [
 			{subheader: "pi", members: []},
 			{subheader: "phd", members: []},
 			{subheader: "ms", members: []},
-			{subheader: "bs", members: []}
+			{subheader: "bs", members: []},
+			{subheader: "re", members: []},
 		]}];
 
 	for (const m of members) {

@@ -6,12 +6,8 @@ The Dusty Thermal Vacuum Chamber (DTVAC) is a facility used to simulate extreme 
 
 ## Technical Details
 * Internal usable volume of 127 x 127 x1 77.8 cm
-* Encompassing thermal shroud operates from -196°C up to 200°C
+* Encompassing thermal shroud operates from -196°C up to 150°C
 * Capable of reaching High Vacuum
 * Feedthrough port sizes and quantity:
 
-![DTVAC Table 1](/facilities/dtvac/dtvac-table1.png)
-
-* Current feedthroughs available and quantity:
-
-![DTVAC Table 2](/facilities/dtvac/dtvac-table2.png)
+![DTVAC Table 1](/facilities/dtvac/dtvac-table3.png)

@@ -9,6 +9,18 @@ import {News} from "../interfaces/News";
 
 export const news: News[] = [
 	{
+		title: "Student Engineers Build a Lunar Rover—and Win BIG.",
+		date: {month: 8, day: 18, year: 2021},
+		link: "https://youtu.be/yXzdOJCz3rE",
+		content: "Michigan Tech creates video touring the PSTDL."
+	},
+	{
+		title: "PSTDL wins award in NASA Break the Ice Challenge",
+		date: {month: 8, day: 18, year: 2021},
+		link: "https://www.nasa.gov/feature/nasa-awards-500000-in-break-the-ice-lunar-challenge",
+		content: "Team LIQUID from the PSTDL receives an award of $25,000 as a runner-up."
+	},
+	{
 		title: "Dr. van Susante Presents T-REX at SRR/PTMSS 2021",
 		date: {month: 6, day: 11, year: 2021},
 		link: "https://www.ptmss.ca/"

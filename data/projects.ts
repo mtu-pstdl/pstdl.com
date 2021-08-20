@@ -9,6 +9,29 @@ import {DetailItem, getDetailItemByLink, getDetailsForUsername} from "../interfa
 
 export const projects: DetailItem[] = [
 	{
+		title: "NASA LuSTR",
+		description: "NASA Lunar Surface Technology Research (LuSTR) (Exploration of lunar volatiles and determination of geotechnical properties) – \"Percussive Hot Cone Penetrometer (PHCP) and Ground Penetrating Radar (GPR) for Geotechnical and Volatiles Mapping\"",
+		link: "lustr",
+		members: [
+			"ejcobb",
+			"ajgoddu",
+			"collinmi",
+			"eavanhor",
+			"pjvansus",
+			"hjmcgill",
+			"mcguadag",
+			"tawavrun",
+			"tcgronda",
+			"bdwiegan",
+			"georgejo",
+			"jnoe",
+			"cjkamins"
+		],
+		images: [
+			{src: "/projects/lustr/icon.jpg"}
+		]
+	},
+	{
 		title: "NASA T-REX",
 		description: "NASA Breakthrough Innovative and Gamechanging (BIG) Idea Challenge 2020 – \"Tethered permanently shaded Region EXplorer (T-REX)\", (power and communication delivery into PSR)",
 		link: "t-rex",
@@ -33,29 +56,6 @@ export const projects: DetailItem[] = [
 			{src: "/slideshow/slideshow4.jpg"},
 			{src: "/slideshow/slideshow5.jpg"},
 			{src: "/slideshow/slideshow6.jpg"},
-		]
-	},
-	{
-		title: "NASA LuSTR",
-		description: "NASA Lunar Surface Technology Research (LuSTR) (Exploration of lunar volatiles and determination of geotechnical properties) – \"Percussive Hot Cone Penetrometer (PHCP) and Ground Penetrating Radar (GPR) for Geotechnical and Volatiles Mapping\"",
-		link: "lustr",
-		members: [
-			"ejcobb",
-			"ajgoddu",
-			"collinmi",
-			"eavanhor",
-			"pjvansus",
-			"hjmcgill",
-			"mcguadag",
-			"tawavrun",
-			"tcgronda",
-			"bdwiegan",
-			"georgejo",
-			"jnoe",
-			"cjkamins"
-		],
-		images: [
-			{src: "/projects/lustr/icon.jpg"}
 		]
 	},
 	{
