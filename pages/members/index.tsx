@@ -119,13 +119,13 @@ export const getStaticProps: GetStaticProps<MembersPageProps> = async (context) 
 		switch (major) {
 			case MemberType.PI:
 				return 0;
-			case MemberType.PHD:
-				return 1;
-			case MemberType.MS:
-				return 2;
-			case MemberType.BS:
-				return 3;
 			case MemberType.RE:
+				return 1;
+			case MemberType.PHD:
+				return 2;
+			case MemberType.MS:
+				return 3;
+			case MemberType.BS:
 				return 4;
 			default:
 				return -1;
@@ -134,16 +134,16 @@ export const getStaticProps: GetStaticProps<MembersPageProps> = async (context) 
 
 	const res: Members = [{header: "Members", subsections: [
 			{subheader: "pi", members: []},
+			{subheader: "re", members: []},
 			{subheader: "phd", members: []},
 			{subheader: "ms", members: []},
 			{subheader: "bs", members: []},
-			{subheader: "re", members: []},
 		]}, {header: "Alumni", subsections: [
 			{subheader: "pi", members: []},
+			{subheader: "re", members: []},
 			{subheader: "phd", members: []},
 			{subheader: "ms", members: []},
 			{subheader: "bs", members: []},
-			{subheader: "re", members: []},
 		]}];
 
 	for (const m of members) {

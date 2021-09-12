@@ -18,7 +18,7 @@ export const news: News[] = [
 		title: "PSTDL wins award in NASA Break the Ice Challenge",
 		date: {month: 8, day: 18, year: 2021},
 		link: "https://www.nasa.gov/feature/nasa-awards-500000-in-break-the-ice-lunar-challenge",
-		content: "Team LIQUID from the PSTDL receives an award of $25,000 as a runner-up."
+		content: "Team LIQUID including the PSTDL receives an award of $25,000 as a runner-up."
 	},
 	{
 		title: "Dr. van Susante Presents T-REX at SRR/PTMSS 2021",

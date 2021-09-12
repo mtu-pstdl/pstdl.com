@@ -14,6 +14,15 @@
 		color: $mtuGold;
 	}
 
+	//.imagesContainer {
+	//	background: red;
+	//	overflow: hidden;
+	//}
+
+	.image-gallery-image {
+		height: min(480px, 40vh);
+	}
+
 	.active,
 	.image-gallery-thumbnail:hover {
 		border-color: $mtuGold;

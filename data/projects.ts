@@ -25,10 +25,15 @@ export const projects: DetailItem[] = [
 			"bdwiegan",
 			"georgejo",
 			"jnoe",
-			"cjkamins"
+			"cjkamins",
+			"roccoc"
 		],
 		images: [
-			{src: "/projects/lustr/icon.jpg"}
+			{src: "/projects/lustr/icon.jpg"},
+			{src: "/projects/lustr/lustr1.jpg"},
+			{src: "/projects/lustr/lustr2.jpg"},
+			{src: "/projects/lustr/lustr3.jpg"},
+			{src: "/projects/lustr/lustr4.jpg"},
 		]
 	},
 	{
@@ -68,11 +73,13 @@ export const projects: DetailItem[] = [
 			"hjmcgill",
 			"pjvansus",
 			"tcgronda",
-			"mcguadag"
+			"mcguadag",
+			"ajgoddu",
+			"ejcobb"
 		],
 		images: [
 			{src: "/projects/watts/Watts0.png"},
-			{src: "projects/watts/icon.jpg"},
+			{src: "/projects/watts/icon.jpg"},
 		]
 	},
 	{
@@ -101,12 +108,18 @@ export const projects: DetailItem[] = [
 		description: "Early Stage Innovation (water from rock gypsum on Mars) – \"Low mass, low power, non-mechanical excavation of gypsum and other evaporites for water production on Mars\"",
 		link: "esi",
 		members: [
-			"pjvansus"
+			"pjvansus",
+			"clcarey",
+			"msfoetis"
 		],
 		images: [
 			{src: "/projects/esi/icon.jpg"},
-			{src: "/projects/esi/System_Design.PNG"},
-			{src: "/projects/esi/Saturated_Water_Recycling_System.png"},
+			{src: "/projects/esi/esi1.jpg"},
+			{src: "/projects/esi/esi2.jpg"},
+			{src: "/projects/esi/esi3.jpg"},
+			{src: "/projects/esi/esi4.jpg"},
+			{src: "/projects/esi/esi5.jpg"},
+			{src: "/projects/esi/esi6.jpg"},
 		]
 	},
 	{
@@ -116,15 +129,42 @@ export const projects: DetailItem[] = [
 		members: [
 			"georgejo",
 			"pjvansus",
-			"smzerbel"
+			"smzerbel",
+			"gtredlon"
 		],
 		images: [
-			{src: "/projects/redwater/RW2.jpg)"},
-			{src: "/projects/redwater/RW3.jpg)"},
-			{src: "/projects/redwater/RW4.jpg)"},
-			{src: "/projects/redwater/RW5.JPG)"},
-			{src: "/projects/redwater/RW6.jpg)"},
-			{src: "/projects/redwater/icon.jpg)"},
+			{src: "/projects/redwater/RW2.jpg"},
+			{src: "/projects/redwater/RW3.jpg"},
+			{src: "/projects/redwater/RW4.jpg"},
+			{src: "/projects/redwater/RW5.JPG"},
+			{src: "/projects/redwater/RW6.jpg"},
+			{src: "/projects/redwater/icon.jpg"},
+		]
+	},
+	{
+		title: "NASA GCD MRE",
+		link: "mre",
+		members: [
+			"jpintore",
+			"jnoe",
+			"pjvansus",
+		]
+	},
+	{
+		title: "HOPLITE",
+		description: "A modular robotic system that enables the field testing of ISRU technologies.",
+		link: "hoplite",
+		members: [
+			"ejcobb",
+			"ajgoddu",
+			"hjmcgill",
+			"collinmi",
+			"eavanhor",
+			"roccoc",
+			"pjvansus",
+		],
+		images: [
+			{src: "/projects/hoplite/icon.jpg"},
 		]
 	},
 	{
@@ -136,7 +176,7 @@ export const projects: DetailItem[] = [
 			"pjvansus",
 			"clcarey"
 		]
-	}
+	},
 ];
 
 export function getProjectByLink(id: string | string[]): DetailItem | undefined {

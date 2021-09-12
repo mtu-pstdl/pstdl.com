@@ -6,8 +6,6 @@
  */
 
 import {Member, MemberMajor, MemberType} from "../interfaces/Member";
-import {DetailItem, getDetailItemByLink} from "../interfaces/DetailItem";
-import {projects} from "./projects";
 
 export const members: Member[] = [
 	{
@@ -148,6 +146,15 @@ export const members: Member[] = [
 		alumni: true,
 	},
 	{
+		firstName: "Michael",
+		lastName: "Foetisch",
+		username: "msfoetis",
+		linkedIn: "https://www.linkedin.com/in/michael-foetisch-student/",
+		major: MemberMajor.ME,
+		type: MemberType.PHD,
+		alumni: false
+	},
+	{
 		firstName: "Travis",
 		lastName: "Wavrunek",
 		username: "tawavrun",
@@ -164,7 +171,7 @@ export const members: Member[] = [
 		major: MemberMajor.ME,
 		type: MemberType.BS,
 		linkedIn: "https://www.linkedin.com/in/ted-gronda-04891015a/",
-		alumni: false,
+		alumni: true,
 	},
 	{
 		firstName: "Wyatt",
@@ -180,7 +187,7 @@ export const members: Member[] = [
 		lastName: "Zerbel",
 		major: MemberMajor.ME,
 		type: MemberType.BS,
-		alumni: false,
+		alumni: true,
 		username: "smzerbel",
 		linkedIn: "https://www.linkedin.com/in/samantha-zerbel-7ab7b51b8/",
 		bio: "For my undergraduate research I am continuing the RedWater Ice Project. On campus, I am a leadership member on the aerospace enterprise and part of the husky swim club and InterVarsity. Last summer I had the pleasure of interning at Fincantieri Marinette Marine. I'm from Green Bay, Wisconsin. In my spare time I enjoy swimming, hiking, traveling and cooking/baking."
@@ -223,7 +230,34 @@ export const members: Member[] = [
 		linkedIn: "https://www.linkedin.com/in/jason-noe-233917152/",
 		bio: "Jason Bendixen Noe graduated from The Ohio State University with a Bachelor’s in Aerospace Engineering in Spring 2021. Since August 2019, Jason has also been an Engineering Intern at Made In Space mainly working in Research and Development. First, spending a year at the Made In Space headquarters in Jacksonville Florida and then working remotely since the Fall of 2020. Prior to August 2019, Jason worked at the Ohio State Center for Manufacturing Excellence 3D Printing Prototyping Lab (CDME). Jason was also the team lead for the NASA Micro-g NExT team for Ohio State from 2018-2019 and has been a member of the Ohio State Battelle Center for Science, Engineering and Public Policy, run by Dr. Elizabeth Newton and Dr. John Horack (Space SCOPE), since 2017."
 	},
-
+	{
+		firstName: "Rocco",
+		lastName: "Carlson",
+		type: MemberType.BS,
+		alumni: false,
+		major: MemberMajor.EE,
+		username: "roccoc",
+		linkedIn: "https://www.linkedin.com/in/rocco-carlson-47b85821a/",
+		bio: "Rocco Carlson is a second year Electrical Engineering student at Michigan Tech. He joined the PSTDL in the fall of 2021 to work on the NASA LuSTR project."
+	},
+	{
+		firstName: "Jafet",
+		lastName: "Pinto",
+		type: MemberType.BS,
+		alumni: false,
+		major: MemberMajor.ME,
+		username: "jpintore",
+		linkedIn: "https://www.linkedin.com/in/jafet-pinto-reveggino-122a50164/"
+	},
+	{
+		firstName: "Gregory",
+		lastName: "Redlon",
+		type: MemberType.BS,
+		alumni: false,
+		major: MemberMajor.ME,
+		username: "gtredlon",
+		linkedIn: "https://www.linkedin.com/in/gregory-redlon-23701621b/"
+	},
 ]
 
 export function getMemberByLink(id: string | string[]): Member | undefined {

@@ -37,7 +37,9 @@ export const facilities: DetailItem[] = [
 		link: "sandbox",
 		members: [
 			"pjvansus",
-			"mcguadag"
+			"mcguadag",
+			"tawavrun",
+			"ejcobb"
 		],
 		images: [
 			{src: "/facilities/sandbox/icon.jpg"},
