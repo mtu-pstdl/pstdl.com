@@ -24,7 +24,7 @@ export const members: Member[] = [
 		username: "bdwiegan",
 		major: MemberMajor.ME,
 		type: MemberType.RE,
-		bio: "Ben Wiegand received his B.S. in mechanical engineering from Michigan Tech in the spring of 2020. He is currently pursuing his master’s degree at Michigan Tech and is expected to graduate in the fall of 2021. His past experiences include robotics and controls for 3D motion platfoMemberType.MS, algoritMemberType.MS for plastics manufacturing, and 3D simulations for military vehicles. Ben joined the PSTDL lab in the fall of 2020, and is currently exploring the use of open-source spectrometers for lunar trenchers.",
+		bio: "Ben Wiegand received his M.S. in mechanical engineering from Michigan Tech in 2021. His master's degree focused on the commissioning and testing of the PSTDL's dusty thermal vacuum chamber (DTVAC). He has since been hired as a research engineer focusing on the instrumentation of a cone penetrometer for the LuSTR project. His past experiences include robotics and controls for 3D motion platforms, algorithms for plastics manufacturing, and 3D kinematic simulations for military vehicles.",
 		linkedIn: "https://www.linkedin.com/in/benjamin-w-48378b175/",
 		alumni: false,
 	},
@@ -187,7 +187,7 @@ export const members: Member[] = [
 		lastName: "Zerbel",
 		major: MemberMajor.ME,
 		type: MemberType.BS,
-		alumni: true,
+		alumni: false,
 		username: "smzerbel",
 		linkedIn: "https://www.linkedin.com/in/samantha-zerbel-7ab7b51b8/",
 		bio: "For my undergraduate research I am continuing the RedWater Ice Project. On campus, I am a leadership member on the aerospace enterprise and part of the husky swim club and InterVarsity. Last summer I had the pleasure of interning at Fincantieri Marinette Marine. I'm from Green Bay, Wisconsin. In my spare time I enjoy swimming, hiking, traveling and cooking/baking."

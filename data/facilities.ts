@@ -18,12 +18,6 @@ export const facilities: DetailItem[] = [
 			"pjvansus"
 		],
 		images: [
-			{src: "/facilities/dtvac/dtvac1.png"},
-			{src: "/facilities/dtvac/dtvac2.png"},
-			{src: "/facilities/dtvac/dtvac3.png"},
-			{src: "/facilities/dtvac/dtvac4.png"},
-			{src: "/facilities/dtvac/dtvac5.png"},
-			{src: "/facilities/dtvac/dtvac6.png"},
 			{src: "/facilities/dtvac/icon.jpg"},
 			{src: "/facilities/dtvac/dtvac-real2.jpg"},
 			{src: "/facilities/dtvac/dtvac-real3.jpg"},
@@ -39,7 +33,8 @@ export const facilities: DetailItem[] = [
 			"pjvansus",
 			"mcguadag",
 			"tawavrun",
-			"ejcobb"
+			"ejcobb",
+			"tcgronda"
 		],
 		images: [
 			{src: "/facilities/sandbox/icon.jpg"},

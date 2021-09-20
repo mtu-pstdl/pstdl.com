@@ -55,12 +55,11 @@ export const projects: DetailItem[] = [
 		],
 		images: [
 			{src: "/slideshow/slideshow0.jpg"},
-			{src: "/slideshow/slideshow1.jpg"},
-			{src: "/slideshow/slideshow2.jpg"},
-			{src: "/slideshow/slideshow3.jpg"},
-			{src: "/slideshow/slideshow4.jpg"},
-			{src: "/slideshow/slideshow5.jpg"},
-			{src: "/slideshow/slideshow6.jpg"},
+			{src: "/slideshow/slideshow7.jpg"},
+			{src: "/slideshow/slideshow11.jpg"},
+			{src: "/slideshow/slideshow13.jpg"},
+			{src: "/slideshow/slideshow15.jpg"},
+			{src: "/slideshow/slideshow17.jpg"},
 		]
 	},
 	{
@@ -144,10 +143,18 @@ export const projects: DetailItem[] = [
 	{
 		title: "NASA GCD MRE",
 		link: "mre",
+		description: "Provide a regolith feeder and transportation system for the MRE reactor",
 		members: [
 			"jpintore",
 			"jnoe",
 			"pjvansus",
+		],
+		images: [
+			{src: "/projects/mre/mre1.jpg"},
+			{src: "/projects/mre/mre2.jpg"},
+			{src: "/projects/mre/icon.jpg"},
+			{src: "/projects/mre/mre4.jpg"},
+
 		]
 	},
 	{
