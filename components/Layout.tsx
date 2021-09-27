@@ -12,6 +12,7 @@ type Props = {
 }
 
 export default function Layout({ title, className, children, disableDefault, isHome }: PropsWithChildren<Props>): ReactElement {
+
 	return <div className={"rootAppContainer"}>
 		{ !disableDefault && <AstraBackground/>}
 		<Head>

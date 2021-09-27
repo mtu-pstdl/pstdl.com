@@ -23,6 +23,7 @@ export const facilities: DetailItem[] = [
 			{src: "/facilities/dtvac/dtvac-real3.jpg"},
 			{src: "/facilities/dtvac/dtvac-real4.jpg"},
 			{src: "/facilities/dtvac/dtvac-real5.jpg"},
+			{src: "/facilities/dtvac/feedthrough_diagram.png"},
 		]
 	},
 	{

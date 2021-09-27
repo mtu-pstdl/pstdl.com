@@ -17,6 +17,8 @@ The Dusty Thermal Vacuum Chamber (DTVAC) is a facility used to simulate extreme 
 |KF/QF25-100-LF (NW25)|2|
 |KF/QF16-100-LF (NW16)|4|
 
+![feedthrough diagram](/facilities/dtvac/feedthrough_diagram.png)
+
 ### Regolith Cart
 * 2X rectangular metal carts that roll into the vacuum facility from an enclosed loading area.
 * Each cart has an Internal volume of `60x116x167` cm.
