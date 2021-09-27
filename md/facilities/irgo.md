@@ -7,5 +7,4 @@ The Infrared Gravity Offloading (IRGO) device is an active 3-axis crane inside t
 * Stepper motors for accuracy
 * Controlled by IR tracking or manual control with keyboard/controller
 * Only requirement is that the tether is attached to the center of gravity.
-* Written entirely in C++
-* Uses opencv for CV
+* Written entirely in C++ using OpenCV

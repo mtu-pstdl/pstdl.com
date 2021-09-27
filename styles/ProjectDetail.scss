@@ -61,6 +61,7 @@
 		flex-direction: column;
 		justify-content: flex-start;
 		align-items: flex-start;
+		font-size: 18px;
 
 		p {
 			margin: $paddingSmall 0;
@@ -69,7 +70,7 @@
 
 		code {
 			font-family: "Roboto Mono", monospace;
-			color: $mtuGold;
+			font-size: 16px;
 		}
 
 		pre code {
@@ -82,7 +83,7 @@
 		}
 
 		li {
-			margin: $paddingSmall $paddingMedium 0;
+			margin: $paddingMedium $paddingBig 0;
 		}
 
 		table {

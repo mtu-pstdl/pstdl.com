@@ -28,7 +28,7 @@ export function DetailItemDetail(props: DetailItemDetailProps): ReactElement {
 		if (!props.item.members) return [];
 		let members: Member[] = [];
 		for (const m of props.item.members) members.push(getMemberByLink(m));
-		members = members.filter(m => !m.alumni);
+		// members = members.filter(m => !m.alumni);
 
 		members = members.sort((a, b) => a.lastName.localeCompare(b.lastName));
 		return members;

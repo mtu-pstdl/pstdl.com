@@ -38,8 +38,9 @@ export const facilities: DetailItem[] = [
 		],
 		images: [
 			{src: "/facilities/sandbox/icon.jpg"},
+			{src: "/facilities/sandbox/sandbox-9.jpg"},
+			{src: "/facilities/sandbox/sandbox-8.jpg"},
 			{src: "/facilities/sandbox/Sandbox_2.JPG"},
-			{src: "/facilities/sandbox/Sandbox_3.JPG"},
 			{src: "/facilities/sandbox/Sandbox_4.JPG"},
 			{src: "/facilities/sandbox/Sandbox_5.PNG"},
 			{src: "/facilities/sandbox/Sandbox_6.PNG"},
@@ -55,9 +56,9 @@ export const facilities: DetailItem[] = [
 			"ejcobb"
 		],
 		images: [
-			{src: "/facilities/irgo/GA_Assembly3.png"},
+			{src: "/facilities/irgo/irgo-1.jpg"},
+			{src: "/facilities/irgo/irgo-2.jpg"},
 			{src: "/facilities/irgo/icon.jpg"},
-			{src: "/facilities/irgo/mark-III-diagram.jpg"},
 		]
 	},
 	{
@@ -71,15 +72,17 @@ export const facilities: DetailItem[] = [
 			{src: "/facilities/mtvac/icon.jpg"},
 			{src: "/facilities/mtvac/mtvac1.jpg"},
 			{src: "/facilities/mtvac/mtvac2.jpg"},
-			{src: "/facilities/mtvac/mtvac3.jpg"},
 		]
 	},
 	{
 		title: "AR Mapping Sandbox",
-		description: "A sandbox that projects a contantly updating elevation heat map onto itself.",
+		description: "A sandbox featuring projected depth mapping of the terrain.",
 		link: "ar-sandbox",
 		members: [
 			"dfpaglia"
+		],
+		images: [
+			{src: "/facilities/ar-sandbox/icon.jpg"},
 		]
 	},
 	{
