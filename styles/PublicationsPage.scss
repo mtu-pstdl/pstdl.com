@@ -8,71 +8,79 @@
 @import "variables";
 
 .PublicationsPage {
+
 	padding: $paddingMedium;
 
 	.content {
 		display: flex;
 		width: 100%;
 		flex-direction: column;
-		align-items: center;
+		align-items: flex-start;
+		text-align: left;
+		font-size: 22px;
+
+		li {
+			margin-top: $paddingBig;
+			line-height: 1.25;
+		}
 	}
 
-	table {
-
-		width: 100%;
-
-		.iconColumn {
-			width: 10px;
-		}
-
-		th {
-			color: $mtuGold;
-			font-weight: bold;
-			text-align: left;
-		}
-
-		tr {
-			text-align: left;
-		}
-
-		.icon {
-			color: $mtuGold;
-			font-size: 1.5em;
-		}
-
-		.dateColumn {
-			min-width: 100px;
-		}
-
-		.authorsColumn {
-			min-width: 140px;
-		}
-
-		.title {
-			width: 40%;
-		}
-
-		.date {
-			width: 10%;
-		}
-
-		.titleRow {
-			font-weight: bold;
-		}
-
-		.dateRow {
-			font-weight: lighter;
-		}
-
-		.authors {
-			width: 30%;
-		}
-
-		.publications {
-			width: 20%;
-		}
-
-	}
+	//table {
+	//
+	//	width: 100%;
+	//
+	//	.iconColumn {
+	//		width: 10px;
+	//	}
+	//
+	//	th {
+	//		color: $mtuGold;
+	//		font-weight: bold;
+	//		text-align: left;
+	//	}
+	//
+	//	tr {
+	//		text-align: left;
+	//	}
+	//
+	//	.icon {
+	//		color: $mtuGold;
+	//		font-size: 1.5em;
+	//	}
+	//
+	//	.dateColumn {
+	//		min-width: 100px;
+	//	}
+	//
+	//	.authorsColumn {
+	//		min-width: 140px;
+	//	}
+	//
+	//	.title {
+	//		width: 50%;
+	//	}
+	//
+	//	.date {
+	//		width: 10%;
+	//	}
+	//
+	//	.titleRow {
+	//		font-weight: bold;
+	//	}
+	//
+	//	.dateRow {
+	//		font-weight: lighter;
+	//	}
+	//
+	//	.authors {
+	//		width: 30%;
+	//	}
+	//
+	//	.publications {
+	//		width: 20%;
+	//	}
+	//
+	//}
 
 	.button {
 		width: 60px;
@@ -87,33 +95,33 @@
 }
 
 @media (min-width: $constraint) {
-	.PublicationsPage {
-		padding: $paddingBig;
-		.publicationSection {
-			margin-top: 100px;
-		}
-
-		table {
-
-			th {
-				font-size: 1.5em;
-			}
-
-			//tr {
-			//	font-size: 1.125em;
-			//}
-
-			th, td {
-				padding: $paddingMedium;
-			}
-
-			.icon {
-				transition: transform 250ms ease-in-out;
-			}
-
-			.icon:hover {
-				transform: scale(1.5);
-			}
-		}
-	}
+	//.PublicationsPage {
+	//	padding: $paddingBig;
+	//	.publicationSection {
+	//		margin-top: 100px;
+	//	}
+	//
+	//	//table {
+	//	//
+	//	//	th {
+	//	//		font-size: 1.5em;
+	//	//	}
+	//	//
+	//	//	//tr {
+	//	//	//	font-size: 1.125em;
+	//	//	//}
+	//	//
+	//	//	th, td {
+	//	//		padding: $paddingMedium;
+	//	//	}
+	//	//
+	//	//	.icon {
+	//	//		transition: transform 250ms ease-in-out;
+	//	//	}
+	//	//
+	//	//	.icon:hover {
+	//	//		transform: scale(1.5);
+	//	//	}
+	//	//}
+	//}
 }

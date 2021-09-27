@@ -18,33 +18,47 @@ export interface PublicationsPageProps {
 }
 
 export default function PublicationsPage(props: PublicationsPageProps): ReactElement {
-	return <Layout disableDefault title={"Publications"} className={"PublicationsPage"}>
+	return <Layout title={"Publications"} className={"PublicationsPage"}>
 		<AstraBackground/>
 		<h2>Publications</h2>
-		<div className={"content"}>
-			<table className={"publications"}>
-				<thead>
-				<tr className={"header"}>
-					<th className={"title"}>Title</th>
-					<th className={"date"}>Date</th>
-					<th className={"authors"}>Authors</th>
-					<th className={"publications"}>Publication</th>
-				</tr>
-				</thead>
-				<tbody>
+		<ol className={"content"}>
+			{/*<table className={"publications"}>*/}
+			{/*	<thead>*/}
+			{/*	<tr className={"header"}>*/}
+			{/*		<th className={"title"}>Title</th>*/}
+			{/*		<th className={"date"}>Date</th>*/}
+			{/*		<th className={"authors"}>Authors</th>*/}
+			{/*		<th className={"publications"}>Publication</th>*/}
+			{/*	</tr>*/}
+			{/*	</thead>*/}
+			{/*	<tbody>*/}
+			{/*	{props.publications.map((publication, i) => {*/}
+			{/*		return (*/}
+			{/*			<tr className={"row"} key={i}>*/}
+			{/*				<td className={"titleRow"}>{publication.title}</td>*/}
+			{/*				<td className={"dateRow"}>{pDateToString(publication.date)}</td>*/}
+			{/*				<td>{publication.authors.join(", ")}</td>*/}
+			{/*				<td>{publication.publication}</td>*/}
+			{/*			</tr>*/}
+			{/*		)*/}
+			{/*	})}*/}
+			{/*	</tbody>*/}
+			{/*</table>*/}
 				{props.publications.map((publication, i) => {
+
+					let value: string[] = [];
+
+					value.push(publication.date.year + "");
+					value.push(publication.authors.join(", "))
+					value.push(publication.title)
+					value.push(publication.publication)
+					value.push(pDateToString(publication.date));
+
 					return (
-						<tr className={"row"} key={i}>
-							<td className={"titleRow"}>{publication.title}</td>
-							<td className={"dateRow"}>{pDateToString(publication.date)}</td>
-							<td>{publication.authors.join(", ")}</td>
-							<td>{publication.publication}</td>
-						</tr>
+						<li key={i}>{value.join(", ")}</li>
 					)
 				})}
-				</tbody>
-			</table>
-		</div>
+		</ol>
 	</Layout>
 }
 

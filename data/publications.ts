@@ -9,6 +9,24 @@ import {Publication} from "../interfaces/Publication";
 
 export const publications: Publication[] = [
 	{
+		authors: ["Guadagno M", "van Susante P", "Cobb E", "McGillivray H", "Van Horn E", "Gronda T", "Wavrunek T", "Goddu A", "Miller C"],
+		date: {month: 6, day: 20, year: 2021},
+		title: "Testing and Development of the Tethered-permanently shadowed Region EXplorer (T-REX): a rover designed to lay superconducting tether into Lunar PSRs.",
+		publication: "New Space, ISRU Special Issue, Mary Ann Liebert Publishing"
+	},
+	{
+		authors: ["Foetisch M", "van Susante P", "Allen J", "Eisele T"],
+		date: {month: 6, day: 20, year: 2021},
+		title: "Water Jet Excavation of Gypsum",
+		publication: "New Space, ISRU Special Issue, Mary Ann Liebert Publishing"
+	},
+	{
+		authors: ["Whelley P", "van Susante P", "et. al."],
+		date: {month: 1, day: 1, year: 2021},
+		title: "The Importance of Field Studies for Closing Key Knowledge Gaps in Planetary Science",
+		publication: "Bulletin of the American Astronomical Society , Vol. 53, Issue 4"
+	},
+	{
 		authors: ["Guadagno M", "van Susante P"],
 		date: {month: 11, day: 1, year: 2020},
 		title: "Commissioning and Testing of Dusty Thermal Vacuum Chamber Designed for Lunar Environment Simulation",
@@ -24,25 +42,25 @@ export const publications: Publication[] = [
 		authors: ["Montes J", "Hudgins E", "Cohen L", "Schingler J", "van Susante P", "Lordos G", "Cannon K", "Barrett JP"],
 		date: {month: 4, day: 1, year: 2020},
 		title: "LOON–An Integrated Development Vision for the pre-2100 Lunar Industrial Town",
-		publication: "ASCE",
+		publication: "Earth and Space Conference Proceedings ASCE",
 	},
 	{
 		authors: ["Mueller R", "van Susante P", "Reiners E", "Metzger PT"],
 		date: {month: 4, day: 1, year: 2020},
 		title: "NASA Lunabotics Robotic Mining Competition: 10th Anniversary (2010-2019): Taxonomy and Technology Review",
-		publication: "ASCE",
+		publication: "Earth and Space Conference Proceedings ASCE",
 	},
 	{
 		authors: ["van Susante P"],
 		date: {month: 4, day: 1, year: 2020},
 		title: "Proper Sizing of Lunar and Mars ISRU Excavation Hardware",
-		publication: "ASCE",
+		publication: "Earth and Space Conference Proceedings ASCE",
 	},
 	{
 		authors: ["Guadagno M", "van Susante P"],
 		date: {month: 4, day: 1, year: 2020},
 		title: "Providing Wired Power and Data in Lunar Permanently Shadowed Regions with Rover-Deployed Superconducting Tether",
-		publication: "ASCE",
+		publication: "Earth and Space Conference Proceedings ASCE",
 	},
 	{
 		authors: ["Cannon KM", "Mueller RP", "Deutsch AN", "Colaprete AC", "Sowers G", "Drever C", "Li S", "Secel J", "van Susante P", "Britt DT"],
@@ -54,7 +72,7 @@ export const publications: Publication[] = [
 		authors: ["van Susante P", "Allen J", "Eisele T", "Medici E", "Foetisch MS", "Fitzgerald Z,", "Zacny K"],
 		date: {month: 4, day: 1, year: 2020},
 		title: "Water Extraction from Rock Gypsum on Mars",
-		publication: "ASCE",
+		publication: "Earth and Space Conference Proceedings ASCE",
 	},
 	{
 		authors: ["van Susante P", "Allen J", "Eisele T", "Medici E", "Foetisch MS", "Fitzgerald Z", "Zacny K"],
