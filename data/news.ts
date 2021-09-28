@@ -9,6 +9,11 @@ import {News} from "../interfaces/News";
 
 export const news: News[] = [
 	{
+		title: "Hiring a Undergraduate Research Assistant",
+		date: {month: 9, day: 20, year: 2021},
+		link: "https://forms.gle/Gh7sg7wvc5bZeQzh9"
+	},
+	{
 		title: "Student Engineers Build a Lunar Rover—and Win BIG.",
 		date: {month: 8, day: 18, year: 2021},
 		link: "https://youtu.be/yXzdOJCz3rE",
