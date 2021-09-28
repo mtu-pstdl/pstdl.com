@@ -16,8 +16,8 @@ $constraint: 1080px;
 $antiAstraBoxShadow: 0 0 20px #202020;
 $antiAstraBackground: rgba(0,0,0,0.9);
 
-$blur: 8px;
-$blurCoef: 0.5;
+$blur: 2px;
+$blurCoef: 0.125;
 $navBarHeight: 80px;
 $navBarWidth: min(100vw, #{$constraint});
 $navBarEnableWidth: 1490px;

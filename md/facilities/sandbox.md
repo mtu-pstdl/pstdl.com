@@ -11,3 +11,5 @@ The Sandbox is an environmental facility used for enclosed atmospheric testing o
 * Max Simulant Mass: `3800kg`
 * Includes Gravity offload system (IRGO) 
 * Slope inclination range: `0-45 degrees`
+
+![dimensions](/facilities/sandbox/enclosure.png)

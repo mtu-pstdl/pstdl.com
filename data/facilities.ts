@@ -45,6 +45,7 @@ export const facilities: DetailItem[] = [
 			{src: "/facilities/sandbox/Sandbox_4.JPG"},
 			{src: "/facilities/sandbox/Sandbox_5.PNG"},
 			{src: "/facilities/sandbox/Sandbox_6.PNG"},
+			{src: "/facilities/sandbox/enclosure.png"},
 			{src: "/facilities/sandbox/Sandbox_CAD_2.PNG"},
 		]
 	},
