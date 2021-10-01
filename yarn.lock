@@ -2536,6 +2536,11 @@ react-burger-menu@latest:
     prop-types "^15.7.2"
     snapsvg-cjs "0.0.6"
 
+react-cookienotice@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/react-cookienotice/-/react-cookienotice-4.0.0.tgz#59d7fab0400d934d34f5361360a60950afb888b9"
+  integrity sha512-AaZ9szt53XPDslRIHLVmP7IQOrVS5iPXBVkfki5H+lV5pCNp/zToe0GcWqVKdTw3ygt9V5pPvPh2dtBX4I0U8Q==
+
 react-dom@^17.0.1:
   version "17.0.2"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-17.0.2.tgz#ecffb6845e3ad8dbfcdc498f0d0a939736502c23"
@@ -2544,6 +2549,11 @@ react-dom@^17.0.1:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     scheduler "^0.20.2"
+
+react-ga@^3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/react-ga/-/react-ga-3.3.0.tgz#c91f407198adcb3b49e2bc5c12b3fe460039b3ca"
+  integrity sha512-o8RScHj6Lb8cwy3GMrVH6NJvL+y0zpJvKtc0+wmH7Bt23rszJmnqEQxRbyrqUzk9DTJIHoP42bfO5rswC9SWBQ==
 
 react-image-gallery@latest:
   version "1.1.1"

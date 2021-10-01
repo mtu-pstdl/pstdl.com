@@ -12,18 +12,20 @@
 		"@element-ts/oxygen": "latest",
 		"@material-ui/core": "latest",
 		"@material-ui/icons": "latest",
+		"@types/react-image-gallery": "latest",
 		"@types/twitter": "latest",
 		"googleapis": "latest",
 		"hamburger-react": "latest",
 		"next": "^11.0.1",
 		"react": "^17.0.1",
 		"react-burger-menu": "latest",
+		"react-cookienotice": "^4.0.0",
 		"react-dom": "^17.0.1",
+		"react-ga": "^3.3.0",
+		"react-image-gallery": "latest",
 		"react-markdown": "5.0.3",
 		"remark-gfm": "latest",
-		"twitter": "latest",
-		"react-image-gallery": "latest",
-		"@types/react-image-gallery": "latest"
+		"twitter": "latest"
 	},
 	"devDependencies": {
 		"@types/node": "^12.12.21",
