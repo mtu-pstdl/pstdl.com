@@ -71,7 +71,7 @@ export const members: Member[] = [
 		lastName: "Cobb",
 		username: "ejcobb",
 		major: MemberMajor.CS,
-		type: MemberType.BS,
+		type: MemberType.PHD,
 		bio: "Elijah Cobb is finishing his B.S. in Computer Science from Michigan Technological University in the Fall semester of 2021 and has been admitted into Michigan Tech's Computer Science Ph.D. program starting Spring 2022. Elijah got his start with software development working for a startup out of high school developing a suite of applications. Elijah is currently a Research Assistant at the Planetary Surface Technology Development Lab under the direction of Dr. Paul van Susante. At the PSTDL, Elijah designs and develops control software for various projects including T-REX - A NASA BIG Idea 2020 and NASA Watts on the Moon winning Lunar Rover, IRGO - an infrared tracking gravity offloading device housed in a lunar simulant sandbox, LuSTR - adapting a heated percussive cone penetrometer to characterize the strength of lunar soil or regolith for NASA with a partnership from Honeybee Robotics. In addition to the PSTDL, Elijah is an Undergraduate Research Fellow of the Michigan Technological University College of Computing. Working under the direction of Dr. Charles Wallace, Elijah is a member of the \"USDS\" project, supported by the U.S. Navy through ARiA (Applied Research in Acoustics) to develop and validate a common language interface between sensor data streMemberType.MS and validation testing using embedded Systems. Elijah is also a member of a study funded by the National Science Foundation named \"FEW Conscious\" analyzing household food, energy, and water consumption.",
 		linkedIn: "https://www.linkedin.com/in/elijahjcobb/",
 		twitter: "https://twitter.com/elijahjcobb",

@@ -9,6 +9,11 @@ import {News} from "../interfaces/News";
 
 export const news: News[] = [
 	{
+		title: "PSTDL Featured in Aerospace America",
+		date: {month: 12, day: 1, year: 2021},
+		link: "https://aerospaceamerica.aiaa.org/year-in-review/a-paradigm-shift-first-oxygen-produced-on-mars/"
+	},
+	{
 		title: "Hiring a Undergraduate Research Assistant",
 		date: {month: 9, day: 20, year: 2021},
 		link: "https://forms.gle/Gh7sg7wvc5bZeQzh9"
