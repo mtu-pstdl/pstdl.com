@@ -26,7 +26,8 @@ export const projects: DetailItem[] = [
 			"georgejo",
 			"jnoe",
 			"cjkamins",
-			"roccoc"
+			"roccoc",
+			"cnorton"
 		],
 		images: [
 			{src: "/projects/lustr/icon.jpg"},
@@ -169,6 +170,7 @@ export const projects: DetailItem[] = [
 			"eavanhor",
 			"roccoc",
 			"pjvansus",
+			"cnorton"
 		],
 		images: [
 			{src: "/projects/hoplite/icon.jpg"},
