@@ -243,7 +243,7 @@ export const members: Member[] = [
 		firstName: "Jafet",
 		lastName: "Pinto",
 		type: MemberType.BS,
-		alumni: false,
+		alumni: true,
 		major: MemberMajor.ME,
 		username: "jpintore",
 		linkedIn: "https://www.linkedin.com/in/jafet-pinto-reveggino-122a50164/"
@@ -256,6 +256,15 @@ export const members: Member[] = [
 		major: MemberMajor.ME,
 		username: "gtredlon",
 		linkedIn: "https://www.linkedin.com/in/gregory-redlon-23701621b/"
+	},
+	{
+		firstName: "Christopher",
+		lastName: "Norton",
+		type: MemberType.BS,
+		alumni: false,
+		major: MemberMajor.CS,
+		username: "cnorton",
+		linkedIn: "https://www.linkedin.com/in/chrisnorton-mtu/"
 	},
 ]
 
