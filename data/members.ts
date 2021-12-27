@@ -64,7 +64,7 @@ export const members: Member[] = [
 		major: MemberMajor.EE,
 		type: MemberType.BS,
 		linkedIn: "https://www.linkedin.com/in/erik-vanhorn-98aa66172/",
-		alumni: false,
+		alumni: true,
 	},
 	{
 		firstName: "Elijah",
@@ -152,7 +152,7 @@ export const members: Member[] = [
 		linkedIn: "https://www.linkedin.com/in/michael-foetisch-student/",
 		major: MemberMajor.ME,
 		type: MemberType.PHD,
-		alumni: false
+		alumni: true
 	},
 	{
 		firstName: "Travis",
