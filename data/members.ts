@@ -16,7 +16,7 @@ export const members: Member[] = [
 		type: MemberType.MS,
 		bio: "Austen Goddu is a 5th year Computer Engineering student here at Michigan Tech. Austen joined the Planetary Surface Technology Development Lab after spending several years on the leadership team in Michigan Tech's Aerospace Enterprise. There, Austen gained experience in Systems Engineering and Flight Software Design. Working on the L-SABRE development team, Austen works to design and build L-SABRE's computer system and flight software, assists with the Systems engineering and mission design, and perfoMemberType.MS testing of specific elements of customer hardware.",
 		linkedIn: "https://www.linkedin.com/in/austen-g-83a639bb/",
-		alumni: false,
+		alumni: true,
 	},
 	{
 		firstName: "Ben",
@@ -64,7 +64,7 @@ export const members: Member[] = [
 		major: MemberMajor.EE,
 		type: MemberType.BS,
 		linkedIn: "https://www.linkedin.com/in/erik-vanhorn-98aa66172/",
-		alumni: true,
+		alumni: false,
 	},
 	{
 		firstName: "Elijah",
@@ -102,7 +102,7 @@ export const members: Member[] = [
 		type: MemberType.BS,
 		bio: "I am an undergraduate student at Michigan Tech with research experience for the NASA BIG Ideas challenge where our team developed a tethered lunar rover capable of exploring and providing infrastructure to the moon's permanently shaded regions. I did the design and testing for a number of mechanical subSystems, most notably the system that managed the tension and deployment of our superconducting tether. I am also a FIRST robotics alumni with 2 world championship wins and an eagle scout.",
 		linkedIn: "https://www.linkedin.com/in/hunter-mcgillivray-31ba051b4/",
-		alumni: false,
+		alumni: true,
 	},
 	{
 		firstName: "Marcello",
@@ -204,7 +204,7 @@ export const members: Member[] = [
 		firstName: "Nathan",
 		lastName: "Miller",
 		type: MemberType.BS,
-		alumni: false,
+		alumni: true,
 		major: MemberMajor.ME,
 		bio: "Nathan Miller is a 3rd year mechanical engineering undergraduate expected to graduate in the spring of 2023. His past experiences include leadership on MTU’s Mining Innovation Enterprise. He joined the PSTDL in summer of 2021 and is continuing the development of a lunar simulant used for testing beds.",
 		linkedIn: "https://www.linkedin.com/in/millernj-110200/",
