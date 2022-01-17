@@ -83,6 +83,7 @@ export const members: Member[] = [
 		username: "emmossne",
 		major: MemberMajor.ME,
 		type: MemberType.BS,
+		linkedIn: "https://www.linkedin.com/in/eric-mossner-98a59114a/",
 		alumni: true,
 	},
 	{
@@ -272,7 +273,7 @@ export const members: Member[] = [
 		lastName: "Sietsema",
 		type: MemberType.SM,
 		alumni: false,
-		major: MemberMajor.ME,
+		major: MemberMajor.CPE,
 		username: "mvsietse",
 		linkedIn: "https://www.linkedin.com/in/matthew-sietsema/"
 	}

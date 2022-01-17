@@ -9,6 +9,12 @@ import {News} from "../interfaces/News";
 
 export const news: News[] = [
 	{
+		title: "PSTDL Gains a PhD Student",
+		date: {month: 1, day: 10, year: 2022},
+		link: "https://www.linkedin.com/in/elijahjcobb/",
+		content: "Elijah Cobb graduated with his Bachelor's of Science in Computer Science and decided to stay at the PSTDL during his Ph.D."
+	},
+	{
 		title: "PSTDL Featured in Aerospace America",
 		date: {month: 12, day: 1, year: 2021},
 		link: "https://aerospaceamerica.aiaa.org/year-in-review/a-paradigm-shift-first-oxygen-produced-on-mars/"
