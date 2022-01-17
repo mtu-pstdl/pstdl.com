@@ -9,24 +9,25 @@ import Layout from "../../components/Layout";
 import React, {ReactElement} from "react";
 import {MemberView} from "../../components/MemberView";
 import {Members, MembersSubsection, MemberType} from "../../interfaces/Member";
-import {GetServerSideProps, GetStaticProps} from "next";
+import {GetStaticProps} from "next";
 import {members} from "../../data/members";
-import {SheetsAPI} from "../../data/SheetsAPI";
 
 export function MemberSubsectionView(props: {value: MembersSubsection}): ReactElement {
 
 	function getSubheader(): string {
 		switch (props.value.subheader) {
 			case "bs":
-				return "Undergraduate Students"
+				return "Undergraduate Researchers"
 			case "ms":
-				return "Masters Students"
+				return "Masters Researchers"
 			case "phd":
-				return "PhD Students"
+				return "Ph.D. Researchers"
 			case "pi":
-				return "Director"
+				return "Director & Founder"
 			case "re":
-				return "Research Engineer"
+				return "Research Engineers"
+			case "sm":
+				return "Student Members"
 			default:
 				return ""
 		}
@@ -127,6 +128,8 @@ export const getStaticProps: GetStaticProps<MembersPageProps> = async (context) 
 				return 3;
 			case MemberType.BS:
 				return 4;
+			case MemberType.SM:
+					return 5;
 			default:
 				return -1;
 		}
@@ -138,12 +141,14 @@ export const getStaticProps: GetStaticProps<MembersPageProps> = async (context) 
 			{subheader: "phd", members: []},
 			{subheader: "ms", members: []},
 			{subheader: "bs", members: []},
+			{subheader: "sm", members: []},
 		]}, {header: "Alumni", subsections: [
 			{subheader: "pi", members: []},
 			{subheader: "re", members: []},
 			{subheader: "phd", members: []},
 			{subheader: "ms", members: []},
 			{subheader: "bs", members: []},
+			{subheader: "sm", members: []},
 		]}];
 
 	for (const m of members) {

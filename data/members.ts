@@ -267,6 +267,15 @@ export const members: Member[] = [
 		username: "cnorton",
 		linkedIn: "https://www.linkedin.com/in/chrisnorton-mtu/"
 	},
+	{
+		firstName: "Matthew",
+		lastName: "Sietsema",
+		type: MemberType.SM,
+		alumni: false,
+		major: MemberMajor.ME,
+		username: "mvsietse",
+		linkedIn: "https://www.linkedin.com/in/matthew-sietsema/"
+	}
 ]
 
 export function getMemberByLink(id: string | string[]): Member | undefined {

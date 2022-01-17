@@ -75,7 +75,8 @@ export const projects: DetailItem[] = [
 			"tcgronda",
 			"mcguadag",
 			"ajgoddu",
-			"ejcobb"
+			"ejcobb",
+			"mvsietse"
 		],
 		images: [
 			{src: "/projects/watts/Watts0.png"},
