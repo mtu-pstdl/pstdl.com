@@ -44,3 +44,22 @@ export interface Member {
 	linkedIn?: string;
 	twitter?: string;
 }
+
+export function getMemberTypeString(type: MemberType): string {
+	switch (type) {
+		case MemberType.BS:
+			return "Undergraduate Researcher"
+		case MemberType.MS:
+			return "Masters Researcher"
+		case MemberType.PHD:
+			return "Ph.D. Researcher"
+		case MemberType.PI:
+			return "Director & Founder"
+		case MemberType.RE:
+			return "Research Engineer"
+		case MemberType.SM:
+			return "Student Member"
+		default:
+			return ""
+	}
+}

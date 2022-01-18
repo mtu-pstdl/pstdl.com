@@ -6,6 +6,7 @@
  */
 
 import {DetailItem, getDetailItemByLink, getDetailsForUsername} from "../interfaces/DetailItem";
+import {projects} from "./projects";
 
 export const facilities: DetailItem[] = [
 	{
@@ -109,5 +110,6 @@ export function getFacilityByLink(id: string | string[]): DetailItem | undefined
 }
 
 export function getFacilitiesForUsername(username: string): DetailItem[] {
+	if (username === "pjvansus") return facilities;
 	return getDetailsForUsername(username, facilities);
 }

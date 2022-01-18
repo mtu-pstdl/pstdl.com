@@ -24,7 +24,6 @@ export const projects: DetailItem[] = [
 			"tcgronda",
 			"bdwiegan",
 			"georgejo",
-			"jnoe",
 			"cjkamins",
 			"roccoc",
 			"cnorton"
@@ -92,7 +91,6 @@ export const projects: DetailItem[] = [
 			"hjmcgill",
 			"tcgronda",
 			"mcguadag",
-			"jnoe",
 			"pjvansus"
 		],
 		images: [
@@ -170,7 +168,6 @@ export const projects: DetailItem[] = [
 			"collinmi",
 			"eavanhor",
 			"roccoc",
-			"pjvansus",
 			"cnorton"
 		],
 		images: [
@@ -194,5 +191,6 @@ export function getProjectByLink(id: string | string[]): DetailItem | undefined 
 }
 
 export function getProjectsForUsername(username: string): DetailItem[] {
+	if (username === "pjvansus") return projects;
 	return getDetailsForUsername(username, projects);
 }

@@ -74,46 +74,6 @@ export default function MembersPage(props: MembersPageProps): ReactElement {
 	</Layout>
 }
 
-// export const getServerSideProps: GetServerSideProps<MembersPageProps> = async (context) => {
-// 	function indexForType(major: MemberType): number {
-// 		switch (major) {
-// 			case MemberType.PI:
-// 				return 0;
-// 			case MemberType.PHD:
-// 				return 1;
-// 			case MemberType.MS:
-// 				return 2;
-// 			case MemberType.BS:
-// 				return 3;
-// 			default:
-// 				return -1;
-// 		}
-// 	}
-//
-// 	const res: Members = [{header: "Members", subsections: [
-// 			{subheader: "pi", members: []},
-// 			{subheader: "phd", members: []},
-// 			{subheader: "ms", members: []},
-// 			{subheader: "bs", members: []}
-// 		]}, {header: "Alumni", subsections: [
-// 			{subheader: "pi", members: []},
-// 			{subheader: "phd", members: []},
-// 			{subheader: "ms", members: []},
-// 			{subheader: "bs", members: []}
-// 		]}];
-//
-// 	const mems = await SheetsAPI.members();
-// 	console.log(mems);
-// 	for (const m of mems) {
-//
-// 		const p = res[(m.alumni === true) ? 1 : 0].subsections[indexForType(m.type)];
-// 		p.members.push(m)
-// 	}
-//
-// 	return { props: { members: res } }
-// }
-
-
 export const getStaticProps: GetStaticProps<MembersPageProps> = async (context) => {
 
 	function indexForType(major: MemberType): number {

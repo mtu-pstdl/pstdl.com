@@ -20,6 +20,8 @@ export interface DetailItemDetailProps {
 	md?: string;
 }
 
+const PAUL = "pjvansus";
+
 export function DetailItemDetail(props: DetailItemDetailProps): ReactElement {
 
 	const title = props.item.title;
@@ -27,10 +29,17 @@ export function DetailItemDetail(props: DetailItemDetailProps): ReactElement {
 	function fetchMembers(): Member[] {
 		if (!props.item.members) return [];
 		let members: Member[] = [];
-		for (const m of props.item.members) members.push(getMemberByLink(m));
+		const memberIds: string[] = props.item.members;
+		if (memberIds.indexOf(PAUL) === -1) memberIds.push(PAUL);
+		for (const m of memberIds) members.push(getMemberByLink(m));
 		// members = members.filter(m => !m.alumni);
 
-		members = members.sort((a, b) => a.lastName.localeCompare(b.lastName));
+		members = members.sort((a, b) => {
+			if (a.username === PAUL) return -1;
+			if (b.username === PAUL) return 1;
+			return a.lastName.localeCompare(b.lastName)
+		});
+
 		return members;
 	}
 
@@ -46,10 +55,11 @@ export function DetailItemDetail(props: DetailItemDetailProps): ReactElement {
 	return (<Layout title={title} className={"ProjectDetail main"}>
 		<h2>{title}</h2>
 		<em>{props.item.description}</em>
-		<h3>Members</h3>
+		<h3>Active Members</h3>
 		{
 			props.item.members && <div className={"members"}>
 				{fetchMembers().map((m, i) => {
+					if (m.alumni) return;
 					return <MemberSmallView member={m} key={i}/>
 				})}
             </div>

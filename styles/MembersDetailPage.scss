@@ -24,7 +24,8 @@
 	.profile {
 		display: block;
 		max-height: 300px;
-		border-radius: 25%;
+		border-radius: 12.5%;
+		box-shadow: 0 0 16px #555;
 	}
 
 	.name {
@@ -36,7 +37,14 @@
 	.email {
 		font-size: 1.5em;
 		font-weight: lighter;
-		color: gray;
+		color: #bbb;
+	}
+
+	.type {
+		font-size: 1.25em;
+		margin: 8px 0;
+		color: #bbb;
+		font-weight: bolder;
 	}
 
 	.bio {
@@ -81,6 +89,9 @@
 		.right {
 			align-items: flex-start;
 			margin-left: $paddingBig;
+		}
+		.bio {
+			text-align: justify;
 		}
 	}
 
