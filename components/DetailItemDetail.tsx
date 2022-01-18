@@ -26,13 +26,14 @@ export function DetailItemDetail(props: DetailItemDetailProps): ReactElement {
 
 	const title = props.item.title;
 
-	function fetchMembers(): Member[] {
+	function fetchMembers(alumni: boolean = false): Member[] {
 		if (!props.item.members) return [];
 		let members: Member[] = [];
 		const memberIds: string[] = props.item.members;
 		if (memberIds.indexOf(PAUL) === -1) memberIds.push(PAUL);
 		for (const m of memberIds) members.push(getMemberByLink(m));
-		// members = members.filter(m => !m.alumni);
+		if (alumni) members = members.filter(m => m.alumni);
+		else members = members.filter(m => !m.alumni);
 
 		members = members.sort((a, b) => {
 			if (a.username === PAUL) return -1;
@@ -52,20 +53,31 @@ export function DetailItemDetail(props: DetailItemDetailProps): ReactElement {
 
 	const imageGalleryItems: ReactImageGalleryItem[] = fetchImages();
 
+	const members = fetchMembers();
+	const alumni = fetchMembers(true);
+
 	return (<Layout title={title} className={"ProjectDetail main"}>
 		<h2>{title}</h2>
 		<em>{props.item.description}</em>
-		<h3>Active Members</h3>
+		{imageGalleryItems.length !== 0 && <h3>Media</h3>}
+		{imageGalleryItems.length !== 0 && <ImageGallery showFullscreenButton={false} additionalClass={"imagesContainer"} autoPlay items={imageGalleryItems} />}
+		{(members.length + alumni.length) > 0 && <h3>Members</h3>}
+		{members.length > 0 && <h4>Active</h4>}
 		{
-			props.item.members && <div className={"members"}>
-				{fetchMembers().map((m, i) => {
-					if (m.alumni) return;
+			members && <div className={"members"}>
+				{members.map((m, i) => {
 					return <MemberSmallView member={m} key={i}/>
 				})}
             </div>
 		}
-		{imageGalleryItems.length !== 0 && <h3>Media</h3>}
-		{imageGalleryItems.length !== 0 && <ImageGallery showFullscreenButton={false} additionalClass={"imagesContainer"} autoPlay items={imageGalleryItems} />}
+		{alumni.length > 0 && <h4>Alumni</h4>}
+		{
+			alumni && <div className={"members"}>
+				{alumni.map((m, i) => {
+					return <MemberSmallView member={m} key={i}/>
+				})}
+			</div>
+		}
 		<ReactMarkdown
 			allowDangerousHtml={true}
 			className={"md"}
