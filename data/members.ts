@@ -161,7 +161,7 @@ export const members: Member[] = [
 		username: "tawavrun",
 		major: MemberMajor.ME,
 		type: MemberType.PHD,
-		bio: "Travis Wavrunek completed his B.S. in Mechanical Engineering at Michigan Tech in Spring 2020 and joined the PSTDL lab the following summer. His work focuses on creating a gravity offloading system for rover testing in the lunar sandbox as well as thermal modeling of the L-SABRE.",
+		bio: "Travis A. Wavrunek is currently pursuing his Ph.D. in mechanical engineering with a focus on thermal modeling with the Planetary Surface Technology Development lab (PSTDL) at Michigan Technological University (MTU). He is researching lunar ISRU systems with a focus on heat transfer and phase change as it applies to regolith and power transfer systems. Past projects have included the Tethered- permanently shaded Region EXplorer (T-REX) for the 2020 NASA BIG Idea Challenge, W^5 for the WATTS on the Moon Challenge, and the development of an Infrared-Tracking Gravity Offload System in a lunar simulant sandbox.",
 		linkedIn: "https://www.linkedin.com/in/travis-wavrunek/",
 		alumni: false,
 	},
