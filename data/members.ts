@@ -273,6 +273,7 @@ export const members: Member[] = [
 		lastName: "Sietsema",
 		type: MemberType.SM,
 		alumni: false,
+		bio: "Matthew Sietsema is a fifth-year undergraduate student, double-majoring in Electrical Engineering and Computer Engineering with a minor in Aerospace Engineering. He is a recipient of the Department of Defense SMART Scholarship (Cohort Year ‘21) and is a civilian employee of the U.S. Air Force. Matthew served as the Chief Engineer of the Michigan Tech Aerospace Enterprise for four years, leading the development of two Small Satellite missions. Previous work experience also includes the Space Dynamics Laboratory in Logan, Utah, and the AFRL Small Satellite Portfolio in Albuquerque, New Mexico. The focus of Matthew’s work is on Systems Engineering, mission design, and system testing.",
 		major: MemberMajor.CPE,
 		username: "mvsietse",
 		linkedIn: "https://www.linkedin.com/in/matthew-sietsema/"
