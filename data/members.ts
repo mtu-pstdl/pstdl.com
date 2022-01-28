@@ -92,7 +92,7 @@ export const members: Member[] = [
 		username: "georgejo",
 		major: MemberMajor.ME,
 		type: MemberType.MS,
-		bio: "George Johnson is finishing his senior year B.S. in Mechanical Engineering and Minoring in Manufacturing. Planning to graduate in the Spring of 2021, George is also considering enrolling in graduate school to obtain his M.S. in Mechanical Engineering. His past experience comes from a summer internship at Woodward Inc, Managing the MTU Lunabotics Competition Team, conducting undergraduate research for the PSTDL and Honeybee robotics on the RedWater project. George joined the PSTDL in the summer of 2020 and is continuing research on the RedWater project as well as completing a Lunar Trenching project for his Senior Capstone project.",
+		bio: "George Burton Johnson has a Bachelor’s in Mechanical Engineering with a minor in Manufacturing Engineering (MTU 2021). He is currently pursuing his Master’s in Mechanical Engineering at Michigan Technological University. George’s experience comes from a quality engineering internship with Woodward Inc. (2019), managing the MTU Lunabotics Competition Team, designing and manufacturing a lunar bucket elevator trencher for a senior capstone project, and other ISRU technology research for the PSTDL and Honeybee Robotics (REDWATER). George began working in the PSTDL in the Summer of 2020 and is currently working on the Lunar Surface Technology Research project assisting with the testing and design of a percussive heated cone penetrometer (PHCP).",
 		linkedIn: "https://www.linkedin.com/in/george-johnson-a05328195/",
 		alumni: false,
 	},
