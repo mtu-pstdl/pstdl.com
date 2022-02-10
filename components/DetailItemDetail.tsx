@@ -10,7 +10,7 @@ import ReactMarkdown from "react-markdown";
 import gfm from "remark-gfm";
 import {DetailItem} from "../interfaces/DetailItem";
 import Layout from "./Layout";
-import {getMemberByLink} from "../data/members";
+import {getMemberByLink, pjvansus} from "../data/members";
 import {Member} from "../interfaces/Member";
 import {MemberSmallView} from "./MemberSmallView";
 import ImageGallery, {ReactImageGalleryItem} from "react-image-gallery";
@@ -20,29 +20,9 @@ export interface DetailItemDetailProps {
 	md?: string;
 }
 
-const PAUL = "pjvansus";
-
 export function DetailItemDetail(props: DetailItemDetailProps): ReactElement {
 
 	const title = props.item.title;
-
-	function fetchMembers(alumni: boolean = false): Member[] {
-		if (!props.item.members) return [];
-		let members: Member[] = [];
-		const memberIds: string[] = props.item.members;
-		if (memberIds.indexOf(PAUL) === -1) memberIds.push(PAUL);
-		for (const m of memberIds) members.push(getMemberByLink(m));
-		if (alumni) members = members.filter(m => m.alumni);
-		else members = members.filter(m => !m.alumni);
-
-		members = members.sort((a, b) => {
-			if (a.username === PAUL) return -1;
-			if (b.username === PAUL) return 1;
-			return a.lastName.localeCompare(b.lastName)
-		});
-
-		return members;
-	}
 
 	function fetchImages(): ReactImageGalleryItem[] {
 		if (!props.item.images || props.item.images.length === 0) return [];
@@ -53,8 +33,13 @@ export function DetailItemDetail(props: DetailItemDetailProps): ReactElement {
 
 	const imageGalleryItems: ReactImageGalleryItem[] = fetchImages();
 
-	const members = fetchMembers();
-	const alumni = fetchMembers(true);
+	function sort(arr: Member[]): Member[] {
+		return arr.sort((a, b) => a.lastName.localeCompare(b.lastName));
+	}
+
+	const members = sort(props.item.members.filter(m => (m.alumni !== true)));
+	members.splice(0, 0, pjvansus);
+	const alumni = sort(props.item.alumni.concat(props.item.members.filter(m => (m.alumni === true))));
 
 	return (<Layout title={title} className={"ProjectDetail main"}>
 		<h2>{title}</h2>

@@ -21,7 +21,9 @@ export enum MemberMajor {
 	CS = "Computer Science",
 	EE = "Electrical Engineering",
 	GEO_PHY = "Geophysics",
-	CE = "Chemical Engineering"
+	CE = "Chemical Engineering",
+	CEGE = "Civil and Geological Engineering",
+	RE = "Robotics Engineering"
 }
 
 export enum MemberType {

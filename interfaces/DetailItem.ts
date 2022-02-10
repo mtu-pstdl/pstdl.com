@@ -1,4 +1,5 @@
 import {projects} from "../data/projects";
+import {Member} from "./Member";
 
 /**
  * Elijah Cobb
@@ -11,7 +12,8 @@ export interface DetailItem {
 	title: string;
 	description?: string;
 	link: string;
-	members?: string[];
+	members: Member[];
+	alumni: Member[];
 	images?: {src: string, thumb?: string}[];
 }
 
@@ -25,11 +27,11 @@ export function getDetailItemByLink(id: string | string[], arr: DetailItem[]): D
 	return undefined;
 }
 
-export function getDetailsForUsername(username: string, arr: DetailItem[]): DetailItem[] {
+export function getDetailsForUsername(user: Member, arr: DetailItem[]): DetailItem[] {
 	const memProjects: DetailItem[] = [];
 	for (const p of arr) {
-		if (!p.members) continue;
-		if (p.members.indexOf(username) !== -1) memProjects.push(p);
+		const x = p.members.concat(p.alumni);
+		for (const u of x) if (u.username === user.username) memProjects.push(p);
 	}
 	return memProjects;
 }

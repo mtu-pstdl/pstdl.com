@@ -3,9 +3,9 @@ import Link from 'next/link'
 import Head from 'next/head'
 import {AstraBackground} from "./Astra";
 import {NavView} from "./NavView";
-import ReactGA from "react-ga";
-import CookieNotice from 'react-cookienotice'
-import 'react-cookienotice/dist/index.css'
+// import ReactGA from "react-ga";
+// import CookieNotice from 'react-cookienotice'
+// import 'react-cookienotice/dist/index.css'
 
 
 type Props = {
@@ -17,10 +17,10 @@ type Props = {
 
 export default function Layout({ title, className, children, disableDefault, isHome }: PropsWithChildren<Props>): ReactElement {
 
-	useEffect(() => {
-		ReactGA.initialize("G-XX0V1R08PM");
-		ReactGA.pageview(window.location.pathname);
-	}, []);
+	// useEffect(() => {
+	// 	ReactGA.initialize("G-XX0V1R08PM");
+	// 	ReactGA.pageview(window.location.pathname);
+	// }, []);
 
 	return <div className={"rootAppContainer"}>
 		{ !disableDefault && <AstraBackground/>}
@@ -34,7 +34,7 @@ export default function Layout({ title, className, children, disableDefault, isH
 			<NavView isHome={isHome}/>
 		</header>
 		<div className={"page" + (className ? (" " + className) : "") + (!disableDefault ? " main" : "")}>
-			{process.browser && <CookieNotice />}
+			{/*{process.browser && <CookieNotice />}*/}
 			{children}
 		</div>
 	</div>

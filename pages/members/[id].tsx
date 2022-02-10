@@ -11,7 +11,7 @@ import {getMemberTypeString, Member} from "../../interfaces/Member";
 import Layout from "../../components/Layout";
 import {Email, LinkedIn, Twitter} from "@material-ui/icons";
 import {DetailItemRow} from "../../components/DetailItemRow";
-import {getProjectsForUsername} from "../../data/projects";
+import {getProjectsForUser} from "../../data/projects";
 import {getFacilitiesForUsername} from "../../data/facilities";
 
 export interface MembersDetailPageProps {
@@ -20,8 +20,8 @@ export interface MembersDetailPageProps {
 
 export default function MembersDetailPageProps(props: PropsWithChildren<MembersDetailPageProps>): ReactElement {
 
-	const projects = getProjectsForUsername(props.member.username);
-	const facilities = getFacilitiesForUsername(props.member.username);
+	const projects = getProjectsForUser(props.member);
+	const facilities = getFacilitiesForUsername(props.member);
 
 	return (<Layout className={"MemberDetailPage"}>
 		<div className={"top"}>

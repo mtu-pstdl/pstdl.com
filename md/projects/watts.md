@@ -23,6 +23,3 @@ After traversing downward slopes up to 45 deg, the rover approaches the water re
 * [Pitch Video Link](https://www.youtube.com/watch?v=N0o_wM0lnQ0&ab_channel=PaulvanSusante)
 * [NASA News Link](https://www.nasa.gov/directorates/spacetech/centennial_challenges/500k-awarded-in-first-phase-of-5m-watts-on-the-moon-challenge.html)
 * [1]	M. C. Guadagno and P. J. van Susante, “Providing Wired Power and Data in Lunar Permanently Shadowed Regions with a Rover-Deployed Superconducting Tether,” pp. 660–672, Apr. 2021, doi: [10.1061/9780784483374.062](https://ascelibrary.org/doi/10.1061/9780784483374.062)
-
-## Technical Details
-![Watts Table 1](/projects/watts/wattstable0.png)
