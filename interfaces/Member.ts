@@ -32,7 +32,8 @@ export enum MemberType {
 	PHD,
 	PI,
 	RE,
-	SM
+	SM,
+	PD
 }
 
 export interface Member {
@@ -61,6 +62,8 @@ export function getMemberTypeString(type: MemberType): string {
 			return "Research Engineer"
 		case MemberType.SM:
 			return "Student Member"
+		case MemberType.PD:
+			return "Postdoctoral Researcher"
 		default:
 			return ""
 	}

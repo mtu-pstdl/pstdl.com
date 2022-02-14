@@ -7,7 +7,7 @@
 
 import {DetailItem, getDetailItemByLink, getDetailsForUsername} from "../interfaces/DetailItem";
 import {
-	ajgoddu,
+	ajgoddu, arajan,
 	bdwiegan,
 	cjkamins, clcarey,
 	cnorton, colinsch, collinmi, eavanhor,
@@ -32,6 +32,7 @@ export const projects: DetailItem[] = [
 			collinmi,
 			mcguadag,
 			tawavrun,
+			arajan,
 			bdwiegan,
 			georgejo,
 			cjkamins,

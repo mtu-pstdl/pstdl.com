@@ -287,12 +287,22 @@ export const dkbrouse: Member = {
 	major: MemberMajor.RE,
 	username: "dkbrouse"
 };
+
 export const jedecato: Member = {
 	firstName: "John",
 	lastName: "Decator",
 	type: MemberType.BS,
 	major: MemberMajor.CEGE,
 	username: "jedecato"
+};
+
+export const arajan: Member = {
+	firstName: "Anurag",
+	lastName: "Rajan",
+	type: MemberType.PD,
+	major: MemberMajor.ME,
+	username: "arajan",
+	linkedIn: "https://www.linkedin.com/in/anurag-rajan/"
 };
 
 export const members: Member[] = [
@@ -327,7 +337,8 @@ export const members: Member[] = [
 	jbprimea,
 	colinsch,
 	dkbrouse,
-	jedecato
+	jedecato,
+	arajan
 ]
 
 export function getMemberByLink(id: string | string[]): Member | undefined {
