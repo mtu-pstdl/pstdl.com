@@ -269,7 +269,7 @@ export const mvsietse: Member = {
 export const jbprimea: Member = {
 	firstName: "Joe",
 	lastName: "Primeau",
-	type: MemberType.MS,
+	type: MemberType.BS,
 	username: "jbprimea",
 	major: MemberMajor.CEGE,
 };
