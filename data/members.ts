@@ -290,14 +290,6 @@ export const dkbrouse: Member = {
 	username: "dkbrouse"
 };
 
-export const jedecato: Member = {
-	firstName: "John",
-	lastName: "Decator",
-	type: MemberType.BS,
-	major: MemberMajor.CEGE,
-	username: "jedecato"
-};
-
 export const arajan: Member = {
 	firstName: "Anurag",
 	lastName: "Rajan",
@@ -339,7 +331,6 @@ export const members: Member[] = [
 	jbprimea,
 	colinsch,
 	dkbrouse,
-	jedecato,
 	arajan
 ]
 

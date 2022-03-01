@@ -14,8 +14,7 @@ import {
 	ejcobb,
 	georgejo, gtredlon,
 	hjmcgill,
-	jbprimea,
-	jedecato, jnoe, jpintore,
+	jbprimea, jnoe, jpintore,
 	mcguadag, msfoetis, mvsietse, nathanmi, nzamora, pjvansus,
 	roccoc, smzerbel,
 	tawavrun, tcgronda, wtwagone
@@ -40,7 +39,6 @@ export const projects: DetailItem[] = [
 			cnorton,
 			jbprimea,
 			colinsch,
-			jedecato,
 		],
 		alumni: [
 			ajgoddu,
