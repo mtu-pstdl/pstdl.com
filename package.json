@@ -17,6 +17,7 @@
 		"googleapis": "latest",
 		"hamburger-react": "latest",
 		"next": "^11.0.1",
+		"nextjs-google-analytics": "^1.0.9",
 		"react": "^17.0.1",
 		"react-burger-menu": "latest",
 		"react-cookienotice": "^4.0.0",

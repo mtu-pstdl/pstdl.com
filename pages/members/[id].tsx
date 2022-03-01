@@ -23,7 +23,7 @@ export default function MembersDetailPageProps(props: PropsWithChildren<MembersD
 	const projects = getProjectsForUser(props.member);
 	const facilities = getFacilitiesForUsername(props.member);
 
-	return (<Layout className={"MemberDetailPage"}>
+	return (<Layout className={"MemberDetailPage"} title={props.member.username}>
 		<div className={"top"}>
 			<img alt={"profile"} className={"profile"} src={"/members/" + props.member.username + ".jpg"}/>
 			<div className={"right"}>

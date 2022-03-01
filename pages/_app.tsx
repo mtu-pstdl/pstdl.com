@@ -29,7 +29,13 @@ import "../styles/MemberSmallView.scss";
 
 
 import type {AppProps} from 'next/app'
+import { GoogleAnalytics, usePagesViews } from "nextjs-google-analytics";
+
 
 export default function MyApp({ Component, pageProps }: AppProps) {
-	return <Component {...pageProps} />
+	usePagesViews();
+	return <>
+		<GoogleAnalytics/>
+		<Component {...pageProps} />
+	</>
 }
