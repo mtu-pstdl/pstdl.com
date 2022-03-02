@@ -9,13 +9,10 @@ import React, {FC} from "react";
 import styles from "../styles/PositionRow.module.scss";
 import {
 	Position,
-	PositionLevel,
 	positionPayString,
-	PositionPayType,
-	PositionSemester,
 	positionStartString
 } from "../interfaces/Position";
-
+import {OpenInNew as Link} from "@material-ui/icons";
 export interface PositionRowProps {
 	position: Position
 }
@@ -44,16 +41,19 @@ const PositionRowItem: FC<{left: string, right: string}> = props => {
 
 export const PositionRow: FC<PositionRowProps> = props => {
 
-	const {title, majors, levels, pay, hours, projects} = props.position;
+	const {title, level, majors, hours, projects, key} = props.position;
 
-	return (<div className={styles.container}>
-		<h3>{title}</h3>
-		<PositionRowItem left={"Projects"} right={projects.map(p => p.title).join(", ")}/>
-		<PositionRowItem left={"Majors"} right={majors.join(", ")}/>
-		<PositionRowItem left={"Levels"} right={levels}/>
-		<PositionRowItem left={"Commitment"} right={hours + " hrs/w"}/>
-		<PositionRowItem left={"Wage"} right={positionPayString(props.position)}/>
-		<PositionRowItem left={"Start"} right={positionStartString(props.position)}/>
-	</div>);
+	return (<a className={styles.container} href={"/positions/" + key} target={"_self"} rel={"noreferrer"}>
+		<div>
+			<span className={styles.title}>{title}</span>
+			<PositionRowItem left={"Title"} right={level}/>
+			<PositionRowItem left={"Projects"} right={projects.map(p => p.title).join(", ")}/>
+			<PositionRowItem left={"Majors"} right={majors.join(", ")}/>
+			<PositionRowItem left={"Commitment"} right={hours + " hrs/w"}/>
+			<PositionRowItem left={"Wage"} right={positionPayString(props.position)}/>
+			<PositionRowItem left={"Start"} right={positionStartString(props.position)}/>
+		</div>
+		<Link className={styles.link}/>
+	</a>);
 
 };

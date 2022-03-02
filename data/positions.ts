@@ -11,9 +11,10 @@ import {hoplite, lustr20, lustr21, mre, nasaClass, redWater} from "./projects";
 
 export const positions: Position[] = [
 	{
+		key: "lustr20-mech",
 		title: "Mechanical Engineer (HOPLITE)",
 		projects: [lustr20, hoplite],
-		levels: PositionLevel.UNDERGRAD,
+		level: PositionLevel.UNDERGRAD,
 		majors: [MemberMajor.ME],
 		pay: {type: PositionPayType.HOURLY, value: 15},
 		hours: 40,
@@ -40,9 +41,10 @@ export const positions: Position[] = [
 		}
 	},
 	{
+		key: "lustr20-mech-cone",
 		title: "Mechanical Engineer (Cone Penetrometer)",
 		projects: [lustr20],
-		levels: PositionLevel.UNDERGRAD,
+		level: PositionLevel.UNDERGRAD,
 		majors: [MemberMajor.ME],
 		pay: {type: PositionPayType.HOURLY, value: 15},
 		hours: 40,
@@ -69,9 +71,10 @@ export const positions: Position[] = [
 		}
 	},
 	{
+		key: "lustr20-sfw",
 		title: "Software Engineer",
 		projects: [lustr20, hoplite],
-		levels: PositionLevel.UNDERGRAD,
+		level: PositionLevel.UNDERGRAD,
 		majors: [MemberMajor.CS, MemberMajor.CPE],
 		pay: {type: PositionPayType.HOURLY, value: 15},
 		hours: 40,
@@ -112,9 +115,10 @@ export const positions: Position[] = [
 		}
 	},
 	{
+		key: "lustr20-rob",
 		title: "Robotics Engineer",
 		projects: [lustr20, hoplite],
-		levels: PositionLevel.UNDERGRAD,
+		level: PositionLevel.UNDERGRAD,
 		majors: [MemberMajor.RE, MemberMajor.CPE, MemberMajor.CS, MemberMajor.EE],
 		pay: {type: PositionPayType.HOURLY, value: 15},
 		hours: 40,
@@ -147,9 +151,10 @@ export const positions: Position[] = [
 		}
 	},
 	{
+		key: "lustr21-mech-grad",
 		title: "Mechanical Engineer",
 		projects: [lustr21],
-		levels: PositionLevel.GRAD,
+		level: PositionLevel.GRAD,
 		majors: [MemberMajor.ME],
 		pay: {type: PositionPayType.STIPEND, value: null},
 		hours: 40,
@@ -178,9 +183,10 @@ export const positions: Position[] = [
 		}
 	},
 	{
+		key: "lustr21-mech",
 		title: "Mechanical Engineer",
 		projects: [lustr21],
-		levels: PositionLevel.UNDERGRAD,
+		level: PositionLevel.UNDERGRAD,
 		majors: [MemberMajor.ME],
 		pay: {type: PositionPayType.HOURLY, value: 15},
 		hours: 40,
@@ -206,8 +212,9 @@ export const positions: Position[] = [
 	},
 	{
 		title: "Research Engineer",
+		key: "class",
 		projects: [nasaClass],
-		levels: PositionLevel.UNDERGRAD,
+		level: PositionLevel.UNDERGRAD,
 		majors: [MemberMajor.ME, MemberMajor.CE, MemberMajor.GEO_PHY, MemberMajor.CE],
 		pay: {type: PositionPayType.HOURLY, value: 15},
 		hours: 20,
@@ -235,7 +242,8 @@ export const positions: Position[] = [
 	{
 		title: "Mechanical Engineer",
 		projects: [mre],
-		levels: PositionLevel.UNDERGRAD,
+		key: "mre",
+		level: PositionLevel.UNDERGRAD,
 		majors: [MemberMajor.ME],
 		pay: {type: PositionPayType.HOURLY, value: 15},
 		hours: 40,
@@ -263,7 +271,8 @@ export const positions: Position[] = [
 	{
 		title: "Mechanical Engineer",
 		projects: [redWater],
-		levels: PositionLevel.UNDERGRAD,
+		key: "redwater",
+		level: PositionLevel.UNDERGRAD,
 		majors: [MemberMajor.ME],
 		pay: {type: PositionPayType.HOURLY, value: 15},
 		hours: 40,

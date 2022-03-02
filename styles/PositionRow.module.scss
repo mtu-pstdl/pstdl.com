@@ -4,13 +4,45 @@
  * ejcobb@mtu.edu
  */
 
+@import "variables";
+
 .container {
 	margin: 32px 0;
+	display: flex;
+	flex-direction: row;
+	text-decoration: none;
+	align-items: center;
+	justify-content: space-between;
+	color: white;
+	border: solid 2px $mtuGold;
+	padding: 32px;
+	border-radius: 8px;
+	background: black;
+	transition: all 250ms ease-in-out;
+
+	&:hover {
+		box-shadow: 0 0 16px $mtuGold;
+		transform: scale(1.0125);
+		cursor: pointer;
+	}
+
+	.link {
+		color: $mtuGold;
+		width: 36px;
+		height: 36px;
+	}
 
 	span {
 		display: block;
 		font-size: 18px;
-		margin: 2px 0;
+		margin: 4px 0;
+	}
+
+	.title {
+		color: $mtuGold;
+		font-weight: bold;
+		font-family: "Roboto Mono", monospace;
+		font-size: 22px;
 	}
 }
 
@@ -23,7 +55,7 @@
 
 	.left {
 		font-weight: bold;
-		margin-right: 8px;
+		margin-right: 12px;
 	}
 
 	.right {

@@ -21,16 +21,17 @@ export enum PositionSemester {
 }
 
 export enum PositionLevel {
-	UNDERGRAD = "Undergraduate",
-	GRAD = "Graduate",
-	POSTDOC = "Postdoc",
-	ENGINEER = "Engineer"
+	UNDERGRAD = "Undergraduate Research Assistant",
+	GRAD = "Graduate Researcher",
+	POSTDOC = "Postdoctoral Research",
+	ENGINEER = "Research Engineer"
 }
 
 export interface Position {
+	key: string;
 	title: string;
 	projects: DetailItem[];
-	levels: PositionLevel;
+	level: PositionLevel;
 	majors: MemberMajor[];
 	pay: {type: PositionPayType, value: number | null};
 	hours: number;
@@ -46,7 +47,7 @@ export function positionStartString(position: Position): string {
 
 export function positionPayString(position: Position): string {
 	if (position.pay.type === PositionPayType.STIPEND) return "Full Support"
-	if (position.pay.type === PositionPayType.SALARY) return "$" + position.pay.value + " / year"
-	if (position.pay.type === PositionPayType.HOURLY) return "$" + position.pay.value + " / hour"
+	if (position.pay.type === PositionPayType.SALARY) return "$" + position.pay.value + "/year"
+	if (position.pay.type === PositionPayType.HOURLY) return "$" + position.pay.value + "/hour"
 	return "";
 }

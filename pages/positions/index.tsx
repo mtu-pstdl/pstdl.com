@@ -5,9 +5,9 @@
  */
 
 import type {NextPage, GetStaticProps, GetStaticPaths, GetServerSideProps} from "next";
-import Layout from "../components/Layout";
-import {positions} from "../data/positions";
-import {PositionRow} from "../components/PositionRow";
+import Layout from "../../components/Layout";
+import {positions} from "../../data/positions";
+import {PositionRow} from "../../components/PositionRow";
 
 interface PageProps {
 
