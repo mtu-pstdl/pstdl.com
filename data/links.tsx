@@ -14,5 +14,6 @@ export const links: {name: string, link?: string}[] = [
 	{name: "news"},
 	{name: "publications"},
 	{name: "partnerships"},
+	{name: "positions"},
 	{name: "contact"}
 ]

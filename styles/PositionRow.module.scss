@@ -1,0 +1,32 @@
+/*
+ * Elijah Cobb
+ * github.com/elijahjcobb
+ * ejcobb@mtu.edu
+ */
+
+.container {
+	margin: 32px 0;
+
+	span {
+		display: block;
+		font-size: 18px;
+		margin: 2px 0;
+	}
+}
+
+.rowItem {
+
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+
+
+	.left {
+		font-weight: bold;
+		margin-right: 8px;
+	}
+
+	.right {
+
+	}
+}
