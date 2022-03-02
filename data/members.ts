@@ -271,7 +271,8 @@ export const jbprimea: Member = {
 	lastName: "Primeau",
 	type: MemberType.BS,
 	username: "jbprimea",
-	major: MemberMajor.CEGE,
+	major: MemberMajor.ENV,
+	bio: "Joe is currently in his senior year of his undergraduate environmental engineering degree at Michigan Technological University.  He recently joined the Planetary Surface Technology Development Lab in order to assist in geotechnical testing on MTU's lunar regolith simulant for the NASA Lunar Surface Technology Research (LuSTR) project. He is also an active member of the ridge roamers and ski and board clubs on campus."
 };
 export const colinsch: Member = {
 	firstName: "Colin",
