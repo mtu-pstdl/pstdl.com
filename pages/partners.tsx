@@ -14,7 +14,12 @@ export default function PartnershipsPage(): ReactElement {
 		<div className={"grid"}>
 			<img src={"nasa.png"} alt={"nasa"}/>
 			<img src={"honeybee.png"} alt={"honeybee"}/>
+			<img src={"lunar-outpost.png"} alt={"lunar-outpost"}/>
+		</div>
+		<h2>University Partners</h2>
+		<div className={"grid"}>
 			<img src={"mtu.png"} alt={"mtu"}/>
+			<img src={"mines.png"} alt={"mines"}/>
 		</div>
 	</Layout>
 }

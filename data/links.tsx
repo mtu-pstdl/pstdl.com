@@ -13,7 +13,7 @@ export const links: {name: string, link?: string}[] = [
 	{name: "members"},
 	{name: "news"},
 	{name: "publications"},
-	{name: "partnerships"},
-	{name: "positions"},
+	{name: "partners"},
+	{name: "career"},
 	{name: "contact"}
 ]

@@ -72,6 +72,7 @@ const Page: NextPage<PageProps> = props => {
 			<ul>{majors.map((t, i) => <li key={i}>{t}</li>)}</ul>
 			<h4>Required</h4>
 			<ul>
+				<li>You must be a U.S. person.</li>
 				{qualifications.required.map((t, i) => {
 					return <li key={i}>{t}</li>
 				})}
@@ -104,7 +105,7 @@ export const getStaticProps: GetStaticProps<PageProps> = async (context) => {
 	const id = context.params.id;
 	let position: Position | undefined;
 	for (const p of positions) if (p.key === id) position = p;
-	if (!position) return { redirect: {destination: "/positions", permanent: false}}
+	if (!position) return { redirect: {destination: "/career", permanent: false}}
 
 	return {
 		props: {position}
@@ -113,7 +114,7 @@ export const getStaticProps: GetStaticProps<PageProps> = async (context) => {
 
 export const getStaticPaths: GetStaticPaths = async () => {
 	return {
-		paths: positions.map(p => "/positions/" + p.key),
+		paths: positions.map(p => "/career/" + p.key),
 		fallback: false
 	};
 }

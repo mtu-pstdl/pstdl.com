@@ -58,7 +58,7 @@ export const publications: Publication[] = [
 	},
 	{
 		authors: ["Guadagno M", "van Susante P"],
-		date: {month: 4, day: 1, year: 2020},
+		date: {month: 4, day: 15, year: 2021},
 		title: "Providing Wired Power and Data in Lunar Permanently Shadowed Regions with Rover-Deployed Superconducting Tether",
 		publication: "Earth and Space Conference Proceedings ASCE",
 	},

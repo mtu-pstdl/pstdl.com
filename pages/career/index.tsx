@@ -16,7 +16,7 @@ interface PageProps {
 const Page: NextPage<PageProps> = () => {
 	return (
 		<Layout title={"Positions"} className={"PartnershipsPage"}>
-			<h2>Positions</h2>
+			<h2>Open Positions</h2>
 			{positions.map((position, i) => {
 				return <PositionRow position={position} key={i}/>
 			})}

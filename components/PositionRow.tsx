@@ -43,7 +43,7 @@ export const PositionRow: FC<PositionRowProps> = props => {
 
 	const {title, level, majors, hours, projects, key} = props.position;
 
-	return (<a className={styles.container} href={"/positions/" + key} target={"_self"} rel={"noreferrer"}>
+	return (<a className={styles.container} href={"/career/" + key} target={"_self"} rel={"noreferrer"}>
 		<div>
 			<span className={styles.title}>{title}</span>
 			<PositionRowItem left={"Title"} right={level}/>

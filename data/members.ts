@@ -287,7 +287,8 @@ export const dkbrouse: Member = {
 	lastName: "Brouse",
 	type: MemberType.BS,
 	major: MemberMajor.RE,
-	username: "dkbrouse"
+	username: "dkbrouse",
+	bio: "Dana K. Brouse is currently pursuing an undergraduate degree in Robotics Engineering at Michigan Technological University (MTU).  She is involved on campus in the Planetary Surface Technology Development Lab (PSTDL) where she is currently working to integrate a z-axis to the project Infrared-Tracking Gravity Offload System (IRGO).  She is also the Vice President of the Biomedical Robotics club at MTU and participates in the Figure Skating club at MTU."
 };
 
 export const arajan: Member = {

@@ -9,6 +9,12 @@ import {News} from "../interfaces/News";
 
 export const news: News[] = [
 	{
+		title: "PSTDL joining the Colorado School of Mines and Lunar Outpost on a NASA LuSTR 2021 Grant",
+		date: {month: 2, day: 18, year: 2022},
+		link: "https://www.nasa.gov/directorates/spacetech/strg/lustr/NASA_Selects_Three_US_Universities_to_Develop_Lunar_Infrastructure_Tech",
+		content: "The Planetary Surface Technology Development Lab is working with the Colorado School of Mines and others (Lunar Outpost, Bechtel Corporation) to develop an autonomous vehicle for lunar landing pad site preparation as part of the newly announced NASA LuSTR 2021 grant. The PSTDL will develop a vibratory compaction device for the CSM-led program."
+	},
+	{
 		title: "PSTDL Gains a PhD Student",
 		date: {month: 1, day: 10, year: 2022},
 		link: "https://www.linkedin.com/in/elijahjcobb/",

@@ -10,11 +10,13 @@
 	.grid {
 		display: flex;
 		flex-wrap: wrap;
+		margin: 64px 0;
 
 		img {
 			width: 30%;
+			max-height: 300px;
 			object-fit: contain;
-			margin: 20px;
+			margin: 16px;
 		}
 	}
 
