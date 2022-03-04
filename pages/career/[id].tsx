@@ -52,7 +52,7 @@ const Page: NextPage<PageProps> = props => {
 				})}
 			</ul>
 			<h3>Qualifications</h3>
-			<h4>Accepted Majors</h4>
+			<h4>Recommended Majors</h4>
 			<ul>{majors.map((t, i) => <li key={i}>{t}</li>)}</ul>
 			<h4>Required</h4>
 			<ul>

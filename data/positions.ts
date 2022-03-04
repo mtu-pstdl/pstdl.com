@@ -12,7 +12,7 @@ import {hoplite, lustr20, lustr21, mre, nasaClass, redWater} from "./projects";
 export const positions: Position[] = [
 	{
 		key: "lustr20-mech-cone",
-		title: "Mechanical Engineer (Cone Penetrometer)",
+		title: "R&D Test Engineer",
 		projects: [lustr20],
 		level: PositionLevel.UNDERGRAD,
 		majors: [MemberMajor.ME],
@@ -42,7 +42,7 @@ export const positions: Position[] = [
 	},
 	{
 		key: "lustr20-mech",
-		title: "Mechanical Engineer (HOPLITE)",
+		title: "Mechanical Engineer",
 		projects: [lustr20, hoplite],
 		level: PositionLevel.UNDERGRAD,
 		majors: [MemberMajor.ME],
@@ -148,7 +148,7 @@ export const positions: Position[] = [
 	},
 	{
 		key: "lustr21-mech-grad",
-		title: "Mechanical Engineer",
+		title: "R&D Mechanical Engineer (Ph.D. or Masters)",
 		projects: [lustr21],
 		level: PositionLevel.GRAD,
 		majors: [MemberMajor.ME],
@@ -181,7 +181,7 @@ export const positions: Position[] = [
 	},
 	{
 		key: "lustr21-mech",
-		title: "Mechanical Engineer",
+		title: "R&D Mechanical Engineer",
 		projects: [lustr21],
 		level: PositionLevel.UNDERGRAD,
 		majors: [MemberMajor.ME],
@@ -237,7 +237,7 @@ export const positions: Position[] = [
 		}
 	},
 	{
-		title: "Mechanical Engineer",
+		title: "R&D Mechanical Engineer",
 		projects: [mre],
 		key: "mre",
 		level: PositionLevel.UNDERGRAD,
@@ -266,7 +266,7 @@ export const positions: Position[] = [
 		}
 	},
 	{
-		title: "Mechanical Engineer",
+		title: "R&D Test Engineer",
 		projects: [redWater],
 		key: "redwater",
 		level: PositionLevel.UNDERGRAD,
