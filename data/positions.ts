@@ -11,36 +11,6 @@ import {hoplite, lustr20, lustr21, mre, nasaClass, redWater} from "./projects";
 
 export const positions: Position[] = [
 	{
-		key: "lustr20-mech",
-		title: "Mechanical Engineer (HOPLITE)",
-		projects: [lustr20, hoplite],
-		level: PositionLevel.UNDERGRAD,
-		majors: [MemberMajor.ME],
-		pay: {type: PositionPayType.HOURLY, value: 15},
-		hours: 40,
-		start: {semester: PositionSemester.SUMMER, year: 22},
-		description: "Develop science instruments that survey the lunar surface for resources and determine their properties in-situ & develop a large semi-automous field rover. Funded by NASA",
-		tasks: [
-			"Become familiar with mechanical workings of the HOPLITe rover.",
-			"Integrate science instrument payloads onto HOPLITE.",
-			"Test HOPLITE in the field at the KRC.",
-			"Maintain HOPLITE mechanical subsystems.",
-			"Support fabrication of test equipment for other programs."
-		],
-		qualifications: {
-			required: [
-				"Adept CAD skills (preferebly NX)",
-				"Machine Shop Training (mill, lathe, bandsaw, drill press, etc.)",
-				"3D Printing",
-				"Team Communication Experience"
-			],
-			preferred: [
-				"CNC Mill Experience",
-				"Robotics related experiences."
-			]
-		}
-	},
-	{
 		key: "lustr20-mech-cone",
 		title: "Mechanical Engineer (Cone Penetrometer)",
 		projects: [lustr20],
@@ -48,7 +18,7 @@ export const positions: Position[] = [
 		majors: [MemberMajor.ME],
 		pay: {type: PositionPayType.HOURLY, value: 15},
 		hours: 40,
-		start: {semester: PositionSemester.SUMMER, year: 22},
+		start: {semester: PositionSemester.SPRING, year: 2021},
 		description: "Develop science instruments that survey the lunar surface for resources and determine their properties in-situ & develop a large semi-automous field rover. Funded by NASA",
 		tasks: [
 			"Testing cone penetrometer (atmosphere, vacuum).",
@@ -71,6 +41,36 @@ export const positions: Position[] = [
 		}
 	},
 	{
+		key: "lustr20-mech",
+		title: "Mechanical Engineer (HOPLITE)",
+		projects: [lustr20, hoplite],
+		level: PositionLevel.UNDERGRAD,
+		majors: [MemberMajor.ME],
+		pay: {type: PositionPayType.HOURLY, value: 15},
+		hours: 40,
+		start: {semester: PositionSemester.SPRING, year: 2021},
+		description: "Develop science instruments that survey the lunar surface for resources and determine their properties in-situ & develop a large semi-automous field rover. Funded by NASA",
+		tasks: [
+			"Become familiar with mechanical workings of the HOPLITe rover.",
+			"Integrate science instrument payloads onto HOPLITE.",
+			"Test HOPLITE in the field at the KRC.",
+			"Maintain HOPLITE mechanical subsystems.",
+			"Support fabrication of test equipment for other programs."
+		],
+		qualifications: {
+			required: [
+				"Adept CAD skills (preferebly NX)",
+				"Machine Shop Training (mill, lathe, bandsaw, drill press, etc.)",
+				"3D Printing",
+				"Team Communication Experience"
+			],
+			preferred: [
+				"CNC Mill Experience",
+				"Robotics related experiences."
+			]
+		}
+	},
+	{
 		key: "lustr20-sfw",
 		title: "Software Engineer",
 		projects: [lustr20, hoplite],
@@ -78,7 +78,7 @@ export const positions: Position[] = [
 		majors: [MemberMajor.CS, MemberMajor.CPE],
 		pay: {type: PositionPayType.HOURLY, value: 15},
 		hours: 40,
-		start: {semester: PositionSemester.SUMMER, year: 22},
+		start: {semester: PositionSemester.SPRING, year: 2021},
 		description: "Design and implement software for use with robotics systems at the PSTDL as well as internal tools.",
 		tasks: [
 			"Design mission control components for robotics subsystems using Web Technologies.",
@@ -115,38 +115,34 @@ export const positions: Position[] = [
 		}
 	},
 	{
-		key: "lustr20-rob",
-		title: "Robotics Engineer",
+		key: "lustr20-electrical",
+		title: "Electrical Engineer",
 		projects: [lustr20, hoplite],
 		level: PositionLevel.UNDERGRAD,
-		majors: [MemberMajor.RE, MemberMajor.CPE, MemberMajor.CS, MemberMajor.EE],
+		majors: [MemberMajor.EE, MemberMajor.CPE],
 		pay: {type: PositionPayType.HOURLY, value: 15},
 		hours: 40,
-		start: {semester: PositionSemester.SUMMER, year: 22},
-		description: "Develop subsystems and maintain existing robotics projects for a mobility platform to enable the testing of NASA research.",
+		start: {semester: PositionSemester.SPRING, year: 2021},
+		description: "Maintain/upgrade the electrical system subsystem of the HOPLITE field rover.",
 		tasks: [
-			"Integrate new sensors.",
-			"Maintain software and electronics systems.",
-			"Test robotic systems.",
-			"Software engineer of control systems.",
-			"Design of robotic subsystems."
+			"Adding various sensors (temperature, current, voltage) to the Electrical Power System (EPS) on the rover, and integrating them into the software/firmware.",
+			"Diagnosing and fixing any issues with the EPS, as they arise."
 		],
 		qualifications: {
 			required: [
-				"C++",
-				"ROS",
-				"Linux Experience",
-				"I2C",
-				"Arduino",
+				"Basic understanding of basic circuit theory and design.",
+				"Understanding of common test equipment (Oscilloscopes, DMM's, signal generators, etc.).",
+				"Understanding of electrical schematics (experience with electrical CAD software - Eagle/KiCad).",
+				"Experience with wiring in electrical systems (vehicles, for example).",
+				"Experience with circuit assembly (Through hole and SMD soldering).",
 				"Python",
-				"git",
-				"Sensor Experience (Accelerometer, Gyroscope, GPS)"
+				"C++",
+				"Arduino"
 			],
 			preferred: [
-				"Systems Programming",
-				"UNIX Programming",
-				"Control Systems",
-				"OpenCV",
+				"ROS",
+				"Firmware Development",
+				"Linux Experience"
 			]
 		}
 	},
@@ -168,6 +164,7 @@ export const positions: Position[] = [
 		],
 		qualifications: {
 			required: [
+				"Commit to a 2-year NASA research grant.",
 				"3D Printing Experience",
 				"Machine Shop Experience (including CNC Mill and lathe)",
 				"Data Analysis Experience",
@@ -218,7 +215,7 @@ export const positions: Position[] = [
 		majors: [MemberMajor.ME, MemberMajor.CE, MemberMajor.GEO_PHY, MemberMajor.CE],
 		pay: {type: PositionPayType.HOURLY, value: 15},
 		hours: 20,
-		start: {semester: PositionSemester.SUMMER, year: 2022},
+		start: {semester: PositionSemester.SPRING, year: 2021},
 		description: "CLASS is a NASA Solar System Exploration Virtual Institute led by the University of Central Florida. CLASS stands for Center for Lunar and Asteroid Surface Science and isa consortium of universities and commercial partners researching rocky and atmosphereless bodies. MTU is a node in CLASS and our focus is on ISRU on the lunar surface with a focus on developing and characterizing our own MTU lunar regolith simulant - currently being used on multiple contracts. Near term goals are to study wear of systems due to exposure with lunar simulant as well as to support simulant prep for other experiments such as the LuSTR and MRE research.",
 		tasks: [
 			"Study the interaction between lunar regolith and mechanisms (Mechanism forces, wear, wheel sinkage, traction, etc.).",
@@ -247,7 +244,7 @@ export const positions: Position[] = [
 		majors: [MemberMajor.ME],
 		pay: {type: PositionPayType.HOURLY, value: 15},
 		hours: 40,
-		start: {semester: PositionSemester.SUMMER, year: 2022},
+		start: {semester: PositionSemester.SPRING, year: 2021},
 		description: "NASA KSC is developing a molten regolith electrolysis reactor to produce oxygen on the lunar surface. This reactor needs to be supplied with 10-100 kg of lunar regolith in a given time and MTU is responsible for characterizing the transport and delivery mechanisms. This will be done through experiments to measure the friction of different materials impacted through regolith interaction and study hopper flow. Three methods of material transport will also be investigated. These experiments will be designed and built for testing with lunar regolith simulant under atmospheric conditions with the project maturing to vacuum testing in our dusty thermal vacuum chamber.",
 		tasks: [
 			"CAD Design",
@@ -276,7 +273,7 @@ export const positions: Position[] = [
 		majors: [MemberMajor.ME],
 		pay: {type: PositionPayType.HOURLY, value: 15},
 		hours: 40,
-		start: {semester: PositionSemester.SUMMER, year: 2022},
+		start: {semester: PositionSemester.SPRING, year: 2021},
 		description: "RedWater is a project under leadership from Honeybee Robotics where our lab is investigating the efficiency of ice melt probes for melting glacier ice on Mars. The PSTDL uses the smaller of our vacuum chambers to do thermal melt tests under Martian pressure and temperature conditions. Classifying these probes requires ice block preperations, ogranizing test setups, and the use of passive and active actuated melt probes to melt ice. Measurement of power use, displacement rate, and total volume of melted water under different power levels and with different probes materials/geometries are major goals of this project.",
 		tasks: [
 			"Maintenance and troubleshooting of microcontroller and DAQ.",

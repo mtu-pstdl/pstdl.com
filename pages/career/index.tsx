@@ -17,6 +17,7 @@ const Page: NextPage<PageProps> = () => {
 	return (
 		<Layout title={"Career"} className={"PartnershipsPage"}>
 			<h2>Open Positions</h2>
+			<p><b>Note</b>: Due to ITAR restrictions, to work at the PSTDL you must be <a href={"https://www.law.cornell.edu/cfr/text/22/120.15"} target={"_blank"} rel={"noreferrer"}>a U.S. Person.</a></p>
 			{positions.map((position, i) => {
 				return <PositionRow position={position} key={i}/>
 			})}
