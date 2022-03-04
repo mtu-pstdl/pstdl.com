@@ -21,28 +21,32 @@ export enum PositionSemester {
 }
 
 export enum PositionLevel {
-	UNDERGRAD = "Undergraduate Research Assistant",
-	GRAD = "Graduate Researcher",
-	POSTDOC = "Postdoctoral Research",
-	ENGINEER = "Research Engineer"
+	UNDERGRAD = "Undergraduate",
+	GRAD = "Graduate",
+	POSTDOC = "Postdoc",
+	ENGINEER = "Professional"
 }
 
 export interface Position {
 	key: string;
 	title: string;
 	projects: DetailItem[];
-	level: PositionLevel;
+	levels: PositionLevel[];
 	majors: MemberMajor[];
 	pay: {type: PositionPayType, value: number | null};
 	hours: number;
-	start: {semester: PositionSemester, year: number}
+	semesters: {semester: PositionSemester, year: number}[]
 	description: string;
 	tasks: string[];
 	qualifications: {required: string[], preferred: string[]};
 }
 
 export function positionStartString(position: Position): string {
-	return position.start.semester + " " + position.start.year;
+	return position.semesters[0].semester + " " + position.semesters[0].year;
+}
+
+export function positionSemestersString(position: Position): string {
+	return position.semesters.map(s => s.semester + " " + s.year).join(", ")
 }
 
 export function positionPayString(position: Position): string {

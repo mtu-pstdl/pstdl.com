@@ -301,6 +301,16 @@ export const arajan: Member = {
 	linkedIn: "https://www.linkedin.com/in/anurag-rajan/"
 };
 
+export const aegulan: Member = {
+	firstName: "Anna",
+	lastName: "Gulan",
+	type: MemberType.BS,
+	major: MemberMajor.ME,
+	linkedIn: "https://www.linkedin.com/in/anna-gulan-0708461ab/",
+	bio: "Anna is in her senior year of her undergraduate degree majoring in Mechanical Engineering and minoring in Aerospace Engineering and Astrophysics. Anna is working in the Planetary Surface Technology Development Lab as a test engineer. She is also a member of the Aerospace Enterprise, the Michigan Tech Women's soccer team, and the Society of Women Engineers (SWE).",
+	username: "aegulan"
+}
+
 export const members: Member[] = [
 	ajgoddu,
 	bdwiegan,
@@ -333,7 +343,8 @@ export const members: Member[] = [
 	jbprimea,
 	colinsch,
 	dkbrouse,
-	arajan
+	arajan,
+	aegulan
 ]
 
 export function getMemberByLink(id: string | string[]): Member | undefined {

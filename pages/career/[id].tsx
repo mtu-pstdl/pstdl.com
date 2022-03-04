@@ -9,7 +9,7 @@ import { positions } from "../../data/positions";
 import { PositionRow } from "../../components/PositionRow";
 import Layout from "../../components/Layout";
 import { Position, positionPayString, positionStartString } from "../../interfaces/Position";
-import { EventAvailable, LocalAtm, QueryBuilder, SvgIconComponent } from "@material-ui/icons";
+import {EventAvailable, LocalAtm, Person, QueryBuilder, SvgIconComponent} from "@material-ui/icons";
 import styles from "../../styles/PositionDetail.module.scss"
 import { FC } from "react";
 import { DetailItemRow } from "../../components/DetailItemRow";
@@ -32,17 +32,22 @@ const Bubble: FC<{
 
 const Page: NextPage<PageProps> = props => {
 
-	const { level, title, hours, description, projects, tasks, qualifications, majors } = props.position;
+	const { levels, title, hours, description, semesters, projects, tasks, qualifications, majors } = props.position;
 
 	return (
 		<Layout title={title} className={styles.container}>
-			<h2>{level}</h2>
-			<h3>{title}</h3>
+			<h2>{title}</h2>
 			<div className={styles.bubbleContainer}>
-				<Bubble icon={LocalAtm} label={"Compensation"} value={positionPayString(props.position)} />
+				<Bubble icon={LocalAtm} label={"Compensation"} value={"Up-to " + positionPayString(props.position)} />
+				{levels.map((l, i) => <Bubble icon={Person} key={i} label={"Type"} value={l} />)}
 				<Bubble icon={QueryBuilder} label={"Commitment"} value={hours + " hrs/w"} />
 				<Bubble icon={EventAvailable} label={"Start Date"} value={positionStartString(props.position)} />
 			</div>
+			<h3>Semesters</h3>
+			<p>This position may have additional semesters if the allocation of further funding is available. Most positions involve 40 hrs/week during the summer and 10-20 hrs/week when classes occur. The guaranteed semesters for this position are:</p>
+			<ul>
+				{semesters.map((s, i) => <li key={i}>{`${s.semester} ${s.year}`}</li>)}
+			</ul>
 			<h3>Description</h3>
 			<p>{description}</p>
 			<h3>Tasks</h3>

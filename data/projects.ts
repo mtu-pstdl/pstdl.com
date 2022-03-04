@@ -7,6 +7,7 @@
 
 import {DetailItem, getDetailItemByLink, getDetailsForUsername} from "../interfaces/DetailItem";
 import {
+	aegulan,
 	ajgoddu,
 	arajan,
 	bdwiegan,
@@ -54,6 +55,7 @@ export const lustr20: DetailItem = {
 		cnorton,
 		jbprimea,
 		colinsch,
+		aegulan
 	],
 	alumni: [
 		ajgoddu,
