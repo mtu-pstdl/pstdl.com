@@ -18,7 +18,6 @@ export interface DetailItemRowProps {
 export function DetailItemRow(props: PropsWithChildren<DetailItemRowProps>): ReactElement {
 
 	const url: string = "/" + props.base + "/" + props.item.link + "/icon.jpg";
-	console.log(url);
 	const title = props.item.title;
 	const description = props.item.description;
 

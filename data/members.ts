@@ -75,7 +75,7 @@ export const ejcobb: Member = {
 	linkedIn: "https://www.linkedin.com/in/elijahjcobb/",
 	twitter: "https://twitter.com/elijahjcobb",
 	bio: "Elijah Cobb is a Ph.D. student studying Computer Science at Michigan Technological University (MTU). Elijah earned a Bachelor's in Computer Science from MTU in the fall of 2021. Throughout his undergraduate degree, Elijah was involved with many research projects funded by NASA, the US Navy, and the National Science Foundation. Elijah has experience in the industry through leading the software development for a start-up, Ampel Feedback. As a Ph.D. student, Elijah aims at developing novel software solutions for robotics in aerospace applications. In addition, Elijah is a Graduate Researcher at the Planetary Surface Technology Development Lab (pstdl.com), a research laboratory at MTU developing in-situ resource utilization technologies for lunar and martian applications.",
-	alumni: false
+	alumni: true
 };
 export const emmossne: Member = {
 	firstName: "Eric",

@@ -7,19 +7,26 @@
 
 import {ReactElement} from "react";
 import Layout from "../components/Layout";
+import Image from "next/image";
+
+import nasa from "../public/nasa.png";
+import honeybee from "../public/honeybee.png";
+import lunarOutpost from "../public/lunar-outpost.png";
+import mtu from "../public/mtu.png";
+import mines from "../public/mines.png";
 
 export default function PartnershipsPage(): ReactElement {
 	return <Layout title={"Partnerships"} className={"PartnershipsPage"}>
 		<h2>Industry Partners</h2>
 		<div className={"grid"}>
-			<img src={"nasa.png"} alt={"nasa"}/>
-			<img src={"honeybee.png"} alt={"honeybee"}/>
-			<img src={"lunar-outpost.png"} alt={"lunar-outpost"}/>
+			<Image src={nasa} alt={"nasa"}/>
+			<Image src={honeybee} alt={"honeybee"}/>
+			<Image src={lunarOutpost} alt={"lunar-outpost"}/>
 		</div>
 		<h2>University Partners</h2>
 		<div className={"grid"}>
-			<img src={"mtu.png"} alt={"mtu"}/>
-			<img src={"mines.png"} alt={"mines"}/>
+			<Image src={mtu} alt={"mtu"}/>
+			<Image src={mines} alt={"mines"}/>
 		</div>
 	</Layout>
 }

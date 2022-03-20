@@ -46,8 +46,11 @@ export interface Tweet {
 interface TwitterAuth {consumer_key: string, consumer_secret: string, bearer_token: string}
 
 function fetchCredentials(): TwitterAuth {
-	return JSON.parse(FS.readFileSync("./twitter-auth.json").toString("utf8"));
-
+	return {
+		consumer_key: process.env.TWITTER_KEY,
+		consumer_secret: process.env.TWITTER_SECRET,
+		bearer_token: process.env.TWITTER_TOKEN,
+	}
 }
 
 export async function fetchTweets(): Promise<News[]> {
@@ -60,7 +63,7 @@ export async function fetchTweets(): Promise<News[]> {
 	for (const t of tweets) {
 		const d = new Date(t.created_at);
 		news.push({
-			title: "@mtu-pstdl on",
+			title: "@mtu-pstdl",
 			content: t.text,
 			link: "https://twitter.com/mtu_pstdl/status/" + t.id_str,
 			date: {month: d.getMonth() + 1, day: d.getDate() + 1, year: d.getFullYear()},
