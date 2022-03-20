@@ -60,6 +60,10 @@ export const dfpaglia: Member = {
 	bio: "Dante Paglia received his B.S. in computer science from Michigan Technological University in the spring of 2020. He is continuing on his education to pursue an accelerated M.S. in computer science at Michigan Tech and will be graduating in the spring of 2021. His experience comes from his past internship at Space Dynamics Laboratory and his time leading the software team of Michigan Tech’s Aerospace Enterprise. Dante joined the PSTDL in the fall of 2020 and is working on adding an augmented reality sandbox to the lab's facilities.",
 	linkedIn: "https://www.linkedin.com/in/dante-paglia/",
 	alumni: true,
+	location: {
+		lat: 39.50299,
+		lng: -105.08917
+	}
 };
 
 export const eavanhor: Member = {
@@ -284,7 +288,11 @@ export const mvsietse: Member = {
 	bio: "Matthew Sietsema is a fifth-year undergraduate student, double-majoring in Electrical Engineering and Computer Engineering with a minor in Aerospace Engineering. He is a recipient of the Department of Defense SMART Scholarship (Cohort Year ‘21) and is a civilian employee of the U.S. Air Force. Matthew served as the Chief Engineer of the Michigan Tech Aerospace Enterprise for four years, leading the development of two Small Satellite missions. Previous work experience also includes the Space Dynamics Laboratory in Logan, Utah, and the AFRL Small Satellite Portfolio in Albuquerque, New Mexico. The focus of Matthew’s work is on Systems Engineering, mission design, and system testing.",
 	major: MemberMajor.CPE,
 	username: "mvsietse",
-	linkedIn: "https://www.linkedin.com/in/matthew-sietsema/"
+	linkedIn: "https://www.linkedin.com/in/matthew-sietsema/",
+	location: {
+		lat: 35.05766,
+		lng: -106.599
+	}
 };
 export const jbprimea: Member = {
 	firstName: "Joe",
