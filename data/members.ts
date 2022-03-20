@@ -112,6 +112,10 @@ export const hjmcgill: Member = {
 	bio: "I am an undergraduate student at Michigan Tech with research experience for the NASA BIG Ideas challenge where our team developed a tethered lunar rover capable of exploring and providing infrastructure to the moon's permanently shaded regions. I did the design and testing for a number of mechanical subSystems, most notably the system that managed the tension and deployment of our superconducting tether. I am also a FIRST robotics alumni with 2 world championship wins and an eagle scout.",
 	linkedIn: "https://www.linkedin.com/in/hunter-mcgillivray-31ba051b4/",
 	alumni: true,
+	location: {
+		lat: 40.45032,
+		lng: -80.01986
+	}
 };
 export const mcguadag: Member = {
 	firstName: "Marcello",

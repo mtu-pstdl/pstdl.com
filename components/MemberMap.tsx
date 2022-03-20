@@ -9,7 +9,6 @@ import styles from "../styles/MemberMap.module.scss";
 import "mapbox-gl/dist/mapbox-gl.css";
 import {Marker, Map} from "react-map-gl";
 import {Member} from "../interfaces/Member";
-import {ajgoddu} from "../data/members";
 import Image from "next/image";
 
 export interface MemberMapProps {
