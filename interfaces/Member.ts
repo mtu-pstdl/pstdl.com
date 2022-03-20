@@ -47,6 +47,7 @@ export interface Member {
 	bio?: string;
 	linkedIn?: string;
 	twitter?: string;
+	location?: {lat: number, lng: number};
 }
 
 export function getMemberTypeString(type: MemberType): string {

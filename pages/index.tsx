@@ -15,7 +15,7 @@ function Slideshow(): ReactElement {
 
 	useEffect(() => {
 		const timeout = setTimeout(() => {
-			let newI = i + 1;
+			let newI = slideIndex + 1;
 			if (newI >= arr.current.length) newI = 0;
 
 			const slideshowAnimator = document.getElementById("slideshow-animate");
@@ -43,11 +43,11 @@ function Slideshow(): ReactElement {
 		for (let i = 0; i < 21; i ++) a.push(i);
 		for (let i = a.length - 1; i > 0; i--) {
 			const j = Math.floor(Math.random() * (i + 1));
-			[arr[i], arr[j]] = [arr[j], arr[i]];
+			[a[i], a[j]] = [a[j], a[i]];
 		}
 	}, [])
 
-	return <img id={"slideshow"} className={"slideshow"} src={`/slideshow/slideshow${arr[slideIndex] ?? 0}.jpg`} alt={"slideshow"}/>
+	return <img id={"slideshow"} className={"slideshow"} src={`/slideshow/slideshow${arr.current[slideIndex] ?? 0}.jpg`} alt={"slideshow"}/>
 }
 
 export default function IndexPage(): ReactElement {

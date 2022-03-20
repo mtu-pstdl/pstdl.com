@@ -1,0 +1,33 @@
+/**
+ * Elijah Cobb
+ * elijah@elijahcobb.com
+ * elijahcobb.com
+ * github.com/elijahjcobb
+ */
+
+@import "variables";
+
+.mapHolder {
+	border-radius: 16px;
+	overflow: hidden;
+	width: 860px;
+	margin: auto;
+}
+
+.container {
+
+}
+
+.pin {
+	border-radius: 50%;
+	overflow: hidden;
+	border: solid 2px $mtuGold;
+	width: 48px;
+	height: 48px;
+	transition: transform 250ms ease-in-out;
+
+	&:hover {
+		transform: scale(2);
+		cursor: pointer;
+	}
+}

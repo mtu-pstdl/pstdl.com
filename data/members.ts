@@ -15,6 +15,10 @@ export const ajgoddu: Member = {
 	type: MemberType.MS,
 	bio: "Austen Goddu is a 5th year Computer Engineering student here at Michigan Tech. Austen joined the Planetary Surface Technology Development Lab after spending several years on the leadership team in Michigan Tech's Aerospace Enterprise. There, Austen gained experience in Systems Engineering and Flight Software Design. Working on the L-SABRE development team, Austen works to design and build L-SABRE's computer system and flight software, assists with the Systems engineering and mission design, and perfoMemberType.MS testing of specific elements of customer hardware.",
 	linkedIn: "https://www.linkedin.com/in/austen-g-83a639bb/",
+	location: {
+		lat: 34.2014,
+		lng: -118.17
+	}
 };
 
 export const bdwiegan: Member = {
@@ -64,7 +68,7 @@ export const eavanhor: Member = {
 	username: "eavanhor",
 	major: MemberMajor.EE,
 	type: MemberType.BS,
-	linkedIn: "https://www.linkedin.com/in/erik-vanhorn-98aa66172/",
+	linkedIn: "https://www.linkedin.com/in/erik-vanhorn-98aa66172/"
 };
 export const ejcobb: Member = {
 	firstName: "Elijah",
@@ -75,7 +79,11 @@ export const ejcobb: Member = {
 	linkedIn: "https://www.linkedin.com/in/elijahjcobb/",
 	twitter: "https://twitter.com/elijahjcobb",
 	bio: "Elijah Cobb is a Ph.D. student studying Computer Science at Michigan Technological University (MTU). Elijah earned a Bachelor's in Computer Science from MTU in the fall of 2021. Throughout his undergraduate degree, Elijah was involved with many research projects funded by NASA, the US Navy, and the National Science Foundation. Elijah has experience in the industry through leading the software development for a start-up, Ampel Feedback. As a Ph.D. student, Elijah aims at developing novel software solutions for robotics in aerospace applications. In addition, Elijah is a Graduate Researcher at the Planetary Surface Technology Development Lab (pstdl.com), a research laboratory at MTU developing in-situ resource utilization technologies for lunar and martian applications.",
-	alumni: true
+	alumni: true,
+	location: {
+		lat: 37.79782,
+		lng: -122.40547
+	}
 };
 export const emmossne: Member = {
 	firstName: "Eric",
@@ -122,6 +130,10 @@ export const nzamora: Member = {
 	type: MemberType.BS,
 	linkedIn: "https://www.linkedin.com/in/nicholas-zamora-3473aa178/",
 	alumni: true,
+	location: {
+		lat: 32.910,
+		lng: -96.752
+	}
 };
 export const pjvansus: Member = {
 	firstName: "Dr. Paul",
@@ -177,7 +189,11 @@ export const wtwagone: Member = {
 	major: MemberMajor.ME,
 	type: MemberType.BS,
 	alumni: true,
-	linkedIn: "https://www.linkedin.com/in/wyatt-wagoner/"
+	linkedIn: "https://www.linkedin.com/in/wyatt-wagoner/",
+	location: {
+		lat: 42.507,
+		lng: -83.582
+	}
 };
 export const smzerbel: Member = {
 	firstName: "Samantha",
