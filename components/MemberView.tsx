@@ -8,8 +8,8 @@
 import React, {PropsWithChildren, ReactElement, useState} from "react";
 import {Member, MemberType} from "../interfaces/Member";
 import {Email, LibraryBooks, LinkedIn, OpenInNew, Twitter} from "@material-ui/icons";
-import {Avatar, Backdrop} from "@material-ui/core";
 import Link from "next/link";
+import Image from "next/image";
 
 export interface MemberViewProps {
 	member: Member;
@@ -45,9 +45,7 @@ export function MemberView(props: PropsWithChildren<MemberViewProps>): ReactElem
 			<img className={"background"} src={url} alt={""}/>
 			<div className={"top"}>
 				<div className={"profile-container"}>
-					<object data={url} className={"profile"} type="image/jpg">
-						<img alt={"profile"} className={"profile"} src={"/members/blank.png"}/>
-					</object>
+					<Image width={200} height={200} alt={"profile"} className={"profile"} src={url}/>
 				</div>
 				<span className={"name"}>{props.member.firstName + " " + props.member.lastName}</span>
 				<span className={"email"}>{props.member.username + "@mtu.edu"}</span>

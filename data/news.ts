@@ -9,6 +9,11 @@ import {News} from "../interfaces/News";
 
 export const news: News[] = [
 	{
+		title: "PSTDL Featured in MTU Research 2022",
+		link: "https://www.mtu.edu/magazine/research/2022/stories/moon-beyond/",
+		date: {month: 3, day: 18, year: 2022}
+	},
+	{
 		title: "PSTDL joining the Colorado School of Mines and Lunar Outpost on a NASA LuSTR 2021 Grant",
 		date: {month: 2, day: 18, year: 2022},
 		link: "https://www.nasa.gov/directorates/spacetech/strg/lustr/NASA_Selects_Three_US_Universities_to_Develop_Lunar_Infrastructure_Tech",

@@ -13,6 +13,7 @@ import {Email, LinkedIn, Twitter} from "@material-ui/icons";
 import {DetailItemRow} from "../../components/DetailItemRow";
 import {getProjectsForUser} from "../../data/projects";
 import {getFacilitiesForUsername} from "../../data/facilities";
+import Image from "next/image";
 
 export interface MembersDetailPageProps {
 	member: Member;
@@ -25,7 +26,7 @@ export default function MembersDetailPageProps(props: PropsWithChildren<MembersD
 
 	return (<Layout className={"MemberDetailPage"} title={props.member.username}>
 		<div className={"top"}>
-			<img alt={"profile"} className={"profile"} src={"/members/" + props.member.username + ".jpg"}/>
+			<Image width={300} height={300} alt={"profile"} className={"profile"} src={"/members/" + props.member.username + ".jpg"}/>
 			<div className={"right"}>
 				<span className={"name"}>{props.member.firstName + " " + props.member.lastName}</span>
 				<span className={"email"}>{props.member.username + "@mtu.edu"}</span>

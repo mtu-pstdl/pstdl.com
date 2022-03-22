@@ -11,6 +11,7 @@ import {MemberView} from "../../components/MemberView";
 import {Members, MembersSubsection, MemberType} from "../../interfaces/Member";
 import {GetStaticProps} from "next";
 import {members} from "../../data/members";
+import {MemberMap} from "../../components/MemberMap";
 
 export function MemberSubsectionView(props: {value: MembersSubsection}): ReactElement {
 
@@ -73,6 +74,7 @@ export default function MembersPage(props: MembersPageProps): ReactElement {
 				}))
 			}
 		</div>
+		<MemberMap members={members.filter(m => m.location !== undefined)}/>
 	</Layout>
 }
 
