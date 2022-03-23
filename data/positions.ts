@@ -70,82 +70,82 @@ export const positions: Position[] = [
 			]
 		}
 	},
-	{
-		key: "lustr20-sfw",
-		title: "Software Engineer",
-		projects: [lustr20, hoplite],
-		levels: [PositionLevel.UNDERGRAD, PositionLevel.GRAD],
-		majors: [MemberMajor.CS, MemberMajor.CPE],
-		pay: {type: PositionPayType.HOURLY, value: 17},
-		hours: 40,
-		semesters: [{semester: PositionSemester.SPRING, year: 2022}, {semester: PositionSemester.SUMMER, year: 2022}],
-		description: "Design and implement software for use with robotics systems at the PSTDL as well as internal tools.",
-		tasks: [
-			"Design mission control components for robotics subsystems using Web Technologies.",
-			"Manage the communication between robotic systems and ground stations.",
-			"Develop internal CLI & Application tools.",
-			"Test robotic systems.",
-			"Maintain PSTDL software.",
-			"Write documentation on software systems."
-		],
-		qualifications: {
-			required: [
-				"JavaScript (TypeScript preferred)",
-				"ReactJS",
-				"NextJS",
-				"WebSocket Protocol",
-				"Web Design (CSS/SASS/SCSS/HTML)",
-				"REST API",
-				"SQL",
-				"MongoDB",
-				"NodeJS",
-				"git",
-				"Linux Experience"
-			],
-			preferred: [
-				"ROS",
-				"OpenCV",
-				"Systems Programming",
-				"ElectronJS",
-				"Academic Writing",
-				"C++",
-				"Python",
-				"TypeScript",
-			]
-		}
-	},
-	{
-		key: "lustr20-electrical",
-		title: "Electrical Engineer",
-		projects: [lustr20, hoplite],
-		levels: [PositionLevel.UNDERGRAD, PositionLevel.GRAD],
-		majors: [MemberMajor.EE, MemberMajor.CPE],
-		pay: {type: PositionPayType.HOURLY, value: 17},
-		hours: 40,
-		semesters: [{semester: PositionSemester.SPRING, year: 2022}, {semester: PositionSemester.SUMMER, year: 2022}],
-		description: "Maintain/upgrade the electrical system subsystem of the HOPLITE field rover.",
-		tasks: [
-			"Adding various sensors (temperature, current, voltage) to the Electrical Power System (EPS) on the rover, and integrating them into the software/firmware.",
-			"Diagnosing and fixing any issues with the EPS, as they arise."
-		],
-		qualifications: {
-			required: [
-				"Basic understanding of basic circuit theory and design.",
-				"Understanding of common test equipment (Oscilloscopes, DMM's, signal generators, etc.).",
-				"Understanding of electrical schematics (experience with electrical CAD software - Eagle/KiCad).",
-				"Experience with wiring in electrical systems (vehicles, for example).",
-				"Experience with circuit assembly (Through hole and SMD soldering).",
-				"Python",
-				"C++",
-				"Arduino"
-			],
-			preferred: [
-				"ROS",
-				"Firmware Development",
-				"Linux Experience"
-			]
-		}
-	},
+	// {
+	// 	key: "lustr20-sfw",
+	// 	title: "Software Engineer",
+	// 	projects: [lustr20, hoplite],
+	// 	levels: [PositionLevel.UNDERGRAD, PositionLevel.GRAD],
+	// 	majors: [MemberMajor.CS, MemberMajor.CPE],
+	// 	pay: {type: PositionPayType.HOURLY, value: 17},
+	// 	hours: 40,
+	// 	semesters: [{semester: PositionSemester.SPRING, year: 2022}, {semester: PositionSemester.SUMMER, year: 2022}],
+	// 	description: "Design and implement software for use with robotics systems at the PSTDL as well as internal tools.",
+	// 	tasks: [
+	// 		"Design mission control components for robotics subsystems using Web Technologies.",
+	// 		"Manage the communication between robotic systems and ground stations.",
+	// 		"Develop internal CLI & Application tools.",
+	// 		"Test robotic systems.",
+	// 		"Maintain PSTDL software.",
+	// 		"Write documentation on software systems."
+	// 	],
+	// 	qualifications: {
+	// 		required: [
+	// 			"JavaScript (TypeScript preferred)",
+	// 			"ReactJS",
+	// 			"NextJS",
+	// 			"WebSocket Protocol",
+	// 			"Web Design (CSS/SASS/SCSS/HTML)",
+	// 			"REST API",
+	// 			"SQL",
+	// 			"MongoDB",
+	// 			"NodeJS",
+	// 			"git",
+	// 			"Linux Experience"
+	// 		],
+	// 		preferred: [
+	// 			"ROS",
+	// 			"OpenCV",
+	// 			"Systems Programming",
+	// 			"ElectronJS",
+	// 			"Academic Writing",
+	// 			"C++",
+	// 			"Python",
+	// 			"TypeScript",
+	// 		]
+	// 	}
+	// },
+	// {
+	// 	key: "lustr20-electrical",
+	// 	title: "Electrical Engineer",
+	// 	projects: [lustr20, hoplite],
+	// 	levels: [PositionLevel.UNDERGRAD, PositionLevel.GRAD],
+	// 	majors: [MemberMajor.EE, MemberMajor.CPE],
+	// 	pay: {type: PositionPayType.HOURLY, value: 17},
+	// 	hours: 40,
+	// 	semesters: [{semester: PositionSemester.SPRING, year: 2022}, {semester: PositionSemester.SUMMER, year: 2022}],
+	// 	description: "Maintain/upgrade the electrical system subsystem of the HOPLITE field rover.",
+	// 	tasks: [
+	// 		"Adding various sensors (temperature, current, voltage) to the Electrical Power System (EPS) on the rover, and integrating them into the software/firmware.",
+	// 		"Diagnosing and fixing any issues with the EPS, as they arise."
+	// 	],
+	// 	qualifications: {
+	// 		required: [
+	// 			"Basic understanding of basic circuit theory and design.",
+	// 			"Understanding of common test equipment (Oscilloscopes, DMM's, signal generators, etc.).",
+	// 			"Understanding of electrical schematics (experience with electrical CAD software - Eagle/KiCad).",
+	// 			"Experience with wiring in electrical systems (vehicles, for example).",
+	// 			"Experience with circuit assembly (Through hole and SMD soldering).",
+	// 			"Python",
+	// 			"C++",
+	// 			"Arduino"
+	// 		],
+	// 		preferred: [
+	// 			"ROS",
+	// 			"Firmware Development",
+	// 			"Linux Experience"
+	// 		]
+	// 	}
+	// },
 	{
 		key: "lustr21-mech-grad",
 		title: "R&D Mechanical Engineer (Ph.D. or Masters)",
