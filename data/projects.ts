@@ -7,6 +7,7 @@
 
 import {DetailItem, getDetailItemByLink, getDetailsForUsername} from "../interfaces/DetailItem";
 import {
+	mysalem,
 	aegulan,
 	ajgoddu,
 	arajan,
@@ -43,6 +44,7 @@ export const lustr20: DetailItem = {
 	description: "NASA Lunar Surface Technology Research (LuSTR) (Exploration of lunar volatiles and determination of geotechnical properties) – \"Percussive Hot Cone Penetrometer (PHCP) and Ground Penetrating Radar (GPR) for Geotechnical and Volatiles Mapping\"",
 	link: "lustr",
 	members: [
+		mysalem,
 		ejcobb,
 		collinmi,
 		mcguadag,
@@ -230,6 +232,7 @@ export const hoplite: DetailItem = {
 	description: "A modular robotic system that enables the field testing of ISRU technologies.",
 	link: "hoplite",
 	members: [
+		mysalem,
 		ejcobb,
 		roccoc,
 		cnorton,

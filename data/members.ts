@@ -21,6 +21,7 @@ export const ajgoddu: Member = {
 	}
 };
 
+
 export const bdwiegan: Member = {
 	firstName: "Ben",
 	lastName: "Wiegand",
@@ -339,7 +340,19 @@ export const aegulan: Member = {
 	username: "aegulan"
 }
 
+export const mysalem: Member = {
+    firstName: "Mohamed",
+    lastName: "Salem",
+    type: MemberType.BS,
+    major: MemberMajor.RE,
+    linkedIn: "https://www.linkedin.com/in/mohamed-salem123454321/",
+    bio: "Mohamed is in his 3rd year of his undergraduate degree majoring in Robotics Engineering. He is also a member of the Robotics Enterprise.",
+    username: "mysalem"
+}
+
+
 export const members: Member[] = [
+	mysalem,
 	ajgoddu,
 	bdwiegan,
 	brchaffe,
