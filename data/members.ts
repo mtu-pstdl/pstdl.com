@@ -416,7 +416,7 @@ export const esierra: Member = {
     major: MemberMajor.ME,
     linkedIn: "https://www.linkedin.com/in/eli-sierra",
     bio: "Eli is currently a 1st year undergraduate student majoring in Mechanical Engineering and minoring in Aerospace Engineering and Business. He is currently working on the Molten Regolith Electrolysis (MRE) project with the Planetary Surface Technology Development Lab. Eli is also a percussionist in the Superior Wind Symphony and a member of the Pavlis Honors program.",
-    username: "esierra"
+    username: "emsierra"
 }
 
 export const members: Member[] = [
