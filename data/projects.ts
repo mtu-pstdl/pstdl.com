@@ -13,7 +13,7 @@ import {
 	kjiam,
 	rdauster,
 	elzimmer,
-	emsierra,
+	esierra,
 	mysalem,
 	aegulan,
 	ajgoddu,
@@ -220,7 +220,7 @@ export const mre: DetailItem = {
 	link: "mre",
 	description: "Provide a regolith feeder and transportation system for the MRE reactor",
 	members: [
-		emsierra,
+		esierra,
 		brianjo,
 		jnoe,
 		clcarey,
