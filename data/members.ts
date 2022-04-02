@@ -409,7 +409,7 @@ export const elzimmer: Member = {
     username: "elzimmer"
 }
  
-export const emsierra: Member = {
+export const esierra: Member = {
     firstName: "Eli",
     lastName: "Sierra",
     type: MemberType.BS,
@@ -425,7 +425,7 @@ export const members: Member[] = [
     kjiam,
     rdauster,
     elzimmer,
-    emsierra,
+    esierra,
 	jwearly,
 	mysalem,
 	ajgoddu,
