@@ -350,8 +350,83 @@ export const mysalem: Member = {
     username: "mysalem"
 }
 
+export const jwearly: Member = {
+    firstName: "Weston",
+    lastName: "Early",
+    type: MemberType.BS,
+    major: MemberMajor.ME,
+    linkedIn: "https://www.linkedin.com/in/weston-early-152b5a190/",
+    bio: "Weston Early is in his 6th year of his Undergrad acquiring his B.S. in Mechanical Engineering and B.S. in Computer Engineering at Michigan Tech as well as minors in Geology, Aerospace Engineering, and Spanish. He was just hired as a GeoTech Engineer to work on the cone penetrometer for the LuSTR project. He is also a member of the Keweenaw Symphony Orchestra.",
+    username: "jwearly"
+}
+
+export const nbmckenz: Member = {
+    firstName: "Nick",
+    lastName: "McKenzie",
+    type: MemberType.BS,
+    major: MemberMajor.EE,
+    bio: "Nick McKenzie is going into his Senior year of his undergraduate Electrical Engineering degree at Michigan Tech. He recently joined the Planetary Surface Technology Development Lab in the spring of 2022 to assist and work on the LuSTR and HOPLITE Projects. He is also an Air Force ROTC Cadet and a MTU Varsity Athlete on the Cross Country and Track teams.",
+    username: "nbmckenz"
+}
+ 
+export const brianjo: Member = {
+    firstName: "Brian",
+    lastName: "Johnson",
+    type: MemberType.BS,
+    major: MemberMajor.ME,
+    linkedIn: "https://www.linkedin.com/in/brian-johnson-54838a228/",
+    bio: "Brian is currently a third year undergraduate student majoring in mechanical engineering and minoring in aerospace engineering at Michigan Technological University. He recently hired at Planetary Surface Technology Development Lab to work on the Molten Regolith Electrolysis (MRE) project. Brian is also a member of the leadership team on the Michigan Technological University Aerospace Enterprise.",
+    username: "brianjo"
+}
+ 
+export const kjiam: Member = {
+    firstName: "Kjia",
+    lastName: "Moore",
+    type: MemberType.BS,
+    major: MemberMajor.ME,
+    linkedIn: "https://www.linkedin.com/in/kjia-moore-20b439229/",
+    bio: "Kjia is currently a third year undergraduate student pursuing a B.S. in Mechanical Engineering and a minor in Aerospace Engineering at Michigan Technological University. She was recently hired at Planetary Surface Technology Development Lab as a Research Engineer for the Center for Lunar and Asteroid Surface Science (CLASS). Kjia is also a Systems Engineer on the Michigan Tech Aerospace Enterprise.",
+    username: "kjiam"
+}
+ 
+export const rdauster: Member = {
+    firstName: "Robin",
+    lastName: "Austerberry",
+    type: MemberType.BS,
+    major: MemberMajor.ME,
+    linkedIn: "https://www.linkedin.com/in/robin-austerberry/",
+    bio: "Robin is a first-year mechanical engineering undergraduate at Michigan Tech and was hired into PSTDL in the summer of 2022 to work on LuSTR 21. He plays trumpet for MTU Jazz and the Huskies Pep Band, and is involved with EMS, IM Hockey, and Alpine Skiing.",
+    username: "rdauster"
+}
+ 
+export const elzimmer: Member = {
+    firstName: "Ellie",
+    lastName: "Zimmermann",
+    type: MemberType.BS,
+    major: MemberMajor.ME,
+    linkedIn: "https://www.linkedin.com/in/eleanor-zimmermann-6022a416a",
+    bio: "Ellie is an undergraduate Mechanical Engineering major at Michigan Technological University (MTU). She works as an undergraduate research assistant at the Planetary Surface Technology Development Lab where she is investigating the efficiency of ice melt probes under Martian pressure and temperature conditions for the RedWater project. She is also a member of the Varsity MTU Track team as a pole vaulter.",
+    username: "elzimmer"
+}
+ 
+export const emsierra: Member = {
+    firstName: "Eli",
+    lastName: "Sierra",
+    type: MemberType.BS,
+    major: MemberMajor.ME,
+    linkedIn: "https://www.linkedin.com/in/eli-sierra",
+    bio: "Eli is currently a 1st year undergraduate student majoring in Mechanical Engineering and minoring in Aerospace Engineering and Business. He is currently working on the Molten Regolith Electrolysis (MRE) project with the Planetary Surface Technology Development Lab. Eli is also a percussionist in the Superior Wind Symphony and a member of the Pavlis Honors program.",
+    username: "emsierra"
+}
 
 export const members: Member[] = [
+	nbmckenz,
+    brianjo,
+    kjiam,
+    rdauster,
+    elzimmer,
+    emsierra,
+	jwearly,
 	mysalem,
 	ajgoddu,
 	bdwiegan,

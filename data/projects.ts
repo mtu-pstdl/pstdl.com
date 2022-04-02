@@ -7,6 +7,13 @@
 
 import {DetailItem, getDetailItemByLink, getDetailsForUsername} from "../interfaces/DetailItem";
 import {
+	jwearly,
+	nbmckenz,
+	brianjo,
+	kjiam,
+	rdauster,
+	elzimmer,
+	emsierra,
 	mysalem,
 	aegulan,
 	ajgoddu,
@@ -44,6 +51,9 @@ export const lustr20: DetailItem = {
 	description: "NASA Lunar Surface Technology Research (LuSTR) (Exploration of lunar volatiles and determination of geotechnical properties) – \"Percussive Hot Cone Penetrometer (PHCP) and Ground Penetrating Radar (GPR) for Geotechnical and Volatiles Mapping\"",
 	link: "lustr",
 	members: [
+		rdauster,
+		nbmckenz,
+		jwearly,
 		mysalem,
 		ejcobb,
 		collinmi,
@@ -188,6 +198,7 @@ export const redWater: DetailItem = {
 	description: "NASA NextSTEP BAA ISRU track 3 (water from buried glaciers on Mars) – \"RedWater : Extraction of Water from Mars' Ice Deposits\" (subcontract from Honeybee Robotics who are principal investigator)",
 	link: "redwater",
 	members: [
+		elzimmer,
 		georgejo,
 		smzerbel,
 		gtredlon
@@ -209,6 +220,8 @@ export const mre: DetailItem = {
 	link: "mre",
 	description: "Provide a regolith feeder and transportation system for the MRE reactor",
 	members: [
+		emsierra,
+		brianjo,
 		jnoe,
 		clcarey,
 		bdwiegan
@@ -232,6 +245,7 @@ export const hoplite: DetailItem = {
 	description: "A modular robotic system that enables the field testing of ISRU technologies.",
 	link: "hoplite",
 	members: [
+		nbmckenz,
 		mysalem,
 		ejcobb,
 		roccoc,
@@ -253,6 +267,7 @@ export const nasaClass: DetailItem = {
 	description: "NASA Solar System Exploration Research Virtual Institute (SSERVI) – \"CLASS (Center for Lunar and Asteroid Surface Science)\" (subcontract from University of Central Florida who are principal investigator)",
 	link: "class",
 	members: [
+		kjiam,
 		pjvansus,
 		clcarey,
 		jbprimea
