@@ -354,7 +354,7 @@ export const jwearly: Member = {
     firstName: "Weston",
     lastName: "Early",
     type: MemberType.BS,
-    major: MemberMajor.ME,
+    major: [MemberMajor.ME, MemberMajor.CPE],
     linkedIn: "https://www.linkedin.com/in/weston-early-152b5a190/",
     bio: "Weston Early is in his 6th year of his Undergrad acquiring his B.S. in Mechanical Engineering and B.S. in Computer Engineering at Michigan Tech as well as minors in Geology, Aerospace Engineering, and Spanish. He was just hired as a GeoTech Engineer to work on the cone penetrometer for the LuSTR project. He is also a member of the Keweenaw Symphony Orchestra.",
     username: "jwearly"

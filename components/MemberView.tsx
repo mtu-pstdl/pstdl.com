@@ -34,7 +34,10 @@ export function MemberView(props: PropsWithChildren<MemberViewProps>): ReactElem
 
 	function getPosition(): string {
 		if (props.member.type === MemberType.PI || !props.member.major) return getType();
-		return props.member.major
+
+		const major = props.member.major;
+		if (Array.isArray(major)) return major.join(", ");
+		else return major;
 	}
 
 	const [showBio, setShowBio] = useState(false);
