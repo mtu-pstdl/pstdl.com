@@ -41,7 +41,7 @@ export interface Member {
 	firstName: string;
 	lastName: string;
 	username: string;
-	major: MemberMajor;
+	major: MemberMajor | Array<MemberMajor>;
 	type: MemberType
 	alumni?: boolean;
 	bio?: string;
