@@ -7,6 +7,7 @@
 
 import {DetailItem, getDetailItemByLink, getDetailsForUsername} from "../interfaces/DetailItem";
 import {
+	psbradsh,
 	jwearly,
 	nbmckenz,
 	brianjo,
@@ -130,7 +131,7 @@ export const trex: DetailItem = {
 
 export const watts: DetailItem = {
 	title: "NASA Watts on the Moon",
-	description: "NASA Watts on the Moon Centennial Challenge (Providing power to water extraction plant in PSR 1km from power plant) – \"Wired Watts where-ever, whenever you want – W^5\"",
+	description: "NASA Watts on the Moon Centennial Challenge (Providing power to water extraction plant in PSR 3km from power plant) – \"Wired Watts where-ever, whenever you want – W^5\"",
 	link: "watts",
 	members: [
 		eavanhor,
@@ -220,6 +221,7 @@ export const mre: DetailItem = {
 	link: "mre",
 	description: "Provide a regolith feeder and transportation system for the MRE reactor",
 	members: [
+		psbradsh,
 		esierra,
 		brianjo,
 		jnoe,

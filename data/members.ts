@@ -419,7 +419,19 @@ export const esierra: Member = {
     username: "emsierra"
 }
 
+export const psbradsh: Member = {
+    firstName: "Parker",
+    lastName: "Bradshaw",
+    type: MemberType.BS,
+    major: MemberMajor.ME,
+    linkedIn: "https://www.linkedin.com/in/parker-bradshaw-8657bb1a8",
+    bio: "Parker is a 2nd year student at MTU in the mechanical engineering department. He has newly joined the Molten Regolith Electrolysis team. Additionally, he is involved with the Multiplanetary INnovations Enterprise developing hardware for the lunar trencher project. Parker is an avid skier and loves backpacking in the Keweenaw.",
+    username: "psbradsh"
+}
+
+
 export const members: Member[] = [
+	psbradsh,
 	nbmckenz,
     brianjo,
     kjiam,
