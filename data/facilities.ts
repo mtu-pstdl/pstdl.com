@@ -86,6 +86,7 @@ export const facilities: DetailItem[] = [
 		],
 		alumni: [],
 		images: [
+			{src: "/facilities/containers/icon.jpg"},
 		]
 	},
 	{
