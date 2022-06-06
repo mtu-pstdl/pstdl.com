@@ -8,6 +8,24 @@
 import {News} from "../interfaces/News";
 
 export const news: News[] = [
+	
+    {
+        title: "PSTDL Awarded the NASA 2022 STTR Phase I Grant",
+        link: "https://sbir.nasa.gov/SBIR/abstracts/22/sttr/phase1/STTR-22-1-T7.04-2186.html/",
+        date: {month: 5, day: 25, year: 2022}
+    },
+    {
+        title: "PSTDL RedWater Article Featured in New Space Journal",
+        link: "https://www.liebertpub.com/doi/10.1089/space.2021.0057",
+        date: {month: 5, day: 12, year: 2022},
+        content: "The PSTDL 'RedWater: Water Mining System for Mars' Article Featured in the New Space Journal of Space Entrepreneurship and Innovation."
+    },
+    {
+        title: "PSTDL T-REX Project Featured in New Space Journal",
+        link: "https://www.liebertpub.com/doi/10.1089/space.2021.0056",
+        date: {month: 5, day: 12, year: 2022},
+        content: "The PSTDL Watts on the Moon Challenge is Featured in the New Space Journal of Space Entrepreneurship and Innovation."
+    },
 	{
 		title: "PSTDL Featured in MTU Research 2022",
 		link: "https://www.mtu.edu/magazine/research/2022/stories/moon-beyond/",
