@@ -73,7 +73,13 @@ export const eavanhor: Member = {
 	username: "eavanhor",
 	major: MemberMajor.EE,
 	type: MemberType.BS,
-	linkedIn: "https://www.linkedin.com/in/erik-vanhorn-98aa66172/"
+	alumni: true,
+	linkedIn: "https://www.linkedin.com/in/erik-van-horn-98aa66172/",
+	location: {
+        lat: 44.1858,
+        lng: -88.4626 
+    }
+
 };
 export const ejcobb: Member = {
 	firstName: "Elijah",
@@ -210,7 +216,12 @@ export const smzerbel: Member = {
 	major: MemberMajor.ME,
 	type: MemberType.BS,
 	username: "smzerbel",
+	alumni: true,
 	linkedIn: "https://www.linkedin.com/in/samantha-zerbel-7ab7b51b8/",
+	location: {
+        lat: 44.5133,
+        lng: -88.0133 
+    },
 	bio: "For my undergraduate research I am continuing the RedWater Ice Project. On campus, I am a leadership member on the aerospace enterprise and part of the husky swim club and InterVarsity. Last summer I had the pleasure of interning at Fincantieri Marinette Marine. I'm from Green Bay, Wisconsin. In my spare time I enjoy swimming, hiking, traveling and cooking/baking."
 };
 export const cjkamins: Member = {
@@ -236,7 +247,7 @@ export const clcarey: Member = {
 	lastName: "Carey",
 	username: "clcarey",
 	major: MemberMajor.ME,
-	type: MemberType.BS,
+	type: MemberType.MS,
 	linkedIn: "https://www.linkedin.com/in/chuck-carey-9280931b9/"
 };
 export const jnoe: Member = {
@@ -255,6 +266,11 @@ export const roccoc: Member = {
 	major: MemberMajor.EE,
 	username: "roccoc",
 	linkedIn: "https://www.linkedin.com/in/rocco-carlson-47b85821a/",
+	alumni: true,
+	location: {
+        lat: 46.4885,
+        lng: -87.6676
+    },
 	bio: "Rocco Carlson is a second year Electrical Engineering student at Michigan Tech. He joined the PSTDL in the fall of 2021 to work on the NASA LuSTR project."
 };
 export const jpintore: Member = {
@@ -280,7 +296,12 @@ export const cnorton: Member = {
 	type: MemberType.BS,
 	major: MemberMajor.CS,
 	username: "cnorton",
-	linkedIn: "https://www.linkedin.com/in/chrisnorton-mtu/"
+	alumni: true,
+	linkedIn: "https://www.linkedin.com/in/chrisnorton-mtu/",
+	location: {
+        lat: 44.9778,
+        lng: -93.2650
+    }
 };
 export const mvsietse: Member = {
 	firstName: "Matthew",
@@ -289,6 +310,7 @@ export const mvsietse: Member = {
 	bio: "Matthew Sietsema is a fifth-year undergraduate student, double-majoring in Electrical Engineering and Computer Engineering with a minor in Aerospace Engineering. He is a recipient of the Department of Defense SMART Scholarship (Cohort Year ‘21) and is a civilian employee of the U.S. Air Force. Matthew served as the Chief Engineer of the Michigan Tech Aerospace Enterprise for four years, leading the development of two Small Satellite missions. Previous work experience also includes the Space Dynamics Laboratory in Logan, Utah, and the AFRL Small Satellite Portfolio in Albuquerque, New Mexico. The focus of Matthew’s work is on Systems Engineering, mission design, and system testing.",
 	major: MemberMajor.CPE,
 	username: "mvsietse",
+	alumni: true,
 	linkedIn: "https://www.linkedin.com/in/matthew-sietsema/",
 	location: {
 		lat: 35.05766,
@@ -337,7 +359,12 @@ export const aegulan: Member = {
 	major: MemberMajor.ME,
 	linkedIn: "https://www.linkedin.com/in/anna-gulan-0708461ab/",
 	bio: "Anna is in her senior year of her undergraduate degree majoring in Mechanical Engineering and minoring in Aerospace Engineering and Astrophysics. Anna is working in the Planetary Surface Technology Development Lab as a test engineer. She is also a member of the Aerospace Enterprise, the Michigan Tech Women's soccer team, and the Society of Women Engineers (SWE).",
-	username: "aegulan"
+	username: "aegulan",
+	location: {
+        lat: 34.2013,
+        lng: -118.1714
+    },
+	alumni: true
 }
 
 export const mysalem: Member = {
