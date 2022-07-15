@@ -73,8 +73,14 @@ export const eavanhor: Member = {
 	username: "eavanhor",
 	major: MemberMajor.EE,
 	type: MemberType.BS,
-	linkedIn: "https://www.linkedin.com/in/erik-vanhorn-98aa66172/"
+	linkedIn: "https://www.linkedin.com/in/erik-vanhorn-98aa66172/",
+    alumni: true,
+    location: {
+        lat: 44.1858,
+        lng: -88.4626
+    }
 };
+
 export const ejcobb: Member = {
 	firstName: "Elijah",
 	lastName: "Cobb",
@@ -211,8 +217,14 @@ export const smzerbel: Member = {
 	type: MemberType.BS,
 	username: "smzerbel",
 	linkedIn: "https://www.linkedin.com/in/samantha-zerbel-7ab7b51b8/",
-	bio: "For my undergraduate research I am continuing the RedWater Ice Project. On campus, I am a leadership member on the aerospace enterprise and part of the husky swim club and InterVarsity. Last summer I had the pleasure of interning at Fincantieri Marinette Marine. I'm from Green Bay, Wisconsin. In my spare time I enjoy swimming, hiking, traveling and cooking/baking."
+	bio: "For my undergraduate research I am continuing the RedWater Ice Project. On campus, I am a leadership member on the aerospace enterprise and part of the husky swim club and InterVarsity. Last summer I had the pleasure of interning at Fincantieri Marinette Marine. I'm from Green Bay, Wisconsin. In my spare time I enjoy swimming, hiking, traveling and cooking/baking.",
+    alumni: true,
+    location: {
+        lat: 44.5133,
+        lng: -88.0133
+    }
 };
+
 export const cjkamins: Member = {
 	lastName: "Kaminski",
 	major: MemberMajor.GEO_PHY,
@@ -236,7 +248,7 @@ export const clcarey: Member = {
 	lastName: "Carey",
 	username: "clcarey",
 	major: MemberMajor.ME,
-	type: MemberType.BS,
+	type: MemberType.MS,
 	linkedIn: "https://www.linkedin.com/in/chuck-carey-9280931b9/"
 };
 export const jnoe: Member = {
@@ -255,8 +267,14 @@ export const roccoc: Member = {
 	major: MemberMajor.EE,
 	username: "roccoc",
 	linkedIn: "https://www.linkedin.com/in/rocco-carlson-47b85821a/",
-	bio: "Rocco Carlson is a second year Electrical Engineering student at Michigan Tech. He joined the PSTDL in the fall of 2021 to work on the NASA LuSTR project."
+	bio: "Rocco Carlson is a second year Electrical Engineering student at Michigan Tech. He joined the PSTDL in the fall of 2021 to work on the NASA LuSTR project.",
+	alumni: true,
+    location: {
+        lat: 46.4885,
+        lng: -87.6676
+    }
 };
+
 export const jpintore: Member = {
 	firstName: "Jafet",
 	lastName: "Pinto",
@@ -280,7 +298,12 @@ export const cnorton: Member = {
 	type: MemberType.BS,
 	major: MemberMajor.CS,
 	username: "cnorton",
-	linkedIn: "https://www.linkedin.com/in/chrisnorton-mtu/"
+	linkedIn: "https://www.linkedin.com/in/chrisnorton-mtu/",
+	alumni: true,
+    location: {
+        lat: 44.9778,
+        lng: -93.2650
+    }
 };
 export const mvsietse: Member = {
 	firstName: "Matthew",
@@ -290,6 +313,7 @@ export const mvsietse: Member = {
 	major: MemberMajor.CPE,
 	username: "mvsietse",
 	linkedIn: "https://www.linkedin.com/in/matthew-sietsema/",
+	alumni: true,
 	location: {
 		lat: 35.05766,
 		lng: -106.599
@@ -337,8 +361,13 @@ export const aegulan: Member = {
 	major: MemberMajor.ME,
 	linkedIn: "https://www.linkedin.com/in/anna-gulan-0708461ab/",
 	bio: "Anna is in her senior year of her undergraduate degree majoring in Mechanical Engineering and minoring in Aerospace Engineering and Astrophysics. Anna is working in the Planetary Surface Technology Development Lab as a test engineer. She is also a member of the Aerospace Enterprise, the Michigan Tech Women's soccer team, and the Society of Women Engineers (SWE).",
-	username: "aegulan"
-}
+	username: "aegulan",
+	alumni: true,
+    location: {
+        lat: 34.2013,
+        lng: -118.1714
+    }
+};
 
 export const mysalem: Member = {
     firstName: "Mohamed",
