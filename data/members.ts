@@ -83,11 +83,11 @@ export const ejcobb: Member = {
 	type: MemberType.PHD,
 	linkedIn: "https://www.linkedin.com/in/elijahjcobb/",
 	twitter: "https://twitter.com/elijahjcobb",
-	bio: "Elijah Cobb is a Ph.D. student studying Computer Science at Michigan Technological University (MTU). Elijah earned a Bachelor's in Computer Science from MTU in the fall of 2021. Throughout his undergraduate degree, Elijah was involved with many research projects funded by NASA, the US Navy, and the National Science Foundation. Elijah has experience in the industry through leading the software development for a start-up, Ampel Feedback. As a Ph.D. student, Elijah aims at developing novel software solutions for robotics in aerospace applications. In addition, Elijah is a Graduate Researcher at the Planetary Surface Technology Development Lab (pstdl.com), a research laboratory at MTU developing in-situ resource utilization technologies for lunar and martian applications. Elijah left his graduate program in April 2022 for a position in industry.",
+	bio: "Elijah Cobb was a Ph.D. student studying Computer Science at Michigan Technological University (MTU). Elijah earned a Bachelor's in Computer Science from MTU in the fall of 2021. Throughout his undergraduate degree, Elijah was involved with many research projects funded by NASA, the US Navy, and the National Science Foundation. Elijah has experience in the industry through leading the software development for a start-up, Ampel Feedback. As a Ph.D. student, Elijah aims at developing novel software solutions for robotics in aerospace applications. In addition, Elijah is a Graduate Researcher at the Planetary Surface Technology Development Lab (pstdl.com), a research laboratory at MTU developing in-situ resource utilization technologies for lunar and martian applications. Elijah left his graduate program in April 2022 for a position in industry.",
 	alumni: true,
 	location: {
-		lat: 37.79782,
-		lng: -122.40547
+		lat: 47.606209,
+		lng: -122.332069
 	}
 };
 export const emmossne: Member = {
