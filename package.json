@@ -17,12 +17,12 @@
 		"googleapis": "^107.0.0",
 		"hamburger-react": "^2.5.0",
 		"mapbox-gl": "^2.7.1",
-		"next": "^11.0.1",
+		"next": "^12.3.0",
 		"nextjs-google-analytics": "^1.0.9",
-		"react": "^17.0.1",
+		"react": "^18.2.0",
 		"react-burger-menu": "^3.0.8",
 		"react-cookienotice": "^5.3.1",
-		"react-dom": "^17.0.1",
+		"react-dom": "^18.2.0",
 		"react-ga": "^3.3.0",
 		"react-image-gallery": "^1.2.9",
 		"react-map-gl": "^7.0.10",
@@ -32,12 +32,14 @@
 		"twitter": "latest"
 	},
 	"devDependencies": {
-		"@types/node": "^12.12.21",
-		"@types/react": "^18.0.17",
+		"@babel/core": "^7.0.0-0",
+		"@types/node": "^18.7.18",
+		"@types/react": "^18.0.21",
 		"@types/react-burger-menu": "^2.8.3",
 		"@types/react-dom": "^17.0.1",
+		"prop-types": "^15.6.0",
 		"sass": "^1.35.1",
-		"typescript": "^4.8.2"
+		"typescript": "^4.8.3"
 	},
 	"license": "MIT"
 }
