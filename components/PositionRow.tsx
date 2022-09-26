@@ -5,14 +5,14 @@
  * github.com/elijahjcobb
  */
 
-import React, {FC} from "react";
+import React, { FC } from "react";
 import styles from "../styles/PositionRow.module.scss";
 import {
 	Position,
 	positionPayString, positionSemestersString,
 	positionStartString
 } from "../interfaces/Position";
-import {OpenInNew as Link} from "@material-ui/icons";
+import { FaLink as Link } from "react-icons/fa";
 export interface PositionRowProps {
 	position: Position
 }
@@ -32,7 +32,7 @@ export interface Position {
 }
  */
 
-const PositionRowItem: FC<{left: string, right: string}> = props => {
+const PositionRowItem: FC<{ left: string, right: string }> = props => {
 	return <div className={styles.rowItem}>
 		<span className={styles.left}>{props.left}:</span>
 		<span className={styles.right}>{props.right}</span>
@@ -41,19 +41,19 @@ const PositionRowItem: FC<{left: string, right: string}> = props => {
 
 export const PositionRow: FC<PositionRowProps> = props => {
 
-	const {title, levels, majors, hours, projects, key} = props.position;
+	const { title, levels, majors, hours, projects, key } = props.position;
 
 	return (<a className={styles.container} href={"/career/" + key} target={"_self"} rel={"noreferrer"}>
 		<div>
 			<span className={styles.title}>{title}</span>
-			<PositionRowItem left={"Type"} right={levels.join(", ")}/>
-			<PositionRowItem left={"Projects"} right={projects.map(p => p.title).join(", ")}/>
-			<PositionRowItem left={"Recommended Majors"} right={majors.join(", ")}/>
-			<PositionRowItem left={"Commitment"} right={hours + " hrs/w"}/>
-			<PositionRowItem left={"Up-to"} right={positionPayString(props.position)}/>
-			<PositionRowItem left={"Semesters"} right={positionSemestersString(props.position)}/>
+			<PositionRowItem left={"Type"} right={levels.join(", ")} />
+			<PositionRowItem left={"Projects"} right={projects.map(p => p.title).join(", ")} />
+			<PositionRowItem left={"Recommended Majors"} right={majors.join(", ")} />
+			<PositionRowItem left={"Commitment"} right={hours + " hrs/w"} />
+			<PositionRowItem left={"Up-to"} right={positionPayString(props.position)} />
+			<PositionRowItem left={"Semesters"} right={positionSemestersString(props.position)} />
 		</div>
-		<Link className={styles.link}/>
+		<Link className={styles.link} />
 	</a>);
 
 };

@@ -4,22 +4,23 @@
  * https://elijahcobb.com
  */
 
-import type { NextPage, GetStaticProps, GetStaticPaths, GetServerSideProps } from "next";
+import type { NextPage, GetStaticProps, GetStaticPaths } from "next";
 import { positions } from "../../data/positions";
 import { PositionRow } from "../../components/PositionRow";
 import Layout from "../../components/Layout";
 import { Position, positionPayString, positionStartString } from "../../interfaces/Position";
-import {EventAvailable, LocalAtm, Person, QueryBuilder, SvgIconComponent} from "@material-ui/icons";
+import { FaMoneyBill as Money, FaCalendar as Calendar, FaUser as Person, FaClock as Clock } from "react-icons/fa";
 import styles from "../../styles/PositionDetail.module.scss"
 import { FC } from "react";
 import { DetailItemRow } from "../../components/DetailItemRow";
+import { IconType } from "react-icons";
 
 interface PageProps {
 	position: Position;
 }
 
 const Bubble: FC<{
-	icon: SvgIconComponent,
+	icon: IconType,
 	label: string;
 	value: string;
 }> = props => {
@@ -38,10 +39,10 @@ const Page: NextPage<PageProps> = props => {
 		<Layout title={title} className={styles.container}>
 			<h2>{title}</h2>
 			<div className={styles.bubbleContainer}>
-				<Bubble icon={LocalAtm} label={"Compensation"} value={"Up-to " + positionPayString(props.position)} />
+				<Bubble icon={Money} label={"Compensation"} value={"Up-to " + positionPayString(props.position)} />
 				{levels.map((l, i) => <Bubble icon={Person} key={i} label={"Type"} value={l} />)}
-				<Bubble icon={QueryBuilder} label={"Commitment"} value={hours + " hrs/w"} />
-				<Bubble icon={EventAvailable} label={"Start Date"} value={positionStartString(props.position)} />
+				<Bubble icon={Clock} label={"Commitment"} value={hours + " hrs/w"} />
+				<Bubble icon={Calendar} label={"Start Date"} value={positionStartString(props.position)} />
 			</div>
 			<h3>Semesters</h3>
 			<p>This position may have additional semesters if the allocation of further funding is available. Most positions involve 40 hrs/week during the summer and 10-20 hrs/week when classes occur. The guaranteed semesters for this position are:</p>
