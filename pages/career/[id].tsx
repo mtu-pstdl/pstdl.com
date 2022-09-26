@@ -92,7 +92,7 @@ const Page: NextPage<PageProps> = props => {
 
 export const getStaticProps: GetStaticProps<PageProps> = async (context) => {
 
-	const id = context.params.id;
+	const id = context.params?.id as string;
 	let position: Position | undefined;
 	for (const p of positions) if (p.key === id) position = p;
 	if (!position) return { redirect: { destination: "/career", permanent: false } }

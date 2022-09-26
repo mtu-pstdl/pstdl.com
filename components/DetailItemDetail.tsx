@@ -5,15 +5,16 @@
  * github.com/elijahjcobb
  */
 
-import React, {ReactElement} from "react";
+import { ReactElement } from "react";
+import React, * as react from 'react'
 import ReactMarkdown from "react-markdown";
 import gfm from "remark-gfm";
-import {DetailItem} from "../interfaces/DetailItem";
+import { DetailItem } from "../interfaces/DetailItem";
 import Layout from "./Layout";
-import {getMemberByLink, pjvansus} from "../data/members";
-import {Member} from "../interfaces/Member";
-import {MemberSmallView} from "./MemberSmallView";
-import ImageGallery, {ReactImageGalleryItem} from "react-image-gallery";
+import { pjvansus } from "../data/members";
+import { Member } from "../interfaces/Member";
+import { MemberSmallView } from "./MemberSmallView";
+import ImageGallery, { ReactImageGalleryItem } from "react-image-gallery";
 
 export interface DetailItemDetailProps {
 	item: DetailItem;
@@ -27,7 +28,7 @@ export function DetailItemDetail(props: DetailItemDetailProps): ReactElement {
 	function fetchImages(): ReactImageGalleryItem[] {
 		if (!props.item.images || props.item.images.length === 0) return [];
 		return props.item.images.map(i => {
-			return {original: i.src, thumbnail: i.thumb ?? i.src};
+			return { original: i.src, thumbnail: i.thumb ?? i.src };
 		});
 	}
 
@@ -51,25 +52,27 @@ export function DetailItemDetail(props: DetailItemDetailProps): ReactElement {
 		{
 			members && <div className={"members"}>
 				{members.map((m, i) => {
-					return <MemberSmallView member={m} key={i}/>
+					return <MemberSmallView member={m} key={i} />
 				})}
-            </div>
+			</div>
 		}
 		{alumni.length > 0 && <h4>Alumni</h4>}
 		{
 			alumni && <div className={"members"}>
 				{alumni.map((m, i) => {
-					return <MemberSmallView member={m} key={i}/>
+					return <MemberSmallView member={m} key={i} />
 				})}
 			</div>
 		}
 		<ReactMarkdown
-			allowDangerousHtml={true}
 			className={"md"}
+			// @ts-ignore - ignore gfm type error
 			plugins={[gfm]}
 			children={props.md ?? "Content coming soon..."}
 			renderers={{
+				// @ts-ignore - ignore gfm type error
 				link: props => <a href={props.href} target="_blank">{props.children}</a>,
+				// @ts-ignore - ignore gfm type error
 				heading: props => <h3>{props.children}</h3>,
 			}}
 		/>

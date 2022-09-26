@@ -5,7 +5,7 @@
  */
 
 import React, { PropsWithChildren, ReactElement } from "react";
-import { GetStaticPaths, GetStaticProps } from "next";
+import { GetServerSidePropsContext, GetStaticPaths, GetStaticProps } from "next";
 import { getMemberByLink, members } from "../../data/members";
 import { getMemberTypeString, Member } from "../../interfaces/Member";
 import Layout from "../../components/Layout";
@@ -65,8 +65,8 @@ export default function MembersDetailPageProps(props: PropsWithChildren<MembersD
 
 }
 
-export const getStaticProps: GetStaticProps<MembersDetailPageProps> = async (context) => {
-	const id = context.params.id;
+export async function getStaticProps(context: GetServerSidePropsContext) {
+	const id = context.params?.id ?? "";
 	const item = getMemberByLink(id);
 	return { props: { member: item } };
 }
