@@ -223,21 +223,26 @@ export const mre: DetailItem = {
 	members: [
 		psbradsh,
 		esierra,
-		brianjo,
 		jnoe,
-		clcarey,
 		bdwiegan
 	],
 	alumni: [
 		jpintore,
 	],
 	images: [
-		{src: "/projects/mre/icon.jpg"},
-		{src: "/projects/mre/mre1.jpg"},
-		{src: "/projects/mre/mre2.jpg"},
-		{src: "/projects/mre/mre4.jpg"},
-		{src: "/projects/mre/mre5.jpg"},
-		{src: "/projects/mre/mre6.jpg"},
+		{src: "/projects/mre/mre2.png"},
+		{src: "/projects/mre/mre4.png"},
+		{src: "/projects/mre/mre5.png"},
+		{src: "/projects/mre/mre6.png"},
+		{src: "/projects/mre/mre7.png"},
+		{src: "/projects/mre/mre8.png"},
+		{src: "/projects/mre/mre9.png"},
+		{src: "/projects/mre/mre10.png"},
+		{src: "/projects/mre/mre11.png"},
+		{src: "/projects/mre/mre12.png"},
+		{src: "/projects/mre/mre13.png"},
+		{src: "/projects/mre/mre14.png"},
+
 
 	]
 };
