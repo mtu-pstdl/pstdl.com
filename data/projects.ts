@@ -231,6 +231,7 @@ export const mre: DetailItem = {
 	],
 	images: [
 		{src: "/projects/mre/icon.jpg"},
+		{src: "/projects/mre/mre3.png"},
 		{src: "/projects/mre/mre4.png"},
 		{src: "/projects/mre/mre5.png"},
 		{src: "/projects/mre/mre6.png"},
