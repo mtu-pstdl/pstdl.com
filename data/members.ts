@@ -236,7 +236,7 @@ export const clcarey: Member = {
 	lastName: "Carey",
 	username: "clcarey",
 	major: MemberMajor.ME,
-	type: MemberType.BS,
+	type: MemberType.MS,
 	linkedIn: "https://www.linkedin.com/in/chuck-carey-9280931b9/"
 };
 export const jnoe: Member = {
