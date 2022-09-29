@@ -230,7 +230,8 @@ export const mre: DetailItem = {
 		jpintore,
 	],
 	images: [
-		{src: "/projects/mre/mre2.png"},
+		{src: "/projects/mre/icon.jpg"},
+		{src: "/projects/mre/mre3.png"},
 		{src: "/projects/mre/mre4.png"},
 		{src: "/projects/mre/mre5.png"},
 		{src: "/projects/mre/mre6.png"},
