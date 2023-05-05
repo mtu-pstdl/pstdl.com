@@ -45,7 +45,11 @@ import {
 	tcgronda,
 	wtwagone,
 	mkoujiri,
-	smzeqlam
+	smzeqlam,
+	mrkrause,
+	bhpokorn,
+	nsbruurs,
+	ajsweene
 } from "./members";
 import {Member} from "../interfaces/Member";
 
@@ -70,7 +74,10 @@ export const lustr20: DetailItem = {
 		cnorton,
 		jbprimea,
 		colinsch,
-		aegulan
+		aegulan,
+		mrkrause,
+		bhpokorn,
+		ajsweene
 	],
 	alumni: [
 		ajgoddu,
@@ -93,7 +100,8 @@ export const lustr21: DetailItem = {
 	description: "More information coming soon.",
 	link: "lustr21",
 	members: [
-		rdauster
+		rdauster,
+		psbradsh
 	],
 	alumni: [
 
@@ -141,7 +149,9 @@ export const watts: DetailItem = {
 		ejcobb,
 		mvsietse,
 		tawavrun,
-		smzeqlam
+		smzeqlam,
+		psbradsh,
+		nsbruurs
 	],
 	alumni: [
 		collinmi,
@@ -166,7 +176,10 @@ export const breakTheIce: DetailItem = {
 		mcguadag,
 		mkoujiri,
 		smzeqlam,
-		jbprimea
+		jbprimea,
+		mrkrause,
+		psbradsh,
+		ajsweene
 	],
 	alumni: [],
 	images: [

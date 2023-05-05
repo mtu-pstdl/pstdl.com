@@ -5,6 +5,7 @@
  * github.com/elijahjcobb
  */
 
+import exp from "constants";
 import {Member, MemberMajor, MemberType} from "../interfaces/Member";
 
 export const ajgoddu: Member = {
@@ -38,7 +39,7 @@ export const brchaffe: Member = {
 	username: "brchaffe",
 	major: MemberMajor.ME,
 	type: MemberType.PHD,
-	bio: "Ben Chaffee received a Bachelor's of Science in Mechanical Engineering from the University of Akron in 2014 and a Master’s in Robotic Systems Development from Carnegie Mellon in 2015. He is now a Senior Engineer at Wecall Inc. in Chardon, OH, a company that fabricates fasteners used on buildings and bridges throughout the US and Canada. At Wecall, Ben leads projects in designing and testing new fasteners to meet customer needs. He also works on developing new machines and processes to increase efficiency and throughput. Ben is now pursuing a ME-EM PhD at MTU and joined the PSTDL in the Fall of 2020. He is looking forward to bringing his collegiate and industry experience to the team to assist with the development of future lunar robots.",
+	bio: "Ben Chaffee is a Senior Engineer at Wecall Inc, where he manages the design and fabrication of large structural fasteners for the steel construction industry. Ben has a Masters in Robotic Systems Development from Carnegie Mellon University and is working toward a PhD at Michigan Tech. Ben was involved in several lunar projects throughout college. While at CMU, he led the mechanical design of a prototype for the IRIS rover, which will launch to the Moon later this year. Ben joined the PSTDL team in the Fall of 2020. Ben has a lovely wife, Sharon, of 3 years and an adorable 1-year-old son, Evan. Outside of work and school, he enjoys hiking and teaching Sunday school to children at his church.",
 	linkedIn: "https://www.linkedin.com/in/ben-chaffee-464453101/",
 	alumni: false
 }
@@ -436,7 +437,7 @@ export const esierra: Member = {
     type: MemberType.BS,
     major: MemberMajor.ME,
     linkedIn: "https://www.linkedin.com/in/eli-sierra",
-    bio: "Eli is currently a 1st year undergraduate student majoring in Mechanical Engineering and minoring in Aerospace Engineering and Business. He is currently working on the Molten Regolith Electrolysis (MRE) project with the Planetary Surface Technology Development Lab. Eli is also a percussionist in the Superior Wind Symphony and a member of the Pavlis Honors program.",
+    bio: "Eli is a junior undergraduate at Michigan Tech majoring in mechanical engineering and minoring in aerospace engineering. Eli joined the lab in the spring of 2022 as a research assistant for the MRE project. Later Eli started a personal project through the lab funded by the Michigan Space Grant Consortium (MSGC) which will take a look at static electricity's effect on lunar regolith. Eli is also a percussionist performing in musicals such as CHESS and bands such as the superior wind symphony. He also enjoys the outdoors partaking in activities such as running, mountain biking, and hiking.",
     username: "emsierra"
 }
 
@@ -446,7 +447,7 @@ export const psbradsh: Member = {
     type: MemberType.BS,
     major: MemberMajor.ME,
     linkedIn: "https://www.linkedin.com/in/parker-bradshaw-8657bb1a8",
-    bio: "Parker is a 2nd year student at MTU in the mechanical engineering department. He has newly joined the Molten Regolith Electrolysis team. Additionally, he is involved with the Multiplanetary INnovations Enterprise developing hardware for the lunar trencher project. Parker is an avid skier and loves backpacking in the Keweenaw.",
+    bio: " Parker Bradshaw is an undergraduate student who joined the lab in Spring 2022 researching regolith transportation for the MRE project. Later, he joined the LuSTR’21 project as a design engineer working on a rover mounted compaction mechanism, and the watts on the moon project as an electrical engineer. They also joined the break the ice lunar challenge project as the chief engineer for the phase 2 rover. As part of the enterprise program, Parker lead the building and vacuum testing of a bucket ladder regolith excavation system. Parker has spent time at Astrobotic as an intern developing lunar surface systems. His hobbies include using engineering for art, music, thrifting, skiing, and climbing.",
     username: "psbradsh"
 }
 
@@ -471,6 +472,46 @@ export const smzeqlam: Member = {
 	username: "smzeqlam"
 }
 
+export const mrkrause: Member = {
+	firstName: "Mason",
+	lastName: "Krause",
+	type: MemberType.BS,
+	major: MemberMajor.ME,
+	linkedIn: "https://www.linkedin.com/in/masonkrause02/",
+	bio: "Mason Krause is a junior undergraduate student at Michigan Technological University pursuing a bachelor's degree in Mechanical Engineering and a minor in Aerospace Engineering. He joined PSTDL in Spring 2023 to work on LuSTR 2020 and later joined the NASA Break the Ice Challenge. He is currently the president of MTU’s Undergraduate Student Government, and enjoys hiking, playing music, and skating.",
+	username: "mrkrause"
+}
+
+export const bhpokorn: Member = {
+	firstName: "Ben",
+	lastName: "Pokorny",
+	linkedIn: "https://www.linkedin.com/in/ben-pokorny/",
+	type: MemberType.BS,
+	major: MemberMajor.ME,
+	bio: "Ben is a senior undergraduate at Michigan Tech majoring in mechanical engineering and minoring in aerospace engineering. He joined the lab in the summer of 2023 as a test engineer for LuSTR ‘20. His hobbies include running, 3D printing, and songwriting.",
+	username: "bhpokorn"
+}
+
+export const nsbruurs: Member = {
+	firstName: "Nate",
+	lastName: "Bruursema",
+	type: MemberType.BS,
+	major: MemberMajor.ME,
+	linkedIn: "https://www.linkedin.com/in/nate-bruursema-49a329251/",
+	bio: "Nate Bruursema is an undergraduate student majoring in Mechanical Engineering and minoring in aerospace engineering. He recently joined the lab in Spring 2023 researching and focusing on the Thermal subteam for the TEMPEST project. He is currently developing thermal models to simulate temperature operating conditions of the critical components within the TEMPEST models. In his free time he enjoys climbing, disc golfing, and skating.",
+	username: "nsbruurs"
+
+}
+
+export const ajsweene: Member = {
+	firstName: "Jay",
+	lastName: "Sweeney",
+	type: MemberType.BS,
+	major: MemberMajor.CS,
+	linkedIn: "https://www.linkedin.com/in/jayfromprogramming/",
+	bio: "Jay Sweeney is a Junior Undergraduate at Tech Majoring in Computer Science.Jay joined the lab in the spring of 2022",
+	username: "ajsweene"
+}
 export const members: Member[] = [
 	psbradsh,
 	nbmckenz,
@@ -515,7 +556,11 @@ export const members: Member[] = [
 	arajan,
 	aegulan, 
 	mkoujiri, 
-	smzeqlam
+	smzeqlam,
+	mrkrause,
+	bhpokorn,
+	nsbruurs,
+	ajsweene
 ]
 
 export function getMemberByLink(id: string | string[]): Member | undefined {
