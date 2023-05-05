@@ -43,7 +43,9 @@ import {
 	smzerbel,
 	tawavrun,
 	tcgronda,
-	wtwagone
+	wtwagone,
+	mkoujiri,
+	smzeqlam
 } from "./members";
 import {Member} from "../interfaces/Member";
 
@@ -91,13 +93,12 @@ export const lustr21: DetailItem = {
 	description: "More information coming soon.",
 	link: "lustr21",
 	members: [
-
+		rdauster
 	],
 	alumni: [
 
 	],
 	images: [
-
 	]
 };
 
@@ -139,7 +140,8 @@ export const watts: DetailItem = {
 		ajgoddu,
 		ejcobb,
 		mvsietse,
-		tawavrun
+		tawavrun,
+		smzeqlam
 	],
 	alumni: [
 		collinmi,
@@ -160,7 +162,11 @@ export const breakTheIce: DetailItem = {
 		collinmi,
 		hjmcgill,
 		tcgronda,
-		mcguadag
+		rdauster,
+		mcguadag,
+		mkoujiri,
+		smzeqlam,
+		jbprimea
 	],
 	alumni: [],
 	images: [
@@ -295,6 +301,7 @@ export const projects: DetailItem[] = [
 	mre,
 	hoplite,
 	nasaClass,
+
 ];
 
 export function getProjectByLink(id: string | string[]): DetailItem | undefined {

@@ -104,7 +104,7 @@ export const georgejo: Member = {
 	lastName: "Johnson",
 	username: "georgejo",
 	major: MemberMajor.ME,
-	type: MemberType.MS,
+	type: MemberType.RE,
 	bio: "George Burton Johnson has a Bachelor’s in Mechanical Engineering with a minor in Manufacturing Engineering (MTU 2021). He is currently pursuing his Master’s in Mechanical Engineering at Michigan Technological University. George’s experience comes from a quality engineering internship with Woodward Inc. (2019), managing the MTU Lunabotics Competition Team, designing and manufacturing a lunar bucket elevator trencher for a senior capstone project, and other ISRU technology research for the PSTDL and Honeybee Robotics (REDWATER). George began working in the PSTDL in the Summer of 2020 and is currently working on the Lunar Surface Technology Research project assisting with the testing and design of a percussive heated cone penetrometer (PHCP).",
 	linkedIn: "https://www.linkedin.com/in/george-johnson-a05328195/",
 };
@@ -128,7 +128,7 @@ export const mcguadag: Member = {
 	username: "mcguadag",
 	major: MemberMajor.ME,
 	type: MemberType.PHD,
-	bio: "Marcello Guadagno (Chell) has a Bachelor's in Mechanical Engineering with minors in Aerospace Engineering, Electrical Engineering, and International Leadership (MTU 2019). He has 5 years of end-to-end space mission engineering and program management experience. During his undergrad, Marcello led the development of several smallsat missions while at Michigan Tech and worked on the OCULUS-ASR mission launched in 2019. He has previously worked at the Space Dynamics Laboratory and NASA as a Guidance, Navigation & Control Systems engineer. Marcello began his work in the PSTDL in the Spring of 2020. His graduate work focuses on developing In-Situ Lunar robotic mining missions.",
+	bio: "Marcello Guadagno (Chell) has a Bachelor's in Mechanical Engineering with minors in Aerospace Engineering, Electrical Engineering, and International Leadership (MTU 2019). He has 8 years of end-to-end space mission engineering and program management experience. During his undergrad, Marcello led the development of several smallsat missions in the Michigan Tech Aerospace Enterprise. He has previously worked at the Space Dynamics Lab and NASA, and currently is a senior space systems engineer at Cutting Edge Communications. Marcello began researching at the PSTDL in the Spring of 2020. He currency is a Department of Defense SMART fellow with the Air Force Research labs Space Vehicle Directorate.",
 	linkedIn: "https://www.linkedin.com/in/marcelloguadagno/",
 };
 export const nzamora: Member = {
@@ -179,7 +179,7 @@ export const tawavrun: Member = {
 	username: "tawavrun",
 	major: MemberMajor.ME,
 	type: MemberType.PHD,
-	bio: "Travis A. Wavrunek is currently pursuing his Ph.D. in mechanical engineering with a focus on thermal modeling with the Planetary Surface Technology Development lab (PSTDL) at Michigan Technological University (MTU). He is researching lunar ISRU systems with a focus on heat transfer and phase change as it applies to regolith and power transfer systems. Past projects have included the Tethered- permanently shaded Region EXplorer (T-REX) for the 2020 NASA BIG Idea Challenge, W^5 for the WATTS on the Moon Challenge, and the development of an Infrared-Tracking Gravity Offload System in a lunar simulant sandbox.",
+	bio: "Travis A. Wavrunek is currently pursuing his Ph.D. in mechanical engineering with a focus on thermal modeling and lunar power transfer within the PSTDL. As part of the development of the PHCP, he is developing a model to simulate heat transfer, phase change, and mass transport of lunar volatiles within PSRs. Additionally, Travis leads the TEMPEST project, a lunar high-efficiency power transfer solution, utilizing superconducting tethers. Past projects have included the Tethered- permanently shaded Region EXplorer (T-REX) for the 2020 NASA BIG Idea Challenge, W^5/TEMPEST for the WATTS on the Moon Challenge, and the development of an Infrared-Tracking Gravity Offload System in a lunar simulant sandbox(IRGO).",
 	linkedIn: "https://www.linkedin.com/in/travis-wavrunek/",
 };
 export const tcgronda: Member = {
@@ -313,10 +313,11 @@ export const mvsietse: Member = {
 export const jbprimea: Member = {
 	firstName: "Joe",
 	lastName: "Primeau",
-	type: MemberType.BS,
+	type: MemberType.MS,
 	username: "jbprimea",
-	major: MemberMajor.ENV,
-	bio: "Joe is currently in his senior year of his undergraduate environmental engineering degree at Michigan Technological University.  He recently joined the Planetary Surface Technology Development Lab in order to assist in geotechnical testing on MTU's lunar regolith simulant for the NASA Lunar Surface Technology Research (LuSTR) project. He is also an active member of the ridge roamers and ski and board clubs on campus."
+	major: MemberMajor.CIV,
+	linkedIn: "https://www.linkedin.com/in/joe-primeau-020bb6269/",
+	bio: "Joe Primeau is a graduate student in Civil Engineering with a bachelor's of science in Environmental Engineering from Michigan Technological University. He joined PSTDL in January 2022 working on the LuSTR Geotechnical subteam. Currently, he is working on a NASA STTR-funded project that includes the development of a spreadsheet-based analysis tool to inform the construction of compacted lunar regolith structures as well as the NASA Break the Ice Challenge. In his free time, he enjoys mountain biking, thrifting, playing music, and climbing."
 };
 export const colinsch: Member = {
 	firstName: "Colin",
@@ -415,7 +416,7 @@ export const rdauster: Member = {
     type: MemberType.BS,
     major: MemberMajor.ME,
     linkedIn: "https://www.linkedin.com/in/robin-austerberry/",
-    bio: "Robin is a first-year mechanical engineering undergraduate at Michigan Tech and was hired into PSTDL in the summer of 2022 to work on LuSTR 21. He plays trumpet for MTU Jazz and the Huskies Pep Band, and is involved with EMS, IM Hockey, and Alpine Skiing.",
+    bio: "Robin is a junior Mechanical Engineering Undergraduate with a minor in Aerospace Engineering at Michigan Tech. He joined PSTDL in the summer of 2022 to work on LuSTR 2021 and later joined the Break the Ice Challenge. He is the treasurer of AIAA at MTU and an EMT with MTU EMS. He plays trumpet for MTU Jazz and the Huskies Pep Band, and enjoys mountain biking, alpine skiing, and ice hockey.",
     username: "rdauster"
 }
  
@@ -449,6 +450,26 @@ export const psbradsh: Member = {
     username: "psbradsh"
 }
 
+export const mkoujiri: Member = {
+	firstName: "Matthew",
+	lastName: "Oujiri",
+	type: MemberType.BS,
+	major: MemberMajor.CSM,
+	linkedIn: "https://www.linkedin.com/in/matthew-oujiri-39125b275/",
+	bio: "Matthew is a second year Computer Science and Mathematics undergraduate at Michigan Tech. He joined PTSDL in the summer of 2023 to work on BTIC. He enjoys running, ultimate frisbee, and disc golf.",
+	username: "mkoujiri",
+	alumni: false
+}
+
+export const smzeqlam: Member = {
+	firstName: "Suhayb",
+	lastName: "Zeqlam",
+	type: MemberType.BS,
+	major: MemberMajor.EE,
+	linkedIn: "https://www.linkedin.com/in/thesuhaybzeqlam/",
+	bio: "Suhayb Zeqlam is a senior Electrical Engineering student at Michigan Technological University. Suhayb Joined the PTSDL team in Spring 2023 semester working in WATTS and assisting the BTIC team. In his free time he enjoys movies, music, and making things.",
+	username: "smzeqlam"
+}
 
 export const members: Member[] = [
 	psbradsh,
@@ -492,7 +513,9 @@ export const members: Member[] = [
 	colinsch,
 	dkbrouse,
 	arajan,
-	aegulan
+	aegulan, 
+	mkoujiri, 
+	smzeqlam
 ]
 
 export function getMemberByLink(id: string | string[]): Member | undefined {
