@@ -334,8 +334,9 @@ export const dkbrouse: Member = {
 	lastName: "Brouse",
 	type: MemberType.BS,
 	major: MemberMajor.RE,
+	linkedIn: "https://www.linkedin.com/in/dana-brouse/",
 	username: "dkbrouse",
-	bio: "Dana K. Brouse is currently pursuing an undergraduate degree in Robotics Engineering at Michigan Technological University (MTU).  She is involved on campus in the Planetary Surface Technology Development Lab (PSTDL) where she is currently working to integrate a z-axis to the project Infrared-Tracking Gravity Offload System (IRGO).  She is also the Vice President of the Biomedical Robotics club at MTU and participates in the Figure Skating club at MTU."
+	bio: "Dana Brouse is currently pursuing an undergraduate degree in Robotics Engineering at Michigan Technological University (MTU). She joined the Planetary Surface Technology Development Lab (PSTDL) in Spring 2022 where she is currently working to integrate a z-axis to the project Infrared-Tracking Gravity Offload System (IRGO). She later joined NASA Break the Ice Challenge as a part of the excavation subteam.  She is involved in MTU organizations such as American Institute of Aeronautics and Astronautics, Society of Asian Scientists and Engineers, Figure Skating Club, and rock climbing with the Outdoor Adventure Program."
 };
 
 export const arajan: Member = {
@@ -509,8 +510,18 @@ export const ajsweene: Member = {
 	type: MemberType.BS,
 	major: MemberMajor.CS,
 	linkedIn: "https://www.linkedin.com/in/jayfromprogramming/",
-	bio: "Jay Sweeney is a Junior Undergraduate at Tech Majoring in Computer Science.Jay joined the lab in the spring of 2022",
+	bio: "Jay Sweeney is a Junior Undergraduate at Tech Majoring in Computer Science. Jay joined the lab in the spring of 2022",
 	username: "ajsweene"
+}
+
+export const ljfrank: Member = {
+	firstName: "Lucas",
+	lastName: "Frank",
+	type: MemberType.BS,
+	major: MemberMajor.ME,
+	linkedIn: "https://www.linkedin.com/in/ljfrank/",
+	bio: "Lucas Frank is a 3rd year Mechanical Engineering undergraduate at Michigan Tech. Lucas joined the PSTDL in January of 2023 working under the chassis subteam for the BTIC team. Currently, Lucas leads the chassis subteam, and is also working in CLASS. In his free time, Lucas enjoys tinkering with anything he can get his hands on, movies, and video games.",
+	username: "ljfrank"
 }
 export const members: Member[] = [
 	psbradsh,
@@ -560,7 +571,8 @@ export const members: Member[] = [
 	mrkrause,
 	bhpokorn,
 	nsbruurs,
-	ajsweene
+	ajsweene,
+	ljfrank
 ]
 
 export function getMemberByLink(id: string | string[]): Member | undefined {

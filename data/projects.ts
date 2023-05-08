@@ -49,7 +49,9 @@ import {
 	mrkrause,
 	bhpokorn,
 	nsbruurs,
-	ajsweene
+	ajsweene,
+	dkbrouse,
+	ljfrank
 } from "./members";
 import {Member} from "../interfaces/Member";
 
@@ -101,7 +103,8 @@ export const lustr21: DetailItem = {
 	link: "lustr21",
 	members: [
 		rdauster,
-		psbradsh
+		psbradsh,
+		ljfrank
 	],
 	alumni: [
 
@@ -179,7 +182,9 @@ export const breakTheIce: DetailItem = {
 		jbprimea,
 		mrkrause,
 		psbradsh,
-		ajsweene
+		ajsweene,
+		dkbrouse,
+		ljfrank
 	],
 	alumni: [],
 	images: [
@@ -297,7 +302,8 @@ export const nasaClass: DetailItem = {
 		kjiam,
 		pjvansus,
 		clcarey,
-		jbprimea
+		jbprimea,
+		ljfrank
 	],
 	alumni: [
 		nathanmi
