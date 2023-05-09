@@ -523,6 +523,16 @@ export const ljfrank: Member = {
 	bio: "Lucas Frank is a 3rd year Mechanical Engineering undergraduate at Michigan Tech. Lucas joined the PSTDL in January of 2023 working under the chassis subteam for the BTIC team. Currently, Lucas leads the chassis subteam, and is also working in CLASS. In his free time, Lucas enjoys tinkering with anything he can get his hands on, movies, and video games.",
 	username: "ljfrank"
 }
+
+export const austinmc: Member = {
+	firstName: "Austin",
+	lastName: "McDonald",
+	type: MemberType.BS,
+	major: [MemberMajor.CPE, MemberMajor.EE],
+	linkedIn: "https://www.linkedin.com/in/austin-jean-mcdonald/",
+	bio: "Austin McDonald is studying Electrical and Computer Engineering as an undergraduate student at Michigan Technological University. He joined the Planetary Surface Technology Development Lab in Spring 2023, at which time he helped to design circuit schematics and PCBs for NASA’s Watts on the Moon Challenge. Later on, he began assisting in the electrical work being done for NASA’s Break the Ice Challenge. In his free time he likes to play guitar, build LEGO sets, and watch timeless movies.",
+	username: "austinmc"
+}
 export const members: Member[] = [
 	psbradsh,
 	nbmckenz,
@@ -572,7 +582,8 @@ export const members: Member[] = [
 	bhpokorn,
 	nsbruurs,
 	ajsweene,
-	ljfrank
+	ljfrank,
+	austinmc
 ]
 
 export function getMemberByLink(id: string | string[]): Member | undefined {

@@ -51,7 +51,8 @@ import {
 	nsbruurs,
 	ajsweene,
 	dkbrouse,
-	ljfrank
+	ljfrank,
+	austinmc
 } from "./members";
 import {Member} from "../interfaces/Member";
 
@@ -154,7 +155,8 @@ export const watts: DetailItem = {
 		tawavrun,
 		smzeqlam,
 		psbradsh,
-		nsbruurs
+		nsbruurs,
+		austinmc
 	],
 	alumni: [
 		collinmi,
@@ -184,7 +186,8 @@ export const breakTheIce: DetailItem = {
 		psbradsh,
 		ajsweene,
 		dkbrouse,
-		ljfrank
+		ljfrank,
+		austinmc
 	],
 	alumni: [],
 	images: [
