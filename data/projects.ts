@@ -52,7 +52,8 @@ import {
 	ajsweene,
 	dkbrouse,
 	ljfrank,
-	austinmc
+	austinmc,
+	wdjennes
 } from "./members";
 import {Member} from "../interfaces/Member";
 
@@ -187,7 +188,8 @@ export const breakTheIce: DetailItem = {
 		ajsweene,
 		dkbrouse,
 		ljfrank,
-		austinmc
+		austinmc,
+		wdjennes
 	],
 	alumni: [],
 	images: [

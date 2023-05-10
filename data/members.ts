@@ -533,6 +533,16 @@ export const austinmc: Member = {
 	bio: "Austin McDonald is studying Electrical and Computer Engineering as an undergraduate student at Michigan Technological University. He joined the Planetary Surface Technology Development Lab in Spring 2023, at which time he helped to design circuit schematics and PCBs for NASA’s Watts on the Moon Challenge. Later on, he began assisting in the electrical work being done for NASA’s Break the Ice Challenge. In his free time he likes to play guitar, build LEGO sets, and watch timeless movies.",
 	username: "austinmc"
 }
+
+export const wdjennes: Member = {
+	firstName: "William",
+	lastName: "Jenness V",
+	type: MemberType.MS,
+	major: MemberMajor.EE,
+	linkedIn: "https://www.linkedin.com/in/william-jenness-v/",
+	bio: "William Jenness is a graduate electrical engineering student at Michigan Tech. He completed his undergraduate degree in mechanical engineering with a minor in aerospace engineering in spring 2023. Will joined the lab in December 2022, to work as the electrical power systems lead engineer for Nasa’s Break The Ice Challenge Phase II. In his spare time, Will enjoys being outside as well as exercising.",
+	username: "wdjennes"
+}
 export const members: Member[] = [
 	psbradsh,
 	nbmckenz,
@@ -583,7 +593,8 @@ export const members: Member[] = [
 	nsbruurs,
 	ajsweene,
 	ljfrank,
-	austinmc
+	austinmc,
+	wdjennes
 ]
 
 export function getMemberByLink(id: string | string[]): Member | undefined {
