@@ -307,6 +307,7 @@ export const mvsietse: Member = {
 	major: MemberMajor.CPE,
 	username: "mvsietse",
 	linkedIn: "https://www.linkedin.com/in/matthew-sietsema/",
+	alumni: true,
 	location: {
 		lat: 35.05766,
 		lng: -106.599
