@@ -74,7 +74,8 @@ export const eavanhor: Member = {
 	username: "eavanhor",
 	major: MemberMajor.EE,
 	type: MemberType.BS,
-	linkedIn: "https://www.linkedin.com/in/erik-vanhorn-98aa66172/"
+	linkedIn: "https://www.linkedin.com/in/erik-vanhorn-98aa66172/",
+	alumni: true
 };
 export const ejcobb: Member = {
 	firstName: "Elijah",
@@ -323,7 +324,7 @@ export const jbprimea: Member = {
 export const colinsch: Member = {
 	firstName: "Colin",
 	lastName: "Schaefer",
-	type: MemberType.BS,
+	type: MemberType.MS,
 	major: MemberMajor.ME,
 	username: "colinsch",
 	bio: "Colin Schaefer is a fourth year Mechanical Engineering student from the Ann Arbor area at Michigan Tech who is also pursuing a minor in Aerospace Engineering. Colin began his experience working with space technology when he joined the Multiplanetary Innovation Enterprise (MINE). During his third year, he was a member of the Excavation sub-team within the enterprise's Lunabotics team. He is currently apart of the Lunar Trencher project team that seeks to determine the usability of a bucket ladder under vacuum conditions. Colin began working for the Planetary Surface Technology Development Lab (PSTDL) in Spring 2022 and is currently on the LuSTR project.",
@@ -370,7 +371,8 @@ export const mysalem: Member = {
     major: MemberMajor.RE,
     linkedIn: "https://www.linkedin.com/in/mohamed-salem123454321/",
     bio: "Mohamed is in his 3rd year of his undergraduate degree majoring in Robotics Engineering. He is also a member of the Robotics Enterprise.",
-    username: "mysalem"
+    username: "mysalem",
+	alumni: true
 }
 
 export const jwearly: Member = {
@@ -389,7 +391,8 @@ export const nbmckenz: Member = {
     type: MemberType.BS,
     major: MemberMajor.EE,
     bio: "Nick McKenzie is going into his Senior year of his undergraduate Electrical Engineering degree at Michigan Tech. He recently joined the Planetary Surface Technology Development Lab in the spring of 2022 to assist and work on the LuSTR and HOPLITE Projects. He is also an Air Force ROTC Cadet and a MTU Varsity Athlete on the Cross Country and Track teams.",
-    username: "nbmckenz"
+    username: "nbmckenz",
+	alumni: true
 }
  
 export const brianjo: Member = {
