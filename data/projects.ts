@@ -43,7 +43,17 @@ import {
 	smzerbel,
 	tawavrun,
 	tcgronda,
-	wtwagone
+	wtwagone,
+	mkoujiri,
+	smzeqlam,
+	mrkrause,
+	bhpokorn,
+	nsbruurs,
+	ajsweene,
+	dkbrouse,
+	ljfrank,
+	austinmc,
+	wdjennes
 } from "./members";
 import {Member} from "../interfaces/Member";
 
@@ -68,7 +78,10 @@ export const lustr20: DetailItem = {
 		cnorton,
 		jbprimea,
 		colinsch,
-		aegulan
+		aegulan,
+		mrkrause,
+		bhpokorn,
+		ajsweene
 	],
 	alumni: [
 		ajgoddu,
@@ -91,13 +104,14 @@ export const lustr21: DetailItem = {
 	description: "More information coming soon.",
 	link: "lustr21",
 	members: [
-
+		rdauster,
+		psbradsh,
+		ljfrank
 	],
 	alumni: [
 
 	],
 	images: [
-
 	]
 };
 
@@ -139,7 +153,11 @@ export const watts: DetailItem = {
 		ajgoddu,
 		ejcobb,
 		mvsietse,
-		tawavrun
+		tawavrun,
+		smzeqlam,
+		psbradsh,
+		nsbruurs,
+		austinmc
 	],
 	alumni: [
 		collinmi,
@@ -160,7 +178,18 @@ export const breakTheIce: DetailItem = {
 		collinmi,
 		hjmcgill,
 		tcgronda,
-		mcguadag
+		rdauster,
+		mcguadag,
+		mkoujiri,
+		smzeqlam,
+		jbprimea,
+		mrkrause,
+		psbradsh,
+		ajsweene,
+		dkbrouse,
+		ljfrank,
+		austinmc,
+		wdjennes
 	],
 	alumni: [],
 	images: [
@@ -278,7 +307,8 @@ export const nasaClass: DetailItem = {
 		kjiam,
 		pjvansus,
 		clcarey,
-		jbprimea
+		jbprimea,
+		ljfrank
 	],
 	alumni: [
 		nathanmi
@@ -295,6 +325,7 @@ export const projects: DetailItem[] = [
 	mre,
 	hoplite,
 	nasaClass,
+
 ];
 
 export function getProjectByLink(id: string | string[]): DetailItem | undefined {
