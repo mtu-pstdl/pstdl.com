@@ -27,7 +27,7 @@ const Page: NextPage<PageProps> = () => {
      		 }}>
 				<img src="logo-new-dark.png" width="500" height="500"></img>
 			</div>
-			<p style={{fontSize:20}}><b>Note</b>: Due to ITAR restrictions, to work at the PSTDL you must be <a href={"https://www.law.cornell.edu/cfr/text/22/120.15"} target={"_blank"} rel={"noreferrer"}>a U.S. Person or a U.S. Citizen.</a></p>
+			<p style={{fontSize:20}}><b>Note</b>: Due to ITAR restrictions, to work at the PSTDL you must be a U.S. Person or a U.S. Citizen.</p>
 			{positions.map((position, i) => {
 				return <PositionRow position={position} key={i}/>
 			})}
