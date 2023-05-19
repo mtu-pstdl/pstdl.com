@@ -9,8 +9,8 @@ import Image from "next/image";
 import Layout from "../../components/Layout";
 import {positions} from "../../data/positions";
 import {PositionRow} from "../../components/PositionRow";
-import {logo} from "../../public/logo-new-dark.png";
-import mtu from "../../public/mtu.png";
+
+
 interface PageProps {
 
 }
