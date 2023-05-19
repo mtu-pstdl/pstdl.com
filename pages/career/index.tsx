@@ -21,7 +21,7 @@ const Page: NextPage<PageProps> = () => {
 
 			<p>Currently there are no open positions available.</p>
 			<p>When any open positions are available, they will be advertised here and via MTU e-mail lists, so keep an eye on this page. In the mean time, if you are generally interested to learn more, please contact Dr. van Susante at <a href = "pjvansus@mtu.edu">pjvansus@mtu.edu</a></p>
-			<p><b>Note</b>: Due to ITAR restrictions, to work at the PSTDL you must be <a href={"https://www.law.cornell.edu/cfr/text/22/120.15"} target={"_blank"} rel={"noreferrer"}>a U.S. Person.</a></p>
+			<p><b>Note</b>: Due to ITAR restrictions, to work at the PSTDL you must be <a href={"https://www.law.cornell.edu/cfr/text/22/120.15"} target={"_blank"} rel={"noreferrer"}>a U.S. Person or a U.S. Citizen.</a></p>
 			<div style={{
       		  textAlign: "center"
      		 }}>
