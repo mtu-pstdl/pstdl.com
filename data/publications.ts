@@ -5,10 +5,138 @@
  * github.com/elijahjcobb
  */
 
+import { title } from "process";
 import {Publication} from "../interfaces/Publication";
 
 export const publications: Publication[] = [
 
+	{
+		authors: ["van Susante P", "Johnson G", "Wavrunek T", "Guadagno M", "Kaminsky C", "Allen J", "Eisele T", "Scarlett T", "Alger R","Zacny K", "O’Brien S", "Yen B"],
+		date: {month: 4, day:24, year: 2023},
+		title: "Field Testing Lunar Thermal Cone Penetrometer and Ground Penetrating Radar",
+		publication: "Poster & Lightning Talk at LSIC Spring Meeting - JHU-APL (April 24-25)"
+	},
+	{
+		authors: ["van Susante P", "Johnson G", "Wavrunek T", "Zimmerman E", "Krause M", "Allen J", "Eisele T", "Scarlett T", "Rajan A"],
+		date: {month: 4, day:24, year: 2023},
+		title: "Thermal Profiling to Identify and Quantify Cryogenic Volatiles in Lunar Simulant under Vacuum Conditions",
+		publication: "Poster only, LSIC Spring Meeting - JHU-APL (April 24-25)"
+	},
+	{
+		authors: ["Wavrunek T", "Johnson G", "van Susante P", "Zimmermann E", "Wiegand B", "Krause M", "Rajan A", "Allen J", "Eisele T" ],
+		date: {month: 10, day:23, year:2023},
+		title: "Method for Quantifying Lunar Polar Volatiles in Regolith and the Development of a Thermal Model",
+		publication: "AIAA ASCEND conference - Las Vegas (Oct 23-25)"
+	},
+	{
+		authors: ["Wavrunek T", "McGillivray H", "Carey C","Johnson B", "Guadagno M", "van Susante P" ],
+		date: {month: 10, day:23, year:2023},
+		title: "Testing and Analysis of a Superconducting Tether for Power Transmission Inside of Lunar Permanently Shaded Regions",
+		publication: "AIAA ASCEND conference - Las Vegas (Oct 23-25), 2023"
+	},
+	{
+		authors: ["Noe J", "van Susante P", "Sibille L", "Wiegand B", "Sierra E", "Bradshaw P"],
+		date: {month: 10, day:23, year:2023},
+		title: "Three Regolith Simulant Conveyance Systems Tested in Vacuum and Atmospheric Conditions",
+		publication: "AIAA ASCEND conference - Las Vegas (Oct 23-25), 2023"
+	},
+	{
+		authors: ["Carey C", "Austerberry R", "Bradshaw P", "van Susante P"],
+		date: {month: 10, day:23, year:2023},
+		title: "Low Mass Method for Lunar Regolith Surface Compaction",
+		publication: "AIAA ASCEND conference - Las Vegas (Oct 23-25), 2023"
+	},
+	{
+		authors: ["Guadagno M", "Bradshaw P", "Primeau J", "van Susante P"],
+		date: {month: 10, day:23, year:2023},
+		title: "Long Duration Testing of a Rover-Mounted Chain Trencher Excavator in Simulated Lunar Surface Conditions",
+		publication: "AIAA ASCEND conference - Las Vegas (Oct 23-25), 2023"
+	},
+	{
+		authors: ["Noe J", "van Susante P"],
+		date: {month: 10, day:23, year:2023},
+		title: "The Potential of Wind Energy on Celestial Bodies with Substantial Atmospheres",
+		publication: "AIAA ASCEND conference - Las Vegas (Oct 23-25), 2023"
+	},
+	{
+		authors: ["Dreyer C", "Jehn I", "van Susante P", "Primeau J"],
+		date: {month: 10, day:23, year:2023},
+		title: "Lunar Site Preparation Requirements for Construction of Infrastructure Elements",
+		publication: "AIAA ASCEND conference - Las Vegas (Oct 23-25), 2023"
+	},
+	{
+		authors: ["Johnson G", "Wavrunek T", "van Susante P", "Allen J", "Eisele T"],
+		date: {month: 6, day: 9, year: 2023},
+		title: "Thermal Measurements of Icy Lunar Regolith Simulant: Water Content Analysis Under Atmospheric Conditions",
+		publication: "pace Resources Roundtable - Golden, CO (Jun5-9), 2023"
+	},
+	{
+		authors: ["Wiegand B", "Guadagno M","van Susante P" ],
+		date: {month: 6, day: 9, year: 2023},
+		title: "Testing of a Rover-Mounted Instrumented Percussive Cone Penetrometer in Icy Layered Lunar Regolith Simulant",
+		publication: "Space Resources Roundtable - Golden, CO (Jun5-9), 2023"
+	},
+	{
+		authors: ["Noe J", "van Susante P", "Sibille L", "Bradshaw P", "Sierra E", "Wiegand B" ],
+		date: {month: 6, day: 9, year: 2023},
+		title: "Lunar Regolith Hopper Design and Testing Under Atmosphere and Vacuum Conditions",
+		publication: "Space Resources Roundtable - Golden, CO (Jun5-9), 2023"
+	},
+	{
+		authors: ["Noe J", "van Susante P", "Sibille L", "Bradshaw P", "Sierra E", "Wiegand B" ],
+		date: {month: 6, day: 9, year: 2023},
+		title: "Three General Lunar Regolith Conveyance Systems Tested in Atmosphere and Vacuum Conditions",
+		publication: "Space Resources Roundtable - Golden, CO (Jun5-9), 2023"
+	},
+	{
+		authors: ["Carey C", "Austerberry R", "Bradshaw P", "van Susante P"],
+		date: {month: 6, day: 9, year: 2023},
+		title: "Low Mass Method for Lunar Regolith Surface Compaction",
+		publication: "Space Resources Roundtable - Golden, CO (Jun5-9) , 2023"
+	},
+	{
+		authors: ["Bradshaw P", "van Susante P", "Nielsen K", "Guadagno M"],
+		date: {month: 6, day: 9, year: 2023},
+		title: "Efficacy and Wear of a Bucket Ladder for ISRU Regolith Excavation in Vacuum",
+		publication: "Space Resources Roundtable - Golden, CO (Jun5-9), 2023"
+	},
+	{
+		authors: ["van Susante P", "Johnson G", "Wiegand B.D", "Wavrunek T", "Guadagno M.C", "Kaminsky C", "Allen J", "Eisele T.C", "Scarlett T", "Alger R", "Zacny K.A", "O’Brien S", "Yen B"],
+		date: {month: 5, day: 25, year: 2023},
+		title: "Field Testing Lunar Thermal Cone Penetrometer and Ground Penetrating Radar",
+		publication: "Poster, LSIC Spring 2023 meeting, Laurel, MD, May 24-25, 2023"
+	},
+	{
+		authors: ["van Susante P", "Johnson G", "Wavrunek T", "Zimmerman E", "Krause M", "Allen J", "Eisele T.C", "Scarlett T", "Rajan A"],
+		date: {month: 5, day: 25, year: 2023},
+		title: "Thermal Profiling to Identify and Quantify Cryogenic Volatiles in Lunar Simulant under Vacuum Conditions",
+		publication: "Poster, LSIC Spring 2023 meeting, Laurel, MD, May 24-25, 2023"
+	},
+	{
+		authors: ["van Susante P"],
+		date: {month: 11, day: 3, year: 2022},
+		title: "Observations of Working with Lunar Simulant in a Dusty Thermal Vacuum Chamber",
+		publication: "LSIC Fall 2022 meeting, El Paso, TX and virtual, Nov 2-3, 2022. Presenting in-person"
+	},
+	{
+		authors: ["Linders K","van Susante P"],
+		date: {month: 10, day: 22, year: 2022},
+		title: "Astro-Huskies Multiplanetary Regolith Pursuing Husky (MuRPHy)",
+		publication: "Michigan Space Grant 2022 Fall conference, Ann Arbor, MI"
+	},
+	{
+		authors: ["Noe J.B", "van Susante P", "Sibille L", "Wiegand B", "Carey C"],
+		date: {month: 9, day: 22, year: 2022},
+		title: "Lunar Regolith Behavior in Vacuum for ISRU Transportation and Storage",
+		publication: "IAC-22-D3.2B, 2/21/2022, conference proceedings of 73rd International Astronautical Congress, Paris, France, September 18-22, 2022"
+	},
+	{
+		authors: ["Wavrunek T", "van Susante P", "Bigham S", "Allen J" ],
+		date: {month: 9, day:22, year: 2022},
+		title: "An Analysis of Phase Change Material for Lunar Thermal Management in Permanently Shaded Regions",
+		publication: "IAC-22-D3.2B, conference proceedings of 73rd International Astronautical Congress, Paris, France, September 18-22, 2022"
+
+	},
 	{
 		authors: ["Johnson G", "Zerbel S", "Redlon G", "Van Susante P", "Zacny K" ],
 		date: {month: 6, day: 10, year: 2022},
