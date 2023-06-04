@@ -8,7 +8,12 @@
 import {News} from "../interfaces/News";
 
 export const news: News[] = [
-	
+	{
+		title: "How Are We Going to Power Our First Projects On the Moon?",
+		link: "https://www.youtube.com/watch?v=dsHU_WvCTHs",
+		date: {month: 4, day: 24, year: 2023},
+		content: "Dr. Paul van Susante appeared on the Cold Star Project."
+	},
     {
         title: "PSTDL Awarded the NASA 2022 STTR Phase I Grant",
         link: "https://sbir.nasa.gov/SBIR/abstracts/22/sttr/phase1/STTR-22-1-T7.04-2186.html",
