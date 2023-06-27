@@ -15,7 +15,7 @@ export const news: News[] = [
 		content: "Dr. Paul van Susante appeared on the Cold Star Project."
 	},
     {
-        title: "PSTDL Awarded the NASA 2022 STTR Phase I Grant",
+        title: "PSTDL Awarded NASA 2022 STTR Phase I Grant",
         link: "https://sbir.nasa.gov/SBIR/abstracts/22/sttr/phase1/STTR-22-1-T7.04-2186.html",
         date: {month: 5, day: 25, year: 2022}
     },
