@@ -44,7 +44,7 @@ export function DetailItemDetail(props: DetailItemDetailProps): ReactElement {
 
 	return (<Layout title={title} className={"ProjectDetail main"}>
 		<h2>{title}</h2>
-		<em>{props.item.description}</em>
+		<p>{props.item.description}</p>
 		{imageGalleryItems.length !== 0 && <h3>Media</h3>}
 		{imageGalleryItems.length !== 0 && <ImageGallery showFullscreenButton={false} additionalClass={"imagesContainer"} autoPlay items={imageGalleryItems} />}
 		{(members.length + alumni.length) > 0 && <h3>Members</h3>}
