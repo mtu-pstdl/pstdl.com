@@ -51,6 +51,7 @@ export const collinmi: Member = {
 	major: MemberMajor.ME,
 	type: MemberType.BS,
 	linkedIn: "https://www.linkedin.com/in/collin-miller-543a641a3/",
+	alumni: true
 };
 
 export const dfpaglia: Member = {
@@ -226,7 +227,8 @@ export const cjkamins: Member = {
 	type: MemberType.MS,
 	firstName: "Caleb",
 	username: "cjkamins",
-	linkedIn: "https://www.linkedin.com/in/caleb-kaminski-186b531a0/"
+	linkedIn: "https://www.linkedin.com/in/caleb-kaminski-186b531a0/",
+	alumni: true
 };
 export const nathanmi: Member = {
 	firstName: "Nathan",
@@ -329,7 +331,8 @@ export const colinsch: Member = {
 	major: MemberMajor.ME,
 	username: "colinsch",
 	bio: "Colin Schaefer is a fourth year Mechanical Engineering student from the Ann Arbor area at Michigan Tech who is also pursuing a minor in Aerospace Engineering. Colin began his experience working with space technology when he joined the Multiplanetary Innovation Enterprise (MINE). During his third year, he was a member of the Excavation sub-team within the enterprise's Lunabotics team. He is currently apart of the Lunar Trencher project team that seeks to determine the usability of a bucket ladder under vacuum conditions. Colin began working for the Planetary Surface Technology Development Lab (PSTDL) in Spring 2022 and is currently on the LuSTR project.",
-	linkedIn: "http://www.linkedin.com/in/colin-schaefer-mtu"
+	linkedIn: "http://www.linkedin.com/in/colin-schaefer-mtu",
+	alumni: true
 };
 export const dkbrouse: Member = {
 	firstName: "Dana",
