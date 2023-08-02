@@ -10,7 +10,7 @@ import {News} from "../interfaces/News";
 export const news: News[] = [
 	{
 		title: "PSTDL advacnes to final stage of NASA's Watts on the Moon challenge",
-		link: "https://www.nasa.gov/directorates/spacetech/centennial_challenges/four-teams-win-prizes-to-advance-energy-technology-for-moon-missions",
+		link: "https://www.mtu.edu/news/2023/06/pstdl-advances-to-final-round-of-nasa-watts-on-the-moon-challenge.html",
 		date: {month: 6, day: 28, year: 2023},
 		content: "PTSDL is among 4 groups that have been selected to move to the final stage of NASA's Watts on the Moon challenge. "
 	},

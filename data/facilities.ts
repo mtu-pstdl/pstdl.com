@@ -117,6 +117,14 @@ export const facilities: DetailItem[] = [
 			{src: "/facilities/arm/icon.jpg"},
 			{src: "/facilities/arm/arm-trencher-enclosure.jpg"},
 		]
+	}, 
+	{
+		title: "Lunar Proving Grounds",
+		description: " ",
+		link: "",
+		members: [],
+		alumni: [],
+		images: [],
 	}
 ]
 
