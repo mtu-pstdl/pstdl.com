@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint"
   },
-  "engines": {"node": "18.0.0"},
+  "engines": {"node": "18.x "},
   "dependencies": {
     "@element-ts/oxygen": "latest",
     "@types/react-image-gallery": "^1.0.5",
