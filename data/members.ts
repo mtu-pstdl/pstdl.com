@@ -553,6 +553,55 @@ export const wdjennes: Member = {
 	bio: "William Jenness is a graduate electrical engineering student at Michigan Tech. He completed his undergraduate degree in mechanical engineering with a minor in aerospace engineering in spring 2023. Will joined the lab in December 2022, to work as the electrical power systems lead engineer for Nasa’s Break The Ice Challenge Phase II. In his spare time, Will enjoys being outside as well as exercising.",
 	username: "wdjennes"
 }
+
+export const nspatter: Member = {
+	firstName: "Noah",
+	lastName: "Patterson",
+	type: MemberType.BS,
+	major: MemberMajor.EE,
+	linkedIn: "www.linkedin.com/in/noah-patterson-1609a0294",
+	bio: "Noah Patterson is a first year Electrical Engineering Undergraduate working as a Research Assistant for the PSTDL LuSTR 21 Project. This year is his first year on the team and is excited to work with the compaction project team. Outside of the lab Noah is  an active member of MTU’s travel men’s volleyball club, enjoys rock climbing inside and outdoors, and gets out snowboarding during the winter",
+	username: "nspatter"
+}
+
+export const hlgoetz: Member = {
+	firstName: "Heather",
+	lastName: "Goetz",
+	type: MemberType.BS,
+	major: MemberMajor.ME,
+	linkedIn: " https://www.linkedin.com/in/hlgoetz/",
+	bio: " Heather Goetz is an undergraduate mechanical engineering student who joined the lab in fall 2023 and has been researching an excavation system for NASA’s Break The Ice Challenge. Outside the lab, Heather is the structural systems engineer on the Michigan Tech Aerospace Enterprise. In her spare time, she enjoys skiing, hiking, and arts and crafts.",
+	username: "hlgoetz"
+}
+
+export const msmille3: Member = {
+	firstName: "Mack",
+	lastName: "Miller",
+	bio: "Mack Miller is a computer science undergraduate student at Michigan Technological University. She joined the lab in the fall of 2023 to work on the command and data handling team for the NASA Break the Ice Challenge. She also enjoys teaching the beginning skating course at the University, playing piano, and volunteering",
+	linkedIn: "www.linkedin.com/in/mackenziemller",
+	username: "msmille3",
+	type: MemberType.BS,
+	major: MemberMajor.CS
+}
+
+export const pstocchi: Member = {
+	firstName: "PierFrancesco",
+	lastName: "Stocchi",
+	type: MemberType.BS,
+	major: [MemberMajor.ME, MemberMajor.RE],
+	username: "pstocchi",
+	bio: "Pier is a Mechanical Engineering & Robotics Engineering undergraduate student at Michigan Technological University. He joined the lab in fall of 2023 and is working to finish the ongoing IRGO internal project that is used to simulate the gravity of other planets. In his free time he enjoys reading about ancient history and space and learning about aircraft",
+	linkedIn: "https://www.linkedin.com/in/pierstocchi/"
+}
+
+export const jdpetrin: Member = {
+	firstName: "Julia",
+	lastName: "Petrin",
+	type: MemberType.BS,
+	major: MemberMajor.ME,
+	username: "jdpetrin",
+	bio: "ulia Petrin is an undergraduate Mechanical Engineering student at Michigan Tech. She joined the lab in the summer of 2023 and has been working on the vibratory compaction of lunar regolith as part of the LuSTR 21 project. She is also vice president of the Keweenaw Rocket Range student organization. In her spare time, she enjoys mountain biking, building high-power rockets, and spending time with her partner."
+}
 export const members: Member[] = [
 	psbradsh,
 	nbmckenz,
@@ -604,7 +653,12 @@ export const members: Member[] = [
 	ajsweene,
 	ljfrank,
 	austinmc,
-	wdjennes
+	wdjennes,
+	nspatter,
+	hlgoetz,
+	msmille3,
+	pstocchi,
+	jdpetrin
 ]
 
 export function getMemberByLink(id: string | string[]): Member | undefined {
