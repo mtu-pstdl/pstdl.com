@@ -322,7 +322,8 @@ export const jbprimea: Member = {
 	username: "jbprimea",
 	major: MemberMajor.CIV,
 	linkedIn: "https://www.linkedin.com/in/joe-primeau-020bb6269/",
-	bio: "Joe Primeau is a graduate student in Civil Engineering with a bachelor's of science in Environmental Engineering from Michigan Technological University. He joined PSTDL in January 2022 working on the LuSTR Geotechnical subteam. Currently, he is working on a NASA STTR-funded project that includes the development of a spreadsheet-based analysis tool to inform the construction of compacted lunar regolith structures as well as the NASA Break the Ice Challenge. In his free time, he enjoys mountain biking, thrifting, playing music, and climbing."
+	bio: "Joe Primeau is a graduate student in Civil Engineering with a bachelor's of science in Environmental Engineering from Michigan Technological University. He joined PSTDL in January 2022 working on the LuSTR Geotechnical subteam. Currently, he is working on a NASA STTR-funded project that includes the development of a spreadsheet-based analysis tool to inform the construction of compacted lunar regolith structures as well as the NASA Break the Ice Challenge. In his free time, he enjoys mountain biking, thrifting, playing music, and climbing.",
+	alumni: true
 };
 export const colinsch: Member = {
 	firstName: "Colin",
