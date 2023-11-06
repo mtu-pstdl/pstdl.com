@@ -31,6 +31,7 @@ export const bdwiegan: Member = {
 	type: MemberType.RE,
 	bio: "Ben Wiegand received his M.S. in mechanical engineering from Michigan Tech in 2021. His master's degree focused on the commissioning and testing of the PSTDL's dusty thermal vacuum chamber (DTVAC). He has since been hired as a research engineer focusing on the instrumentation of a cone penetrometer for the LuSTR project. His past experiences include robotics and controls for 3D motion platforms, algorithms for plastics manufacturing, and 3D kinematic simulations for military vehicles.",
 	linkedIn: "https://www.linkedin.com/in/benjamin-w-48378b175/",
+	alumni: true
 };
 
 export const brchaffe: Member = {
@@ -82,7 +83,7 @@ export const ejcobb: Member = {
 	lastName: "Cobb",
 	username: "ejcobb",
 	major: MemberMajor.CS,
-	type: MemberType.PHD,
+	type: MemberType.BS,
 	linkedIn: "https://www.linkedin.com/in/elijahjcobb/",
 	twitter: "https://twitter.com/elijahjcobb",
 	bio: "Elijah Cobb was a Ph.D. student studying Computer Science at Michigan Technological University (MTU). Elijah earned a Bachelor's in Computer Science from MTU in the fall of 2021. Throughout his undergraduate degree, Elijah was involved with many research projects funded by NASA, the US Navy, and the National Science Foundation. Elijah has experience in the industry through leading the software development for a start-up, Ampel Feedback. As a Ph.D. student, Elijah aims at developing novel software solutions for robotics in aerospace applications. In addition, Elijah is a Graduate Researcher at the Planetary Surface Technology Development Lab (pstdl.com), a research laboratory at MTU developing in-situ resource utilization technologies for lunar and martian applications. Elijah left his graduate program in April 2022 for a position in industry.",
@@ -172,7 +173,7 @@ export const msfoetis: Member = {
 	username: "msfoetis",
 	linkedIn: "https://www.linkedin.com/in/michael-foetisch-student/",
 	major: MemberMajor.ME,
-	type: MemberType.PHD,
+	type: MemberType.MS,
 	alumni: true
 };
 export const tawavrun: Member = {
@@ -226,7 +227,8 @@ export const cjkamins: Member = {
 	type: MemberType.MS,
 	firstName: "Caleb",
 	username: "cjkamins",
-	linkedIn: "https://www.linkedin.com/in/caleb-kaminski-186b531a0/"
+	linkedIn: "https://www.linkedin.com/in/caleb-kaminski-186b531a0/",
+	alumni: true
 };
 export const nathanmi: Member = {
 	firstName: "Nathan",
@@ -329,7 +331,8 @@ export const colinsch: Member = {
 	major: MemberMajor.ME,
 	username: "colinsch",
 	bio: "Colin Schaefer is a fourth year Mechanical Engineering student from the Ann Arbor area at Michigan Tech who is also pursuing a minor in Aerospace Engineering. Colin began his experience working with space technology when he joined the Multiplanetary Innovation Enterprise (MINE). During his third year, he was a member of the Excavation sub-team within the enterprise's Lunabotics team. He is currently apart of the Lunar Trencher project team that seeks to determine the usability of a bucket ladder under vacuum conditions. Colin began working for the Planetary Surface Technology Development Lab (PSTDL) in Spring 2022 and is currently on the LuSTR project.",
-	linkedIn: "http://www.linkedin.com/in/colin-schaefer-mtu"
+	linkedIn: "http://www.linkedin.com/in/colin-schaefer-mtu",
+	alumni: true
 };
 export const dkbrouse: Member = {
 	firstName: "Dana",
@@ -338,7 +341,8 @@ export const dkbrouse: Member = {
 	major: MemberMajor.RE,
 	linkedIn: "https://www.linkedin.com/in/dana-brouse/",
 	username: "dkbrouse",
-	bio: "Dana Brouse is currently pursuing an undergraduate degree in Robotics Engineering at Michigan Technological University (MTU). She joined the Planetary Surface Technology Development Lab (PSTDL) in Spring 2022 where she is currently working to integrate a z-axis to the project Infrared-Tracking Gravity Offload System (IRGO). She later joined NASA Break the Ice Challenge as a part of the excavation subteam.  She is involved in MTU organizations such as American Institute of Aeronautics and Astronautics, Society of Asian Scientists and Engineers, Figure Skating Club, and rock climbing with the Outdoor Adventure Program."
+	bio: "Dana Brouse is currently pursuing an undergraduate degree in Robotics Engineering at Michigan Technological University (MTU). She joined the Planetary Surface Technology Development Lab (PSTDL) in Spring 2022 where she is currently working to integrate a z-axis to the project Infrared-Tracking Gravity Offload System (IRGO). She later joined NASA Break the Ice Challenge as a part of the excavation subteam.  She is involved in MTU organizations such as American Institute of Aeronautics and Astronautics, Society of Asian Scientists and Engineers, Figure Skating Club, and rock climbing with the Outdoor Adventure Program.",
+	alumni: true
 };
 
 export const arajan: Member = {
@@ -383,7 +387,8 @@ export const jwearly: Member = {
     major: [MemberMajor.ME, MemberMajor.CPE],
     linkedIn: "https://www.linkedin.com/in/weston-early-152b5a190/",
     bio: "Weston Early is in his 6th year of his Undergrad acquiring his B.S. in Mechanical Engineering and B.S. in Computer Engineering at Michigan Tech as well as minors in Geology, Aerospace Engineering, and Spanish. He was just hired as a GeoTech Engineer to work on the cone penetrometer for the LuSTR project. He is also a member of the Keweenaw Symphony Orchestra.",
-    username: "jwearly"
+    username: "jwearly",
+	alumni: true
 }
 
 export const nbmckenz: Member = {
