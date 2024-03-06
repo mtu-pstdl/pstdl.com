@@ -9,7 +9,44 @@ import { title } from "process";
 import {Publication} from "../interfaces/Publication";
 
 export const publications: Publication[] = [
-
+	
+	{
+		authors: ["Christopher Dreyer", "Adrew Petruska", "Neil Dantam", "George Sowers", "Kevin Cannon", "Jamal Rostami","Daniel Johnson", "Daniel Hammer", "David Purcell", 
+				 "Rik Banerjee","Elise Skirde", "Daniel Abel", "Chukwuebuka Okwor", "Paul van Susante", "Chuck Carey", "Van Wagner" ],
+		date: {month: 4, day:18, year:2024},
+		title: "Development of an autonomous site preparation vehicle for the Moon",
+		publication: "Proceedings of ASCE Earth & Space Conference, Miami, FL, April 14-18, 2024"
+	},
+	{
+		authors: ["P. J. van Susante", "M.C. Guadagno", "T. Wavrunek", "C. Carey", "H. McGillivray", "P. Bradshaw", "J. Primeau", "B. Wiegand", "G. Johnson"],
+		date: {month:10, day:11, year:2023},
+		title: "Watts on the Moon and Break the Ice Lunar Challenge Experiences",
+		publication: "Poster & Lightning Talk at LSIC Fall Meeting – Pittsburg, Oct 10-11, 2023"
+	},
+	{
+		authors: ["P. J. van Susante", "M.C. Guadagno", "B. Pokorny", "B. Wiegand", "J. Noe", "E. Sierra", "C. Carey", "J. Petrin", "R. Austerberry", "H. McGillivray","P. Bradshaw", "E. Zimmermann","G. Johnson"],
+		date: {month: 10, day:11, year:2023},
+		title: "Vacuum and Atmospheric Lunar Simulant Behavior and Geotechnical Properties",
+		publication: "Poster & Lightning Talk at LSIC Fall Meeting – Pittsburg, Oct 10-11, 2023"
+	},
+	{
+		authors: ["J. Rastami", "A. Petruska", "C. Dreyer", "P. van Susante"],
+		date: {month: 5, day: 9, year:2024},
+		title: "AUTONOMOUS SITE PREPARATION: EXCAVATION, COMPACTION, AND TESTING (ASPECT) project",
+		publication: "SME2024/2024 SME Annual Conference & EXPO"
+	},
+	{
+		authors: [ "P.J. van Susante", "G. Johnson", "B.D. Wiegand", "T. Wavrunek", "M.C. Guadagno", "C. Kaminsky", "J. Allen", "T.C. Eisele", "T. Scarlett", "R. Alger", "K.A. Zacny", "S. O’Brien", "B. Yen"],
+		date: {month: 4, day:25, year:2023},
+		title: "Field Testing Lunar Thermal Cone Penetrometer and Ground Penetrating Radar",
+		publication: "Poster & Lightning Talk at LSIC Spring Meeting - JHU-APL (April 24-25)"
+	},
+	{
+		authors: ["P.J. van Susante", "G. Johnson", "T. Wavrunek", "E. Zimmerman", "M. Krause", "J. Allen", "T.C. Eisele", "T. Scarlett", "A. Rajan"],
+		date: {month: 4, day:25, year:2023},
+		title: "Thermal Profiling to Identify and Quantify Cryogenic Volatiles in Lunar Simulant under Vacuum Conditions",
+		publication: "Poster only, LSIC Spring Meeting - JHU-APL (April 24-25)"
+	},
 	{
 		authors: ["van Susante P", "Johnson G", "Wavrunek T", "Guadagno M", "Kaminsky C", "Allen J", "Eisele T", "Scarlett T", "Alger R","Zacny K", "O’Brien S", "Yen B"],
 		date: {month: 4, day:24, year: 2023},
@@ -68,7 +105,7 @@ export const publications: Publication[] = [
 		authors: ["Johnson G", "Wavrunek T", "van Susante P", "Allen J", "Eisele T"],
 		date: {month: 6, day: 9, year: 2023},
 		title: "Thermal Measurements of Icy Lunar Regolith Simulant: Water Content Analysis Under Atmospheric Conditions",
-		publication: "pace Resources Roundtable - Golden, CO (Jun5-9), 2023"
+		publication: "Space Resources Roundtable - Golden, CO (Jun5-9), 2023"
 	},
 	{
 		authors: ["Wiegand B", "Guadagno M","van Susante P" ],
