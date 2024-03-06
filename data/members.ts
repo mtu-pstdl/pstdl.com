@@ -52,6 +52,7 @@ export const collinmi: Member = {
 	major: MemberMajor.ME,
 	type: MemberType.BS,
 	linkedIn: "https://www.linkedin.com/in/collin-miller-543a641a3/",
+	alumni: true
 };
 
 export const dfpaglia: Member = {
@@ -122,8 +123,9 @@ export const hjmcgill: Member = {
 	// alumni: true,
 	// location: {
 	// 	lat: 40.45032,
-	// 	lng: -80.01986
+	// 	lng: -80.01986,
 	// }
+	alumni: true
 };
 export const mcguadag: Member = {
 	firstName: "Marcello",
@@ -245,7 +247,7 @@ export const clcarey: Member = {
 	lastName: "Carey",
 	username: "clcarey",
 	major: MemberMajor.ME,
-	type: MemberType.MS,
+	type: MemberType.RE,
 	linkedIn: "https://www.linkedin.com/in/chuck-carey-9280931b9/"
 };
 export const jnoe: Member = {
@@ -286,7 +288,8 @@ export const gtredlon: Member = {
 	type: MemberType.BS,
 	major: MemberMajor.ME,
 	username: "gtredlon",
-	linkedIn: "https://www.linkedin.com/in/gregory-redlon-23701621b/"
+	linkedIn: "https://www.linkedin.com/in/gregory-redlon-23701621b/",
+	alumni: true
 };
 export const cnorton: Member = {
 	firstName: "Christopher",
@@ -352,7 +355,8 @@ export const arajan: Member = {
 	type: MemberType.PD,
 	major: MemberMajor.ME,
 	username: "arajan",
-	linkedIn: "https://www.linkedin.com/in/anurag-rajan/"
+	linkedIn: "https://www.linkedin.com/in/anurag-rajan/",
+	alumni: true
 };
 
 export const aegulan: Member = {
@@ -409,13 +413,14 @@ export const brianjo: Member = {
     major: MemberMajor.ME,
     linkedIn: "https://www.linkedin.com/in/brian-johnson-54838a228/",
     bio: "Brian is currently a third year undergraduate student majoring in mechanical engineering and minoring in aerospace engineering at Michigan Technological University. He recently hired at Planetary Surface Technology Development Lab to work on the Molten Regolith Electrolysis (MRE) project. Brian is also a member of the leadership team on the Michigan Technological University Aerospace Enterprise.",
-    username: "brianjo"
+    username: "brianjo",
+	alumni: true
 }
  
 export const kjiam: Member = {
     firstName: "Kjia",
     lastName: "Moore",
-    type: MemberType.BS,
+    type: MemberType.MS,
     major: MemberMajor.ME,
     linkedIn: "https://www.linkedin.com/in/kjia-moore-20b439229/",
     bio: "Kjia is currently a third year undergraduate student pursuing a B.S. in Mechanical Engineering and a minor in Aerospace Engineering at Michigan Technological University. She was recently hired at Planetary Surface Technology Development Lab as a Research Engineer for the Center for Lunar and Asteroid Surface Science (CLASS). Kjia is also a Systems Engineer on the Michigan Tech Aerospace Enterprise.",
@@ -480,7 +485,8 @@ export const smzeqlam: Member = {
 	major: MemberMajor.EE,
 	linkedIn: "https://www.linkedin.com/in/thesuhaybzeqlam/",
 	bio: "Suhayb Zeqlam is a senior Electrical Engineering student at Michigan Technological University. Suhayb Joined the PTSDL team in Spring 2023 semester working in WATTS and assisting the BTIC team. In his free time he enjoys movies, music, and making things.",
-	username: "smzeqlam"
+	username: "smzeqlam",
+	alumni: true
 }
 
 export const mrkrause: Member = {
@@ -587,7 +593,7 @@ export const msmille3: Member = {
 export const pstocchi: Member = {
 	firstName: "PierFrancesco",
 	lastName: "Stocchi",
-	type: MemberType.BS,
+	type: MemberType.MS,
 	major: [MemberMajor.ME, MemberMajor.RE],
 	username: "pstocchi",
 	bio: "Pier is a Mechanical Engineering & Robotics Engineering undergraduate student at Michigan Technological University. He joined the lab in fall of 2023 and is working to finish the ongoing IRGO internal project that is used to simulate the gravity of other planets. In his free time he enjoys reading about ancient history and space and learning about aircraft",
