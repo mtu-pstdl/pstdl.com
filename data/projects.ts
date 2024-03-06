@@ -53,7 +53,12 @@ import {
 	dkbrouse,
 	ljfrank,
 	austinmc,
-	wdjennes
+	wdjennes,
+	nspatter,
+	hlgoetz,
+	msmille3,
+	pstocchi,
+	jdpetrin
 } from "./members";
 import {Member} from "../interfaces/Member";
 
@@ -106,7 +111,9 @@ export const lustr21: DetailItem = {
 	members: [
 		rdauster,
 		psbradsh,
-		ljfrank
+		ljfrank,
+		nspatter,
+		jdpetrin
 	],
 	alumni: [
 
@@ -189,7 +196,9 @@ export const breakTheIce: DetailItem = {
 		dkbrouse,
 		ljfrank,
 		austinmc,
-		wdjennes
+		wdjennes,
+		hlgoetz,
+		msmille3
 	],
 	alumni: [],
 	images: [

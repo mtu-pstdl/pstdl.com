@@ -31,6 +31,7 @@ export const bdwiegan: Member = {
 	type: MemberType.RE,
 	bio: "Ben Wiegand received his M.S. in mechanical engineering from Michigan Tech in 2021. His master's degree focused on the commissioning and testing of the PSTDL's dusty thermal vacuum chamber (DTVAC). He has since been hired as a research engineer focusing on the instrumentation of a cone penetrometer for the LuSTR project. His past experiences include robotics and controls for 3D motion platforms, algorithms for plastics manufacturing, and 3D kinematic simulations for military vehicles.",
 	linkedIn: "https://www.linkedin.com/in/benjamin-w-48378b175/",
+	alumni: true
 };
 
 export const brchaffe: Member = {
@@ -51,6 +52,7 @@ export const collinmi: Member = {
 	major: MemberMajor.ME,
 	type: MemberType.BS,
 	linkedIn: "https://www.linkedin.com/in/collin-miller-543a641a3/",
+	alumni: true
 };
 
 export const dfpaglia: Member = {
@@ -82,7 +84,7 @@ export const ejcobb: Member = {
 	lastName: "Cobb",
 	username: "ejcobb",
 	major: MemberMajor.CS,
-	type: MemberType.PHD,
+	type: MemberType.BS,
 	linkedIn: "https://www.linkedin.com/in/elijahjcobb/",
 	twitter: "https://twitter.com/elijahjcobb",
 	bio: "Elijah Cobb was a Ph.D. student studying Computer Science at Michigan Technological University (MTU). Elijah earned a Bachelor's in Computer Science from MTU in the fall of 2021. Throughout his undergraduate degree, Elijah was involved with many research projects funded by NASA, the US Navy, and the National Science Foundation. Elijah has experience in the industry through leading the software development for a start-up, Ampel Feedback. As a Ph.D. student, Elijah aims at developing novel software solutions for robotics in aerospace applications. In addition, Elijah is a Graduate Researcher at the Planetary Surface Technology Development Lab (pstdl.com), a research laboratory at MTU developing in-situ resource utilization technologies for lunar and martian applications. Elijah left his graduate program in April 2022 for a position in industry.",
@@ -121,8 +123,9 @@ export const hjmcgill: Member = {
 	// alumni: true,
 	// location: {
 	// 	lat: 40.45032,
-	// 	lng: -80.01986
+	// 	lng: -80.01986,
 	// }
+	alumni: true
 };
 export const mcguadag: Member = {
 	firstName: "Marcello",
@@ -172,7 +175,7 @@ export const msfoetis: Member = {
 	username: "msfoetis",
 	linkedIn: "https://www.linkedin.com/in/michael-foetisch-student/",
 	major: MemberMajor.ME,
-	type: MemberType.PHD,
+	type: MemberType.MS,
 	alumni: true
 };
 export const tawavrun: Member = {
@@ -226,7 +229,8 @@ export const cjkamins: Member = {
 	type: MemberType.MS,
 	firstName: "Caleb",
 	username: "cjkamins",
-	linkedIn: "https://www.linkedin.com/in/caleb-kaminski-186b531a0/"
+	linkedIn: "https://www.linkedin.com/in/caleb-kaminski-186b531a0/",
+	alumni: true
 };
 export const nathanmi: Member = {
 	firstName: "Nathan",
@@ -243,7 +247,7 @@ export const clcarey: Member = {
 	lastName: "Carey",
 	username: "clcarey",
 	major: MemberMajor.ME,
-	type: MemberType.MS,
+	type: MemberType.RE,
 	linkedIn: "https://www.linkedin.com/in/chuck-carey-9280931b9/"
 };
 export const jnoe: Member = {
@@ -284,7 +288,8 @@ export const gtredlon: Member = {
 	type: MemberType.BS,
 	major: MemberMajor.ME,
 	username: "gtredlon",
-	linkedIn: "https://www.linkedin.com/in/gregory-redlon-23701621b/"
+	linkedIn: "https://www.linkedin.com/in/gregory-redlon-23701621b/",
+	alumni: true
 };
 export const cnorton: Member = {
 	firstName: "Christopher",
@@ -320,7 +325,8 @@ export const jbprimea: Member = {
 	username: "jbprimea",
 	major: MemberMajor.CIV,
 	linkedIn: "https://www.linkedin.com/in/joe-primeau-020bb6269/",
-	bio: "Joe Primeau is a graduate student in Civil Engineering with a bachelor's of science in Environmental Engineering from Michigan Technological University. He joined PSTDL in January 2022 working on the LuSTR Geotechnical subteam. Currently, he is working on a NASA STTR-funded project that includes the development of a spreadsheet-based analysis tool to inform the construction of compacted lunar regolith structures as well as the NASA Break the Ice Challenge. In his free time, he enjoys mountain biking, thrifting, playing music, and climbing."
+	bio: "Joe Primeau is a graduate student in Civil Engineering with a bachelor's of science in Environmental Engineering from Michigan Technological University. He joined PSTDL in January 2022 working on the LuSTR Geotechnical subteam. Currently, he is working on a NASA STTR-funded project that includes the development of a spreadsheet-based analysis tool to inform the construction of compacted lunar regolith structures as well as the NASA Break the Ice Challenge. In his free time, he enjoys mountain biking, thrifting, playing music, and climbing.",
+	alumni: true
 };
 export const colinsch: Member = {
 	firstName: "Colin",
@@ -329,7 +335,8 @@ export const colinsch: Member = {
 	major: MemberMajor.ME,
 	username: "colinsch",
 	bio: "Colin Schaefer is a fourth year Mechanical Engineering student from the Ann Arbor area at Michigan Tech who is also pursuing a minor in Aerospace Engineering. Colin began his experience working with space technology when he joined the Multiplanetary Innovation Enterprise (MINE). During his third year, he was a member of the Excavation sub-team within the enterprise's Lunabotics team. He is currently apart of the Lunar Trencher project team that seeks to determine the usability of a bucket ladder under vacuum conditions. Colin began working for the Planetary Surface Technology Development Lab (PSTDL) in Spring 2022 and is currently on the LuSTR project.",
-	linkedIn: "http://www.linkedin.com/in/colin-schaefer-mtu"
+	linkedIn: "http://www.linkedin.com/in/colin-schaefer-mtu",
+	alumni: true
 };
 export const dkbrouse: Member = {
 	firstName: "Dana",
@@ -338,7 +345,8 @@ export const dkbrouse: Member = {
 	major: MemberMajor.RE,
 	linkedIn: "https://www.linkedin.com/in/dana-brouse/",
 	username: "dkbrouse",
-	bio: "Dana Brouse is currently pursuing an undergraduate degree in Robotics Engineering at Michigan Technological University (MTU). She joined the Planetary Surface Technology Development Lab (PSTDL) in Spring 2022 where she is currently working to integrate a z-axis to the project Infrared-Tracking Gravity Offload System (IRGO). She later joined NASA Break the Ice Challenge as a part of the excavation subteam.  She is involved in MTU organizations such as American Institute of Aeronautics and Astronautics, Society of Asian Scientists and Engineers, Figure Skating Club, and rock climbing with the Outdoor Adventure Program."
+	bio: "Dana Brouse is currently pursuing an undergraduate degree in Robotics Engineering at Michigan Technological University (MTU). She joined the Planetary Surface Technology Development Lab (PSTDL) in Spring 2022 where she is currently working to integrate a z-axis to the project Infrared-Tracking Gravity Offload System (IRGO). She later joined NASA Break the Ice Challenge as a part of the excavation subteam.  She is involved in MTU organizations such as American Institute of Aeronautics and Astronautics, Society of Asian Scientists and Engineers, Figure Skating Club, and rock climbing with the Outdoor Adventure Program.",
+	alumni: true
 };
 
 export const arajan: Member = {
@@ -347,7 +355,8 @@ export const arajan: Member = {
 	type: MemberType.PD,
 	major: MemberMajor.ME,
 	username: "arajan",
-	linkedIn: "https://www.linkedin.com/in/anurag-rajan/"
+	linkedIn: "https://www.linkedin.com/in/anurag-rajan/",
+	alumni: true
 };
 
 export const aegulan: Member = {
@@ -383,7 +392,8 @@ export const jwearly: Member = {
     major: [MemberMajor.ME, MemberMajor.CPE],
     linkedIn: "https://www.linkedin.com/in/weston-early-152b5a190/",
     bio: "Weston Early is in his 6th year of his Undergrad acquiring his B.S. in Mechanical Engineering and B.S. in Computer Engineering at Michigan Tech as well as minors in Geology, Aerospace Engineering, and Spanish. He was just hired as a GeoTech Engineer to work on the cone penetrometer for the LuSTR project. He is also a member of the Keweenaw Symphony Orchestra.",
-    username: "jwearly"
+    username: "jwearly",
+	alumni: true
 }
 
 export const nbmckenz: Member = {
@@ -403,13 +413,14 @@ export const brianjo: Member = {
     major: MemberMajor.ME,
     linkedIn: "https://www.linkedin.com/in/brian-johnson-54838a228/",
     bio: "Brian is currently a third year undergraduate student majoring in mechanical engineering and minoring in aerospace engineering at Michigan Technological University. He recently hired at Planetary Surface Technology Development Lab to work on the Molten Regolith Electrolysis (MRE) project. Brian is also a member of the leadership team on the Michigan Technological University Aerospace Enterprise.",
-    username: "brianjo"
+    username: "brianjo",
+	alumni: true
 }
  
 export const kjiam: Member = {
     firstName: "Kjia",
     lastName: "Moore",
-    type: MemberType.BS,
+    type: MemberType.MS,
     major: MemberMajor.ME,
     linkedIn: "https://www.linkedin.com/in/kjia-moore-20b439229/",
     bio: "Kjia is currently a third year undergraduate student pursuing a B.S. in Mechanical Engineering and a minor in Aerospace Engineering at Michigan Technological University. She was recently hired at Planetary Surface Technology Development Lab as a Research Engineer for the Center for Lunar and Asteroid Surface Science (CLASS). Kjia is also a Systems Engineer on the Michigan Tech Aerospace Enterprise.",
@@ -474,7 +485,8 @@ export const smzeqlam: Member = {
 	major: MemberMajor.EE,
 	linkedIn: "https://www.linkedin.com/in/thesuhaybzeqlam/",
 	bio: "Suhayb Zeqlam is a senior Electrical Engineering student at Michigan Technological University. Suhayb Joined the PTSDL team in Spring 2023 semester working in WATTS and assisting the BTIC team. In his free time he enjoys movies, music, and making things.",
-	username: "smzeqlam"
+	username: "smzeqlam",
+	alumni: true
 }
 
 export const mrkrause: Member = {
@@ -547,6 +559,55 @@ export const wdjennes: Member = {
 	bio: "William Jenness is a graduate electrical engineering student at Michigan Tech. He completed his undergraduate degree in mechanical engineering with a minor in aerospace engineering in spring 2023. Will joined the lab in December 2022, to work as the electrical power systems lead engineer for Nasa’s Break The Ice Challenge Phase II. In his spare time, Will enjoys being outside as well as exercising.",
 	username: "wdjennes"
 }
+
+export const nspatter: Member = {
+	firstName: "Noah",
+	lastName: "Patterson",
+	type: MemberType.BS,
+	major: MemberMajor.EE,
+	linkedIn: "www.linkedin.com/in/noah-patterson-1609a0294",
+	bio: "Noah Patterson is a first year Electrical Engineering Undergraduate working as a Research Assistant for the PSTDL LuSTR 21 Project. This year is his first year on the team and is excited to work with the compaction project team. Outside of the lab Noah is  an active member of MTU’s travel men’s volleyball club, enjoys rock climbing inside and outdoors, and gets out snowboarding during the winter",
+	username: "nspatter"
+}
+
+export const hlgoetz: Member = {
+	firstName: "Heather",
+	lastName: "Goetz",
+	type: MemberType.BS,
+	major: MemberMajor.ME,
+	linkedIn: " https://www.linkedin.com/in/hlgoetz/",
+	bio: " Heather Goetz is an undergraduate mechanical engineering student who joined the lab in fall 2023 and has been researching an excavation system for NASA’s Break The Ice Challenge. Outside the lab, Heather is the structural systems engineer on the Michigan Tech Aerospace Enterprise. In her spare time, she enjoys skiing, hiking, and arts and crafts.",
+	username: "hlgoetz"
+}
+
+export const msmille3: Member = {
+	firstName: "Mack",
+	lastName: "Miller",
+	bio: "Mack Miller is a computer science undergraduate student at Michigan Technological University. She joined the lab in the fall of 2023 to work on the command and data handling team for the NASA Break the Ice Challenge. She also enjoys teaching the beginning skating course at the University, playing piano, and volunteering",
+	linkedIn: "www.linkedin.com/in/mackenziemller",
+	username: "msmille3",
+	type: MemberType.BS,
+	major: MemberMajor.CS
+}
+
+export const pstocchi: Member = {
+	firstName: "PierFrancesco",
+	lastName: "Stocchi",
+	type: MemberType.MS,
+	major: [MemberMajor.ME, MemberMajor.RE],
+	username: "pstocchi",
+	bio: "Pier is a Mechanical Engineering & Robotics Engineering undergraduate student at Michigan Technological University. He joined the lab in fall of 2023 and is working to finish the ongoing IRGO internal project that is used to simulate the gravity of other planets. In his free time he enjoys reading about ancient history and space and learning about aircraft",
+	linkedIn: "https://www.linkedin.com/in/pierstocchi/"
+}
+
+export const jdpetrin: Member = {
+	firstName: "Julia",
+	lastName: "Petrin",
+	type: MemberType.BS,
+	major: MemberMajor.ME,
+	username: "jdpetrin",
+	bio: "ulia Petrin is an undergraduate Mechanical Engineering student at Michigan Tech. She joined the lab in the summer of 2023 and has been working on the vibratory compaction of lunar regolith as part of the LuSTR 21 project. She is also vice president of the Keweenaw Rocket Range student organization. In her spare time, she enjoys mountain biking, building high-power rockets, and spending time with her partner."
+}
 export const members: Member[] = [
 	psbradsh,
 	nbmckenz,
@@ -598,7 +659,12 @@ export const members: Member[] = [
 	ajsweene,
 	ljfrank,
 	austinmc,
-	wdjennes
+	wdjennes,
+	nspatter,
+	hlgoetz,
+	msmille3,
+	pstocchi,
+	jdpetrin
 ]
 
 export function getMemberByLink(id: string | string[]): Member | undefined {
