@@ -9,6 +9,17 @@ import {News} from "../interfaces/News";
 
 export const news: News[] = [
 	{
+		title: "Dr van Susante Named to Lou and Herbert Wacker Professorship in Mechanical Engineering",
+		link: "https://blogs.mtu.edu/mechanical/2023/11/20/paul-van-susante-named-to-lou-and-herbert-wacker-professorship-in-mechanical-engineering/",
+		date: {month: 11, day:20, year: 2023},
+	},
+	{
+		title: "PSTDL advances to the final stage of NASA's Break the Ice challenge",
+		link: "https://www.nasa.gov/directorates/stmd/stmd-prizes-challenges-crowdsourcing-program/centennial-challenges/six-finalists-named-in-nasas-3-5-million-break-the-ice-challenge/",
+		date: {month: 12, day: 6, year: 2023},
+		content: "PSTDL is named one of six teams to advance to the final stage of NASA's Break the Ice Challenge"
+	},
+	{
 		title: "PSTDL advacnes to final stage of NASA's Watts on the Moon challenge",
 		link: "https://www.mtu.edu/news/2023/06/pstdl-advances-to-final-round-of-nasa-watts-on-the-moon-challenge.html",
 		date: {month: 6, day: 28, year: 2023},
