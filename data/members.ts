@@ -121,10 +121,10 @@ export const hjmcgill: Member = {
 	bio: "I am an undergraduate student at Michigan Tech with research experience for the NASA BIG Ideas challenge where our team developed a tethered lunar rover capable of exploring and providing infrastructure to the moon's permanently shaded regions. I did the design and testing for a number of mechanical subSystems, most notably the system that managed the tension and deployment of our superconducting tether. I am also a FIRST robotics alumni with 2 world championship wins and an eagle scout.",
 	linkedIn: "https://www.linkedin.com/in/hunter-mcgillivray-31ba051b4/",
 	// alumni: true,
-	// location: {
-	// 	lat: 40.45032,
-	// 	lng: -80.01986,
-	// }
+	location: {
+		lat: 40.45032,
+		lng: -80.01986,
+	},
 	alumni: true
 };
 export const mcguadag: Member = {
@@ -414,7 +414,11 @@ export const brianjo: Member = {
     linkedIn: "https://www.linkedin.com/in/brian-johnson-54838a228/",
     bio: "Brian is currently a third year undergraduate student majoring in mechanical engineering and minoring in aerospace engineering at Michigan Technological University. He recently hired at Planetary Surface Technology Development Lab to work on the Molten Regolith Electrolysis (MRE) project. Brian is also a member of the leadership team on the Michigan Technological University Aerospace Enterprise.",
     username: "brianjo",
-	alumni: true
+	alumni: true,
+	location: {
+		lat: 40.45032,
+		lng: -80.01986,
+	}
 }
  
 export const kjiam: Member = {
@@ -606,7 +610,16 @@ export const jdpetrin: Member = {
 	type: MemberType.BS,
 	major: MemberMajor.ME,
 	username: "jdpetrin",
-	bio: "ulia Petrin is an undergraduate Mechanical Engineering student at Michigan Tech. She joined the lab in the summer of 2023 and has been working on the vibratory compaction of lunar regolith as part of the LuSTR 21 project. She is also vice president of the Keweenaw Rocket Range student organization. In her spare time, she enjoys mountain biking, building high-power rockets, and spending time with her partner."
+	bio: "Julia Petrin is an undergraduate Mechanical Engineering student at Michigan Tech. She joined the lab in the summer of 2023 and has been working on the vibratory compaction of lunar regolith as part of the LuSTR 21 project. She is also vice president of the Keweenaw Rocket Range student organization. In her spare time, she enjoys mountain biking, building high-power rockets, and spending time with her partner."
+}
+export const krnielse: Member = {
+	firstName: "Kade",
+	lastName: "Nielsen",
+	type: MemberType.BS,
+	major: MemberMajor.ME,
+	username: "krnielse",
+	bio: "Kade is an undergraduate Mechanical Engineering student at Michigan Technological University (MTU) and is pursuing a minor in Aerospace Engineering, with an expected graduation date of May 2025. He is currently a member of the Planetary Surface Technology Development Lab (PSTDL) LuSTR-20 geotechnical team, producing lunar simulant and precisely preparing test setups to develop lunar exploration technology. He is also the project manager and team leader for the Multiplanetary INnovation Enterprise (MINE) Lunar Trencher research project, which studies the wear characteristics and performance of a bucket ladder system operating in simulated lunar environments with the use of the PSTDL's Dusty Thermal Vacuum Chamber (DTVAC).",
+	linkedIn: "https://www.linkedin.com/in/kade-nielsen/"
 }
 export const members: Member[] = [
 	psbradsh,
@@ -664,7 +677,8 @@ export const members: Member[] = [
 	hlgoetz,
 	msmille3,
 	pstocchi,
-	jdpetrin
+	jdpetrin,
+	krnielse
 ]
 
 export function getMemberByLink(id: string | string[]): Member | undefined {
