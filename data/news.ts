@@ -9,6 +9,12 @@ import {News} from "../interfaces/News";
 
 export const news: News[] = [
 	{
+		title: "The Artemis Generation",
+		link: "https://www.mtu.edu/magazine/2024/stories/artemis-generation/index.html",
+		date: {month: 3, day: 11, year: 2024},
+		content: "PSTDL was highlighted by Michigan Tech's Research Magazine"
+	},
+	{
 		title: "Dr van Susante Named to Lou and Herbert Wacker Professorship in Mechanical Engineering",
 		link: "https://blogs.mtu.edu/mechanical/2023/11/20/paul-van-susante-named-to-lou-and-herbert-wacker-professorship-in-mechanical-engineering/",
 		date: {month: 11, day:20, year: 2023},
