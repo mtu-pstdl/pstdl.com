@@ -9,6 +9,12 @@ import {News} from "../interfaces/News";
 
 export const news: News[] = [
 	{
+		title: "Lunar Surface ISRU and Construction Technology - Progress at MTU-PSTDL",
+		link: "https://www.youtube.com/watch?v=ZP1crL8bQBc",
+		date: {month: 3, day:28, year:2024},
+		content: "Dr van Susante gave a webinar as part of the AIAA Space Resources Technical Committee's Space Resources Webinar Series. Watch the recording here"
+	},
+	{
 		title: "The Artemis Generation",
 		link: "https://www.mtu.edu/magazine/2024/stories/artemis-generation/index.html",
 		date: {month: 3, day: 11, year: 2024},

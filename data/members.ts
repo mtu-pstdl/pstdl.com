@@ -621,6 +621,49 @@ export const krnielse: Member = {
 	bio: "Kade is an undergraduate Mechanical Engineering student at Michigan Technological University (MTU) and is pursuing a minor in Aerospace Engineering, with an expected graduation date of May 2025. He is currently a member of the Planetary Surface Technology Development Lab (PSTDL) LuSTR-20 geotechnical team, producing lunar simulant and precisely preparing test setups to develop lunar exploration technology. He is also the project manager and team leader for the Multiplanetary INnovation Enterprise (MINE) Lunar Trencher research project, which studies the wear characteristics and performance of a bucket ladder system operating in simulated lunar environments with the use of the PSTDL's Dusty Thermal Vacuum Chamber (DTVAC).",
 	linkedIn: "https://www.linkedin.com/in/kade-nielsen/"
 }
+// export const ajalbani: Member = {
+// 	firstName: "Alex",
+// 	lastName: "Albanice",
+// 	type: MemberType.BS,
+// 	major: MemberMajor.ME,
+// 	username: "ajalbani",
+// 	bio: "Alex is a senior undergraduate Mechanical Engineering student. In his free time he enjoys spending time outside playing golf and frisbee golf"
+// }
+export const scbennin: Member = {
+	firstName: "Sean",
+	lastName: "Bennink",
+	type: MemberType.BS,
+	major: [MemberMajor.CPE, MemberMajor.EE],
+	username: "scbennin",
+	bio: "Sean is a ungraduate student pursuing a double major in Electrical and Computer Enginnering. He joined the team to help support our electrical team to create/design/fabricate PCB's. In his free time he enjoys playing disc golf, skiing, backpacking, and board games.",
+	linkedIn: "https://www.linkedin.com/in/sean-bennink-bb2159251/"
+}
+export const wjojala: Member =  {
+	firstName: "Jacob",
+	lastName: "Ojala",
+	type: MemberType.BS,
+	major: MemberMajor.GE,
+	username: "wjojala",
+	bio: "Jacob Ojala is a second year Geological Engineering Undergraduate working as a Research Assistant for the LuSTR-20 geotechnical team. His projects include the production of lunar regolith simulant, as well as setting up tests for various lunar exploration technology. After Tech, he plans to commission into the US Air or Space Force as a Civil Engineer or Space Operations Officer. His free time is spent traveling, camping, and exploring the outdoors.",
+	linkedIn: "https://www.linkedin.com/in/jacob-ojala/"
+}
+export const jhannahs: Member = {
+	firstName: "Jonathon",
+	lastName: "Hannahs",
+	type: MemberType.BS,
+	major: MemberMajor.EE,
+	username: "jhannahs",
+	bio: "Jonathon is a 4th year Electrical Enginnering student focusing in controls. Upon graduating he will be moving to the Bay City area to start his carrer as controls enginner"
+}
+// export const mchewitt: Member = {
+// 	firstName: "Matthew",
+// 	lastName: "Hewitt",
+// 	type: MemberType.BS,
+// 	major: MemberMajor.ME,
+// 	username: "mchewitt",
+// 	linkedIn: "https://www.linkedin.com/in/matthew-hewitt-6b4b10169",
+// 	bio: "Matthew Hewitt is an undergraduate student pursuing his bachelor's in mechanical engineering-enginner mechanics and minoring in aerospace engineering."
+// }
 export const members: Member[] = [
 	psbradsh,
 	nbmckenz,
@@ -678,7 +721,11 @@ export const members: Member[] = [
 	msmille3,
 	pstocchi,
 	jdpetrin,
-	krnielse
+	krnielse,
+	//ajalbani,
+	scbennin,
+	wjojala,
+	//mchewitt
 ]
 
 export function getMemberByLink(id: string | string[]): Member | undefined {

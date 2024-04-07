@@ -58,7 +58,11 @@ import {
 	hlgoetz,
 	msmille3,
 	pstocchi,
-	jdpetrin
+	jdpetrin,
+	scbennin,
+	wjojala,
+	jhannahs,
+	//mchewitt
 } from "./members";
 import {Member} from "../interfaces/Member";
 
@@ -86,7 +90,9 @@ export const lustr20: DetailItem = {
 		aegulan,
 		mrkrause,
 		bhpokorn,
-		ajsweene
+		ajsweene,
+		wjojala,
+		//mchewitt
 	],
 	alumni: [
 		ajgoddu,
@@ -113,7 +119,8 @@ export const lustr21: DetailItem = {
 		psbradsh,
 		ljfrank,
 		nspatter,
-		jdpetrin
+		jdpetrin,
+		jhannahs,
 	],
 	alumni: [
 
@@ -164,7 +171,8 @@ export const watts: DetailItem = {
 		smzeqlam,
 		psbradsh,
 		nsbruurs,
-		austinmc
+		austinmc,
+		scbennin
 	],
 	alumni: [
 		collinmi,

@@ -27,6 +27,7 @@ export enum MemberMajor {
 	ENV = "Environmental Engineering",
 	CSM = "Computer Science and Mathematics",
 	CIV = "Civil Engineering",
+	GE = "Geological Engineering"
 }
 
 export enum MemberType {
