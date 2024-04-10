@@ -68,7 +68,7 @@ import {Member} from "../interfaces/Member";
 
 export const lustr20: DetailItem = {
 		title: "NASA LuSTR 2020",
-	description: "NASA Lunar Surface Technology Research (LuSTR) (Exploration of lunar volatiles and determination of geotechnical properties) – \"Percussive Hot Cone Penetrometer (PHCP) and Ground Penetrating Radar (GPR) for Geotechnical and Volatiles Mapping\"",
+	description: "The PSTDL was a recipient of a 2020 NASA’s Lunar Surface Technology Research grant (LuSTR20) for the development of a lunar prospecting instrument known as the Percussive Hot Cone Penetrometer (PHCP) in combination with Ground Penetrating Radar (GPR). The goal of this project is to produce a science instrument that is capable of probing the lunar surface up to a depth of 1 meter to extract the geotechnical properties of the lunar regolith, identifying the vertical and lateral concentrations of volatiles present.",
 	link: "lustr",
 	members: [
 		rdauster,
