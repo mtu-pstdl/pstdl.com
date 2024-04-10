@@ -126,6 +126,11 @@ export const lustr21: DetailItem = {
 
 	],
 	images: [
+		{src: "/projects/lustr21/lustr21_0.png"},
+		{src: "/projects/lustr21/lustr21_1.png"},
+		{src: "/projects/lustr21/lustr21_2.png"},
+		{src: "/projects/lustr21/lust21_3.png"},
+		{src: "/project/lustr21/lustr21_4.png"},
 	]
 };
 
@@ -182,6 +187,9 @@ export const watts: DetailItem = {
 	images: [
 		{src: "/projects/watts/Watts0.png"},
 		{src: "/projects/watts/icon.jpg"},
+		{src: "/projects/watts/Watts1.png"},
+		{src: "/projects/watts/Watts2.png"},
+		{src: "/projects/watts/Watts3.png"},
 	]
 };
 
@@ -216,6 +224,13 @@ export const breakTheIce: DetailItem = {
 		{src: "/projects/btic/TranspR2.jpg"},
 		{src: "/projects/btic/WEC.jpg"},
 		{src: "/projects/btic/CBD.png"},
+		{src: "/projects/btic/BTIC1.jpg"},
+		{src: "/projects/btic/BTIC2.jpg"},
+		{src: "/projects/btic/BTIC3.jpg"},
+		{src: "/projects/btic/BTIC4.jpg"},
+		{src: "/projects/btic/BTIC5.jpg"},
+		{src: "/projects/btic/BTIC6.jpg"},
+		{src: "/projects/btic/BTIC7.jpg"},
 	]
 }
 
