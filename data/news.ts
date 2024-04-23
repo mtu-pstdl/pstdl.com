@@ -9,6 +9,12 @@ import {News} from "../interfaces/News";
 
 export const news: News[] = [
 	{
+		title: "Paul van Susante Receives ASCE Outstanding Technical Contribution Award",
+		link: "https://www.mtu.edu/ttoday/?issue=20240419&utm_source=Tech+Today&utm_medium=email&utm_campaign=Tech+Today&utm_content=20240419#paul-van-susante-receives-asce-outstanding-technical-contribution-award",
+		date: {month: 4, day: 19, year: 2024},
+		content: "Dr van Susante was awared a Outstanding Technical Contribution Award by the American Society of Civil Engineers (ASCE)"
+	},
+	{
 		title: "Lunar Surface ISRU and Construction Technology - Progress at MTU-PSTDL",
 		link: "https://www.youtube.com/watch?v=ZP1crL8bQBc",
 		date: {month: 3, day:28, year:2024},
