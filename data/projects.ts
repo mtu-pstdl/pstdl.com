@@ -214,7 +214,8 @@ export const breakTheIce: DetailItem = {
 		austinmc,
 		wdjennes,
 		hlgoetz,
-		msmille3
+		msmille3,
+		ajgoddu
 	],
 	alumni: [],
 	images: [
