@@ -62,7 +62,8 @@ import {
 	scbennin,
 	wjojala,
 	jhannahs,
-	//mchewitt
+	mchewitt,
+	krnielse
 } from "./members";
 import {Member} from "../interfaces/Member";
 
@@ -92,7 +93,8 @@ export const lustr20: DetailItem = {
 		bhpokorn,
 		ajsweene,
 		wjojala,
-		//mchewitt
+		mchewitt,
+		krnielse
 	],
 	alumni: [
 		ajgoddu,

@@ -621,14 +621,14 @@ export const krnielse: Member = {
 	bio: "Kade is an undergraduate Mechanical Engineering student at Michigan Technological University (MTU) and is pursuing a minor in Aerospace Engineering, with an expected graduation date of May 2025. He is currently a member of the Planetary Surface Technology Development Lab (PSTDL) LuSTR-20 geotechnical team, producing lunar simulant and precisely preparing test setups to develop lunar exploration technology. He is also the project manager and team leader for the Multiplanetary INnovation Enterprise (MINE) Lunar Trencher research project, which studies the wear characteristics and performance of a bucket ladder system operating in simulated lunar environments with the use of the PSTDL's Dusty Thermal Vacuum Chamber (DTVAC).",
 	linkedIn: "https://www.linkedin.com/in/kade-nielsen/"
 }
-// export const ajalbani: Member = {
-// 	firstName: "Alex",
-// 	lastName: "Albanice",
-// 	type: MemberType.BS,
-// 	major: MemberMajor.ME,
-// 	username: "ajalbani",
-// 	bio: "Alex is a senior undergraduate Mechanical Engineering student. In his free time he enjoys spending time outside playing golf and frisbee golf"
-// }
+export const ajalbani: Member = {
+ 	firstName: "Alex",
+ 	lastName: "Albanice",
+ 	type: MemberType.BS,
+ 	major: MemberMajor.ME,
+ 	username: "ajalbani",
+ 	bio: "Alex is a senior undergraduate Mechanical Engineering student. In his free time he enjoys spending time outside playing golf and frisbee golf"
+}
 export const scbennin: Member = {
 	firstName: "Sean",
 	lastName: "Bennink",
@@ -655,15 +655,16 @@ export const jhannahs: Member = {
 	username: "jhannahs",
 	bio: "Jonathon is a 4th year Electrical Enginnering student focusing in controls. Upon graduating he will be moving to the Bay City area to start his carrer as controls enginner"
 }
-// export const mchewitt: Member = {
-// 	firstName: "Matthew",
-// 	lastName: "Hewitt",
-// 	type: MemberType.BS,
-// 	major: MemberMajor.ME,
-// 	username: "mchewitt",
-// 	linkedIn: "https://www.linkedin.com/in/matthew-hewitt-6b4b10169",
-// 	bio: "Matthew Hewitt is an undergraduate student pursuing his bachelor's in mechanical engineering-enginner mechanics and minoring in aerospace engineering."
-// }
+export const mchewitt: Member = {
+	firstName: "Matthew",
+	lastName: "Hewitt",
+	type: MemberType.BS,
+	major: MemberMajor.ME,
+	username: "mchewitt",
+	bio: "Matthew Hewitt is an undergraduate student pursuing his bachelor's in mechanical engineering-enginner mechanics and minoring in aerospace engineering.",
+	linkedIn: "https://www.linkedin.com/in/matthew-hewitt-6b4b10169"
+}
+
 export const members: Member[] = [
 	psbradsh,
 	nbmckenz,
@@ -722,10 +723,10 @@ export const members: Member[] = [
 	pstocchi,
 	jdpetrin,
 	krnielse,
-	//ajalbani,
+	ajalbani,
 	scbennin,
 	wjojala,
-	//mchewitt
+	mchewitt,
 ]
 
 export function getMemberByLink(id: string | string[]): Member | undefined {
