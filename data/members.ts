@@ -664,6 +664,14 @@ export const mchewitt: Member = {
 	bio: "Matthew Hewitt is an undergraduate student pursuing his bachelor's in mechanical engineering-enginner mechanics and minoring in aerospace engineering.",
 	linkedIn: "https://www.linkedin.com/in/matthew-hewitt-6b4b10169"
 }
+export const mmdecker: Member = {
+	firstName: "Max",
+	lastName: "Decker",
+	type: MemberType.BS,
+	major: MemberMajor.ME,
+	username: "mmdecker",
+	bio: "Max is a Mechanical Engineering undergraduate at Michigan Technological University. He joined the lab in 2024 and is working on the excavation system of the PRIMROSE lunar rover. Outside of the lab he is a member of the Michigan Tech Aerospace Enterprise. In his free time he enjoys weight lifting and reading."
+}
 
 export const members: Member[] = [
 	psbradsh,
@@ -727,6 +735,7 @@ export const members: Member[] = [
 	scbennin,
 	wjojala,
 	mchewitt,
+	mmdecker,
 ]
 
 export function getMemberByLink(id: string | string[]): Member | undefined {
