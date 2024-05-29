@@ -672,6 +672,15 @@ export const mmdecker: Member = {
 	username: "mmdecker",
 	bio: "Max is a Mechanical Engineering undergraduate at Michigan Technological University. He joined the lab in 2024 and is working on the excavation system of the PRIMROSE lunar rover. Outside of the lab he is a member of the Michigan Tech Aerospace Enterprise. In his free time he enjoys weight lifting and reading."
 }
+export const bjengle: Member = {
+	firstName: "Ben",
+	lastName: "Engle",
+	type: MemberType.BS,
+	major: MemberMajor.ME,
+	username: "bjengle",
+	linkedIn: "www.linkedin.com/in/ben-engle-ja",
+	bio: "Ben is a Mechanical Engineering Technology undergraduate at Michigan Technological University. He joined the lab in 2024 and is working on the excavation system of the PRIMROSE lunar rover. Outside of the lab he is a member of the Baja SAE Enterprise. In his free time he enjoys exploring and camping in the Keweenaw.",
+}
 
 export const members: Member[] = [
 	psbradsh,
@@ -736,6 +745,7 @@ export const members: Member[] = [
 	wjojala,
 	mchewitt,
 	mmdecker,
+	bjengle,
 ]
 
 export function getMemberByLink(id: string | string[]): Member | undefined {
