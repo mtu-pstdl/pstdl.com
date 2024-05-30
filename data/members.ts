@@ -681,6 +681,15 @@ export const bjengle: Member = {
 	linkedIn: "www.linkedin.com/in/ben-engle-ja",
 	bio: "Ben is a Mechanical Engineering Technology undergraduate at Michigan Technological University. He joined the lab in 2024 and is working on the excavation system of the PRIMROSE lunar rover. Outside of the lab he is a member of the Baja SAE Enterprise. In his free time he enjoys exploring and camping in the Keweenaw.",
 }
+export const ircoulin: Member = {
+	firstName: "Isaac",
+	lastName: "Couling",
+	type: MemberType.BS,
+	major: MemberMajor.ME,
+	username: "ircoulin",
+	linkedIn: "www.linkedin.com/in/isaac-couling-6a1ba8253",
+	bio: "Isaac is an undergraduate Mechanical Engineering student at Michigan Technological University. He joined the lab in the spring of 2023 to assist with the thermal and mechanical design of the Watts on the Moon project and has continued to work on the project through its manufacturing and validation. Isaac is also a lead thermal engineer on Michigan Tech’s aerospace enterprise team. In his free time, Isaac enjoys ultimate frisbee, backpacking, photography, and mountain biking.",
+}
 
 export const members: Member[] = [
 	psbradsh,
@@ -746,6 +755,7 @@ export const members: Member[] = [
 	mchewitt,
 	mmdecker,
 	bjengle,
+	ircoulin,
 ]
 
 export function getMemberByLink(id: string | string[]): Member | undefined {
