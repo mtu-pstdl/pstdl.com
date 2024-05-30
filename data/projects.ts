@@ -65,7 +65,8 @@ import {
 	mchewitt,
 	krnielse,
 	mmdecker,
-	bjengle
+	bjengle,
+	ircoulin
 } from "./members";
 import {Member} from "../interfaces/Member";
 
@@ -181,7 +182,8 @@ export const watts: DetailItem = {
 		psbradsh,
 		nsbruurs,
 		austinmc,
-		scbennin
+		scbennin,
+		ircoulin
 	],
 	alumni: [
 		collinmi,
