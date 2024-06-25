@@ -202,7 +202,7 @@ export const watts: DetailItem = {
 
 export const breakTheIce: DetailItem = {
 	title: "NASA Break the Ice",
-	description: "The latest centennial challenge from NASA that is designed to develop technologies aiding in the sustained presence on the Moon.",
+	description: "NASA’s Break The Ice Lunar Challenge challenges teams to create a solution for mining lunar permafrost. The PSTDL’s Prototype Regolith In-situ Mining Rover with Onboard Surface Excavator (PRIMROSE) is a highly capable mining rover purpose-built to meet the demands of this challenge. PRIMROSE leverages proven terrestrial technology and the PSTDL’s experience with regolith excavation. Future work includes testing excavation of icy regolith in a cold chamber using the PRIMROSE excavator.",
 	link: "btic",
 	members: [
 		collinmi,
@@ -240,8 +240,6 @@ export const breakTheIce: DetailItem = {
 		{src: "/projects/btic/BTIC3.jpg"},
 		{src: "/projects/btic/BTIC4.jpg"},
 		{src: "/projects/btic/BTIC5.jpg"},
-		{src: "/projects/btic/BTIC6.jpg"},
-		{src: "/projects/btic/BTIC7.jpg"},
 	]
 }
 
