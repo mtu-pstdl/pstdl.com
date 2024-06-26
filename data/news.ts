@@ -9,9 +9,15 @@ import {News} from "../interfaces/News";
 
 export const news: News[] = [
 	{
+		title: "Michigan Technological Univeristy is featured on NASA's Image of the Day ",
+		link: "https://www.nasa.gov/image-detail/huskyworks-during-rover-testing/",
+		date: {month: 6, day: 21, year: 2024},
+		content: "Michigan Technological University’s Planetary Surface Technology Development Lab tests the excavation tools of a robot on a concrete slab, held by a gravity-offloading crane."
+	},
+	{
 		title: "Results from the final phase of NASA’s Break the Ice Lunar Challenge at Alabama A&M’s Agribition Center in Huntsville, Alabama",
 		link: "	https://www.nasa.gov/general/california-teams-win-1-5-million-in-nasas-break-the-ice-lunar-challenge/#:~:text=The%20husband%2Dand%2Dwife%20duo,Agribition%20Center%20in%20Huntsville%2C%20Alabama.",
-		date: {month: 6, day: 26, year: 2024},
+		date: {month: 6, day: 13, year: 2024},
 		content: "Michigan Technological University earned an invitation to the TVAC facilities for performing exceptionally well in the excavation portion of the final competition"
 	},
 	{
