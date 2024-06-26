@@ -12,4 +12,4 @@ Chain trenchers are a proven method to excavate frozen ground on earth. PRIMROSE
 ## Reports and Presentations
 
 * [Break The Ice Challenge Mission Video Link](https://www.youtube.com/watch?v=hIQYnyP4Fbs&ab_channel=PaulvanSusante)
-* [PRIMROSE Project Overview prensentation download coming soon]()
+* [PRIMROSE Project Overview prensentation](/projects/btic/PSTDL_BTIC_Competition_Presentation.pdf)
