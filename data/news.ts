@@ -9,6 +9,12 @@ import {News} from "../interfaces/News";
 
 export const news: News[] = [
 	{
+		title: "Results from the final phase of NASA’s Break the Ice Lunar Challenge at Alabama A&M’s Agribition Center in Huntsville, Alabama",
+		link: "	https://www.nasa.gov/general/california-teams-win-1-5-million-in-nasas-break-the-ice-lunar-challenge/#:~:text=The%20husband%2Dand%2Dwife%20duo,Agribition%20Center%20in%20Huntsville%2C%20Alabama.",
+		date: {month: 6, day: 26, year: 2024},
+		content: "Michigan Technological University earned an invitation to the TVAC facilities for performing exceptionally well in the excavation portion of the final competition"
+	},
+	{
 		title: "Paul van Susante Receives ASCE Outstanding Technical Contribution Award",
 		link: "https://www.mtu.edu/ttoday/?issue=20240419&utm_source=Tech+Today&utm_medium=email&utm_campaign=Tech+Today&utm_content=20240419#paul-van-susante-receives-asce-outstanding-technical-contribution-award",
 		date: {month: 4, day: 19, year: 2024},
