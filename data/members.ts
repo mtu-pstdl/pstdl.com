@@ -14,7 +14,7 @@ export const ajgoddu: Member = {
 	username: "ajgoddu",
 	major: MemberMajor.CPE,
 	type: MemberType.MS,
-	bio: "Austen Goddu is a 5th year Computer Engineering student here at Michigan Tech. Austen joined the Planetary Surface Technology Development Lab after spending several years on the leadership team in Michigan Tech's Aerospace Enterprise. There, Austen gained experience in Systems Engineering and Flight Software Design. Working on the L-SABRE development team, Austen works to design and build L-SABRE's computer system and flight software, assists with the Systems engineering and mission design, and perfoMemberType.MS testing of specific elements of customer hardware.",
+	bio: "Austen Goddu is pursuing a M.S. in Computer Engineering at Michigan Tech and received his B.S. in Computer Engineering in 2021. Austen joined the Planetary Surface Technology Development Lab after spending several years on the leadership team in Michigan Tech's Aerospace Enterprise. There, Austen gained experience in Systems Engineering and Flight Software Design. Working on the L-SABRE development team, Austen works to design and build L-SABRE's computer system and flight software, assists with the Systems engineering and mission design, and perfoMemberType.MS testing of specific elements of customer hardware.",
 	linkedIn: "https://www.linkedin.com/in/austen-g-83a639bb/",
 	location: {
 		lat: 34.2014,
@@ -183,7 +183,7 @@ export const tawavrun: Member = {
 	username: "tawavrun",
 	major: MemberMajor.ME,
 	type: MemberType.PHD,
-	bio: "Travis A. Wavrunek recieved a Ph.D. in Mechanical Engineering with a focus on thermal modeling and lunar power transfer within the PSTDL. As part of the development of the PHCP, he is developing a model to simulate heat transfer, phase change, and mass transport of lunar volatiles within PSRs. Additionally, Travis leads the TEMPEST project, a lunar high-efficiency power transfer solution, utilizing superconducting tethers. Past projects have included the Tethered- permanently shaded Region EXplorer (T-REX) for the 2020 NASA BIG Idea Challenge, W^5/TEMPEST for the WATTS on the Moon Challenge, and the development of an Infrared-Tracking Gravity Offload System in a lunar simulant sandbox(IRGO).",
+	bio: "Travis A. Wavrunek is currently pursuing a Ph.D. in Mechanical Engineering with a focus on thermal modeling and lunar power transfer within the PSTDL. As part of the development of the PHCP, he is developing a model to simulate heat transfer, phase change, and mass transport of lunar volatiles within PSRs. Additionally, Travis leads the TEMPEST project, a lunar high-efficiency power transfer solution, utilizing superconducting tethers. Past projects have included the Tethered- permanently shaded Region EXplorer (T-REX) for the 2020 NASA BIG Idea Challenge, W^5/TEMPEST for the WATTS on the Moon Challenge, and the development of an Infrared-Tracking Gravity Offload System in a lunar simulant sandbox(IRGO).",
 	linkedIn: "https://www.linkedin.com/in/travis-wavrunek/",
 };
 export const tcgronda: Member = {
