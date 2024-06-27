@@ -120,7 +120,6 @@ export const hjmcgill: Member = {
 	type: MemberType.BS,
 	bio: "I am an undergraduate student at Michigan Tech with research experience for the NASA BIG Ideas challenge where our team developed a tethered lunar rover capable of exploring and providing infrastructure to the moon's permanently shaded regions. I did the design and testing for a number of mechanical subSystems, most notably the system that managed the tension and deployment of our superconducting tether. I am also a FIRST robotics alumni with 2 world championship wins and an eagle scout.",
 	linkedIn: "https://www.linkedin.com/in/hunter-mcgillivray-31ba051b4/",
-	// alumni: true,
 	location: {
 		lat: 40.45032,
 		lng: -80.01986,
@@ -247,6 +246,7 @@ export const clcarey: Member = {
 	lastName: "Carey",
 	username: "clcarey",
 	major: MemberMajor.ME,
+	bio: " Chuck Carey is a mechanical engineering graduate student. He joined the lab in 2021 working on the development of lunar regolith simulant for the class project, and is currently managing the LuSTR 21 compaction project and helping with the WATTS on the moon project. Outside the lab, he enjoys Houghton's lovely outdoors, including hiking/camping the porkies, climbing silver mountain, or ski patrolling at Mont Ripley.",
 	type: MemberType.RE,
 	linkedIn: "https://www.linkedin.com/in/chuck-carey-9280931b9/"
 };
@@ -428,7 +428,8 @@ export const kjiam: Member = {
     major: MemberMajor.ME,
     linkedIn: "https://www.linkedin.com/in/kjia-moore-20b439229/",
     bio: "Kjia is currently a third year undergraduate student pursuing a B.S. in Mechanical Engineering and a minor in Aerospace Engineering at Michigan Technological University. She was recently hired at Planetary Surface Technology Development Lab as a Research Engineer for the Center for Lunar and Asteroid Surface Science (CLASS). Kjia is also a Systems Engineer on the Michigan Tech Aerospace Enterprise.",
-    username: "kjiam"
+    username: "kjiam",
+	alumni: true
 }
  
 export const rdauster: Member = {
@@ -468,7 +469,8 @@ export const psbradsh: Member = {
     major: MemberMajor.ME,
     linkedIn: "https://www.linkedin.com/in/parker-bradshaw-8657bb1a8",
     bio: " Parker Bradshaw is an undergraduate student who joined the lab in Spring 2022 researching regolith transportation for the MRE project. Later, he joined the LuSTR’21 project as a design engineer working on a rover mounted compaction mechanism, and the watts on the moon project as an electrical engineer. They also joined the break the ice lunar challenge project as the chief engineer for the phase 2 rover. As part of the enterprise program, Parker lead the building and vacuum testing of a bucket ladder regolith excavation system. Parker has spent time at Astrobotic as an intern developing lunar surface systems. His hobbies include using engineering for art, music, thrifting, skiing, and climbing.",
-    username: "psbradsh"
+    username: "psbradsh",
+	alumni: true
 }
 
 export const mkoujiri: Member = {
@@ -561,7 +563,8 @@ export const wdjennes: Member = {
 	major: MemberMajor.EE,
 	linkedIn: "https://www.linkedin.com/in/william-jenness-v/",
 	bio: "William Jenness is a graduate electrical engineering student at Michigan Tech. He completed his undergraduate degree in mechanical engineering with a minor in aerospace engineering in spring 2023. Will joined the lab in December 2022, to work as the electrical power systems lead engineer for Nasa’s Break The Ice Challenge Phase II. In his spare time, Will enjoys being outside as well as exercising.",
-	username: "wdjennes"
+	username: "wdjennes",
+	alumni: true
 }
 
 export const nspatter: Member = {
@@ -581,7 +584,8 @@ export const hlgoetz: Member = {
 	major: MemberMajor.ME,
 	linkedIn: " https://www.linkedin.com/in/hlgoetz/",
 	bio: " Heather Goetz is an undergraduate mechanical engineering student who joined the lab in fall 2023 and has been researching an excavation system for NASA’s Break The Ice Challenge. Outside the lab, Heather is the structural systems engineer on the Michigan Tech Aerospace Enterprise. In her spare time, she enjoys skiing, hiking, and arts and crafts.",
-	username: "hlgoetz"
+	username: "hlgoetz",
+	alumni: true
 }
 
 export const msmille3: Member = {
