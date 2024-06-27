@@ -127,6 +127,7 @@ export const lustr21: DetailItem = {
 		nspatter,
 		jdpetrin,
 		jhannahs,
+		clcarey
 	],
 	alumni: [
 
@@ -184,7 +185,8 @@ export const watts: DetailItem = {
 		nsbruurs,
 		austinmc,
 		scbennin,
-		ircoulin
+		ircoulin,
+		clcarey
 	],
 	alumni: [
 		collinmi,
@@ -225,7 +227,8 @@ export const breakTheIce: DetailItem = {
 		ajgoddu,
 		mmdecker,
 		bjengle,
-		audreyal
+		audreyal,
+		gtredlon
 	],
 	alumni: [],
 	images: [
