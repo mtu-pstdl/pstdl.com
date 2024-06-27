@@ -445,10 +445,10 @@ export const rdauster: Member = {
 export const elzimmer: Member = {
     firstName: "Ellie",
     lastName: "Zimmermann",
-    type: MemberType.BS,
+    type: MemberType.MS,
     major: MemberMajor.ME,
     linkedIn: "https://www.linkedin.com/in/eleanor-zimmermann-6022a416a",
-    bio: "Ellie is pursuing a B.S. in Mechanical Engineering at Michigan Technological University (MTU). She works as an undergraduate research assistant at the Planetary Surface Technology Development Lab where she is investigating the efficiency of ice melt probes under Martian pressure and temperature conditions for the RedWater project. She is also a member of the Varsity MTU Track team as a pole vaulter.",
+    bio: "Ellie recieved a B.S. in Mechanical Engineering at Michigan Tech in the spring of 2024 and is now pursuing a M.S. in Mechanical Engineering. She works as a research assistant at the Planetary Surface Technology Development Lab where she is investigating the efficiency of ice melt probes under Martian pressure and temperature conditions for the RedWater project. She is also a member of the Varsity MTU Track team as a pole vaulter.",
     username: "elzimmer"
 }
  
