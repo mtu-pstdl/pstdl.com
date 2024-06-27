@@ -98,7 +98,8 @@ export const lustr20: DetailItem = {
 		ajsweene,
 		wjojala,
 		mchewitt,
-		krnielse
+		krnielse,
+		elzimmer
 	],
 	alumni: [
 		ajgoddu,
