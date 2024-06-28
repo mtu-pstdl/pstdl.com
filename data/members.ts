@@ -674,6 +674,7 @@ export const mmdecker: Member = {
 	type: MemberType.BS,
 	major: MemberMajor.ME,
 	username: "mmdecker",
+	linkedIn: "https://www.linkedin.com/in/max-decker-33086b2a6/",
 	bio: "Max is a mechanical engineering undergraduate at Michigan Technological University. He joined the lab in 2024 and is working on the excavation system of the PRIMROSE lunar rover. Outside of the lab he is a member of the Michigan Tech Aerospace Enterprise. In his free time he enjoys weight lifting and reading."
 }
 export const bjengle: Member = {
