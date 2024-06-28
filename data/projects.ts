@@ -136,7 +136,11 @@ export const lustr21: DetailItem = {
 
 	],
 	images: [
-		{src: "/projects/lustr21/lustr21_2.png"},
+		{src: "/projects/lustr21/Vibratory Compaction Unit v3.png"},
+		{src: "/projects/lustr21/ASPECT Vehicle.png"},
+		{src: "/projects/lustr21/Compaction Scan.png"},
+		{src: "/projects/lustr21/Compaction System.png"},
+		{src: "/projects/lustr21/Compaction Test.jpeg"},
 	]
 };
 
