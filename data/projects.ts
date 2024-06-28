@@ -98,7 +98,8 @@ export const lustr20: DetailItem = {
 		ajsweene,
 		wjojala,
 		mchewitt,
-		krnielse
+		krnielse,
+		elzimmer
 	],
 	alumni: [
 		ajgoddu,
@@ -127,16 +128,15 @@ export const lustr21: DetailItem = {
 		nspatter,
 		jdpetrin,
 		jhannahs,
+		clcarey,
+		elzimmer
+
 	],
 	alumni: [
 
 	],
 	images: [
-		{src: "/projects/lustr21/lustr21_0.png"},
-		{src: "/projects/lustr21/lustr21_1.png"},
 		{src: "/projects/lustr21/lustr21_2.png"},
-		{src: "/projects/lustr21/lust21_3.png"},
-		{src: "/project/lustr21/lustr21_4.png"},
 	]
 };
 
@@ -184,7 +184,8 @@ export const watts: DetailItem = {
 		nsbruurs,
 		austinmc,
 		scbennin,
-		ircoulin
+		ircoulin,
+		clcarey
 	],
 	alumni: [
 		collinmi,
@@ -225,7 +226,8 @@ export const breakTheIce: DetailItem = {
 		ajgoddu,
 		mmdecker,
 		bjengle,
-		audreyal
+		audreyal,
+		gtredlon
 	],
 	alumni: [],
 	images: [
@@ -358,6 +360,7 @@ export const nasaClass: DetailItem = {
 
 export const projects: DetailItem[] = [
 	lustr20,
+	lustr21,
 	trex,
 	watts,
 	breakTheIce,
