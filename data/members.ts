@@ -511,8 +511,9 @@ export const bhpokorn: Member = {
 	linkedIn: "https://www.linkedin.com/in/ben-pokorny/",
 	type: MemberType.BS,
 	major: MemberMajor.ME,
-	bio: "Ben is a senior undergraduate at Michigan Tech majoring in mechanical engineering and minoring in aerospace engineering. He joined the lab in the summer of 2023 as a test engineer for LuSTR ‘20. His hobbies include running, 3D printing, and songwriting.",
-	username: "bhpokorn"
+	bio: "Ben graduated from Michigan Tech with a B.S. in Mechanical Engineering and minoring in Aerospace Engineering. He joined the lab in the summer of 2023 as a test engineer for LuSTR ‘20. His hobbies include running, 3D printing, and songwriting.",
+	username: "bhpokorn",
+	alumni: true
 }
 
 export const nsbruurs: Member = {
@@ -522,7 +523,8 @@ export const nsbruurs: Member = {
 	major: MemberMajor.ME,
 	linkedIn: "https://www.linkedin.com/in/nate-bruursema-49a329251/",
 	bio: "Nate Bruursema is an undergraduate student majoring in mechanical engineering and minoring in aerospace engineering. He recently joined the lab in Spring 2023 researching and focusing on the Thermal subteam for the TEMPEST project. He is currently developing thermal models to simulate temperature operating conditions of the critical components within the TEMPEST models. In his free time he enjoys climbing, disc golfing, and skating.",
-	username: "nsbruurs"
+	username: "nsbruurs",
+	alumni: false
 
 }
 
@@ -614,7 +616,8 @@ export const jdpetrin: Member = {
 	type: MemberType.BS,
 	major: MemberMajor.ME,
 	username: "jdpetrin",
-	bio: "Julia Petrin is an undergraduate mechanical engineering student at Michigan Tech. She joined the lab in the summer of 2023 and has been working on the vibratory compaction of lunar regolith as part of the LuSTR 21 project. She is also vice president of the Keweenaw Rocket Range student organization. In her spare time, she enjoys mountain biking, building high-power rockets, and spending time with her partner."
+	bio: "Julia Petrin is an undergraduate mechanical engineering student at Michigan Tech. She joined the lab in the summer of 2023 and has been working on the vibratory compaction of lunar regolith as part of the LuSTR 21 project. She is also vice president of the Keweenaw Rocket Range student organization. In her spare time, she enjoys mountain biking, building high-power rockets, and spending time with her partner.",
+	alumni: false
 }
 export const krnielse: Member = {
 	firstName: "Kade",
@@ -657,7 +660,8 @@ export const jhannahs: Member = {
 	type: MemberType.BS,
 	major: MemberMajor.EE,
 	username: "jhannahs",
-	bio: "Jonathon is a 4th year electrical enginnering student focusing in controls. Upon graduating he will be moving to the Bay City area to start his carrer as controls enginner"
+	bio: "Jonathon graduated with a B.S. in Enginnering Engineering with a focus in controls. After graduation he moved to the Bay City area to start his carrer as controls enginner",
+	alumni: true
 }
 export const mchewitt: Member = {
 	firstName: "Matthew",
@@ -702,6 +706,17 @@ export const audreyal: Member = {
 	major: [MemberMajor.ME, MemberMajor.EE],
 	username: "audreyal",
 	linkedIn: "www.linkedin.com/in/audrey-alexander-7a987b308",
+}
+
+export const leifchri: Member = {
+	firstName: "Leif",
+	lastName: "Christsen",
+	type: MemberType.BS,
+	major: MemberMajor.CPE,
+	username: "leifchri",
+	linkedIn: "https://www.linkedin.com/in/leif-christensen-a055aa228/",
+	bio: " Leif Christensen is an undergraduate computer engineering student at Michigan Technological University. He joined the lab in Fall 2023 and has been working on the electrical power system of the lab’s PRIMROSE lunar rover for NASA’s Break the Ice Lunar Challenge. Leif is also an engineer in the Michigan Tech Open Source Hardware Enterprise and in his spare time enjoys hiking, skiing and playing piano.",
+	alumni: false
 }
 
 export const members: Member[] = [
@@ -770,6 +785,7 @@ export const members: Member[] = [
 	bjengle,
 	ircoulin,
 	audreyal,
+	leifchri,
 ]
 
 export function getMemberByLink(id: string | string[]): Member | undefined {
