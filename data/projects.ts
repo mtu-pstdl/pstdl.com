@@ -67,7 +67,8 @@ import {
 	mmdecker,
 	bjengle,
 	ircoulin,
-	audreyal
+	audreyal,
+	leifchri,
 } from "./members";
 import {Member} from "../interfaces/Member";
 
@@ -231,7 +232,8 @@ export const breakTheIce: DetailItem = {
 		mmdecker,
 		bjengle,
 		audreyal,
-		gtredlon
+		gtredlon,
+		leifchri
 	],
 	alumni: [],
 	images: [
