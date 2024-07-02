@@ -121,7 +121,7 @@ export const lustr20: DetailItem = {
 
 export const lustr21: DetailItem = {
 	title: "NASA LuSTR 2021",
-	description: "More information coming soon.",
+	description: "This project is working on a NASA’s 2021 Lunar Surface Technology Research grant (LuSTR 21) led by Colorado school of Mines and other partners. The overall project is to build an autonomous site prep rover capable of obstacle removal, leveling, and compaction. The PSTDL is working on a novel compaction system for this system.",
 	link: "lustr21",
 	members: [
 		rdauster,
