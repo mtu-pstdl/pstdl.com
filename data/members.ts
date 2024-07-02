@@ -719,6 +719,15 @@ export const leifchri: Member = {
 	alumni: false
 }
 
+export const cmdinkel: Member = {
+	firstName: "Connor",
+	lastName: "Dinkelmann",
+	type: MemberType.BS,
+	major: MemberMajor.ME,
+	username: "cmdinkel",
+	bio: "Connor is a Mechanical Engineering undergraduate at Michigan Technological University. He joined the lab in 2024 and is working on the chassis of the PRIMROSE lunar rover. Outside of the lab he is a member of the Michigan Tech Multiplanetary INnovation Enterprise. In his free time he enjoys anything outdoors, including mountain biking, camping, rock hunting, and more. He also enjoys reading.",
+	alumni: false
+}
 export const members: Member[] = [
 	psbradsh,
 	nbmckenz,
@@ -786,6 +795,7 @@ export const members: Member[] = [
 	ircoulin,
 	audreyal,
 	leifchri,
+	cmdinkel
 ]
 
 export function getMemberByLink(id: string | string[]): Member | undefined {
