@@ -87,6 +87,8 @@ export const facilities: DetailItem[] = [
 		alumni: [bdwiegan],
 		images: [
 			{src: "/facilities/containers/icon.jpg"},
+			{src: "/facilities/containers/container1.png"},
+			{src: "/facilities/containers/container2.png"},
 		]
 	},
 	// {
