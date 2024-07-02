@@ -13,6 +13,7 @@ export default function ContactPage(): ReactElement {
 		<h2>Contact</h2>
 		<h3>General Inquiries</h3>
 		<p>Please direct general inquiries to Dr. Paul van Susante at <a className={"link"} href={"mailto:pjvansus@mtu.edu"}>pjvansus@mtu.edu</a></p>
+		<a target={"_blank"} rel={"noreferrer nofollow"} href={"https://www.linkedin.com/company/pstdl/"} className={"button"}>Find us on Linkedin!</a>
 		<h2>Apply</h2>
 		<a target={"_self"} rel={"noreferrer nofollow"} href={"/career"} className={"button"}>Open Positions</a>
 		<h3>Enterprise Application</h3>

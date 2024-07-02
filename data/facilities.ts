@@ -73,8 +73,8 @@ export const facilities: DetailItem[] = [
 		alumni: [],
 		images: [
 			{src: "/facilities/mtvac/icon.jpg"},
-			{src: "/facilities/mtvac/mtvac1.jpg"},
-			{src: "/facilities/mtvac/mtvac2.jpg"},
+			{src: "/facilities/mtvac/mtvac1.png"},
+			{src: "/facilities/mtvac/mtvac2.png"},
 		]
 	},
 	{

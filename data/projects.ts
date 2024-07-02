@@ -298,7 +298,7 @@ export const redWater: DetailItem = {
 export const mre: DetailItem = {
 	title: "NASA GCD MRE",
 	link: "mre",
-	description: "Provide a regolith feeder and transportation system for the MRE reactor",
+	description: "Provides a regolith feeder and transportation system for the MRE reactor",
 	members: [
 		psbradsh,
 		esierra,
