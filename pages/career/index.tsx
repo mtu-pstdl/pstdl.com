@@ -5,9 +5,11 @@
  */
 
 import type {NextPage, GetStaticProps, GetStaticPaths, GetServerSideProps} from "next";
+import Image from "next/image";
 import Layout from "../../components/Layout";
 import {positions} from "../../data/positions";
 import {PositionRow} from "../../components/PositionRow";
+
 
 interface PageProps {
 
@@ -16,11 +18,20 @@ interface PageProps {
 const Page: NextPage<PageProps> = () => {
 	return (
 		<Layout title={"Career"} className={"PartnershipsPage"}>
-			<h2>Open Positions</h2>
-			<p><b>Note</b>: Due to ITAR restrictions, to work at the PSTDL you must be <a href={"https://www.law.cornell.edu/cfr/text/22/120.15"} target={"_blank"} rel={"noreferrer"}>a U.S. Person.</a></p>
+
+			<p style={{fontSize:20}}>Currently there are no open positions available.</p>
+			<p style={{fontSize:20}}>When any open positions are available, they will be advertised here and via MTU e-mail lists, so keep an eye on this page. In the mean time, if you are generally interested to learn more, please contact Dr. van Susante at <a href = "pjvansus@mtu.edu">pjvansus@mtu.edu</a></p>
+			
+			<div style={{
+      		  textAlign: "center"
+     		 }}>
+				<img src="logo-new-dark.png" width="500" height="500"></img>
+			</div>
+			<p style={{fontSize:20}}><b>Note</b>: Due to ITAR restrictions, to work at the PSTDL you must be a U.S. Person or a U.S. Citizen.</p>
 			{positions.map((position, i) => {
 				return <PositionRow position={position} key={i}/>
 			})}
+			
 		</Layout>
 	);
 };

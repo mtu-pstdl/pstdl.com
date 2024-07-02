@@ -5,7 +5,7 @@
  * github.com/elijahjcobb
  */
 
-import {ReactElement} from "react";
+import { ReactElement } from "react";
 import Layout from "../components/Layout";
 import Image from "next/image";
 
@@ -19,14 +19,14 @@ export default function PartnershipsPage(): ReactElement {
 	return <Layout title={"Partnerships"} className={"PartnershipsPage"}>
 		<h2>Industry Partners</h2>
 		<div className={"grid"}>
-			<Image src={nasa} alt={"nasa"}/>
-			<Image src={honeybee} alt={"honeybee"}/>
-			<Image src={lunarOutpost} alt={"lunar-outpost"}/>
+			<Image src={nasa} alt={"nasa"} />
+			<Image src={honeybee} alt={"honeybee"} />
+			<Image src={lunarOutpost} alt={"lunar-outpost"} />
 		</div>
 		<h2>University Partners</h2>
 		<div className={"grid"}>
-			<Image src={mtu} alt={"mtu"}/>
-			<Image src={mines} alt={"mines"}/>
+			<Image src={mtu} alt={"mtu"} />
+			<Image src={mines} alt={"mines"} />
 		</div>
 	</Layout>
 }

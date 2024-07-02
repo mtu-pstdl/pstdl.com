@@ -5,11 +5,11 @@
  * github.com/elijahjcobb
  */
 
-import React, {ReactElement, PropsWithChildren} from "react";
+import React, { ReactElement, PropsWithChildren } from "react";
 import Markdown from "react-markdown"
-import {News} from "../interfaces/News";
-import {OpenInNew as Link, Twitter} from "@material-ui/icons";
-import {pDateToString} from "../interfaces/Date";
+import { News } from "../interfaces/News";
+import { FaTwitter as Twitter, FaLink as Link } from "react-icons/fa";
+import { pDateToString } from "../interfaces/Date";
 
 export interface NewsViewProps {
 	news: News;
@@ -25,7 +25,7 @@ export function NewsView(props: PropsWithChildren<NewsViewProps>): ReactElement 
 			<div className={"top"}>
 				<div className={"titleContainer"}>
 					<span className={"title"}>{props.news.title}</span>
-					{props.news.twitter && <Twitter className={"logo"}/>}
+					{props.news.twitter && <Twitter className={"logo"} />}
 				</div>
 				<span className={"date"}>{pDateToString(props.news.date)}</span>
 			</div>
@@ -33,7 +33,7 @@ export function NewsView(props: PropsWithChildren<NewsViewProps>): ReactElement 
 				{content && <Markdown>{content}</Markdown>}
 			</div>
 		</div>
-		<Link style={{display: link ? "block" : "none"}} className={"link"}/>
+		<Link style={{ display: link ? "block" : "none" }} color={"#ffcd00"} className={"link"} />
 	</a>);
 
 }

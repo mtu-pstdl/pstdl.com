@@ -9,6 +9,76 @@ import {News} from "../interfaces/News";
 
 export const news: News[] = [
 	{
+		title: "Michigan Technological Univeristy is featured on NASA's Image of the Day ",
+		link: "https://www.nasa.gov/image-detail/huskyworks-during-rover-testing/",
+		date: {month: 6, day: 21, year: 2024},
+		content: "Michigan Technological University’s Planetary Surface Technology Development Lab tests the excavation tools of a robot on a concrete slab, held by a gravity-offloading crane."
+	},
+	{
+		title: "Results from the final phase of NASA’s Break the Ice Lunar Challenge at Alabama A&M’s Agribition Center in Huntsville, Alabama",
+		link: "	https://www.nasa.gov/general/california-teams-win-1-5-million-in-nasas-break-the-ice-lunar-challenge/#:~:text=The%20husband%2Dand%2Dwife%20duo,Agribition%20Center%20in%20Huntsville%2C%20Alabama.",
+		date: {month: 6, day: 13, year: 2024},
+		content: "Michigan Technological University earned an invitation to the TVAC facilities for performing exceptionally well in the excavation portion of the final competition"
+	},
+	{
+		title: "Paul van Susante Receives ASCE Outstanding Technical Contribution Award",
+		link: "https://www.mtu.edu/ttoday/?issue=20240419&utm_source=Tech+Today&utm_medium=email&utm_campaign=Tech+Today&utm_content=20240419#paul-van-susante-receives-asce-outstanding-technical-contribution-award",
+		date: {month: 4, day: 19, year: 2024},
+		content: "Dr van Susante was awared a Outstanding Technical Contribution Award by the American Society of Civil Engineers (ASCE)"
+	},
+	{
+		title: "Lunar Surface ISRU and Construction Technology - Progress at MTU-PSTDL",
+		link: "https://www.youtube.com/watch?v=ZP1crL8bQBc",
+		date: {month: 3, day:28, year:2024},
+		content: "Dr van Susante gave a webinar as part of the AIAA Space Resources Technical Committee's Space Resources Webinar Series. Watch the recording here"
+	},
+	{
+		title: "The Artemis Generation",
+		link: "https://www.mtu.edu/magazine/2024/stories/artemis-generation/index.html",
+		date: {month: 3, day: 11, year: 2024},
+		content: "PSTDL was highlighted by Michigan Tech's Research Magazine"
+	},
+	{
+		title: "Dr van Susante Named to Lou and Herbert Wacker Professorship in Mechanical Engineering",
+		link: "https://blogs.mtu.edu/mechanical/2023/11/20/paul-van-susante-named-to-lou-and-herbert-wacker-professorship-in-mechanical-engineering/",
+		date: {month: 11, day:20, year: 2023},
+	},
+	{
+		title: "PSTDL advances to the final stage of NASA's Break the Ice challenge",
+		link: "https://www.nasa.gov/directorates/stmd/stmd-prizes-challenges-crowdsourcing-program/centennial-challenges/six-finalists-named-in-nasas-3-5-million-break-the-ice-challenge/",
+		date: {month: 12, day: 6, year: 2023},
+		content: "PSTDL is named one of six teams to advance to the final stage of NASA's Break the Ice Challenge"
+	},
+	{
+		title: "PSTDL advacnes to final stage of NASA's Watts on the Moon challenge",
+		link: "https://www.mtu.edu/news/2023/06/pstdl-advances-to-final-round-of-nasa-watts-on-the-moon-challenge.html",
+		date: {month: 6, day: 28, year: 2023},
+		content: "PTSDL is among 4 groups that have been selected to move to the final stage of NASA's Watts on the Moon challenge. "
+	},
+	{
+		title: "How Are We Going to Power Our First Projects On the Moon?",
+		link: "https://www.youtube.com/watch?v=dsHU_WvCTHs",
+		date: {month: 4, day: 24, year: 2023},
+		content: "Dr. Paul van Susante appeared on the Cold Star Project."
+	},
+    {
+        title: "PSTDL Awarded NASA 2022 STTR Phase I Grant",
+        link: "https://sbir.nasa.gov/SBIR/abstracts/22/sttr/phase1/STTR-22-1-T7.04-2186.html",
+        date: {month: 5, day: 25, year: 2022}
+    },
+    {
+        title: "PSTDL RedWater Article Featured in New Space Journal",
+        link: "https://www.liebertpub.com/doi/10.1089/space.2021.0057",
+        date: {month: 5, day: 12, year: 2022},
+        content: "The PSTDL 'RedWater: Water Mining System for Mars' Article Featured in the New Space Journal of Space Entrepreneurship and Innovation."
+    },
+    {
+        title: "PSTDL T-REX Project Featured in New Space Journal",
+        link: "https://www.liebertpub.com/doi/10.1089/space.2021.0056",
+        date: {month: 5, day: 12, year: 2022},
+        content: "The PSTDL Watts on the Moon Challenge is Featured in the New Space Journal of Space Entrepreneurship and Innovation."
+    },
+	{
 		title: "PSTDL Featured in MTU Research 2022",
 		link: "https://www.mtu.edu/magazine/research/2022/stories/moon-beyond/",
 		date: {month: 3, day: 18, year: 2022}

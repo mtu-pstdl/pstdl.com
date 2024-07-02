@@ -24,7 +24,10 @@ export enum MemberMajor {
 	CE = "Chemical Engineering",
 	CEGE = "Civil and Geological Engineering",
 	RE = "Robotics Engineering",
-	ENV = "Environmental Engineering"
+	ENV = "Environmental Engineering",
+	CSM = "Computer Science and Mathematics",
+	CIV = "Civil Engineering",
+	GE = "Geological Engineering"
 }
 
 export enum MemberType {
@@ -41,7 +44,7 @@ export interface Member {
 	firstName: string;
 	lastName: string;
 	username: string;
-	major: MemberMajor;
+	major: MemberMajor | Array<MemberMajor>;
 	type: MemberType
 	alumni?: boolean;
 	bio?: string;

@@ -7,6 +7,14 @@
 
 import {DetailItem, getDetailItemByLink, getDetailsForUsername} from "../interfaces/DetailItem";
 import {
+	psbradsh,
+	jwearly,
+	nbmckenz,
+	brianjo,
+	kjiam,
+	rdauster,
+	elzimmer,
+	esierra,
 	mysalem,
 	aegulan,
 	ajgoddu,
@@ -35,15 +43,44 @@ import {
 	smzerbel,
 	tawavrun,
 	tcgronda,
-	wtwagone
+	wtwagone,
+	mkoujiri,
+	smzeqlam,
+	mrkrause,
+	bhpokorn,
+	nsbruurs,
+	ajsweene,
+	dkbrouse,
+	ljfrank,
+	austinmc,
+	wdjennes,
+	nspatter,
+	hlgoetz,
+	msmille3,
+	pstocchi,
+	jdpetrin,
+	scbennin,
+	wjojala,
+	jhannahs,
+	mchewitt,
+	krnielse,
+	mmdecker,
+	bjengle,
+	ircoulin,
+	audreyal,
+	leifchri,
+	cmdinkel
 } from "./members";
 import {Member} from "../interfaces/Member";
 
 export const lustr20: DetailItem = {
 		title: "NASA LuSTR 2020",
-	description: "NASA Lunar Surface Technology Research (LuSTR) (Exploration of lunar volatiles and determination of geotechnical properties) – \"Percussive Hot Cone Penetrometer (PHCP) and Ground Penetrating Radar (GPR) for Geotechnical and Volatiles Mapping\"",
+	description: "The PSTDL was a recipient of a 2020 NASA’s Lunar Surface Technology Research grant (LuSTR20) for the development of a lunar prospecting instrument known as the Percussive Hot Cone Penetrometer (PHCP) in combination with Ground Penetrating Radar (GPR). The goal of this project is to produce a science instrument that is capable of probing the lunar surface up to a depth of 1 meter to extract the geotechnical properties of the lunar regolith, identifying the vertical and lateral concentrations of volatiles present.",
 	link: "lustr",
 	members: [
+		rdauster,
+		nbmckenz,
+		jwearly,
 		mysalem,
 		ejcobb,
 		collinmi,
@@ -57,7 +94,14 @@ export const lustr20: DetailItem = {
 		cnorton,
 		jbprimea,
 		colinsch,
-		aegulan
+		aegulan,
+		mrkrause,
+		bhpokorn,
+		ajsweene,
+		wjojala,
+		mchewitt,
+		krnielse,
+		elzimmer
 	],
 	alumni: [
 		ajgoddu,
@@ -77,16 +121,27 @@ export const lustr20: DetailItem = {
 
 export const lustr21: DetailItem = {
 	title: "NASA LuSTR 2021",
-	description: "More information coming soon.",
+	description: "This project is working on a NASA’s 2021 Lunar Surface Technology Research grant (LuSTR 21) led by Colorado school of Mines and other partners. The overall project is to build an autonomous site prep rover capable of obstacle removal, leveling, and compaction. The PSTDL is working on a novel compaction system for this system.",
 	link: "lustr21",
 	members: [
+		rdauster,
+		psbradsh,
+		ljfrank,
+		nspatter,
+		jdpetrin,
+		jhannahs,
+		clcarey,
+		elzimmer
 
 	],
 	alumni: [
 
 	],
 	images: [
-
+		{src: "/projects/lustr21/ASPECT Vehicle.png"},
+		{src: "/projects/lustr21/icon.jpg"},
+		{src: "/projects/lustr21/Compaction Scan.png"},
+		{src: "/projects/lustr21/Vibratory Compaction Unit v3.png"},
 	]
 };
 
@@ -120,7 +175,7 @@ export const trex: DetailItem = {
 
 export const watts: DetailItem = {
 	title: "NASA Watts on the Moon",
-	description: "NASA Watts on the Moon Centennial Challenge (Providing power to water extraction plant in PSR 1km from power plant) – \"Wired Watts where-ever, whenever you want – W^5\"",
+	description: "NASA Watts on the Moon Centennial Challenge (Providing power to water extraction plant in PSR 3km from power plant) – \"Wired Watts where-ever, whenever you want – W^5\"",
 	link: "watts",
 	members: [
 		eavanhor,
@@ -128,7 +183,14 @@ export const watts: DetailItem = {
 		ajgoddu,
 		ejcobb,
 		mvsietse,
-		tawavrun
+		tawavrun,
+		smzeqlam,
+		psbradsh,
+		nsbruurs,
+		austinmc,
+		scbennin,
+		ircoulin,
+		clcarey
 	],
 	alumni: [
 		collinmi,
@@ -138,18 +200,41 @@ export const watts: DetailItem = {
 	images: [
 		{src: "/projects/watts/Watts0.png"},
 		{src: "/projects/watts/icon.jpg"},
+		{src: "/projects/watts/Watts1.png"},
+		{src: "/projects/watts/Watts2.png"},
+		{src: "/projects/watts/Watts3.png"},
 	]
 };
 
 export const breakTheIce: DetailItem = {
 	title: "NASA Break the Ice",
-	description: "The latest centennial challenge from NASA that is designed to develop technologies aiding in the sustained presence on the Moon.",
+	description: "NASA’s Break The Ice Lunar Challenge challenges teams to create a solution for mining lunar permafrost. The PSTDL’s Prototype Regolith In-situ Mining Rover with Onboard Surface Excavator (PRIMROSE) is a highly capable mining rover purpose-built to meet the demands of this challenge. PRIMROSE leverages proven terrestrial technology and the PSTDL’s experience with regolith excavation. Future work includes testing excavation of icy regolith in a cold chamber using the PRIMROSE excavator.",
 	link: "btic",
 	members: [
 		collinmi,
 		hjmcgill,
 		tcgronda,
-		mcguadag
+		rdauster,
+		mcguadag,
+		mkoujiri,
+		smzeqlam,
+		jbprimea,
+		mrkrause,
+		psbradsh,
+		ajsweene,
+		dkbrouse,
+		ljfrank,
+		austinmc,
+		wdjennes,
+		hlgoetz,
+		msmille3,
+		ajgoddu,
+		mmdecker,
+		bjengle,
+		audreyal,
+		gtredlon,
+		leifchri,
+		cmdinkel
 	],
 	alumni: [],
 	images: [
@@ -159,6 +244,11 @@ export const breakTheIce: DetailItem = {
 		{src: "/projects/btic/TranspR2.jpg"},
 		{src: "/projects/btic/WEC.jpg"},
 		{src: "/projects/btic/CBD.png"},
+		{src: "/projects/btic/BTIC1.jpg"},
+		{src: "/projects/btic/BTIC2.jpg"},
+		{src: "/projects/btic/BTIC3.jpg"},
+		{src: "/projects/btic/BTIC4.jpg"},
+		{src: "/projects/btic/BTIC5.jpg"},
 	]
 }
 
@@ -188,6 +278,7 @@ export const redWater: DetailItem = {
 	description: "NASA NextSTEP BAA ISRU track 3 (water from buried glaciers on Mars) – \"RedWater : Extraction of Water from Mars' Ice Deposits\" (subcontract from Honeybee Robotics who are principal investigator)",
 	link: "redwater",
 	members: [
+		elzimmer,
 		georgejo,
 		smzerbel,
 		gtredlon
@@ -209,8 +300,9 @@ export const mre: DetailItem = {
 	link: "mre",
 	description: "Provide a regolith feeder and transportation system for the MRE reactor",
 	members: [
+		psbradsh,
+		esierra,
 		jnoe,
-		clcarey,
 		bdwiegan
 	],
 	alumni: [
@@ -218,11 +310,19 @@ export const mre: DetailItem = {
 	],
 	images: [
 		{src: "/projects/mre/icon.jpg"},
-		{src: "/projects/mre/mre1.jpg"},
-		{src: "/projects/mre/mre2.jpg"},
-		{src: "/projects/mre/mre4.jpg"},
-		{src: "/projects/mre/mre5.jpg"},
-		{src: "/projects/mre/mre6.jpg"},
+		{src: "/projects/mre/mre3.png"},
+		{src: "/projects/mre/mre4.png"},
+		{src: "/projects/mre/mre5.png"},
+		{src: "/projects/mre/mre6.png"},
+		{src: "/projects/mre/mre7.png"},
+		{src: "/projects/mre/mre8.png"},
+		{src: "/projects/mre/mre9.png"},
+		{src: "/projects/mre/mre10.png"},
+		{src: "/projects/mre/mre11.png"},
+		{src: "/projects/mre/mre12.png"},
+		{src: "/projects/mre/mre13.png"},
+		{src: "/projects/mre/mre14.png"},
+
 
 	]
 };
@@ -232,6 +332,7 @@ export const hoplite: DetailItem = {
 	description: "A modular robotic system that enables the field testing of ISRU technologies.",
 	link: "hoplite",
 	members: [
+		nbmckenz,
 		mysalem,
 		ejcobb,
 		roccoc,
@@ -253,9 +354,11 @@ export const nasaClass: DetailItem = {
 	description: "NASA Solar System Exploration Research Virtual Institute (SSERVI) – \"CLASS (Center for Lunar and Asteroid Surface Science)\" (subcontract from University of Central Florida who are principal investigator)",
 	link: "class",
 	members: [
+		kjiam,
 		pjvansus,
 		clcarey,
-		jbprimea
+		jbprimea,
+		ljfrank
 	],
 	alumni: [
 		nathanmi
@@ -264,6 +367,7 @@ export const nasaClass: DetailItem = {
 
 export const projects: DetailItem[] = [
 	lustr20,
+	lustr21,
 	trex,
 	watts,
 	breakTheIce,
@@ -272,6 +376,7 @@ export const projects: DetailItem[] = [
 	mre,
 	hoplite,
 	nasaClass,
+
 ];
 
 export function getProjectByLink(id: string | string[]): DetailItem | undefined {

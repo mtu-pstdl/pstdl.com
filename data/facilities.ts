@@ -17,9 +17,9 @@ export const facilities: DetailItem[] = [
 		link: "dtvac",
 		members: [
 			mcguadag,
-			bdwiegan
+			georgejo
 		],
-		alumni: [],
+		alumni: [bdwiegan],
 		images: [
 			{src: "/facilities/dtvac/icon.jpg"},
 			{src: "/facilities/dtvac/dtvac-real2.jpg"},
@@ -34,7 +34,7 @@ export const facilities: DetailItem[] = [
 		description: "Large 'Airlocked' lunar simulant chamber with autonomous gravity offloading.",
 		link: "sandbox",
 		members: [
-
+			georgejo
 		],
 		alumni: [tcgronda],
 		images: [
@@ -55,10 +55,10 @@ export const facilities: DetailItem[] = [
 		link: "irgo",
 		members: [
 			tawavrun,
-			ejcobb,
-			dkbrouse
+			georgejo
 		],
-		alumni: [],
+		alumni: [ejcobb,
+			dkbrouse],
 		images: [
 			{src: "/facilities/irgo/irgo-1.jpg"},
 			{src: "/facilities/irgo/irgo-2.jpg"},
@@ -69,7 +69,7 @@ export const facilities: DetailItem[] = [
 		title: "Mini Thermal Vacuum Chamber (MTVAC)",
 		description: "A Martian pressure rated vacuum chamber featuring a LN2 feedthrough port to allow tests to be conducted at cryogenic temperatures.",
 		link: "mtvac",
-		members: [],
+		members: [georgejo],
 		alumni: [],
 		images: [
 			{src: "/facilities/mtvac/icon.jpg"},
@@ -82,26 +82,29 @@ export const facilities: DetailItem[] = [
 		description: "Shipping containers refurbished as regolith heating and freezing facilities.",
 		link: "containers",
 		members: [
-			bdwiegan
+			georgejo
 		],
-		alumni: [],
+		alumni: [bdwiegan],
 		images: [
+			{src: "/facilities/containers/icon.jpg"},
+			{src: "/facilities/containers/container1.png"},
+			{src: "/facilities/containers/container2.png"},
 		]
 	},
-	{
-		title: "AR Mapping Sandbox",
-		description: "A sandbox featuring projected depth mapping of the terrain.",
-		link: "ar-sandbox",
-		members: [
-
-		],
-		alumni: [
-			dfpaglia
-		],
-		images: [
-			{src: "/facilities/ar-sandbox/icon.jpg"},
-		]
-	},
+	// {
+	// 	title: "AR Mapping Sandbox",
+	// 	description: "A sandbox featuring projected depth mapping of the terrain.",
+	// 	link: "ar-sandbox",
+	// 	members: [
+	// 		georgejo
+	// 	],
+	// 	alumni: [
+			
+	// 	],
+	// 	images: [
+	// 		{src: "/facilities/ar-sandbox/icon.jpg"},
+	// 	]
+	// },
 	{
 		title: "Industrial Robotic Arm",
 		description: "A programmable FANUC robotic arm.",
