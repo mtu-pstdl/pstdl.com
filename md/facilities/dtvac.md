@@ -44,3 +44,4 @@ The Dusty Thermal Vacuum Chamber (DTVAC) is a facility used to simulate extreme 
 ## Reports and Presentations
 
 - M. C. Guadagno and P. J. van Susante, “Commissioning and Testing of Dusty Thermal Vacuum Chamber Designed for Lunar Environment Simulation,” in ASCEND 2020, American Institute of Aeronautics and Astronautics. doi: [10.2514/6.2020-4197](https://arc.aiaa.org/doi/10.2514/6.2020-4197).
+- Wiegand, Ben, "COMMISSIONING AND TESTING OF A NEW DUSTY THERMAL VACUUM CHAMBER", Open Access Master's Report, Michigan Technological University, 2021. doi: [10.37099/9.2021-1268](https://doi.org/10.37099/mtu.dc.etdr/1268).
