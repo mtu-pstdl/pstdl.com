@@ -12,25 +12,10 @@ The Dusty Thermal Vacuum Chamber (DTVAC) is a facility used to simulate extreme 
 
 ### Viewport & Feedthroughs
 
-| Name                                                                                                                           | Size    | Quantity |
-| ------------------------------------------------------------------------------------------------------------------------------ | ------- | -------- |
-| Thermocouple, single ended, s-pair type K, M, 5 ports                                                                          | `KF 40` | 2        |
-| EUDF-SUPP electrical supply, solid conductors                                                                                  | `KF 25` | 1        |
-| MS High Current Series, Multipin Feedthrough, 4 Pins, 700 Volts, 28 Amps per Pin, 0.094″ Moly Conductors, 1.18″ QF / KF Flange | `KF 16` | 1        |
-| SMA double ended                                                                                                               | `KF 16` | 1        |
-| Thermocouple, single ended, s-pair type K, M, 5 ports                                                                          | `KF 40` | 2        |
-| 25 pin male to male DSUB (5 amps and 500 Volts)                                                                                | `DN 63` | 2        |
-| NW16 to 1/4" Swagelok Single Tube LN2 Feedthrough                                                                              | `KF 16` | 2        |
-| 14" Swagelok Double Tube LN2 Feedthrough                                                                                       | `DN 63` | 1        |
+![table 2](/facilities/dtvac/table1_dvac.png)
 
-| Name                    | Quantity |
-| ----------------------- | -------- |
-| `ISO-LF DN160 (NW160)`  | 2        |
-| `ISO-LF DN63 (NW63)`    | 4        |
-| `KF/QF40-100-LF (NW40)` | 4        |
-| `KF/QF25-100-LF (NW25)` | 2        |
-| `KF/QF16-100-LF (NW16)` | 4        |
-
+![table 1](/facilities/dtvac/table2_dvac.png)
+                                                      
 ![feedthrough diagram](/facilities/dtvac/feedthrough_diagram.png)
 
 ### Regolith Cart
