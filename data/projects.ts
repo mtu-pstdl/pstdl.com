@@ -81,30 +81,30 @@ export const lustr20: DetailItem = {
 		rdauster,
 		nbmckenz,
 		jwearly,
-		mysalem,
-		ejcobb,
 		collinmi,
 		mcguadag,
 		tawavrun,
-		arajan,
 		bdwiegan,
 		georgejo,
 		cjkamins,
-		roccoc,
-		cnorton,
-		jbprimea,
-		colinsch,
-		aegulan,
 		mrkrause,
-		bhpokorn,
 		ajsweene,
 		wjojala,
 		mchewitt,
 		krnielse,
-		elzimmer
+		elzimmer,
+		ajgoddu,
 	],
 	alumni: [
-		ajgoddu,
+		mysalem,
+		aegulan,
+		cnorton,
+		ejcobb,
+		arajan,
+		roccoc,
+		colinsch,
+		jbprimea,
+		bhpokorn,
 		eavanhor,
 		hjmcgill,
 		tcgronda,
@@ -125,17 +125,16 @@ export const lustr21: DetailItem = {
 	link: "lustr21",
 	members: [
 		rdauster,
-		psbradsh,
 		ljfrank,
 		nspatter,
 		jdpetrin,
-		jhannahs,
 		clcarey,
 		elzimmer
 
 	],
 	alumni: [
-
+		psbradsh,
+		jhannahs,
 	],
 	images: [
 		{src: "/projects/lustr21/ASPECT Vehicle.png"},
@@ -150,18 +149,18 @@ export const trex: DetailItem = {
 	description: "NASA Breakthrough Innovative and Gamechanging (BIG) Idea Challenge 2020 – \"Tethered permanently shaded Region EXplorer (T-REX)\", (power and communication delivery into PSR)",
 	link: "t-rex",
 	members: [
-		ejcobb,
 		ajgoddu,
-		collinmi,
-		eavanhor,
-		hjmcgill,
 		mcguadag,
 		tawavrun
 	],
 	alumni: [
+		ejcobb,
 		nzamora,
+		collinmi,
+		eavanhor,
 		tcgronda,
 		wtwagone,
+		hjmcgill,
 	],
 	images: [
 		{src: "/slideshow/slideshow0.jpg"},
@@ -178,14 +177,9 @@ export const watts: DetailItem = {
 	description: "NASA Watts on the Moon Centennial Challenge (Providing power to water extraction plant in PSR 3km from power plant) – \"Wired Watts where-ever, whenever you want – W^5\"",
 	link: "watts",
 	members: [
-		eavanhor,
 		mcguadag,
 		ajgoddu,
-		ejcobb,
-		mvsietse,
 		tawavrun,
-		smzeqlam,
-		psbradsh,
 		nsbruurs,
 		austinmc,
 		scbennin,
@@ -193,9 +187,14 @@ export const watts: DetailItem = {
 		clcarey
 	],
 	alumni: [
+		eavanhor,
+		mvsietse,
+		ejcobb,
 		collinmi,
 		hjmcgill,
 		tcgronda,
+		smzeqlam,
+		psbradsh,
 	],
 	images: [
 		{src: "/projects/watts/Watts0.png"},
@@ -211,22 +210,13 @@ export const breakTheIce: DetailItem = {
 	description: "NASA’s Break The Ice Lunar Challenge challenges teams to create a solution for mining lunar permafrost. The PSTDL’s Prototype Regolith In-situ Mining Rover with Onboard Surface Excavator (PRIMROSE) is a highly capable mining rover purpose-built to meet the demands of this challenge. PRIMROSE leverages proven terrestrial technology and the PSTDL’s experience with regolith excavation. Future work includes testing excavation of icy regolith in a cold chamber using the PRIMROSE excavator.",
 	link: "btic",
 	members: [
-		collinmi,
-		hjmcgill,
-		tcgronda,
 		rdauster,
 		mcguadag,
 		mkoujiri,
-		smzeqlam,
-		jbprimea,
 		mrkrause,
-		psbradsh,
 		ajsweene,
-		dkbrouse,
 		ljfrank,
 		austinmc,
-		wdjennes,
-		hlgoetz,
 		msmille3,
 		ajgoddu,
 		mmdecker,
@@ -236,7 +226,17 @@ export const breakTheIce: DetailItem = {
 		leifchri,
 		cmdinkel
 	],
-	alumni: [],
+	alumni: [
+		psbradsh,
+		hlgoetz,
+		hjmcgill,
+		collinmi,
+		tcgronda,
+		jbprimea,
+		smzeqlam,
+		dkbrouse,
+		wdjennes,
+	],
 	images: [
 		{src: "/projects/btic/icon.jpg"},
 		{src: "/projects/btic/MineR2.jpg"},
@@ -300,13 +300,13 @@ export const mre: DetailItem = {
 	link: "mre",
 	description: "Provides a regolith feeder and transportation system for the MRE reactor",
 	members: [
-		psbradsh,
 		esierra,
 		jnoe,
 		bdwiegan
 	],
 	alumni: [
 		jpintore,
+		psbradsh,
 	],
 	images: [
 		{src: "/projects/mre/icon.jpg"},
@@ -332,17 +332,17 @@ export const hoplite: DetailItem = {
 	description: "A modular robotic system that enables the field testing of ISRU technologies.",
 	link: "hoplite",
 	members: [
+		ajgoddu,
+	],
+	alumni: [
+		hjmcgill,
+		eavanhor,
 		nbmckenz,
 		mysalem,
 		ejcobb,
 		roccoc,
 		cnorton,
 		collinmi,
-	],
-	alumni: [
-		ajgoddu,
-		hjmcgill,
-		eavanhor,
 	],
 	images: [
 		{src: "/projects/hoplite/icon.jpg"},
@@ -354,14 +354,14 @@ export const nasaClass: DetailItem = {
 	description: "NASA Solar System Exploration Research Virtual Institute (SSERVI) – \"CLASS (Center for Lunar and Asteroid Surface Science)\" (subcontract from University of Central Florida who are principal investigator)",
 	link: "class",
 	members: [
-		kjiam,
 		pjvansus,
 		clcarey,
 		jbprimea,
 		ljfrank
 	],
 	alumni: [
-		nathanmi
+		nathanmi,
+		kjiam,
 	],
 };
 
