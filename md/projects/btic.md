@@ -1,7 +1,7 @@
 ## Project Overview
 NASA’s centennial challenge program offers prizes to teams that demonstrate new technologies for NASA focus areas. For this challenge, teams must design and build a rover to excavate 800 kg of simulated lunar permafrost per day and deliver it to a simulated processing plant. The PSTDL designed and built the Prototype Regolith In-situ Mining Rover with Onboard Surface Excavator (PRIMROSE). PRIMROSE uses a chain trencher to excavate the hard permafrost and has advanced mobility capabilities. The vehicle has a 5kWh battery pack, and a dry weight of 332 kg
 
-# CONOPS
+## CONOPS
 ### Transportation
 The simulated processing plant and permafrost excavation area are 500m away from each other. This simulates the excavation area being inside the permanently shaded floor of a crater, and the processing plant on the rim of the crater where power is available. PRIMROSE travels over MTU-LHT-1A lunar regolith simulant in order to create a high fidelity lunar test environment. The wheels of the rover were designed in order to have high tractive performance on both loose granular regolith simulant and hard cemented lunar permafrost simulant. PRIMROSE is capable of independently steering, raising, and lowering each of its four wheels. The independent control of all wheels allows advanced mobility as the rover encounters rocks and craters.
 

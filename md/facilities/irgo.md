@@ -1,4 +1,4 @@
-## Description
+## Project Overview
 The Infrared Gravity Offloading (IRGO) device is an active 3-axis crane inside the PSTDL lunar simulant sandbox that continuously positions itself over an object with a constant upward force simulating lunar gravity by tracking with an infrared LED.
 
 ## Technical Details
