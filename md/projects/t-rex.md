@@ -1,8 +1,6 @@
 ## Project Overview
 The Tethered permanently-shadowed Region EXplorer is an infrastructure technology demonstration mission whose goal is to provide reliable power and data to other operations within PSRs of the Moon, where conventional line-of-sight radiofrequency communications and solar power generation is limited.
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/yXzdOJCz3rE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ## CONOPS
 Upon a successful landing via a commercial lunar payload services (CLPS) lander, T-REX will initiate a health check of all subsystems prior to entering its deployment phase of the mission. T-REX will egress from the CLPS lander via ramp or other means, once all systems report nominal operation. During egress, T-REX will initiate an onboard secondary spooling system and begin deploying a round conventionally conducting tether (CCT). Movement control, telemetry, and vision with T-REX are done via commands issued through the Deep Space Network (DSN) and relayed by the selected CLPS lander. 
 
@@ -29,3 +27,6 @@ The T-REX mission is baselined to last 12-14 Earth days, as outlined by the BIG 
 * Mission duration is a 12-14 days
 * Can conduct 75 amperes of power.
 * SCT weighs ~5kg
+
+## Reports and Presentations
+* [Student Engineers Build a Lunar Rover—and Win BIG.](https://www.youtube-nocookie.com/embed/yXzdOJCz3rE)
