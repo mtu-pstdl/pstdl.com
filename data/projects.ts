@@ -247,7 +247,6 @@ export const breakTheIce: DetailItem = {
 		{src: "/projects/btic/BTIC1.jpg"},
 		{src: "/projects/btic/BTIC2.jpg"},
 		{src: "/projects/btic/BTIC3.jpg"},
-		{src: "/projects/btic/BTIC4.jpg"},
 		{src: "/projects/btic/BTIC5.jpg"},
 	]
 }
