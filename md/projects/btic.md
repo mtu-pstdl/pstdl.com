@@ -10,6 +10,6 @@ The simulated processing plant and permafrost excavation area are 500m away from
 Chain trenchers are a proven method to excavate frozen ground on earth. PRIMROSE applies this technique to excavate and collect material from parallel trenches. These trenches leave behind a relatively flat and easy to traverse surface. The simple chain trencher is enabled by the independent actuation of each wheel. The excavator is rigidly attached to the frame, and the frame itself can be leveled on uneven terrain and lower the excavator down into the ground. Once the target mass of material has been collected, PRIMROSE traverses back to the simulated processing plant and drops off the batch of material.
 
 ## Reports and Presentations
-
 * [Break The Ice Challenge Mission Video Link](https://www.youtube.com/watch?v=hIQYnyP4Fbs&ab_channel=PaulvanSusante)
 * [PRIMROSE Project Overview prensentation](/projects/btic/PSTDL_BTIC_Competition_Presentation.pdf)
+![](/projects/btic/btic_3_by_4_poster.png)
