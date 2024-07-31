@@ -239,11 +239,6 @@ export const breakTheIce: DetailItem = {
 	],
 	images: [
 		{src: "/projects/btic/icon.jpg"},
-		{src: "/projects/btic/MineR2.jpg"},
-		{src: "/projects/btic/TranspR1.png"},
-		{src: "/projects/btic/TranspR2.jpg"},
-		{src: "/projects/btic/WEC.jpg"},
-		{src: "/projects/btic/CBD.png"},
 		{src: "/projects/btic/BTIC1.jpg"},
 		{src: "/projects/btic/BTIC2.jpg"},
 		{src: "/projects/btic/BTIC3.jpg"},
