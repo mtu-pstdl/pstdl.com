@@ -233,7 +233,11 @@ export const cjkamins: Member = {
 	firstName: "Caleb",
 	username: "cjkamins",
 	linkedIn: "https://www.linkedin.com/in/caleb-kaminski-186b531a0/",
-	alumni: true
+	alumni: true,
+	location: {
+        lat: 61.2176,
+        lng: -149.8631
+    }
 };
 export const nathanmi: Member = {
 	firstName: "Nathan",
@@ -286,7 +290,11 @@ export const jpintore: Member = {
 	alumni: true,
 	major: MemberMajor.ME,
 	username: "jpintore",
-	linkedIn: "https://www.linkedin.com/in/jafet-pinto-reveggino-122a50164/"
+	linkedIn: "https://www.linkedin.com/in/jafet-pinto-reveggino-122a50164/",
+	location: {
+        lat: 42.5803,
+        lng: -83.030281
+    }
 };
 export const gtredlon: Member = {
 	firstName: "Gregory",
@@ -295,7 +303,8 @@ export const gtredlon: Member = {
 	major: MemberMajor.ME,
 	username: "gtredlon",
 	linkedIn: "https://www.linkedin.com/in/gregory-redlon-23701621b/",
-	alumni: true
+	alumni: true,
+
 };
 export const cnorton: Member = {
 	firstName: "Christopher",
@@ -332,7 +341,11 @@ export const jbprimea: Member = {
 	major: MemberMajor.CIV,
 	linkedIn: "https://www.linkedin.com/in/joe-primeau-020bb6269/",
 	bio: "Joe Primeau is recieved his M.S. in Civil Engineering and his B.S. in Environmental Engineering from Michigan Technological University. He joined PSTDL in January 2022 working on the LuSTR Geotechnical subteam. While working towards his graduate degree, he worked on a NASA STTR-funded project that included the development of a spreadsheet-based analysis tool to inform the construction of compacted lunar regolith structures as well as the NASA Break the Ice Challenge. In his free time, he enjoys mountain biking, thrifting, playing music, and climbing.",
-	alumni: true
+	alumni: true,
+	location: {
+		lat: 43.6150,
+		lng: -116.2150
+	}
 };
 export const colinsch: Member = {
 	firstName: "Colin",
@@ -342,7 +355,11 @@ export const colinsch: Member = {
 	username: "colinsch",
 	bio: "Colin Schaefer completed his B.S. in Mechanical Engineering with a minor in aerospace engineering. Colin began his experience working with space technology when he joined the Multiplanetary Innovation Enterprise (MINE). During his third year, he was a member of the Excavation sub-team within the enterprise's Lunabotics team. He is currently apart of the Lunar Trencher project team that seeks to determine the usability of a bucket ladder under vacuum conditions. Colin began working for the Planetary Surface Technology Development Lab (PSTDL) in Spring 2022 and is currently on the LuSTR project.",
 	linkedIn: "http://www.linkedin.com/in/colin-schaefer-mtu",
-	alumni: true
+	alumni: true,
+	location: {
+		lat: 39.1440,
+		lng: -77.1946
+	}
 };
 export const dkbrouse: Member = {
 	firstName: "Dana",
@@ -399,7 +416,11 @@ export const jwearly: Member = {
     linkedIn: "https://www.linkedin.com/in/weston-early-152b5a190/",
     bio: "Weston Early graduated with a B.S. in Mechanical Engineering and B.S. in Computer Engineering at Michigan Tech as well as minors in Geology, Aerospace Engineering, and Spanish. After graduating he went on to work at GeoTech Engineer to work on the cone penetrometer for the LuSTR project. He was also a member of the Keweenaw Symphony Orchestra.",
     username: "jwearly",
-	alumni: true
+	alumni: true,
+	location: {
+        lat: 47.2466,
+        lng: -88.4523
+    }
 }
 
 export const nbmckenz: Member = {
@@ -435,7 +456,11 @@ export const kjiam: Member = {
     linkedIn: "https://www.linkedin.com/in/kjia-moore-20b439229/",
     bio: "Kjia received her M.S. in Mechanical Engineering with a minor in Aerospace Engineering at Michigan Technological University in the spring of 2024. She was hired at Planetary Surface Technology Development Lab as a Research Engineer for the Center for Lunar and Asteroid Surface Science (CLASS). Kjia was also a Systems Engineer on the Michigan Tech Aerospace Enterprise.",
     username: "kjiam",
-	alumni: true
+	alumni: true,
+	location: {
+		lat: 29.7601,
+		lng: -95.3584
+	}
 }
  
 export const rdauster: Member = {
@@ -479,7 +504,11 @@ export const psbradsh: Member = {
     linkedIn: "https://www.linkedin.com/in/parker-bradshaw-8657bb1a8",
     bio: "Parker Bradshaw joined the lab in Spring 2022 researching regolith transportation for the MRE project and graduated with a B.S. in Mechanical Engineering. Later, he joined the LuSTR’21 project as a design engineer working on a rover mounted compaction mechanism, and the watts on the moon project as an electrical engineer. They also joined the break the ice lunar challenge project as the chief engineer for the phase 2 rover. As part of the enterprise program, Parker lead the building and vacuum testing of a bucket ladder regolith excavation system. Parker has spent time at Astrobotic as an intern developing lunar surface systems. His hobbies include using engineering for art, music, thrifting, skiing, and climbing.",
     username: "psbradsh",
-	alumni: true
+	alumni: true,
+	location: {
+		lat: 42.2795,
+		lng: -83.7321
+	}
 }
 
 export const mkoujiri: Member = {
@@ -501,7 +530,11 @@ export const smzeqlam: Member = {
 	linkedIn: "https://www.linkedin.com/in/thesuhaybzeqlam/",
 	bio: "Suhayb Zeqlam graduated with a B.S. in Electrical Engineering at Michigan Technological University in fall of 2023. Suhayb Joined the PTSDL team in spring 2023 semester working in WATTS and assisting the BTIC team. In his free time he enjoys movies, music, and making things.",
 	username: "smzeqlam",
-	alumni: true
+	alumni: true,
+	location: {
+		lat: 47.1211,
+		lng: -88.5690
+	}
 }
 
 export const mrkrause: Member = {
@@ -579,7 +612,11 @@ export const wdjennes: Member = {
 	linkedIn: "https://www.linkedin.com/in/william-jenness-v/",
 	bio: "William Jenness graduated with a M.S. in Electrical Engineering from Michigan Tech in the spring of 2024. He completed his B.S. in Mechanical Engineering with a minor in Aerospace Engineering in the spring of 2023. Will joined the lab in December 2022, to work as the electrical power systems lead engineer for Nasa’s Break The Ice Challenge Phase II. In his spare time, Will enjoys being outside as well as exercising.",
 	username: "wdjennes",
-	alumni: true
+	alumni: true,
+	location: {
+		lat: 47.1211,
+		lng: -88.5690
+	}
 }
 
 export const nspatter: Member = {
@@ -601,7 +638,11 @@ export const hlgoetz: Member = {
 	linkedIn: " https://www.linkedin.com/in/hlgoetz/",
 	bio: "Heather Goetz graduated with a B.S. in Mechanical Engineering. She joined the lab in fall 2023 and had been researching an excavation system for NASA’s Break The Ice Challenge. Outside the lab, Heather is the structural systems engineer on the Michigan Tech Aerospace Enterprise. In her spare time, she enjoys skiing, hiking, and arts and crafts.",
 	username: "hlgoetz",
-	alumni: true
+	alumni: true,
+	location: {
+		lat: 42.3200,
+		lng: -89.0582
+	}
 }
 
 export const msmille3: Member = {
