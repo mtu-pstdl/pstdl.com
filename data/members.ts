@@ -794,6 +794,17 @@ export const cmdinkel: Member = {
 	bio: "Connor is a Mechanical Engineering undergraduate at Michigan Technological University. He joined the lab in 2024 and is working on the chassis of the PRIMROSE lunar rover. Outside of the lab he is a member of the Michigan Tech Multiplanetary INnovation Enterprise. In his free time he enjoys anything outdoors, including mountain biking, camping, rock hunting, and more. He also enjoys reading.",
 	alumni: false
 }
+
+export const calecapt: Member = {
+	firstName: "Christi",
+	lastName: "LeCaptain",
+	type: MemberType.PHD,
+	major: MemberMajor.ME,
+	username: "calecapt",
+	bio: "Christi LeCaptain has a Bachelor’s in Mechanical Engineering from Michigan Technological University. She first joined the lab as an undergraduate student on the Lunabotics team in the Multiplanetary INnovations Enterprise in 2022. Now she works on Phase II of the Design and Implementation Tools for Lunar Surface Regolith Structure Construction in conjunction with Lunar Outpost. In her free time, Christi enjoys reading and baking.",
+	alumni: false
+}
+
 export const members: Member[] = [
 	psbradsh,
 	nbmckenz,
@@ -861,7 +872,8 @@ export const members: Member[] = [
 	ircoulin,
 	audreyal,
 	leifchri,
-	cmdinkel
+	cmdinkel,
+	calecapt
 ]
 
 export function getMemberByLink(id: string | string[]): Member | undefined {
