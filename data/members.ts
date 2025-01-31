@@ -41,7 +41,7 @@ export const brchaffe: Member = {
 	username: "brchaffe",
 	major: MemberMajor.ME,
 	type: MemberType.PHD,
-	bio: "Ben Chaffee is a Senior Engineer at Wecall Inc, where he manages the design and fabrication of large structural fasteners for the steel construction industry. Ben has a M.S. in Robotic Systems Development from Carnegie Mellon University and is working toward a PhD at Michigan Tech. Ben was involved in several lunar projects throughout college. While at CMU, he led the mechanical design of a prototype for the IRIS rover, which will launch to the Moon later this year. Ben joined the PSTDL team in the Fall of 2020. Ben has a lovely wife, Sharon, of 3 years and an adorable 1-year-old son, Evan. Outside of work and school, he enjoys hiking and teaching Sunday school to children at his church.",
+	bio: "Ben Chaffee is a Senior Engineer at Wecall Inc, where he manages the design and fabrication of large structural fasteners for the steel construction industry. Ben has a M.S. in Robotic Systems Development from Carnegie Mellon University and is working toward a PhD at Michigan Tech. Ben was involved in several lunar projects throughout college. While at CMU, he led the mechanical design of a prototype for the IRIS rover. Ben joined the PSTDL team in the Fall of 2020. Ben has a lovely wife, Sharon, of 5 years and an adorable 3-year-old son, Evan. Outside of work and school, he enjoys hiking and teaching Sunday school to children at his church.",
 	linkedIn: "https://www.linkedin.com/in/ben-chaffee-464453101/",
 	alumni: false
 }
@@ -480,7 +480,7 @@ export const elzimmer: Member = {
     type: MemberType.MS,
     major: MemberMajor.ME,
     linkedIn: "https://www.linkedin.com/in/eleanor-zimmermann-6022a416a",
-    bio: "Ellie recieved a B.S. in Mechanical Engineering at Michigan Tech in the spring of 2024 and is now pursuing a M.S. in Mechanical Engineering. She works as a research assistant at the Planetary Surface Technology Development Lab where she is investigating the efficiency of ice melt probes under Martian pressure and temperature conditions for the RedWater project. She is also a member of the Varsity MTU Track team as a pole vaulter.",
+    bio: "Ellie holds a B.S. in Mechanical Engineering with a minor in Aerospace Engineering from Michigan Tech, where she is currently pursuing a Ph.D. in the Mechanical and Aerospace Engineering Department. She joined the PSTDL as an undergraduate researcher in 2022 and has since worked on the RedWater and LuSTR 2020 projects. Her current research focuses on the testing and analysis of the thermal volatile detection system on the LuSTR 2020 Percussive Hot Cone Penetrometer. In her free time, Ellie enjoys reading and playing video games",
     username: "elzimmer",
 	alumni: false
 }
@@ -588,7 +588,7 @@ export const ljfrank: Member = {
 	type: MemberType.BS,
 	major: MemberMajor.ME,
 	linkedIn: "https://www.linkedin.com/in/ljfrank/",
-	bio: "Lucas Frank is an undergraduate pursuing a B.S. in Mechanical Engineering undergraduate at Michigan Tech. Lucas joined the PSTDL in January of 2023 working under the chassis subteam for the BTIC team. Currently, Lucas leads the chassis subteam, and is also working in CLASS. In his free time, Lucas enjoys tinkering with anything he can get his hands on, movies, and video games.",
+	bio: "Lucas Frank is an undergraduate pursuing a B.S. in Mechanical Engineering undergraduate at Michigan Tech. Lucas joined the PSTDL in January of 2023, and has contributed to both the Break the Ice and Watts on the Moon Centennial Challenges, as well as in various research projects. In his free time, Lucas enjoys engineering projects, sim racing, video games, and watching movies.",
 	username: "ljfrank",
 	alumni: false
 }
@@ -648,7 +648,7 @@ export const hlgoetz: Member = {
 export const msmille3: Member = {
 	firstName: "Mack",
 	lastName: "Miller",
-	bio: "Mack Miller is pursuing a B.S. in Computer Science at Michigan Technological University. She joined the lab in the fall of 2023 to work on the command and data handling team for NASA's Break the Ice Challenge. She enjoys teaching the beginning skating course at the University, playing piano, and riding motorcycles",
+	bio: "Mack Miller recieved her B.S. in Computer Science at Michigan Technological University in Spring 2025. She joined the lab in the fall of 2023 to work on the command and data handling team for NASA's Break the Ice Challenge.",
 	linkedIn: "www.linkedin.com/in/mackenziemller",
 	username: "msmille3",
 	type: MemberType.BS,
