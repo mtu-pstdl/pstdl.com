@@ -111,8 +111,8 @@ export const georgejo: Member = {
 	major: MemberMajor.ME,
 	type: MemberType.RE,
 	alumni: false,
-	bio: "George Burton Johnson has a B.S. in Mechanical Engineering with a minor in Manufacturing Engineering (MTU 2021). He is currently pursuing his Master’s in Mechanical Engineering at Michigan Technological University. George’s experience comes from a quality engineering internship with Woodward Inc. (2019), managing the MTU Lunabotics Competition Team, designing and manufacturing a lunar bucket elevator trencher for a senior capstone project, and other ISRU technology research for the PSTDL and Honeybee Robotics (REDWATER). George began working in the PSTDL in the Summer of 2020 and is currently working on the Lunar Surface Technology Research project assisting with the testing and design of a percussive heated cone penetrometer (PHCP).",
-	linkedIn: "https://www.linkedin.com/in/george-johnson-a05328195/",
+	bio: "George Johnson has a Bachelor’s and Master’s in Mechanical Engineering with a minor in Manufacturing Engineering. George has been working for the PSTDL since it was established in 2019 as a research and test engineering student. His undergraduate research focused on designing, building, and experimental testing of a scaled version of Honeybee Robotics’ Martian ISRU RedWater drill under Martian environmental conditions. George’s graduate research focused on experimental testing, fabrication, and design of the thermal measurement system in the LuSTR20 PHCP. His master’s report explored the identification and quantification correlations of water content in mixed icy regolith simulants. He accepted a research engineering position at the PSTDL in January of 2023 adopting the responsibilities for operating and maintaining lab facilities such as the DTVAC, MTVAC, Heating and Freezer containers while assisting with the design, fabrication, and testing of many lab projects. George also works closely with Paul van Susante on external testing contracts with aerospace companies and other universities seeking to utilize the PSTDL’s facilities.",
+	linkedIn: "https://www.linkedin.com/in/george-johnson-mechanical-engineer/",
 };
 export const hjmcgill: Member = {
 	firstName: "Hunter",
@@ -469,7 +469,7 @@ export const rdauster: Member = {
     type: MemberType.BS,
     major: MemberMajor.ME,
     linkedIn: "https://www.linkedin.com/in/robin-austerberry/",
-    bio: "Robin is pursuing a B.S. in Mechanical Engineering with a minor in Aerospace Engineering at Michigan Tech. He joined PSTDL in the summer of 2022 to work on LuSTR 2021 and later joined the Break the Ice Challenge. He is the treasurer of AIAA at MTU and an EMT with MTU EMS. He plays trumpet for MTU Jazz and the Huskies Pep Band, and enjoys mountain biking, alpine skiing, and ice hockey.",
+    bio: "Robin is pursuing a Bachelor's Degree in Mechanical Engineering with a minor in Aerospace Engineering at Michigan Tech. He joined the PSTDL in the summer of 2022 to work on LuSTR 2021 and later joined the Break the Ice Challenge. Following his Bachelor's Degree, he plans to pursue a Master’s Degree in Mechanical Engineering at Michigan Tech.",
     username: "rdauster",
 	alumni: false
 }
@@ -543,7 +543,7 @@ export const mrkrause: Member = {
 	type: MemberType.BS,
 	major: MemberMajor.ME,
 	linkedIn: "https://www.linkedin.com/in/masonkrause02/",
-	bio: "Mason Krause is an undergraduate student at Michigan Technological University pursuing a B.S. in Mechanical Engineering and a minor in Aerospace Engineering. He joined PSTDL in Spring 2023 to work on LuSTR 2020 and later joined the NASA Break the Ice Challenge. He is currently the president of MTU’s Undergraduate Student Government, and enjoys hiking, playing music, and skating.",
+	bio: "Mason Krause is an undergraduate student at Michigan Technological University pursuing a B.S. in Mechanical Engineering and a minor in Aerospace Engineering. He joined PSTDL in Spring 2023 to work on LuSTR 2020 and later joined the NASA Break the Ice Challenge. In his free time, he enjoys hiking, playing music, reading, and D&D. Following the completion of his Bachelor's Degree, he intends to continue his education with a Masters Degree in Mechanical Engineering.",
 	username: "mrkrause",
 	alumni: false
 }
@@ -623,9 +623,9 @@ export const nspatter: Member = {
 	firstName: "Noah",
 	lastName: "Patterson",
 	type: MemberType.BS,
-	major: MemberMajor.EE,
-	linkedIn: "www.linkedin.com/in/noah-patterson-1609a0294",
-	bio: "Noah Patterson is pursuing a B.S. in Electrical Engineering working as a research assistant for the PSTDL LuSTR 21 Project. This year is his first year on the team and is excited to work with the compaction project team. Outside of the lab Noah is an active member of MTU’s travel men’s volleyball club, enjoys rock climbing inside and outdoors, and gets out snowboarding during the winter",
+	major: MemberMajor.SE,
+	linkedIn: "https://www.linkedin.com/in/noah-patterson-a74a51354/In",
+	bio: "Noah Patterson is an undergraduate student at Michigan Technological University pursuing a B.S. in SoftwareEngineering. He joined PSTDL in Fall 2023 to work on LuSTR 2021. In his free time, he enjoys hiking, playing video games, rock climbing, and playing volleyball.",
 	username: "nspatter",
 	alumni: false
 }
@@ -795,6 +795,17 @@ export const cmdinkel: Member = {
 	alumni: false
 }
 
+export const etjackso: Member = {
+	firstName: "Evan",
+	lastName: "Jackson",
+	type: MemberType.BS,
+	major: MemberMajor.BME,
+	username: "etjackso",
+	linkedIn: "https://www.linkedin.com/in/evantjackson",
+	bio: "Evan Jackson is a second-year undergraduate at Michigan Tech majoring in biomedical engineering and pursuing a minor in electrical engineering. He joined the lab in the Spring of 2025 as a testing and development engineer. Outside of PSTDL, Evan is a part of MTUs brain stimulation engineering lab and enjoys volleyball, fishing, and backpacking.",
+	alumni: false
+}
+
 export const calecapt: Member = {
 	firstName: "Christi",
 	lastName: "LeCaptain",
@@ -802,6 +813,38 @@ export const calecapt: Member = {
 	major: MemberMajor.ME,
 	username: "calecapt",
 	bio: "Christi LeCaptain has a Bachelor’s in Mechanical Engineering from Michigan Technological University. She first joined the lab as an undergraduate student on the Lunabotics team in the Multiplanetary INnovations Enterprise in 2022. Now she works on Phase II of the Design and Implementation Tools for Lunar Surface Regolith Structure Construction in conjunction with Lunar Outpost. In her free time, Christi enjoys reading and baking.",
+	alumni: false
+}
+
+export const egkoehnl: Member = {
+	firstName: "Elicia",
+	lastName: "Koehnlein",
+	type: MemberType.BS,
+	major: MemberMajor.RE,
+	username: "egkoehnl",
+	bio: "Elicia is a 1st year Robotics Engineering Major student. She started working in the lab as a member of MINE Enterprise on the Lunabotics Project in the Spring of 2025. She joined the lab as a test engineer for LoSTTR in the Spring of 2025. In her free time, Elicia enjoys reading, adventuring through the Keweenaw, and flying airplanes.",
+	alumni: false
+}
+
+export const awzeyl: Member = {
+	firstName: "Asher",
+	lastName: "Zeyl",
+	type: MemberType.BS,
+	major: MemberMajor.ME,
+	username: "awzeyl",
+	linkedIn: "https://www.linkedin.com/in/asherzeyl/",
+	bio: "Asher is a 4th-year Mechanical Engineering Major and Aerospace Engineering Minor student. They started working in the lab as a member of the Lunabotics project on the MINE Enterprise in the Spring of 2023. They joined the lab in the Spring of 2025 as a test engineer. In their free time, Asher enjoys coffee, movies, and cooking spicy food.",
+	alumni: false
+}
+
+export const bbaldwin: Member = {
+	firstName: "Eli",
+	lastName: "Greenwald Baldwin",
+	type: MemberType.BS,
+	major: MemberMajor.ME,
+	username: "bbaldwin",
+	linkedIn: "https://www.linkedin.com/in/eli-greenwald-baldwin",
+	bio: "Barrett is a fourth-year Mechanical Engineering Major and Aerospace Engineering Minor. He has been a member of the Aerospace Enterprise since spring 2024. And recently joined the Lab as a testing and development engineer. After graduation, he seeks a Master’s Degree in Engineering Management from MTU. He then plans on pursuing an exciting career in the aerospace industry.",
 	alumni: false
 }
 
@@ -873,7 +916,11 @@ export const members: Member[] = [
 	audreyal,
 	leifchri,
 	cmdinkel,
-	calecapt
+	calecapt,
+	etjackso,
+	egkoehnl,
+	awzeyl,
+	bbaldwin
 ]
 
 export function getMemberByLink(id: string | string[]): Member | undefined {
