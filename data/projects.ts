@@ -69,7 +69,7 @@ import {
 	ircoulin,
 	audreyal,
 	leifchri,
-	cmdinkel
+	cmdinkel,
 } from "./members";
 import {Member} from "../interfaces/Member";
 
@@ -85,7 +85,6 @@ export const lustr20: DetailItem = {
 		mcguadag,
 		tawavrun,
 		bdwiegan,
-		georgejo,
 		cjkamins,
 		mrkrause,
 		ajsweene,
@@ -97,6 +96,7 @@ export const lustr20: DetailItem = {
 	],
 	alumni: [
 		mysalem,
+		georgejo,
 		aegulan,
 		cnorton,
 		ejcobb,
@@ -195,6 +195,7 @@ export const watts: DetailItem = {
 		tcgronda,
 		smzeqlam,
 		psbradsh,
+		georgejo
 	],
 	images: [
 		{src: "/projects/watts/Watts0.png"},
@@ -236,6 +237,7 @@ export const breakTheIce: DetailItem = {
 		smzeqlam,
 		dkbrouse,
 		wdjennes,
+		georgejo
 	],
 	images: [
 		{src: "/projects/btic/icon.jpg"},
@@ -277,7 +279,9 @@ export const redWater: DetailItem = {
 		smzerbel,
 		gtredlon
 	],
-	alumni: [],
+	alumni: [
+		georgejo
+	],
 	images: [
 		{src: "/projects/redwater/icon.jpg"},
 		{src: "/projects/redwater/rw7.jpg"},

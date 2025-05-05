@@ -27,7 +27,9 @@ export enum MemberMajor {
 	ENV = "Environmental Engineering",
 	CSM = "Computer Science and Mathematics",
 	CIV = "Civil Engineering",
-	GE = "Geological Engineering"
+	GE = "Geological Engineering",
+	BME = "Biomedical Engineering",
+	SE = "Software Engineering"
 }
 
 export enum MemberType {
@@ -37,7 +39,9 @@ export enum MemberType {
 	PI,
 	RE,
 	SM,
-	PD
+	PD,
+	BME,
+	SE
 }
 
 export interface Member {
