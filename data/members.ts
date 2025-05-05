@@ -41,7 +41,7 @@ export const brchaffe: Member = {
 	username: "brchaffe",
 	major: MemberMajor.ME,
 	type: MemberType.PHD,
-	bio: "Ben Chaffee is a Senior Engineer at Wecall Inc, where he manages the design and fabrication of large structural fasteners for the steel construction industry. Ben has a M.S. in Robotic Systems Development from Carnegie Mellon University and is working toward a PhD at Michigan Tech. Ben was involved in several lunar projects throughout college. While at CMU, he led the mechanical design of a prototype for the IRIS rover, which will launch to the Moon later this year. Ben joined the PSTDL team in the Fall of 2020. Ben has a lovely wife, Sharon, of 3 years and an adorable 1-year-old son, Evan. Outside of work and school, he enjoys hiking and teaching Sunday school to children at his church.",
+	bio: "Ben Chaffee is a Senior Engineer at Wecall Inc, where he manages the design and fabrication of large structural fasteners for the steel construction industry. Ben has a M.S. in Robotic Systems Development from Carnegie Mellon University and is working toward a PhD at Michigan Tech. Ben was involved in several lunar projects throughout college. While at CMU, he led the mechanical design of a prototype for the IRIS rover. Ben joined the PSTDL team in the Fall of 2020. Ben has a lovely wife, Sharon, of 5 years and an adorable 3-year-old son, Evan. Outside of work and school, he enjoys hiking and teaching Sunday school to children at his church.",
 	linkedIn: "https://www.linkedin.com/in/ben-chaffee-464453101/",
 	alumni: false
 }
@@ -111,8 +111,8 @@ export const georgejo: Member = {
 	major: MemberMajor.ME,
 	type: MemberType.RE,
 	alumni: false,
-	bio: "George Burton Johnson has a B.S. in Mechanical Engineering with a minor in Manufacturing Engineering (MTU 2021). He is currently pursuing his Master’s in Mechanical Engineering at Michigan Technological University. George’s experience comes from a quality engineering internship with Woodward Inc. (2019), managing the MTU Lunabotics Competition Team, designing and manufacturing a lunar bucket elevator trencher for a senior capstone project, and other ISRU technology research for the PSTDL and Honeybee Robotics (REDWATER). George began working in the PSTDL in the Summer of 2020 and is currently working on the Lunar Surface Technology Research project assisting with the testing and design of a percussive heated cone penetrometer (PHCP).",
-	linkedIn: "https://www.linkedin.com/in/george-johnson-a05328195/",
+	bio: "George Johnson has a Bachelor’s and Master’s in Mechanical Engineering with a minor in Manufacturing Engineering. George has been working for the PSTDL since it was established in 2019 as a research and test engineering student. His undergraduate research focused on designing, building, and experimental testing of a scaled version of Honeybee Robotics’ Martian ISRU RedWater drill under Martian environmental conditions. George’s graduate research focused on experimental testing, fabrication, and design of the thermal measurement system in the LuSTR20 PHCP. His master’s report explored the identification and quantification correlations of water content in mixed icy regolith simulants. He accepted a research engineering position at the PSTDL in January of 2023 adopting the responsibilities for operating and maintaining lab facilities such as the DTVAC, MTVAC, Heating and Freezer containers while assisting with the design, fabrication, and testing of many lab projects. George also works closely with Paul van Susante on external testing contracts with aerospace companies and other universities seeking to utilize the PSTDL’s facilities.",
+	linkedIn: "https://www.linkedin.com/in/george-johnson-mechanical-engineer/",
 };
 export const hjmcgill: Member = {
 	firstName: "Hunter",
@@ -469,7 +469,7 @@ export const rdauster: Member = {
     type: MemberType.BS,
     major: MemberMajor.ME,
     linkedIn: "https://www.linkedin.com/in/robin-austerberry/",
-    bio: "Robin is pursuing a B.S. in Mechanical Engineering with a minor in Aerospace Engineering at Michigan Tech. He joined PSTDL in the summer of 2022 to work on LuSTR 2021 and later joined the Break the Ice Challenge. He is the treasurer of AIAA at MTU and an EMT with MTU EMS. He plays trumpet for MTU Jazz and the Huskies Pep Band, and enjoys mountain biking, alpine skiing, and ice hockey.",
+    bio: "Robin is pursuing a Bachelor's Degree in Mechanical Engineering with a minor in Aerospace Engineering at Michigan Tech. He joined the PSTDL in the summer of 2022 to work on LuSTR 2021 and later joined the Break the Ice Challenge. Following his Bachelor's Degree, he plans to pursue a Master’s Degree in Mechanical Engineering at Michigan Tech.",
     username: "rdauster",
 	alumni: false
 }
@@ -480,7 +480,7 @@ export const elzimmer: Member = {
     type: MemberType.MS,
     major: MemberMajor.ME,
     linkedIn: "https://www.linkedin.com/in/eleanor-zimmermann-6022a416a",
-    bio: "Ellie recieved a B.S. in Mechanical Engineering at Michigan Tech in the spring of 2024 and is now pursuing a M.S. in Mechanical Engineering. She works as a research assistant at the Planetary Surface Technology Development Lab where she is investigating the efficiency of ice melt probes under Martian pressure and temperature conditions for the RedWater project. She is also a member of the Varsity MTU Track team as a pole vaulter.",
+    bio: "Ellie holds a B.S. in Mechanical Engineering with a minor in Aerospace Engineering from Michigan Tech, where she is currently pursuing a Ph.D. in the Mechanical and Aerospace Engineering Department. She joined the PSTDL as an undergraduate researcher in 2022 and has since worked on the RedWater and LuSTR 2020 projects. Her current research focuses on the testing and analysis of the thermal volatile detection system on the LuSTR 2020 Percussive Hot Cone Penetrometer. In her free time, Ellie enjoys reading and playing video games",
     username: "elzimmer",
 	alumni: false
 }
@@ -543,7 +543,7 @@ export const mrkrause: Member = {
 	type: MemberType.BS,
 	major: MemberMajor.ME,
 	linkedIn: "https://www.linkedin.com/in/masonkrause02/",
-	bio: "Mason Krause is an undergraduate student at Michigan Technological University pursuing a B.S. in Mechanical Engineering and a minor in Aerospace Engineering. He joined PSTDL in Spring 2023 to work on LuSTR 2020 and later joined the NASA Break the Ice Challenge. He is currently the president of MTU’s Undergraduate Student Government, and enjoys hiking, playing music, and skating.",
+	bio: "Mason Krause is an undergraduate student at Michigan Technological University pursuing a B.S. in Mechanical Engineering and a minor in Aerospace Engineering. He joined PSTDL in Spring 2023 to work on LuSTR 2020 and later joined the NASA Break the Ice Challenge. In his free time, he enjoys hiking, playing music, reading, and D&D. Following the completion of his Bachelor's Degree, he intends to continue his education with a Masters Degree in Mechanical Engineering.",
 	username: "mrkrause",
 	alumni: false
 }
@@ -588,9 +588,9 @@ export const ljfrank: Member = {
 	type: MemberType.BS,
 	major: MemberMajor.ME,
 	linkedIn: "https://www.linkedin.com/in/ljfrank/",
-	bio: "Lucas Frank is an undergraduate pursuing a B.S. in Mechanical Engineering undergraduate at Michigan Tech. Lucas joined the PSTDL in January of 2023 working under the chassis subteam for the BTIC team. Currently, Lucas leads the chassis subteam, and is also working in CLASS. In his free time, Lucas enjoys tinkering with anything he can get his hands on, movies, and video games.",
+	bio: "Lucas Frank is an undergraduate pursuing a B.S. in Mechanical Engineering undergraduate at Michigan Tech. Lucas joined the PSTDL in January of 2023, and has contributed to both the Break the Ice and Watts on the Moon Centennial Challenges, as well as in various research projects. In his free time, Lucas enjoys engineering projects, sim racing, video games, and watching movies.",
 	username: "ljfrank",
-	alumni: false
+	alumni: true
 }
 
 export const austinmc: Member = {
@@ -623,9 +623,9 @@ export const nspatter: Member = {
 	firstName: "Noah",
 	lastName: "Patterson",
 	type: MemberType.BS,
-	major: MemberMajor.EE,
-	linkedIn: "www.linkedin.com/in/noah-patterson-1609a0294",
-	bio: "Noah Patterson is pursuing a B.S. in Electrical Engineering working as a research assistant for the PSTDL LuSTR 21 Project. This year is his first year on the team and is excited to work with the compaction project team. Outside of the lab Noah is an active member of MTU’s travel men’s volleyball club, enjoys rock climbing inside and outdoors, and gets out snowboarding during the winter",
+	major: MemberMajor.SE,
+	linkedIn: "https://www.linkedin.com/in/noah-patterson-a74a51354/In",
+	bio: "Noah Patterson is an undergraduate student at Michigan Technological University pursuing a B.S. in SoftwareEngineering. He joined PSTDL in Fall 2023 to work on LuSTR 2021. In his free time, he enjoys hiking, playing video games, rock climbing, and playing volleyball.",
 	username: "nspatter",
 	alumni: false
 }
@@ -648,12 +648,12 @@ export const hlgoetz: Member = {
 export const msmille3: Member = {
 	firstName: "Mack",
 	lastName: "Miller",
-	bio: "Mack Miller is pursuing a B.S. in Computer Science at Michigan Technological University. She joined the lab in the fall of 2023 to work on the command and data handling team for NASA's Break the Ice Challenge. She enjoys teaching the beginning skating course at the University, playing piano, and riding motorcycles",
+	bio: "Mack Miller recieved her B.S. in Computer Science at Michigan Technological University in Spring 2025. She joined the lab in the fall of 2023 to work on the command and data handling team for NASA's Break the Ice Challenge.",
 	linkedIn: "www.linkedin.com/in/mackenziemller",
 	username: "msmille3",
 	type: MemberType.BS,
 	major: MemberMajor.CS,
-	alumni: false
+	alumni: true
 }
 
 export const pstocchi: Member = {
@@ -664,7 +664,7 @@ export const pstocchi: Member = {
 	username: "pstocchi",
 	bio: "Pier is pursuing a B.S. in Mechanical Engineering and Robotics Engineering at Michigan Technological University. He joined the lab in fall of 2023 and is working to finish the ongoing IRGO internal project that is used to simulate the gravity of other planets. In his free time he enjoys reading about ancient history and space and learning about aircraft",
 	linkedIn: "https://www.linkedin.com/in/pierstocchi/",
-	alumni: false
+	alumni: true
 }
 
 export const jdpetrin: Member = {
@@ -684,7 +684,7 @@ export const krnielse: Member = {
 	username: "krnielse",
 	bio: "Kade is an undergraduate Mechanical Engineering student at Michigan Technological University (MTU) and is pursuing a minor in Aerospace Engineering, with an expected graduation date of May 2025. He is currently a member of the Planetary Surface Technology Development Lab (PSTDL) LuSTR-20 geotechnical team, producing lunar simulant and precisely preparing test setups to develop lunar exploration technology. He is also the project manager and team leader for the Multiplanetary INnovation Enterprise (MINE) Lunar Trencher research project, which studies the wear characteristics and performance of a bucket ladder system operating in simulated lunar environments with the use of the PSTDL's Dusty Thermal Vacuum Chamber (DTVAC).",
 	linkedIn: "https://www.linkedin.com/in/kade-nielsen/",
-	alumni: false
+	alumni: true
 }
 export const ajalbani: Member = {
  	firstName: "Alex",
@@ -693,7 +693,7 @@ export const ajalbani: Member = {
  	major: MemberMajor.ME,
  	username: "ajalbani",
  	bio: "Alex is a senior undergraduate mechanical engineering student. In his free time he enjoys spending time outside playing golf and frisbee golf",
-	alumni: false
+	alumni: true
 }
 export const scbennin: Member = {
 	firstName: "Sean",
@@ -713,7 +713,7 @@ export const wjojala: Member =  {
 	username: "wjojala",
 	bio: "Jacob Ojala is a second year geological engineering undergraduate working as a research assistant for the LuSTR-20 geotechnical team. His projects include the production of lunar regolith simulant, as well as setting up tests for various lunar exploration technology. After Tech, he plans to commission into the US Air or Space Force as a Civil Engineer or Space Operations Officer. His free time is spent traveling, camping, and exploring the outdoors.",
 	linkedIn: "https://www.linkedin.com/in/jacob-ojala/",
-	alumni: false
+	alumni: true
 }
 export const jhannahs: Member = {
 	firstName: "Jonathon",
@@ -732,7 +732,7 @@ export const mchewitt: Member = {
 	username: "mchewitt",
 	bio: "Matthew Hewitt is an undergraduate student pursuing a B.S. in Mechanical Engineering with a focus in Enginner Mechanics and minoring in aerospace engineering.",
 	linkedIn: "https://www.linkedin.com/in/matthew-hewitt-6b4b10169",
-	alumni: false
+	alumni: true
 }
 export const mmdecker: Member = {
 	firstName: "Max",
@@ -752,7 +752,7 @@ export const bjengle: Member = {
 	username: "bjengle",
 	linkedIn: "www.linkedin.com/in/ben-engle-ja",
 	bio: "Ben is a mechanical engineering technology undergraduate at Michigan Technological University. He joined the lab in 2024 and is working on the excavation system of the PRIMROSE lunar rover. Outside of the lab he is a member of the Baja SAE Enterprise. In his free time he enjoys exploring and camping in the Keweenaw.",
-	alumni: false
+	alumni: true
 }
 export const ircoulin: Member = {
 	firstName: "Isaac",
@@ -762,7 +762,7 @@ export const ircoulin: Member = {
 	username: "ircoulin",
 	linkedIn: "www.linkedin.com/in/isaac-couling-6a1ba8253",
 	bio: "Isaac is an undergraduate mechanical engineering student at Michigan Technological University. He joined the lab in the spring of 2023 to assist with the thermal and mechanical design of the Watts on the Moon project and has continued to work on the project through its manufacturing and validation. Isaac is also a lead thermal engineer on Michigan Tech’s aerospace enterprise team. In his free time, Isaac enjoys ultimate frisbee, backpacking, photography, and mountain biking.",
-	alumni: false
+	alumni: true
 }
 export const audreyal: Member = {
 	firstName: "Audrey",
@@ -782,7 +782,7 @@ export const leifchri: Member = {
 	username: "leifchri",
 	linkedIn: "https://www.linkedin.com/in/leif-christensen-a055aa228/",
 	bio: " Leif Christensen is an undergraduate computer engineering student at Michigan Technological University. He joined the lab in Fall 2023 and has been working on the electrical power system of the lab’s PRIMROSE lunar rover for NASA’s Break the Ice Lunar Challenge. Leif is also an engineer in the Michigan Tech Open Source Hardware Enterprise and in his spare time enjoys hiking, skiing and playing piano.",
-	alumni: false
+	alumni: true
 }
 
 export const cmdinkel: Member = {
@@ -795,6 +795,17 @@ export const cmdinkel: Member = {
 	alumni: false
 }
 
+export const etjackso: Member = {
+	firstName: "Evan",
+	lastName: "Jackson",
+	type: MemberType.BS,
+	major: MemberMajor.BME,
+	username: "etjackso",
+	linkedIn: "https://www.linkedin.com/in/evantjackson",
+	bio: "Evan Jackson is a second-year undergraduate at Michigan Tech majoring in biomedical engineering and pursuing a minor in electrical engineering. He joined the lab in the Spring of 2025 as a testing and development engineer. Outside of PSTDL, Evan is a part of MTUs brain stimulation engineering lab and enjoys volleyball, fishing, and backpacking.",
+	alumni: false
+}
+
 export const calecapt: Member = {
 	firstName: "Christi",
 	lastName: "LeCaptain",
@@ -802,6 +813,38 @@ export const calecapt: Member = {
 	major: MemberMajor.ME,
 	username: "calecapt",
 	bio: "Christi LeCaptain has a Bachelor’s in Mechanical Engineering from Michigan Technological University. She first joined the lab as an undergraduate student on the Lunabotics team in the Multiplanetary INnovations Enterprise in 2022. Now she works on Phase II of the Design and Implementation Tools for Lunar Surface Regolith Structure Construction in conjunction with Lunar Outpost. In her free time, Christi enjoys reading and baking.",
+	alumni: false
+}
+
+export const egkoehnl: Member = {
+	firstName: "Elicia",
+	lastName: "Koehnlein",
+	type: MemberType.BS,
+	major: MemberMajor.RE,
+	username: "egkoehnl",
+	bio: "Elicia is a 1st year Robotics Engineering Major student. She started working in the lab as a member of MINE Enterprise on the Lunabotics Project in the Spring of 2025. She joined the lab as a test engineer for LoSTTR in the Spring of 2025. In her free time, Elicia enjoys reading, adventuring through the Keweenaw, and flying airplanes.",
+	alumni: false
+}
+
+export const awzeyl: Member = {
+	firstName: "Asher",
+	lastName: "Zeyl",
+	type: MemberType.BS,
+	major: MemberMajor.ME,
+	username: "awzeyl",
+	linkedIn: "https://www.linkedin.com/in/asherzeyl/",
+	bio: "Asher is a 4th-year Mechanical Engineering Major and Aerospace Engineering Minor student. They started working in the lab as a member of the Lunabotics project on the MINE Enterprise in the Spring of 2023. They joined the lab in the Spring of 2025 as a test engineer. In their free time, Asher enjoys coffee, movies, and cooking spicy food.",
+	alumni: false
+}
+
+export const bbaldwin: Member = {
+	firstName: "Eli",
+	lastName: "Greenwald Baldwin",
+	type: MemberType.BS,
+	major: MemberMajor.ME,
+	username: "bbaldwin",
+	linkedIn: "https://www.linkedin.com/in/eli-greenwald-baldwin",
+	bio: "Barrett is a fourth-year Mechanical Engineering Major and Aerospace Engineering Minor. He has been a member of the Aerospace Enterprise since spring 2024. And recently joined the Lab as a testing and development engineer. After graduation, he seeks a Master’s Degree in Engineering Management from MTU. He then plans on pursuing an exciting career in the aerospace industry.",
 	alumni: false
 }
 
@@ -873,7 +916,11 @@ export const members: Member[] = [
 	audreyal,
 	leifchri,
 	cmdinkel,
-	calecapt
+	calecapt,
+	etjackso,
+	egkoehnl,
+	awzeyl,
+	bbaldwin
 ]
 
 export function getMemberByLink(id: string | string[]): Member | undefined {
