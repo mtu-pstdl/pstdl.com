@@ -590,7 +590,7 @@ export const ljfrank: Member = {
 	linkedIn: "https://www.linkedin.com/in/ljfrank/",
 	bio: "Lucas Frank is an undergraduate pursuing a B.S. in Mechanical Engineering undergraduate at Michigan Tech. Lucas joined the PSTDL in January of 2023, and has contributed to both the Break the Ice and Watts on the Moon Centennial Challenges, as well as in various research projects. In his free time, Lucas enjoys engineering projects, sim racing, video games, and watching movies.",
 	username: "ljfrank",
-	alumni: false
+	alumni: true
 }
 
 export const austinmc: Member = {
@@ -653,7 +653,7 @@ export const msmille3: Member = {
 	username: "msmille3",
 	type: MemberType.BS,
 	major: MemberMajor.CS,
-	alumni: false
+	alumni: true
 }
 
 export const pstocchi: Member = {
@@ -664,7 +664,7 @@ export const pstocchi: Member = {
 	username: "pstocchi",
 	bio: "Pier is pursuing a B.S. in Mechanical Engineering and Robotics Engineering at Michigan Technological University. He joined the lab in fall of 2023 and is working to finish the ongoing IRGO internal project that is used to simulate the gravity of other planets. In his free time he enjoys reading about ancient history and space and learning about aircraft",
 	linkedIn: "https://www.linkedin.com/in/pierstocchi/",
-	alumni: false
+	alumni: true
 }
 
 export const jdpetrin: Member = {
@@ -684,7 +684,7 @@ export const krnielse: Member = {
 	username: "krnielse",
 	bio: "Kade is an undergraduate Mechanical Engineering student at Michigan Technological University (MTU) and is pursuing a minor in Aerospace Engineering, with an expected graduation date of May 2025. He is currently a member of the Planetary Surface Technology Development Lab (PSTDL) LuSTR-20 geotechnical team, producing lunar simulant and precisely preparing test setups to develop lunar exploration technology. He is also the project manager and team leader for the Multiplanetary INnovation Enterprise (MINE) Lunar Trencher research project, which studies the wear characteristics and performance of a bucket ladder system operating in simulated lunar environments with the use of the PSTDL's Dusty Thermal Vacuum Chamber (DTVAC).",
 	linkedIn: "https://www.linkedin.com/in/kade-nielsen/",
-	alumni: false
+	alumni: true
 }
 export const ajalbani: Member = {
  	firstName: "Alex",
@@ -693,7 +693,7 @@ export const ajalbani: Member = {
  	major: MemberMajor.ME,
  	username: "ajalbani",
  	bio: "Alex is a senior undergraduate mechanical engineering student. In his free time he enjoys spending time outside playing golf and frisbee golf",
-	alumni: false
+	alumni: true
 }
 export const scbennin: Member = {
 	firstName: "Sean",
@@ -713,7 +713,7 @@ export const wjojala: Member =  {
 	username: "wjojala",
 	bio: "Jacob Ojala is a second year geological engineering undergraduate working as a research assistant for the LuSTR-20 geotechnical team. His projects include the production of lunar regolith simulant, as well as setting up tests for various lunar exploration technology. After Tech, he plans to commission into the US Air or Space Force as a Civil Engineer or Space Operations Officer. His free time is spent traveling, camping, and exploring the outdoors.",
 	linkedIn: "https://www.linkedin.com/in/jacob-ojala/",
-	alumni: false
+	alumni: true
 }
 export const jhannahs: Member = {
 	firstName: "Jonathon",
@@ -732,7 +732,7 @@ export const mchewitt: Member = {
 	username: "mchewitt",
 	bio: "Matthew Hewitt is an undergraduate student pursuing a B.S. in Mechanical Engineering with a focus in Enginner Mechanics and minoring in aerospace engineering.",
 	linkedIn: "https://www.linkedin.com/in/matthew-hewitt-6b4b10169",
-	alumni: false
+	alumni: true
 }
 export const mmdecker: Member = {
 	firstName: "Max",
@@ -752,7 +752,7 @@ export const bjengle: Member = {
 	username: "bjengle",
 	linkedIn: "www.linkedin.com/in/ben-engle-ja",
 	bio: "Ben is a mechanical engineering technology undergraduate at Michigan Technological University. He joined the lab in 2024 and is working on the excavation system of the PRIMROSE lunar rover. Outside of the lab he is a member of the Baja SAE Enterprise. In his free time he enjoys exploring and camping in the Keweenaw.",
-	alumni: false
+	alumni: true
 }
 export const ircoulin: Member = {
 	firstName: "Isaac",
@@ -762,7 +762,7 @@ export const ircoulin: Member = {
 	username: "ircoulin",
 	linkedIn: "www.linkedin.com/in/isaac-couling-6a1ba8253",
 	bio: "Isaac is an undergraduate mechanical engineering student at Michigan Technological University. He joined the lab in the spring of 2023 to assist with the thermal and mechanical design of the Watts on the Moon project and has continued to work on the project through its manufacturing and validation. Isaac is also a lead thermal engineer on Michigan Tech’s aerospace enterprise team. In his free time, Isaac enjoys ultimate frisbee, backpacking, photography, and mountain biking.",
-	alumni: false
+	alumni: true
 }
 export const audreyal: Member = {
 	firstName: "Audrey",
@@ -782,7 +782,7 @@ export const leifchri: Member = {
 	username: "leifchri",
 	linkedIn: "https://www.linkedin.com/in/leif-christensen-a055aa228/",
 	bio: " Leif Christensen is an undergraduate computer engineering student at Michigan Technological University. He joined the lab in Fall 2023 and has been working on the electrical power system of the lab’s PRIMROSE lunar rover for NASA’s Break the Ice Lunar Challenge. Leif is also an engineer in the Michigan Tech Open Source Hardware Enterprise and in his spare time enjoys hiking, skiing and playing piano.",
-	alumni: false
+	alumni: true
 }
 
 export const cmdinkel: Member = {
