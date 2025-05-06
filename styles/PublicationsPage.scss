@@ -19,6 +19,28 @@
 		text-align: left;
 		font-size: 22px;
 
+		list-style: none;
+    	counter-reset: publication;
+    	padding-left: 0;
+		
+		li.year-header {
+			list-style: none;
+			font-size: 1.3em;
+			color: #878787;
+			margin: $paddingBig 0 $paddingMedium;
+		}
+
+		li:not(.year-header) {
+			counter-increment: publication;
+			margin-left: 1.5em;
+	  
+			&::before {
+			  content: counter(publication) ". ";
+			  font-weight: bold;
+			  margin-right: 0.3em;
+			}
+		}
+
 		li {
 			margin-top: $paddingBig;
 			line-height: 1.25;

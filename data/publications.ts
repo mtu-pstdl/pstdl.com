@@ -9,7 +9,132 @@ import { title } from "process";
 import {Publication} from "../interfaces/Publication";
 
 export const publications: Publication[] = [
-	
+	{
+		authors: ["Nathan Bruursema", "Travis Wavrunek", "Isaac Couling", "Austen Goddu", "Paul Van Susante"],
+		date: {month: 7, day:22, year:2025},
+		title: "Testing and Analysis of a Passive Thermal Management System and Superconducting Data Transfer for Use in Lunar Permanently Shadowed Regions",
+		publication: "Paper and presentation at AIAA ASCEND - Las Vegas, NV, July 22-24, 2025"
+	},
+	{
+		authors: ["Marcello C. Guadagno", "Travis A. Wavrunek", "George B. Johnson", "Paul J. van Susante", "Jeffrey S. Allen", "Timothy Eisele", "Timothy J. Scarlett"],
+		date: {month: 7, day:22, year:2025},
+		title: "Field Testing a Percussive Heated Cone Penetrometer in Icy Regolith for Lunar Volatile Prospecting",
+		publication: "Paper and presentation at AIAA ASCEND - Las Vegas, NV, July 22-24, 2025"
+	},
+	{
+		authors: ["Jekan Thangavelautham", "Jessica Barnes", "Andrew J. Ryan", "Paul van Susante", "Rudra Mukherjee", "Cameron Dickinson"],
+		date: {month: 7, day:22, year:2025},
+		title: "Geotechnical and scientific characterization of lunar regolith for the purposes of lunar construction using regolith filled bags",
+		publication: "Presented at AIAA ASCEND - Las Vegas, NV, July 22-24, 2025"
+	},
+	{
+		authors: ["M. C. Guadagno", "F. D. Gaertner", "P. J. van Susante"],
+		date: {month: 6, day:4, year:2025},
+		title: "Modeling Excavation Forces for Chain Driven Mechanisms with Buckets and Picks",
+		publication: "Abstract and poster at Space Resources Roundtable - Golden, CO, June 4-7, 2025"
+	},
+	{
+		authors: ["G. Johnson", "P. van Susante", "D. Mallot", "C. McLeod", "L. Herrera"],
+		date: {month: 6, day:4, year:2025},
+		title: "The first lunar roads? Thermoplastic and regolith surface improvement vacuum demonstration and durability testing",
+		publication: "Abstract and poster at Space Resources Roundtable - Golden, CO, June 4-7, 2025"
+	},
+	{
+		authors: ["F. D. Gaertner", "M. C. Guadagno", "M. M. Decker", "B. J. Engle", "P. J. van Susante"],
+		date: {month: 6, day:4, year:2025},
+		title: "Test Stand for the Analysis of Excavation Forces in a Simulated Lunar Environment",
+		publication: "Abstract and poster at Space Resources Roundtable - Golden, CO, June 4-7, 2025"
+	},
+	{
+		authors: ["M. C. Guadagno", "A. J. Goddu", "M. M. Decker", "P. J. van Susante"],
+		date: {month: 6, day:4, year:2025},
+		title: "Excavation and Driving Performance of the PRIMROSE Rover during the Break the Ice Lunar Challenge",
+		publication: "Abstract and presentation at Space Resources Roundtable - Golden, CO, June 4-7, 2025"
+	},
+	{
+		authors: ["C. A. LeCaptain", "C. L. Carey", "P. J. van Susante", "John Schmit", "Austin Cyrus"],
+		date: {month: 6, day:4, year:2025},
+		title: "Comparative Experimental Study of Terrestrial Compaction Methods on Lunar Regolith Simulant",
+		publication: "Abstract and presentation at Space Resources Roundtable - Golden, CO, June 4-7, 2025"
+	},
+	{
+		authors: ["E. L. Zimmermann", "G. B. Johnson", "P. J. van Susante", "J. S. Allen", "T. C. Eisele"],
+		date: {month: 6, day:4, year:2025},
+		title: "Data Analysis Results from Cryogenic Vacuum Testing of a Percussive Hot Cone Penetrometer",
+		publication: "Abstract and presentation at Space Resources Roundtable - Golden, CO, June 4-7, 2025"
+	},
+	{
+		authors: ["Travis Wavrunek", "Ben Flowers", "Anurag Rajan", "Paul van Susante,"],
+		date: {month: 6, day:4, year:2025},
+		title: "Compaction Dependent Thermal Properties of Icy Lunar Regolith in Vacuum",
+		publication: "Abstract and presentation at Space Resources Roundtable - Golden, CO, June 4-7, 2025"
+	},
+	{
+		authors: ["E. Zimmermann", "G. Johnson", "G. Redlon", "S. Zerbel", "K.A. Zacny", "P. van Susante"],
+		date: {month: 3, day:18, year:2025},
+		title: "Supporting Human Exploration of Mars: Experimental Evaluation of Thermal Drilling for Water Extraction from Martian Glacier Ice",
+		publication: "Accepted for publishing in ASCE Journal of Aerospace Engineering"
+	},
+	{
+		authors: ["P. J. van Susante"],
+		date: {month: 11, day:13, year:2024},
+		title: "Large Scale Icy Regolith Lab and Field Testing",
+		publication: "Poster at LSIC Fall Meeting - Las Vegas, NV, November 13-14, 2024"
+	},
+	{
+		authors: ["A.J. Petruska", "C.B. Dreyer", "H. Bell", "I. Jehn", "N.T. Dantam", "J. Rostami", "K.M. Cannon", "G.F. Sowers", "D. Johnson", "D.P. Purcell", "R. Banerjee", "T. Lee, E. Skride", "P. J. van Susante", "C. Carey"],
+		date: {month: 11, day:13, year:2024},
+		title: "ASPECT Site Preparation Test Bed",
+		publication: "Poster at LSIC Fall Meeting - Las Vegas, NV, November 13-14, 2024"
+	},
+	{
+		authors: ["T.A. Wavrunek", "P. van Susante"],
+		date: {month: 8, day:22, year:2024},
+		title: "Development of the TEthered Mechanism for Persistent Energy Storage and Transmission (TEMPEST) System",
+		publication: "Abstract & Lightning talk at LSIC Key Lunar Surface Power Trades Workshop - Virtual"
+	},
+	{
+		authors: ["Marc Cohen", "Paul van Susante"],
+		date: {month: 7, day:20, year:2024},
+		title: "Reflections on the Lunar Proving Ground Workshop",
+		publication: "Presented at the 53rd International Conference on Environmental Systems – Louisville, KY, July 20-25, 2024."
+	},
+	{
+		authors: ["Paul van Susante"],
+		date: {month: 6, day:4, year:2024},
+		title: "Lunar and Mars ISRU, Excavation and Construction Test Capabilities and Project Progress at the MTU-PSTDL",
+		publication: "Poster at SRR 2024 - Golden, CO, June 4-7, 2024."
+	},
+	{
+		authors: ["Chuck Carey", "Robin Austerberry", "Julia Petrin", "Paul van Susante"],
+		date: {month: 6, day:4, year:2024},
+		title: "Testing of a Novel Lunar Regolith Compaction Device for Site Preparation",
+		publication: "Presentation at SRR 2024 - Golden, CO, June 4-7, 2024."
+	},
+	{
+		authors: ["R. D. Austerberry", "P. Bradshaw", "M.C. Guadagno", "P. J. van Susante"],
+		date: {month: 6, day:4, year:2024},
+		title: "Durability Testing of a Lunar Surface Excavation Rover",
+		publication: "Poster at SRR 2024 - Golden, CO, June 4-7, 2024."
+	},
+	{
+		authors: ["T. Wavrunek", "P. van Susante"],
+		date: {month: 6, day:4, year:2024},
+		title: "Development of the TEthered Mechanism for Persistent Energy Storage and Transmission (TEMPEST) System for the Watts on the Moon Challenge",
+		publication: "Presentation at SRR 2024 - Golden, CO, June 4-7, 2024."
+	},
+	{
+		authors: ["E. L. Zimmermann", "G. B. Johnson", "P. J. van Susante", "J. S. Allen", "T. C. Eisele"],
+		date: {month: 6, day:4, year:2024},
+		title: "Cryogenic Vacuum Testing of a Heated Cone Penetrometer for Thermal Detection and Quantification of Water in Icy Lunar Regolith Simulant",
+		publication: "Presentation at SRR 2024 - Golden, CO, June 4-7, 2024."
+	},
+	{
+		authors: ["Paul van Susante"],
+		date: {month: 4, day:23, year:2024},
+		title: "Field Testing Experience of Lunar ISRU technology",
+		publication: "Poster at LSIC Spring Meeting at Johns Hopkins University Applied Physics Laboratory - Laurel, MD."
+	},
 	{
 		authors: ["Christopher Dreyer", "Adrew Petruska", "Neil Dantam", "George Sowers", "Kevin Cannon", "Jamal Rostami","Daniel Johnson", "Daniel Hammer", "David Purcell", 
 				 "Rik Banerjee","Elise Skirde", "Daniel Abel", "Chukwuebuka Okwor", "Paul van Susante", "Chuck Carey", "Van Wagner" ],
@@ -21,13 +146,13 @@ export const publications: Publication[] = [
 		authors: ["P. J. van Susante", "M.C. Guadagno", "T. Wavrunek", "C. Carey", "H. McGillivray", "P. Bradshaw", "J. Primeau", "B. Wiegand", "G. Johnson"],
 		date: {month:10, day:11, year:2023},
 		title: "Watts on the Moon and Break the Ice Lunar Challenge Experiences",
-		publication: "Poster & Lightning Talk at LSIC Fall Meeting – Pittsburg, Oct 10-11, 2023"
+		publication: "Poster & Lightning Talk at LSIC Fall Meeting – Pittsburg, PA, Oct 10-11, 2023"
 	},
 	{
 		authors: ["P. J. van Susante", "M.C. Guadagno", "B. Pokorny", "B. Wiegand", "J. Noe", "E. Sierra", "C. Carey", "J. Petrin", "R. Austerberry", "H. McGillivray","P. Bradshaw", "E. Zimmermann","G. Johnson"],
 		date: {month: 10, day:11, year:2023},
 		title: "Vacuum and Atmospheric Lunar Simulant Behavior and Geotechnical Properties",
-		publication: "Poster & Lightning Talk at LSIC Fall Meeting – Pittsburg, Oct 10-11, 2023"
+		publication: "Poster & Lightning Talk at LSIC Fall Meeting – Pittsburg, PA, Oct 10-11, 2023"
 	},
 	{
 		authors: ["J. Rastami", "A. Petruska", "C. Dreyer", "P. van Susante"],
