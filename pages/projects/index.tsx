@@ -12,11 +12,11 @@ import {projects} from "../../data/projects";
 
 export default function ProjectsPage(): ReactElement {
 	const completed = projects.filter(p =>
-		p.link === "btic" || p.link === "class"
-	  );
-	  const ongoing = projects.filter(p =>
-		p.link !== "btic" && p.link !== "class"
-	  );
+		p.link === "btic" || p.link === "class" || p.link === "redwater" || p.link === "esi" || p.link === "watts" || p.link === "lustr" || p.link === "lustr21"
+	);
+	const ongoing = projects.filter(p =>
+		p.link !== "btic" && p.link !== "class" && p.link !== "redwater" && p.link !== "esi" && p.link !== "watts" && p.link !== "lustr" && p.link !== "lustr21"
+	);
 	return <Layout title={"Projects"}>
 		<h2>Projects</h2>
 		<h2>Ongoing Projects</h2>
