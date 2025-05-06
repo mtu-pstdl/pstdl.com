@@ -9,6 +9,30 @@ import {News} from "../interfaces/News";
 
 export const news: News[] = [
 	{
+		title: "Paul van Susante accepts a tenure track position at Michigan Technological University",
+		link: "https://www.mtu.edu/mechanical-aerospace/people/faculty/van-susante/",
+		date: {month: 5, day: 1, year: 2025},
+		content: "Paul is excited to continue his reaearch on ISRU, planetary mining and construction. He is looking forward to forming his research team and writing lots of proposals."
+	},
+	{
+		title: "Paul van Susante is the recipient of the 2023 American Society of Civil Engineers (ASCE)’s Outstanding Technical Contribution Award",
+		link: "https://blogs.mtu.edu/mechanical-aerospace/2024/04/22/paul-van-susante-receives-asce-outstanding-technical-contribution-award/",
+		date: {month: 4, day: 22, year: 2024},
+		content: "The technical contribution award is “given to an individual who has contributed substantially to advancing the state of the art in aerospace engineering, sciences and technology, and space exploration and construction with application to civil engineering.”"
+	},
+	{
+		title: "HuskyWorks Develops First-ever Lunar Road through partnership with SpaceFactory",
+		link: "https://www.mtu.edu/unscripted/2024/12/through-industry-partnerships-huskyworks-develops-firstever-lunar-road.html",
+		date: {month: 1, day: 6, year: 2025},
+		content: "In a milestone in space construction technology, Michigan Tech's Planetary Surface Technology Development Lab (PSTDL) partnered with SpaceFactory to successfully build and test the first lunar road in a simulated space environment, replicating the dusty vacuum conditions of the moon."
+	},
+	{
+		title: "NASA Phase 2 STTR awarded to SpaceFactory partnering with PSTDL",
+		link: "https://www.nasa.gov/wp-content/uploads/2024/01/sttr-2023-pii-selections-11-22-24.pdf?emrc=6809f1619bb5f",
+		date: {month: 11, day: 22, year: 2024},
+		content: "NASA selected Spacefactory, who partenered with the Michigan Technological Unversity's PSTDL to receive 2023 STTR Phase II awards alongside only 20 other teams small businesses and their intsitution partners. Their proposed innovation is a low energy, ISRU based system for enhancing bulk regolith to construct a wide array of sustainable and resilient lunar infrastructures."
+	},
+	{
 		title: "Michigan Technological Univeristy is featured on NASA's Image of the Day ",
 		link: "https://www.nasa.gov/image-detail/huskyworks-during-rover-testing/",
 		date: {month: 6, day: 21, year: 2024},
