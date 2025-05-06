@@ -4,7 +4,7 @@
  * elijahcobb.com
  * github.com/elijahjcobb
  */
-
+import React from "react";
 import {ReactElement} from "react";
 import Layout from "../components/Layout";
 import {Publication} from "../interfaces/Publication";
@@ -16,7 +16,7 @@ import {AstraBackground} from "../components/Astra";
 export interface PublicationsPageProps {
 	publications: Publication[];
 }
-
+let lastYear: number | null = null;
 export default function PublicationsPage(props: PublicationsPageProps): ReactElement {
 	return <Layout title={"Publications"} className={"PublicationsPage"}>
 		<AstraBackground/>
@@ -45,18 +45,31 @@ export default function PublicationsPage(props: PublicationsPageProps): ReactEle
 			{/*	</tbody>*/}
 			{/*</table>*/}
 				{props.publications.map((publication, i) => {
+					const year = publication.date.year;
+					const parts: string[] = [
+						publication.authors.join(", "),
+						publication.title,
+						publication.publication,
+						pDateToString(publication.date)
+					];
 
-					let value: string[] = [];
+					const nodes = [];
+					if (year !== lastYear) {
+						nodes.push(
+						  <li key={`year-${year}`} className="year-header">
+							{year}
+						  </li>
+						);
+						lastYear = year;
+					}
 
-					value.push(publication.date.year + "");
-					value.push(publication.authors.join(", "))
-					value.push(publication.title)
-					value.push(publication.publication)
-					value.push(pDateToString(publication.date));
+					nodes.push(
+						<li key={`pub-${i}`}>
+						  {parts.join(", ")}
+						</li>
+					  );
 
-					return (
-						<li key={i}>{value.join(", ")}</li>
-					)
+					return <React.Fragment key={i}>{nodes}</React.Fragment>;
 				})}
 		</ol>
 	</Layout>

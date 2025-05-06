@@ -14,19 +14,18 @@ import honeybee from "../public/honeybee.png";
 import lunarOutpost from "../public/lunar-outpost.png";
 import mtu from "../public/mtu.png";
 import mines from "../public/mines.png";
+import aispacefactory from "../public/aispacefactory.png";
 
 export default function PartnershipsPage(): ReactElement {
 	return <Layout title={"Partnerships"} className={"PartnershipsPage"}>
-		<h2>Industry Partners</h2>
+		<h2>Partnerships</h2>
 		<div className={"grid"}>
 			<Image src={nasa} alt={"nasa"} />
 			<Image src={honeybee} alt={"honeybee"} />
 			<Image src={lunarOutpost} alt={"lunar-outpost"} />
-		</div>
-		<h2>University Partners</h2>
-		<div className={"grid"}>
 			<Image src={mtu} alt={"mtu"} />
 			<Image src={mines} alt={"mines"} />
+			<Image src={aispacefactory} alt={"aispacefactory"} />
 		</div>
 	</Layout>
 }

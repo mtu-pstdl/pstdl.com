@@ -703,7 +703,7 @@ export const scbennin: Member = {
 	username: "scbennin",
 	bio: "Sean is a ungraduate student pursuing a B.S. in Electrical and Computer Enginnering. He joined the team to help support our electrical team to create/design/fabricate PCB's. In his free time he enjoys playing disc golf, skiing, backpacking, and board games.",
 	linkedIn: "https://www.linkedin.com/in/sean-bennink-bb2159251/",
-	alumni: false
+	alumni: true
 }
 export const wjojala: Member =  {
 	firstName: "Jacob",
