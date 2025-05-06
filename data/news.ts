@@ -9,10 +9,10 @@ import {News} from "../interfaces/News";
 
 export const news: News[] = [
 	{
-		title: "Paul van Susante accepts a tenure track position at Michigan Technological University",
+		title: "Paul van Susante awarded tenure and promotion to associate professor at MTU",
 		link: "https://www.mtu.edu/mechanical-aerospace/people/faculty/van-susante/",
 		date: {month: 5, day: 1, year: 2025},
-		content: "Paul is excited to continue his reaearch on ISRU, planetary mining and construction. He is looking forward to forming his research team and writing lots of proposals."
+		content: "Paul is excited to continue his research on ISRU, planetary mining and construction. He is looking forward to continuing to work with his research team and writing lots of proposals."
 	},
 	{
 		title: "Paul van Susante is the recipient of the 2023 American Society of Civil Engineers (ASCE)’s Outstanding Technical Contribution Award",
