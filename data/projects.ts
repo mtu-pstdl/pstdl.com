@@ -163,12 +163,15 @@ export const trex: DetailItem = {
 		hjmcgill,
 	],
 	images: [
-		{src: "/slideshow/slideshow0.jpg"},
-		{src: "/slideshow/slideshow7.jpg"},
-		{src: "/slideshow/slideshow11.jpg"},
-		{src: "/slideshow/slideshow13.jpg"},
-		{src: "/slideshow/slideshow15.jpg"},
-		{src: "/slideshow/slideshow17.jpg"},
+		{src: "/projects/t-rex/T1.JPG"},
+		{src: "/projects/t-rex/T2.JPG"},
+		{src: "/projects/t-rex/T3.JPG"},
+		{src: "/projects/t-rex/T4.JPG"},
+		{src: "/projects/t-rex/T5.JPG"},
+		{src: "/projects/t-rex/T6.JPG"},
+		{src: "/projects/t-rex/T7.JPG"},
+		{src: "/projects/t-rex/T8.JPG"},
+		{src: "/projects/t-rex/T9.JPG"},
 	]
 }
 
