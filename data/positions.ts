@@ -7,7 +7,7 @@
 
 import {Position, PositionLevel, PositionPayType, PositionSemester} from "../interfaces/Position";
 import {MemberMajor} from "../interfaces/Member";
-import {hoplite, lustr20, lustr21, mre, nasaClass, redWater} from "./projects";
+import {lustr20, lustr21, mre, nasaClass, redWater} from "./projects";
 
 export const positions: Position[] = [
 	//{
