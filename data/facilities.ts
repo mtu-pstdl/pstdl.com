@@ -8,7 +8,7 @@
 import {DetailItem, getDetailItemByLink, getDetailsForUsername} from "../interfaces/DetailItem";
 import {projects} from "./projects";
 import {Member} from "../interfaces/Member";
-import {bdwiegan, dfpaglia, dkbrouse, ejcobb, georgejo, mcguadag, pjvansus, tawavrun, tcgronda} from "./members";
+import {bdwiegan, dfpaglia, dkbrouse, ejcobb, georgejo, mcguadag, pjvansus, tawavrun, tcgronda, ajgoddu, hjmcgill, eavanhor, nbmckenz, mysalem, roccoc, cnorton, collinmi,} from "./members";
 
 export const facilities: DetailItem[] = [
 	{
@@ -75,6 +75,27 @@ export const facilities: DetailItem[] = [
 			{src: "/facilities/mtvac/icon.jpg"},
 			{src: "/facilities/mtvac/mtvac1.png"},
 			{src: "/facilities/mtvac/mtvac2.png"},
+		]
+	},
+	{
+		title: "HOPLITE",
+		description: "A modular robotic system that enables the field testing of ISRU technologies.",
+		link: "hoplite",
+		members: [
+		],
+		alumni: [
+			hjmcgill,
+			eavanhor,
+			nbmckenz,
+			mysalem,
+			ejcobb,
+			roccoc,
+			cnorton,
+			collinmi,
+			ajgoddu
+		],
+		images: [
+			{src: "/facilities/hoplite/icon.jpg"},
 		]
 	},
 	{
