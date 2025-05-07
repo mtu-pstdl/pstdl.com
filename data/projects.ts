@@ -328,28 +328,6 @@ export const mre: DetailItem = {
 	]
 };
 
-export const hoplite: DetailItem = {
-	title: "HOPLITE",
-	description: "A modular robotic system that enables the field testing of ISRU technologies.",
-	link: "hoplite",
-	members: [
-		ajgoddu,
-	],
-	alumni: [
-		hjmcgill,
-		eavanhor,
-		nbmckenz,
-		mysalem,
-		ejcobb,
-		roccoc,
-		cnorton,
-		collinmi,
-	],
-	images: [
-		{src: "/projects/hoplite/icon.jpg"},
-	]
-};
-
 export const nasaClass: DetailItem = {
 	title: "NASA CLASS",
 	description: "NASA Solar System Exploration Research Virtual Institute (SSERVI) – \"CLASS (Center for Lunar and Asteroid Surface Science)\" (subcontract from University of Central Florida who are principal investigator)",
@@ -375,7 +353,6 @@ export const projects: DetailItem[] = [
 	esi,
 	redWater,
 	mre,
-	hoplite,
 	nasaClass,
 
 ];
