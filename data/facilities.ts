@@ -78,27 +78,6 @@ export const facilities: DetailItem[] = [
 		]
 	},
 	{
-		title: "HOPLITE",
-		description: "A modular robotic system that enables the field testing of ISRU technologies.",
-		link: "hoplite",
-		members: [
-		],
-		alumni: [
-			hjmcgill,
-			eavanhor,
-			nbmckenz,
-			mysalem,
-			ejcobb,
-			roccoc,
-			cnorton,
-			collinmi,
-			ajgoddu
-		],
-		images: [
-			{src: "/facilities/hoplite/icon.jpg"},
-		]
-	},
-	{
 		title: "Regolith Freezing & Heating Containers",
 		description: "Shipping containers refurbished as regolith heating and freezing facilities.",
 		link: "containers",
