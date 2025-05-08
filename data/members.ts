@@ -322,7 +322,7 @@ export const cnorton: Member = {
 export const mvsietse: Member = {
 	firstName: "Matthew",
 	lastName: "Sietsema",
-	type: MemberType.SM,
+	type: MemberType.BS,
 	bio: "Matthew Sietsema recived his B.S. in Electrical Engineering and Computer Engineering with a minor in aerospace engineering. He is a recipient of the Department of Defense SMART Scholarship (Cohort Year ‘21) and is a civilian employee of the U.S. Air Force. Matthew served as the Chief Engineer of the Michigan Tech Aerospace Enterprise for four years, leading the development of two small satellite missions. Previous work experience also includes the Space Dynamics Laboratory in Logan, Utah, and the AFRL Small Satellite Portfolio in Albuquerque, New Mexico. The focus of Matthew’s work is on systems engineering, mission design, and system testing.",
 	major: MemberMajor.CPE,
 	username: "mvsietse",
@@ -653,7 +653,11 @@ export const msmille3: Member = {
 	username: "msmille3",
 	type: MemberType.BS,
 	major: MemberMajor.CS,
-	alumni: true
+	alumni: true,
+	location: {
+		lat: 40.6017,
+		lng: -75.4772
+	}
 }
 
 export const pstocchi: Member = {
