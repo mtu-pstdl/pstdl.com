@@ -8,7 +8,10 @@
 import {DetailItem, getDetailItemByLink, getDetailsForUsername} from "../interfaces/DetailItem";
 import {projects} from "./projects";
 import {Member} from "../interfaces/Member";
-import {bdwiegan, dfpaglia, dkbrouse, ejcobb, georgejo, mcguadag, pjvansus, tawavrun, tcgronda, ajgoddu, hjmcgill, eavanhor, nbmckenz, mysalem, roccoc, cnorton, collinmi} from "./members";
+import {bdwiegan, dfpaglia, dkbrouse, ejcobb, georgejo, mcguadag, pjvansus, tawavrun, tcgronda, ajgoddu, hjmcgill, eavanhor, nbmckenz, mysalem, roccoc, cnorton, collinmi, 
+	rdauster, mkoujiri, mrkrause, ajsweene, ljfrank, austinmc, mmdecker, bjengle, audreyal, leifchri, cmdinkel, psbradsh, hlgoetz, jbprimea, smzeqlam, wdjennes, gtredlon,
+	msmille3
+} from "./members";
 
 export const facilities: DetailItem[] = [
 	{
@@ -96,6 +99,46 @@ export const facilities: DetailItem[] = [
 		],
 		images: [
 			{src: "/facilities/hoplite/icon.jpg"},
+		]
+	},
+	{
+		title: "PRIMROSE",
+		description: "The PSTDL’s Prototype Regolith In-situ Mining Rover with Onboard Surface Excavator (PRIMROSE) is a highly capable mining rover purpose-built to meet the demands of the NASA Break the Ice Centennial Challenge. PRIMROSE leverages proven terrestrial technology and the PSTDL’s experience with regolith excavation.",
+		link: "primrose",
+		members: [
+			rdauster,
+			mcguadag,
+			mkoujiri,
+			mrkrause,
+			ajsweene,
+			ljfrank,
+			austinmc,
+			ajgoddu,
+			mmdecker,
+			bjengle,
+			audreyal,
+			leifchri,
+			cmdinkel
+		],
+		alumni: [
+			psbradsh,
+			hlgoetz,
+			hjmcgill,
+			collinmi,
+			tcgronda,
+			jbprimea,
+			smzeqlam,
+			dkbrouse,
+			wdjennes,
+			georgejo,
+			gtredlon,
+			msmille3
+		],
+		images: [
+			{src: "/facilities/primrose/icon.jpg"},
+			{src: "/facilities/primrose/BTIC1.jpg"},
+			{src: "/facilities/primrose/BTIC2.jpg"},
+			{src: "/facilities/primrose/BTIC3.jpg"},
 		]
 	},
 	{
