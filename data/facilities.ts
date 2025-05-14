@@ -170,6 +170,22 @@ export const facilities: DetailItem[] = [
 	// 	]
 	// },
 	{
+		title: "DREDGE",
+		description: "Dynamic Response Evaluation for Development of Geotechnical Equipment (DREDGE).",
+		link: "dredge",
+		members: [
+			mmdecker,
+			bjengle,
+			mcguadag
+		],
+		alumni: [],
+		images: [
+			{src: "/facilities/dredge/icon.jpg"},
+			{src: "/facilities/dredge/dredge2.jpg"},
+			{src: "/facilities/dredge/dredge3.jpg"},
+		]
+	},
+	{
 		title: "Industrial Robotic Arm",
 		description: "A programmable FANUC robotic arm.",
 		link: "arm",
