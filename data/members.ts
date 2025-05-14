@@ -469,7 +469,7 @@ export const rdauster: Member = {
     type: MemberType.BS,
     major: MemberMajor.ME,
     linkedIn: "https://www.linkedin.com/in/robin-austerberry/",
-    bio: "Robin is pursuing a Bachelor's Degree in Mechanical Engineering with a minor in Aerospace Engineering at Michigan Tech. He joined the PSTDL in the summer of 2022 to work on LuSTR 2021 and later joined the Break the Ice Challenge. Following his Bachelor's Degree, he plans to pursue a Master’s Degree in Mechanical Engineering at Michigan Tech.",
+    bio: "Robin is pursuing a Master's Degree in Mechanical Engineering at Michigan Tech. He joined the PSTDL in the summer of 2022 to work on LuSTR 2021 and later joined the Break the Ice Challenge and LuSTR 2020. He graduated in 2025 from Michigan Tech with a Bachelor's Degree in Mechanical Engineering.",
     username: "rdauster",
 	alumni: false
 }
@@ -677,7 +677,7 @@ export const jdpetrin: Member = {
 	type: MemberType.BS,
 	major: MemberMajor.ME,
 	username: "jdpetrin",
-	bio: "Julia Petrin is an undergraduate mechanical engineering student at Michigan Tech. She joined the lab in the summer of 2023 and has been working on the vibratory compaction of lunar regolith as part of the LuSTR 21 project. She is also vice president of the Keweenaw Rocket Range student organization. In her spare time, she enjoys mountain biking, building high-power rockets, and spending time with her partner.",
+	bio: "Julia Petrin is an undergraduate Mechanical Engineering student at Michigan Tech. She joined the lab in the summer of 2023 and has been working on the vibratory compaction of lunar regolith as part of the LuSTR 21 project. She is also Range Safety Officer of the Keweenaw Rocket Range student organization, and a founder of the Aeronautics and Rocketry Enterprise. In her spare time she enjoys experimental rocketry and mountain biking.",
 	alumni: false
 }
 export const krnielse: Member = {

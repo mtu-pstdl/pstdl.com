@@ -12,10 +12,10 @@ import {facilities} from "../../data/facilities";
 
 export default function FacilitiesPage(): ReactElement {
 	const facility = facilities.filter(p =>
-			p.link === "dtvac" || p.link === "sandbox" || p.link === "irgo" || p.link === "containers" || p.link === "mtvac"
+			p.link === "dtvac" || p.link === "sandbox" || p.link === "irgo" || p.link === "containers" || p.link === "mtvac" || p.link === "dredge"
 		);
 		const robots = facilities.filter(p =>
-			p.link !== "dtvac" && p.link !== "sandbox" && p.link !== "irgo" && p.link !== "containers" && p.link !== "mtvac"
+			p.link !== "dtvac" && p.link !== "sandbox" && p.link !== "irgo" && p.link !== "containers" && p.link !== "mtvac" && p.link !== "dredge"
 		);
 
 	return <Layout title={"Facilities"}>
