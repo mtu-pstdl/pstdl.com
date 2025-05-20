@@ -852,6 +852,17 @@ export const bbaldwin: Member = {
 	alumni: false
 }
 
+export const fdgaertn: Member = {
+	firstName: "Faith",
+	lastName: "Gaertner",
+	username: "fdgaertn",
+	major: MemberMajor.ME,
+	type: MemberType.MS,
+	bio: "Faith Gaertner is a graduate student researcher who joined the PSTDL in the Summer of 2024 and recently completed her MS in Mechanical Engineering in the Spring of 2025. Prior to lab work, she worked as an undergraduate student on the Trencher team within the MINE Enterprise and as a student gallery assistant at the Rozsa. Faith enjoys volunteering, visual and performing arts, and hiking in her free time.",
+	linkedIn: "https://www.linkedin.com/in/faithgaertner/",
+	alumni: false
+}
+
 export const members: Member[] = [
 	psbradsh,
 	nbmckenz,
@@ -924,7 +935,8 @@ export const members: Member[] = [
 	etjackso,
 	egkoehnl,
 	awzeyl,
-	bbaldwin
+	bbaldwin,
+	fdgaertn
 ]
 
 export function getMemberByLink(id: string | string[]): Member | undefined {

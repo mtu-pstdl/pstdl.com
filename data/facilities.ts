@@ -10,7 +10,7 @@ import {projects} from "./projects";
 import {Member} from "../interfaces/Member";
 import {bdwiegan, dfpaglia, dkbrouse, ejcobb, georgejo, mcguadag, pjvansus, tawavrun, tcgronda, ajgoddu, hjmcgill, eavanhor, nbmckenz, mysalem, roccoc, cnorton, collinmi, 
 	rdauster, mkoujiri, mrkrause, ajsweene, ljfrank, austinmc, mmdecker, bjengle, audreyal, leifchri, cmdinkel, psbradsh, hlgoetz, jbprimea, smzeqlam, wdjennes, gtredlon,
-	msmille3
+	msmille3, fdgaertn
 } from "./members";
 
 export const facilities: DetailItem[] = [
@@ -176,7 +176,8 @@ export const facilities: DetailItem[] = [
 		members: [
 			mmdecker,
 			bjengle,
-			mcguadag
+			mcguadag,
+			fdgaertn
 		],
 		alumni: [],
 		images: [
