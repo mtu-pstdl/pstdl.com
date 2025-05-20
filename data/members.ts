@@ -254,7 +254,7 @@ export const clcarey: Member = {
 	lastName: "Carey",
 	username: "clcarey",
 	major: MemberMajor.ME,
-	bio: "Chuck Carey recieved a M.S. in Mechanical Engineering and is now working as a research engineer for the lab. He joined the lab in 2021 working on the development of lunar regolith simulant for the class project, and is currently managing the LuSTR 21 compaction project and helping with the WATTS on the moon project. Outside the lab, he enjoys Houghton's lovely outdoors, including hiking/camping the porkies, climbing silver mountain, or ski patrolling at Mont Ripley.",
+	bio: "Chuck Carey has a Bachelor's and Master's Degree in Mechanical Engineering from Michigan Technological University and is currently working as a research engineer for the PSTDL. He joined the lab in 2021 as an undergrad researcher working on the development of lunar regolith simulant for the class project. He completed his master's managing the LuSTR 21 compaction project, and continues to oversea the project as a research engineer. Chuck has also supported the watts project tether, ESI testing, and various other projects. Outside the lab, you can find Chuck enjoying Houghton's lovely outdoors, hiking, camping, climbing, or ski patrolling at Mont Ripley.",
 	type: MemberType.RE,
 	linkedIn: "https://www.linkedin.com/in/chuck-carey-9280931b9/",
 	alumni: false
@@ -466,7 +466,7 @@ export const kjiam: Member = {
 export const rdauster: Member = {
     firstName: "Robin",
     lastName: "Austerberry",
-    type: MemberType.BS,
+    type: MemberType.MS,
     major: MemberMajor.ME,
     linkedIn: "https://www.linkedin.com/in/robin-austerberry/",
     bio: "Robin is pursuing a Master's Degree in Mechanical Engineering at Michigan Tech. He joined the PSTDL in the summer of 2022 to work on LuSTR 2021 and later joined the Break the Ice Challenge and LuSTR 2020. He graduated in 2025 from Michigan Tech with a Bachelor's Degree in Mechanical Engineering.",
@@ -477,7 +477,7 @@ export const rdauster: Member = {
 export const elzimmer: Member = {
     firstName: "Ellie",
     lastName: "Zimmermann",
-    type: MemberType.MS,
+    type: MemberType.PHD,
     major: MemberMajor.ME,
     linkedIn: "https://www.linkedin.com/in/eleanor-zimmermann-6022a416a",
     bio: "Ellie holds a B.S. in Mechanical Engineering with a minor in Aerospace Engineering from Michigan Tech, where she is currently pursuing a Ph.D. in the Mechanical and Aerospace Engineering Department. She joined the PSTDL as an undergraduate researcher in 2022 and has since worked on the RedWater and LuSTR 2020 projects. Her current research focuses on the testing and analysis of the thermal volatile detection system on the LuSTR 2020 Percussive Hot Cone Penetrometer. In her free time, Ellie enjoys reading and playing video games",
@@ -852,6 +852,17 @@ export const bbaldwin: Member = {
 	alumni: false
 }
 
+export const fdgaertn: Member = {
+	firstName: "Faith",
+	lastName: "Gaertner",
+	username: "fdgaertn",
+	major: MemberMajor.ME,
+	type: MemberType.MS,
+	bio: "Faith Gaertner is a graduate student researcher who joined the PSTDL in the Summer of 2024 and recently completed her MS in Mechanical Engineering in the Spring of 2025. Prior to lab work, she worked as an undergraduate student on the Trencher team within the MINE Enterprise and as a student gallery assistant at the Rozsa. Faith enjoys volunteering, visual and performing arts, and hiking in her free time.",
+	linkedIn: "https://www.linkedin.com/in/faithgaertner/",
+	alumni: false
+}
+
 export const members: Member[] = [
 	psbradsh,
 	nbmckenz,
@@ -924,7 +935,8 @@ export const members: Member[] = [
 	etjackso,
 	egkoehnl,
 	awzeyl,
-	bbaldwin
+	bbaldwin,
+	fdgaertn
 ]
 
 export function getMemberByLink(id: string | string[]): Member | undefined {

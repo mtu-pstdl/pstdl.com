@@ -70,6 +70,7 @@ import {
 	audreyal,
 	leifchri,
 	cmdinkel,
+	fdgaertn
 } from "./members";
 import {Member} from "../interfaces/Member";
 
